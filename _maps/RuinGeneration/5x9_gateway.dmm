@@ -36,6 +36,15 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered)
+"A" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/poddoor/shutters{
+	id = "gatewayshutters";
+	name = "Gateway Access Shutter"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
 "B" = (
 /obj/machinery/gateway{
 	dir = 9
@@ -46,7 +55,7 @@
 /area/ruin/unpowered)
 "C" = (
 /obj/machinery/door/poddoor/shutters{
-	id = "gateshutter";
+	id = "gatewayshutters";
 	name = "Gateway Access Shutter"
 	},
 /obj/effect/turf_decal/delivery,
@@ -56,6 +65,16 @@
 "G" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"I" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/button/door{
+	id = "gatewayshutters";
+	name = "Gateway Shutters";
+	req_access_txt = "19";
+	pixel_x = -25
+	},
+/turf/open/floor/plasteel,
 /area/ruin/unpowered)
 "L" = (
 /obj/machinery/gateway{
@@ -67,6 +86,12 @@
 /area/ruin/unpowered)
 "M" = (
 /obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Q" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
 "S" = (
@@ -95,6 +120,18 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered)
+"Z" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/button/door{
+	id = "gatewayshutters";
+	name = "Gateway Shutters";
+	req_access_txt = "19";
+	pixel_x = -25
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
 
 (1,1,1) = {"
 h
@@ -113,9 +150,9 @@ B
 k
 W
 G
-M
+I
 C
-V
+Z
 V
 "}
 (3,1,1) = {"
@@ -125,8 +162,8 @@ S
 l
 G
 M
-C
-V
+A
+Q
 d
 "}
 (4,1,1) = {"
@@ -136,8 +173,8 @@ j
 t
 G
 M
-C
-V
+A
+Q
 V
 "}
 (5,1,1) = {"
