@@ -1,0 +1,208 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered)
+"d" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"j" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"l" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "RDToxStore";
+	name = "Toxins Storage Shutters"
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 8
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"p" = (
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"t" = (
+/obj/machinery/portable_atmospherics/scrubber/huge,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"v" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"w" = (
+/obj/machinery/button/door/incinerator_vent_toxmix{
+	id = "tox_ESD";
+	name = "Emergency space door";
+	pixel_x = 32;
+	req_one_access_txt = "8;63"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"x" = (
+/obj/machinery/door/poddoor/incinerator_toxmix{
+	id = "tox_ESD";
+	name = "Emergency space door"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"z" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/effect/turf_decal/delivery,
+/obj/effect/decal/cleanable/glitter,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"A" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/effect/decal/cleanable/glitter,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"B" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"C" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/portable_atmospherics/canister/oxygen{
+	filled = 0.1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"E" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/portable_atmospherics/canister,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"H" = (
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"J" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/camera/autoname{
+	network = list("ss13","rd")
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"L" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 8
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	id = "RDToxStore";
+	name = "Toxins Storage Shutters"
+	},
+/obj/effect/abstract/open_area_marker{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"O" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/portable_atmospherics/scrubber/huge,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"P" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Q" = (
+/obj/machinery/door/airlock/research{
+	name = "Toxins Storage";
+	req_one_access_txt = "8;63"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/button/door{
+	id = "RDToxStore";
+	name = "Toxins Storage";
+	pixel_x = -1;
+	pixel_y = -29;
+	req_access = null;
+	req_access_txt = "49"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"T" = (
+/obj/machinery/portable_atmospherics/pump,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"U" = (
+/obj/effect/turf_decal/bot,
+/obj/item/clothing/mask/gas,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"W" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"Y" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+
+(1,1,1) = {"
+a
+a
+l
+L
+Q
+a
+a
+"}
+(2,1,1) = {"
+a
+Y
+E
+U
+B
+O
+a
+"}
+(3,1,1) = {"
+W
+A
+P
+H
+p
+t
+a
+"}
+(4,1,1) = {"
+a
+z
+j
+v
+T
+Y
+a
+"}
+(5,1,1) = {"
+a
+J
+j
+d
+w
+C
+a
+"}
+(6,1,1) = {"
+a
+a
+a
+a
+a
+x
+a
+"}

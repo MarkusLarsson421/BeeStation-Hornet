@@ -30,6 +30,13 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/unpowered)
+"f" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plasteel/white,
+/area/ruin/unpowered)
 "h" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -117,7 +124,7 @@
 "z" = (
 /obj/structure/table/glass,
 /obj/item/storage/pill_bottle/mutadone{
-	pixel_x = -1;
+	pixel_x = 5;
 	pixel_y = 4
 	},
 /obj/item/flashlight/pen{
@@ -125,6 +132,11 @@
 	pixel_y = 1
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
+/obj/item/reagent_containers/food/drinks/bottle/synthflesh{
+	pixel_x = -3;
+	pixel_y = 4;
+	list_reagents = list(/datum/reagent/medicine/synthflesh = 25)
+	},
 /turf/open/floor/plasteel/white,
 /area/ruin/unpowered)
 "A" = (
@@ -148,14 +160,6 @@
 "I" = (
 /turf/open/floor/plasteel/white,
 /area/ruin/unpowered)
-"J" = (
-/obj/structure/window/reinforced{
-	dir = 1;
-	pixel_y = 1
-	},
-/obj/structure/bed/roller,
-/turf/open/floor/plasteel/freezer,
-/area/ruin/unpowered)
 "K" = (
 /turf/open/floor/plasteel/freezer,
 /area/ruin/unpowered)
@@ -163,6 +167,13 @@
 /obj/effect/abstract/doorway_marker{
 	dir = 1
 	},
+/turf/open/floor/plasteel/white,
+/area/ruin/unpowered)
+"M" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plasteel/white,
 /area/ruin/unpowered)
 "N" = (
@@ -195,6 +206,17 @@
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
 /turf/open/floor/plasteel/white,
 /area/ruin/unpowered)
+"W" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"X" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/plasteel/white,
+/area/ruin/unpowered)
 "Y" = (
 /obj/structure/chair/office/light,
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
@@ -212,8 +234,8 @@
 (1,1,1) = {"
 q
 q
-q
-q
+W
+W
 q
 q
 Q
@@ -245,7 +267,7 @@ F
 (4,1,1) = {"
 q
 o
-G
+X
 e
 o
 q
@@ -259,8 +281,8 @@ r
 w
 t
 Z
-Z
-J
+f
+C
 C
 q
 "}
@@ -270,7 +292,7 @@ G
 d
 d
 d
-d
+M
 s
 N
 q
@@ -300,8 +322,8 @@ q
 (9,1,1) = {"
 q
 q
-q
-q
+W
+W
 q
 q
 q
