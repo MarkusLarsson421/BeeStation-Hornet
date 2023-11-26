@@ -121,19 +121,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/unpowered)
-"hq" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = -33;
-	pixel_y = 1
-	},
-/obj/effect/turf_decal/guideline/guideline_edge/blue{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white/side{
-	dir = 8
-	},
-/area/ruin/unpowered)
 "hU" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel,
@@ -175,20 +162,6 @@
 /mob/living/simple_animal/bot/cleanbot/medbay,
 /turf/open/floor/plasteel/grid/steel,
 /area/ruin/unpowered)
-"pH" = (
-/obj/machinery/airalarm/directional/east,
-/obj/machinery/shower{
-	dir = 8;
-	name = "emergency shower";
-	pixel_x = -1;
-	pixel_y = -8
-	},
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/guideline/guideline_edge/blue{
-	dir = 4
-	},
-/turf/open/floor/noslip/white,
-/area/ruin/unpowered)
 "pP" = (
 /obj/effect/turf_decal/bot{
 	dir = 1
@@ -198,11 +171,6 @@
 "rp" = (
 /obj/machinery/vending/medical,
 /obj/effect/turf_decal/stripes/box,
-/obj/structure/extinguisher_cabinet{
-	pixel_x = 1;
-	pixel_y = -33
-	},
-/obj/machinery/firealarm/directional/east,
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
 "sa" = (
@@ -399,6 +367,9 @@
 /turf/open/floor/plasteel/grid/steel,
 /area/ruin/unpowered)
 "EE" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 25
+	},
 /turf/open/floor/plasteel/white/side{
 	dir = 4
 	},
@@ -515,13 +486,6 @@
 	},
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/white/side,
-/area/ruin/unpowered)
-"OR" = (
-/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
-/mob/living/simple_animal/bot/cleanbot/larry{
-	on = 0
-	},
-/turf/open/floor/plasteel/white,
 /area/ruin/unpowered)
 "Qg" = (
 /obj/structure/table/glass,
@@ -684,7 +648,7 @@ IO
 Qy
 ZE
 Ts
-hq
+Ts
 Ra
 Ts
 ee
@@ -713,7 +677,7 @@ vH
 vH
 vH
 vH
-OR
+vH
 ZX
 IV
 IO
@@ -721,7 +685,7 @@ IO
 (4,1,1) = {"
 Qy
 zb
-pH
+JI
 JI
 sa
 Zw
@@ -788,7 +752,7 @@ pp
 DT
 vH
 ug
-IO
+tv
 bp
 bp
 bp
@@ -807,7 +771,7 @@ Qx
 NL
 vH
 ug
-IO
+tv
 bp
 bp
 bp
@@ -826,7 +790,7 @@ iT
 gt
 vH
 ug
-IO
+tv
 bp
 bp
 bp
@@ -883,7 +847,7 @@ kV
 cO
 fh
 du
-IO
+tv
 bp
 bp
 bp
@@ -902,7 +866,7 @@ vy
 EE
 Yh
 rp
-IO
+tv
 bp
 bp
 bp

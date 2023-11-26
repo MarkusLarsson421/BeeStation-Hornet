@@ -22,7 +22,8 @@
 
 /datum/map_template/ruin_part/room_janitor
 	file_name = "5x5_4_room-janitor_closet"
-	weight = 3
+	weight = 1
+	max_occurrences = 2
 
 /datum/map_template/ruin_part/room_storage
 	file_name = "5x5_4_room-storage"
@@ -30,7 +31,8 @@
 
 /datum/map_template/ruin_part/room_toilet
 	file_name = "5x5_4_room-toilet"
-	weight = 3
+	weight = 2
+	max_occurrences = 3
 
 /datum/map_template/ruin_part/hallwayroom_east
 	file_name = "5x5_5_hallwayroom_east"
@@ -493,3 +495,11 @@
 	file_name = "13x17_chapel"
 	weight = 3
 	max_occurrences = 1 //Multiple Nar'sie worshipping chaplain incidents would be wacky on one station.
+
+// My additions
+
+/datum/map_template/ruin_part/mothroom
+	file_name = "4x6_mothroom_rad"
+	weight = 10
+	max_occurrences = 2
+
