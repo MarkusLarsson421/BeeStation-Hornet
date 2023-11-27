@@ -33,6 +33,11 @@
 	file_name = "5x5_4_room-toilet"
 	weight = 2
 	max_occurrences = 3
+	
+/datum/map_template/ruin_part/room_toilet_2
+	file_name = "5x5_4_room-toilet_2"
+	weight = 2
+	max_occurrences = 3
 
 /datum/map_template/ruin_part/hallwayroom_east
 	file_name = "5x5_5_hallwayroom_east"
@@ -93,6 +98,10 @@
 /datum/map_template/ruin_part/separation
 	file_name = "9x5_3_seperation"
 	weight = 6
+	
+/datum/map_template/ruin_part/separation_tube
+	file_name = "9x5_3_seperation_tube"
+	weight = 6
 
 /datum/map_template/ruin_part/corgarmory
 	file_name = "13x13_corgarmory"
@@ -135,6 +144,16 @@
 /datum/map_template/ruin_part/sleeproom
 	file_name = "9x13_sleeproom"
 	weight = 4
+	
+/datum/map_template/ruin_part/sleeproom_corg
+	file_name = "11x9_sleeproom_corg"
+	weight = 4
+	max_occurrences = 1
+	
+/datum/map_template/ruin_part/sleeproom_delta
+	file_name = "13x15_sleeproom_delta"
+	weight = 4
+	max_occurrences = 1
 
 /datum/map_template/ruin_part/cryo
 	file_name = "5x5_cryo"
@@ -172,9 +191,21 @@
 	file_name = "9x5_hallwaymaints"
 	weight = 4
 
-/datum/map_template/ruin_part/toxinroom
+/datum/map_template/ruin_part/toxinstorage
 	file_name = "9x9_toxinstorage"
-	weight = 2
+	weight = 1
+	
+/datum/map_template/ruin_part/toxinstorage_corg
+	file_name = "9x9_toxinstorage_corg"
+	weight = 1
+	
+/datum/map_template/ruin_part/toxinstorage_delta
+	file_name = "7x11_toxinstorage_delta"
+	weight = 1
+	
+/datum/map_template/ruin_part/toxinstorage_rad
+	file_name = "6x7_toxinstorage_rad"
+	weight = 1
 
 /datum/map_template/ruin_part/josito
 	file_name = "13x9_josito"
@@ -420,7 +451,15 @@
 
 /datum/map_template/ruin_part/medstorage
 	file_name = "9x13_medstorage"
-	weight = 3
+	weight = 2
+	
+/datum/map_template/ruin_part/medstorage_delta
+	file_name = "7x6_medstorage_delta"
+	weight = 2
+	
+/datum/map_template/ruin_part/medstorage_rad
+	file_name = "7x5_medstorage_rad"
+	weight = 2
 
 /datum/map_template/ruin_part/morgue
 	file_name = "9x5_morgue"
@@ -440,9 +479,23 @@
 	file_name = "9x13_teleporter"
 	weight = 1
 	max_occurrences = 1
+	
+/datum/map_template/ruin_part/teleporter_cool
+	file_name = "9x13_teleporter_cool"
+	weight = 1
+	max_occurrences = 1
+	
+/datum/map_template/ruin_part/teleporter_kilo
+	file_name = "7x12_teleporter_kilo"
+	weight = 1
+	max_occurrences = 1
 
 /datum/map_template/ruin_part/medicalroom
 	file_name = "13x9_medical"
+	weight = 3
+	
+/datum/map_template/ruin_part/medical_rad
+	file_name = "14x17_medical_rad"
 	weight = 3
 
 /datum/map_template/ruin_part/genetics
@@ -469,12 +522,27 @@
 
 /datum/map_template/ruin_part/shuttleconstructionbay
 	file_name = "25x21_shuttleconstructionbay"
-	weight = 5
+	weight = 3
 	max_occurrences = 1 //Would be wacky if multiple of the same WIP shuttle showed up.
 
 /datum/map_template/ruin_part/vault
 	file_name = "9x13_vault"
-	weight = 2
+	weight = 1
+	max_occurrences = 1
+	
+/datum/map_template/ruin_part/vault_corg
+	file_name = "17x9_vault_corg"
+	weight = 1
+	max_occurrences = 1
+
+/datum/map_template/ruin_part/vault_rad
+	file_name = "7x7_vault_rad"
+	weight = 1
+	max_occurrences = 1
+	
+/datum/map_template/ruin_part/vault_kilo
+	file_name = "7x13_vault_kilo"
+	weight = 1
 	max_occurrences = 1
 
 /datum/map_template/ruin_part/pubbybridgehall
@@ -496,10 +564,13 @@
 	weight = 3
 	max_occurrences = 1 //Multiple Nar'sie worshipping chaplain incidents would be wacky on one station.
 
-// My additions
-
 /datum/map_template/ruin_part/mothroom
 	file_name = "4x6_mothroom_rad"
 	weight = 10
 	max_occurrences = 2
 
+/datum/map_template/ruin_part/eva_cool
+	file_name = "9x10_eva_cool"
+	weight = 3
+	max_occurrences = 1
+	
