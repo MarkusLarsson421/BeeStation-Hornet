@@ -40,14 +40,17 @@
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "ah" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
 /obj/machinery/power/apc/auto_name/east{
 	cell_type = /obj/item/stock_parts/cell/crap
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/heads/hop)
@@ -107,18 +110,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/crew_quarters/kitchen)
-"aA" = (
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/item/storage/box/PDAs{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/storage/box/ids,
-/obj/structure/table/reinforced,
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/heads/hop)
 "aD" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 8
@@ -1109,6 +1100,11 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/bridge)
+"hm" = (
+/obj/machinery/photocopier,
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "ho" = (
 /turf/open/floor/plasteel,
 /area/teleporter)
@@ -1132,6 +1128,11 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plasteel/techmaint,
+/area/space)
+"hy" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
 /area/space)
 "hB" = (
 /turf/closed/wall,
@@ -1166,6 +1167,13 @@
 /obj/structure/window/reinforced,
 /turf/open/space/basic,
 /area/engine/engineering)
+"hO" = (
+/obj/machinery/computer/security{
+	network = list("security");
+	name = "Security Camera console"
+	},
+/turf/open/floor/circuit,
+/area/space)
 "hQ" = (
 /turf/closed/wall,
 /area/vacant_room/commissary/commissary1)
@@ -1211,6 +1219,9 @@
 /obj/effect/turf_decal/tile/purple/half/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/bridge)
+"is" = (
+/turf/open/space/basic,
+/area/security/warden)
 "it" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "evashutters";
@@ -1350,6 +1361,23 @@
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat_interior)
+"jm" = (
+/obj/structure/table/reinforced,
+/obj/item/gun/energy/disabler{
+	pixel_x = 2
+	},
+/obj/item/firing_pin/off_station,
+/obj/item/screwdriver{
+	pixel_x = 8;
+	pixel_y = 2
+	},
+/obj/item/clothing/glasses/sunglasses/advanced{
+	pixel_x = -3;
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "jo" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -1638,6 +1666,12 @@
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
 /area/crew_quarters/cafeteria)
+"lh" = (
+/obj/machinery/computer/security{
+	dir = 4
+	},
+/turf/open/floor/circuit,
+/area/space)
 "lj" = (
 /turf/open/floor/mineral/titanium,
 /area/space)
@@ -1774,6 +1808,9 @@
 /area/space)
 "mb" = (
 /obj/effect/turf_decal/bot,
+/obj/structure/chair{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hop)
 "mc" = (
@@ -1916,10 +1953,7 @@
 	cell_type = /obj/item/stock_parts/cell/crap
 	},
 /obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "0-4"
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hop)
@@ -1953,6 +1987,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/checkpoint)
+"nK" = (
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "nL" = (
 /obj/machinery/turretid{
 	icon_state = "control_stun";
@@ -2057,7 +2095,7 @@
 /obj/machinery/computer/security{
 	dir = 8;
 	network = list("sat");
-	name = "\improper Command Telescreen"
+	name = "Command Camera console"
 	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
@@ -2147,25 +2185,6 @@
 /obj/effect/turf_decal/tile/green/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/bridge)
-"pL" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/table/wood/fancy/blue,
-/obj/item/stack/package_wrap{
-	pixel_x = -1;
-	pixel_y = -1
-	},
-/obj/item/clipboard,
-/obj/item/hand_labeler,
-/obj/effect/turf_decal/siding/wood{
-	dir = 6
-	},
-/turf/open/floor/wood,
-/area/crew_quarters/heads/hop)
 "pO" = (
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 6
@@ -2195,6 +2214,21 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/mineral/titanium,
+/area/space)
+"pZ" = (
+/obj/machinery/computer/security{
+	network = list("supply");
+	name = "Supply camera console";
+	dir = 8
+	},
+/turf/open/floor/circuit,
+/area/space)
+"qc" = (
+/obj/machinery/computer/security{
+	network = list("sat");
+	name = "Satellite camera console"
+	},
+/turf/open/floor/circuit,
 /area/space)
 "qd" = (
 /obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
@@ -2293,6 +2327,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hop)
+"qX" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "ra" = (
 /obj/structure/closet/wardrobe/black,
 /obj/machinery/newscaster{
@@ -2381,6 +2422,25 @@
 	},
 /turf/open/floor/plasteel/techmaint,
 /area/bridge)
+"rH" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/fernybush,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	layer = 2.9
+	},
+/turf/open/floor/grass,
+/area/space)
 "rK" = (
 /obj/machinery/door/airlock/glass{
 	name = "Hydroponics";
@@ -2544,6 +2604,9 @@
 /area/bridge)
 "sq" = (
 /obj/item/kirbyplants/random,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hop)
 "sr" = (
@@ -2561,7 +2624,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/crew_quarters/heads/captain/private)
 "sw" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/mineral/titanium,
@@ -2648,9 +2711,6 @@
 	pixel_y = -2
 	},
 /obj/structure/table/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /obj/item/paper_bin{
 	pixel_x = 4;
 	pixel_y = 8
@@ -2679,6 +2739,22 @@
 /area/space)
 "ts" = (
 /turf/closed/wall/r_wall,
+/area/space)
+"tv" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/pen/red{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/folder/red{
+	pixel_x = -6
+	},
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
 /area/space)
 "ty" = (
 /obj/structure/chair/fancy/comfy,
@@ -2720,6 +2796,12 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"tM" = (
+/obj/machinery/pdapainter{
+	pixel_x = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/crew_quarters/heads/hop)
 "tN" = (
 /turf/open/floor/plasteel,
 /area/vacant_room/commissary/commissary1)
@@ -2803,7 +2885,8 @@
 /obj/machinery/computer/security/telescreen{
 	dir = 8;
 	pixel_x = 25;
-	name = "\improper Engineering Telescreen"
+	name = "\improper Engineering Telescreen";
+	network = list("engineering")
 	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
@@ -3223,6 +3306,25 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
+"xA" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	layer = 2.9
+	},
+/turf/open/floor/grass,
+/area/space)
 "xB" = (
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
@@ -3347,7 +3449,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/curtain/directional,
 /turf/open/floor/plating,
-/area/space)
+/area/crew_quarters/heads/captain/private)
 "yo" = (
 /obj/structure/chair/fancy/sofa/old/left{
 	dir = 4
@@ -3569,6 +3671,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
+"Ah" = (
+/obj/machinery/vending/snack,
+/turf/open/floor/plasteel/dark,
+/area/crew_quarters/heads/hop)
 "Aj" = (
 /turf/open/floor/plasteel,
 /area/space)
@@ -3577,6 +3683,9 @@
 /obj/item/stamp/head_of_personnel{
 	pixel_x = 8;
 	pixel_y = 6
+	},
+/obj/structure/window/reinforced{
+	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hop)
@@ -3624,15 +3733,6 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/plasteel,
 /area/medical/medbay/lobby)
-"AE" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
-	alpha = 180
-	},
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/heads/hop)
 "AF" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
@@ -3651,6 +3751,15 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"AO" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor{
+	dir = 1;
+	name = "Brig Control Desk";
+	req_access_txt = "3"
+	},
+/turf/open/floor/plating,
+/area/space)
 "AP" = (
 /turf/closed/wall/r_wall,
 /area/hallway/primary/aft)
@@ -3659,6 +3768,9 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/photocopier,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hop)
 "AT" = (
@@ -3672,6 +3784,11 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
+/area/space)
+"Be" = (
+/obj/structure/chair/office/light,
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
 /area/space)
 "Bg" = (
 /obj/machinery/door/airlock/external/glass{
@@ -3754,8 +3871,7 @@
 	dir = 8;
 	icon_state = "rightsecure";
 	name = "Head of Personnel's Desk";
-	req_access_txt = "57";
-	pixel_x = -8
+	req_access_txt = "57"
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hop)
@@ -3814,6 +3930,12 @@
 /obj/machinery/smartfridge/chemistry/preloaded,
 /turf/closed/wall,
 /area/science/research)
+"Cj" = (
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "Co" = (
 /obj/machinery/disposal/bin,
 /turf/open/floor/plasteel,
@@ -4233,7 +4355,7 @@
 /obj/item/bikehorn/rubberducky,
 /obj/structure/rack,
 /turf/open/floor/stone,
-/area/space)
+/area/crew_quarters/heads/captain/private)
 "Fd" = (
 /turf/closed/wall,
 /area/crew_quarters/bar)
@@ -4244,6 +4366,16 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/grass,
 /area/hallway/primary/fore)
+"Fi" = (
+/obj/structure/bed/dogbed/ian,
+/mob/living/simple_animal/pet/dog/corgi/Ian{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/carpet/royalblue,
+/area/crew_quarters/heads/hop)
 "Fk" = (
 /obj/machinery/computer/med_data{
 	dir = 1
@@ -4342,10 +4474,16 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/item/kirbyplants/random,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/structure/table/wood/fancy/blue,
+/obj/item/stack/package_wrap{
+	pixel_x = -1;
+	pixel_y = -1
+	},
+/obj/item/clipboard,
+/obj/item/hand_labeler,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/hop)
 "FG" = (
@@ -4658,6 +4796,15 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/bridge)
+"HD" = (
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/crew_quarters/heads/hop)
 "HK" = (
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted,
 /obj/structure/cable{
@@ -4665,6 +4812,14 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
+"HL" = (
+/obj/machinery/computer/security{
+	name = "Engineering camera console";
+	network = list("engineering");
+	dir = 4
+	},
+/turf/open/floor/circuit,
+/area/space)
 "HM" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -4838,7 +4993,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/item/assembly/mousetrap/armed,
+/obj/item/assembly/mousetrap/armed{
+	pixel_x = 4
+	},
 /obj/item/reagent_containers/food/snacks/cheesewedge,
 /turf/open/floor/plating,
 /area/maintenance/department/bridge)
@@ -4957,6 +5114,13 @@
 /obj/structure/cable/yellow,
 /turf/open/floor/plasteel/techmaint,
 /area/shuttle/exploration)
+"JR" = (
+/obj/structure/bed/dogbed/walter,
+/mob/living/simple_animal/pet/dog/bullterrier/walter{
+	density = 0
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
 "JU" = (
 /turf/open/floor/plating,
 /area/quartermaster/exploration_dock)
@@ -4996,6 +5160,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/checkpoint)
+"Ki" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/bridge)
 "Kl" = (
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 4
@@ -5102,6 +5273,14 @@
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/aisat/atmos)
+"Lf" = (
+/obj/machinery/computer/security{
+	network = list("medbay");
+	name = "Medbay Camera console";
+	dir = 8
+	},
+/turf/open/floor/circuit,
+/area/space)
 "Lg" = (
 /obj/machinery/power/port_gen/pacman,
 /turf/open/floor/plating,
@@ -5427,6 +5606,14 @@
 	},
 /turf/open/floor/plasteel/techmaint,
 /area/space)
+"Nv" = (
+/obj/machinery/computer/security{
+	network = list("science");
+	name = "Science camera console";
+	dir = 4
+	},
+/turf/open/floor/circuit,
+/area/space)
 "Nw" = (
 /obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
 	alpha = 180
@@ -5462,6 +5649,12 @@
 "NF" = (
 /turf/closed/wall/r_wall,
 /area/engine/engineering)
+"NL" = (
+/obj/machinery/computer/secure_data{
+	dir = 8
+	},
+/turf/open/floor/circuit,
+/area/space)
 "NM" = (
 /obj/machinery/computer/shuttle_flight/custom_shuttle/exploration{
 	dir = 8
@@ -5506,20 +5699,6 @@
 /obj/machinery/shuttle_manipulator,
 /turf/open/floor/plasteel/tech/grid,
 /area/bridge)
-"Od" = (
-/obj/machinery/keycard_auth{
-	pixel_y = -25
-	},
-/obj/structure/bed/dogbed/ian,
-/mob/living/simple_animal/pet/dog/corgi/Ian{
-	dir = 8
-	},
-/obj/machinery/camera/autoname{
-	dir = 1;
-	network = list("ss13","command")
-	},
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/heads/hop)
 "Og" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "ai_core_shutters";
@@ -5575,7 +5754,7 @@
 	},
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/space)
+/area/crew_quarters/heads/captain/private)
 "Ox" = (
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 4
@@ -5704,9 +5883,19 @@
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/ai)
 "Pm" = (
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/machinery/camera/autoname{
+	dir = 1;
+	network = list("ss13","command")
 	},
+/obj/machinery/keycard_auth{
+	pixel_y = -25
+	},
+/obj/structure/table/reinforced,
+/obj/item/storage/box/PDAs{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/storage/box/ids,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hop)
 "Pn" = (
@@ -5884,6 +6073,13 @@
 /obj/item/assembly/timer,
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
+/area/space)
+"Qy" = (
+/obj/structure/closet/secure_closet/warden{
+	anchored = 1
+	},
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
 /area/space)
 "QA" = (
 /obj/structure/table/reinforced,
@@ -6299,6 +6495,16 @@
 /obj/structure/lattice,
 /turf/open/space/basic,
 /area/space)
+"Ta" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/crew_quarters/heads/hop)
 "Te" = (
 /obj/machinery/computer/secure_data,
 /obj/machinery/camera/autoname{
@@ -6375,6 +6581,12 @@
 "TJ" = (
 /turf/open/floor/plasteel,
 /area/vacant_room/commissary/commissary2)
+"TK" = (
+/obj/machinery/computer/prisoner/management{
+	dir = 8
+	},
+/turf/open/floor/circuit,
+/area/space)
 "TP" = (
 /obj/machinery/door/airlock/command{
 	name = "Captain's Quarters";
@@ -6437,8 +6649,8 @@
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/aisat/maint)
 "Ul" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
+/obj/machinery/vending/coffee,
+/turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hop)
 "Um" = (
 /turf/open/floor/plasteel/dark,
@@ -6683,10 +6895,6 @@
 /obj/machinery/disposal/bin,
 /turf/open/floor/plasteel/dark,
 /area/bridge)
-"VN" = (
-/obj/machinery/pdapainter,
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/heads/hop)
 "VW" = (
 /turf/closed/wall/r_wall,
 /area/hallway/primary/starboard)
@@ -6838,6 +7046,13 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/ai)
+"Xa" = (
+/obj/machinery/computer/security{
+	network = list("flight_ctrl");
+	name = "Flight Control camera console"
+	},
+/turf/open/floor/circuit,
+/area/space)
 "Xb" = (
 /obj/structure/tank_dispenser/oxygen,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -6921,10 +7136,26 @@
 	},
 /turf/open/floor/plasteel,
 /area/teleporter)
+"XD" = (
+/obj/machinery/computer/security{
+	network = list("sat");
+	name = "Command Camera console"
+	},
+/turf/open/floor/circuit,
+/area/space)
 "XH" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat_interior)
+"XJ" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor/eastright{
+	dir = 1;
+	name = "Brig Control Desk";
+	req_access_txt = "3"
+	},
+/turf/open/floor/plating,
+/area/space)
 "XK" = (
 /turf/closed/wall,
 /area/hallway/primary/starboard)
@@ -6932,6 +7163,13 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/hallway/primary/aft)
+"XT" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/bridge)
 "XV" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -7096,7 +7334,7 @@
 "YV" = (
 /obj/machinery/computer/security/telescreen{
 	dir = 1;
-	network = list("command");
+	network = list("sat");
 	pixel_y = -25;
 	name = "\improper Satellite Telescreen"
 	},
@@ -7209,6 +7447,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/checkpoint)
+"ZP" = (
+/obj/machinery/computer/crew{
+	dir = 4
+	},
+/turf/open/floor/circuit,
+/area/space)
 "ZR" = (
 /obj/machinery/airalarm/directional/east,
 /obj/machinery/porta_turret/ai{
@@ -41327,18 +41571,18 @@ KU
 KU
 KU
 KU
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -41584,18 +41828,18 @@ KU
 KU
 KU
 KU
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -41841,18 +42085,18 @@ KU
 KU
 KU
 KU
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -42097,19 +42341,19 @@ tl
 kP
 kP
 kP
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+kP
+kP
+kP
+kP
+kP
+kP
+kP
+kP
+kP
+kP
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -42363,10 +42607,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+kP
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -42620,10 +42864,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+kP
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -42877,10 +43121,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+kP
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -43134,10 +43378,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+kP
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -43391,10 +43635,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+kP
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -43648,10 +43892,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+kP
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -43905,10 +44149,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+kP
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -44162,10 +44406,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+kP
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -44419,10 +44663,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+kP
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -44667,19 +44911,19 @@ tl
 kP
 kP
 kP
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+kP
+kP
+kP
+kP
+kP
+kP
+kP
+kP
+kP
+kP
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -44925,19 +45169,19 @@ Aj
 Aj
 Aj
 Aj
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -45182,19 +45426,19 @@ Aj
 Aj
 Aj
 Aj
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -45439,19 +45683,19 @@ Aj
 Aj
 Aj
 Aj
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
+Aj
 tB
 tB
 tB
@@ -45699,16 +45943,16 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+kP
+Qi
+Qi
+Qi
+kP
+GL
+GL
+GL
+GL
+GL
 tB
 tB
 tB
@@ -45955,16 +46199,16 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+kP
+kP
+hy
+tv
+hm
+kP
+kP
+GL
+GL
+GL
 tB
 tB
 tB
@@ -46192,7 +46436,7 @@ Ss
 tm
 mb
 Ul
-Ss
+Ah
 Ss
 Ss
 Ss
@@ -46209,19 +46453,19 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+sd
+sd
+sd
+sd
+nK
+zP
+zP
+zP
+nK
+kP
+GL
+GL
+GL
 tB
 tB
 tB
@@ -46448,9 +46692,9 @@ NV
 Ss
 Am
 BL
-VN
-Dk
-rM
+Ss
+Ss
+Ss
 kS
 Qj
 mI
@@ -46467,18 +46711,18 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+kP
+kP
+kP
+nK
+nK
+zP
+nK
+nK
+kP
+GL
+GL
+GL
 tB
 tB
 tB
@@ -46706,7 +46950,7 @@ Ss
 Ky
 BH
 va
-Fk
+Dk
 rM
 kS
 xy
@@ -46724,18 +46968,18 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+kP
+rH
+HL
+Nv
+zP
+zP
+zP
+zP
+zP
+GL
+GL
+GL
 tB
 tB
 tB
@@ -46960,10 +47204,10 @@ eV
 MT
 eV
 Ss
-bp
+tM
 qd
-Od
-rM
+va
+Fk
 rM
 rM
 ww
@@ -46981,18 +47225,18 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+Qi
+qc
+nK
+nK
+zP
+ZP
+lh
+kP
+kP
+GL
+GL
+GL
 tB
 tB
 tB
@@ -47217,12 +47461,12 @@ WS
 gO
 WS
 Ss
-aA
-AE
+bp
+qd
 Pm
-HQ
-pL
-ao
+rM
+rM
+Ta
 ao
 FF
 rZ
@@ -47238,18 +47482,18 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+Qi
+hO
+qX
+zP
+zP
+nK
+nK
+AO
+GL
+GL
+GL
+GL
 tB
 tB
 tB
@@ -47456,10 +47700,10 @@ tB
 tB
 tB
 IV
-ts
+qC
 Fc
 sv
-ts
+qC
 qC
 rC
 rC
@@ -47478,8 +47722,8 @@ nd
 qd
 qd
 qU
-RP
 bO
+RP
 bO
 du
 Ss
@@ -47495,18 +47739,18 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+Qi
+XD
+nK
+JR
+zP
+nK
+Be
+XJ
+GL
+GL
+GL
+GL
 tB
 tB
 tB
@@ -47713,10 +47957,10 @@ tB
 tB
 tB
 nv
-ts
+qC
 yk
 Ow
-ts
+qC
 aP
 rC
 AT
@@ -47732,11 +47976,11 @@ gO
 WS
 Ss
 AS
-qd
+HD
 sq
-rM
+HQ
 ah
-bO
+Fi
 ld
 Ks
 Ss
@@ -47752,18 +47996,18 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+Qi
+Xa
+nK
+nK
+zP
+TK
+NL
+kP
+kP
+GL
+GL
+GL
 tB
 tB
 tB
@@ -48009,18 +48253,18 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+kP
+xA
+pZ
+Lf
+zP
+zP
+zP
+zP
+zP
+GL
+GL
+GL
 tB
 tB
 tB
@@ -48214,10 +48458,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+is
+is
+is
+is
 tB
 tB
 tB
@@ -48266,18 +48510,18 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+kP
+kP
+kP
+nK
+nK
+zP
+nK
+nK
+kP
+GL
+GL
+GL
 tB
 tB
 tB
@@ -48471,10 +48715,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+is
+is
+is
+is
 tB
 tB
 tB
@@ -48522,16 +48766,16 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+sd
+sd
+sd
+sd
+nK
+zP
+zP
+zP
+nK
+kP
 tB
 tB
 tB
@@ -48725,13 +48969,13 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+is
+is
+is
+is
+is
+is
+is
 tB
 tB
 tB
@@ -48782,13 +49026,13 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+kP
+kP
+Cj
+Qy
+jm
+kP
+kP
 tB
 tB
 tB
@@ -48982,13 +49226,13 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+is
+is
+is
+is
+is
+is
+is
 tB
 tB
 tB
@@ -49040,11 +49284,11 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
+kP
+Qi
+Qi
+Qi
+kP
 tB
 tB
 tB
@@ -49239,13 +49483,13 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+is
+is
+is
+is
+is
+is
+is
 tB
 tB
 tB
@@ -49496,13 +49740,13 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+is
+is
+is
+is
+is
+is
+is
 tB
 tB
 tB
@@ -49753,13 +49997,13 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+is
+is
+is
+is
+is
+is
+is
 tB
 tB
 tB
@@ -50010,13 +50254,13 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+is
+is
+is
+is
+is
+is
+is
 tB
 tB
 tB
@@ -50267,13 +50511,13 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+is
+is
+is
+is
+is
+is
+is
 tB
 tB
 tB
@@ -50524,13 +50768,13 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
-tB
-tB
-tB
+is
+is
+is
+is
+is
+is
+is
 tB
 tB
 tB
@@ -50552,13 +50796,13 @@ tB
 Gi
 Dq
 jg
-jA
+Ki
 WS
 gO
 jA
 gO
 WS
-jA
+XT
 fn
 uR
 Gi
@@ -50784,10 +51028,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+is
+is
+is
+is
 tB
 tB
 tB
@@ -51041,10 +51285,10 @@ tB
 tB
 tB
 tB
-tB
-tB
-tB
-tB
+is
+is
+is
+is
 tB
 tB
 tB
@@ -55949,13 +56193,13 @@ uy
 tY
 xn
 sR
-xn
 uX
+xn
 xn
 oZ
 xn
-uX
 xn
+uX
 di
 xn
 St
