@@ -1,0 +1,12 @@
+{
+	"map_name": "Cool Stuff",
+	"map_link": "CoolStuff",
+	"map_path": "map_files/CoolStuff",
+	"map_file": "CoolStuff.dmm",
+	"shuttles": {
+		"cargo": "cargo_cool",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_box",
+		"emergency": "emergency_delta"
+	}
+}	

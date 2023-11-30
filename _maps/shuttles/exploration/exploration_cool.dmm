@@ -1,0 +1,809 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aY" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"be" = (
+/obj/machinery/atmospherics/pipe/manifold/purple/visible{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"cz" = (
+/obj/machinery/atmospherics/pipe/manifold/purple/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"dY" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/space)
+"eP" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/titanium,
+/area/space)
+"fq" = (
+/obj/machinery/computer/shuttle_flight/custom_shuttle/exploration{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+	},
+/turf/open/floor/mineral/titanium,
+/area/space)
+"fx" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"gH" = (
+/obj/structure/table,
+/obj/machinery/button/door{
+	desc = "A remote control switch.";
+	id = "ExploIFuckedUp";
+	name = "Vent Engine Room";
+	pixel_x = -25
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"gR" = (
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"jF" = (
+/obj/machinery/computer,
+/obj/item/circuitboard/computer/mech_bay_power_console,
+/turf/open/floor/mineral/titanium,
+/area/space)
+"jL" = (
+/obj/machinery/shuttle/engine/plasma{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"kJ" = (
+/obj/structure/table,
+/obj/item/paper{
+	default_raw_text = "Ordered a new recharger for you, it should be in Cargo ready to be assembled when you arrive.";
+	name = "New recharger"
+	},
+/turf/open/floor/mineral/titanium,
+/area/space)
+"kN" = (
+/obj/machinery/atmospherics/components/unary/tank/air{
+	initialize_directions = 1;
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"kU" = (
+/obj/effect/decal/cleanable/oil/streak,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"mP" = (
+/obj/structure/frame/machine{
+	anchored = 1
+	},
+/obj/item/circuitboard/machine/mech_recharger,
+/obj/item/stack/cable_coil/red,
+/turf/open/floor/mineral/titanium,
+/area/space)
+"ng" = (
+/obj/machinery/telecomms/relay/preset/exploration,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"no" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"nI" = (
+/turf/open/floor/mineral/titanium,
+/area/space)
+"nQ" = (
+/obj/machinery/light,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/ore_box,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"ox" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"oI" = (
+/obj/machinery/door/airlock/external/glass{
+	autoclose = 0.1
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/space)
+"po" = (
+/obj/structure/lattice/catwalk,
+/obj/item/stack/marker_beacon,
+/turf/template_noop,
+/area/space)
+"pM" = (
+/obj/structure/table,
+/turf/open/floor/mineral/titanium,
+/area/space)
+"qe" = (
+/obj/machinery/newscaster{
+	pixel_x = 25;
+	pixel_y = 32
+	},
+/turf/open/floor/mineral/titanium,
+/area/space)
+"qH" = (
+/obj/structure/closet/secure_closet/personal{
+	anchored = 1
+	},
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/mineral/titanium,
+/area/space)
+"qN" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium,
+/area/space)
+"rp" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/obj/machinery/light_switch{
+	pixel_y = 25
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"sw" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"sy" = (
+/obj/structure/table,
+/obj/item/toy/cards/deck/unum{
+	pixel_x = -4;
+	pixel_y = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium,
+/area/space)
+"sY" = (
+/obj/structure/table,
+/obj/machinery/microwave,
+/turf/open/floor/mineral/titanium,
+/area/space)
+"ts" = (
+/obj/machinery/atmospherics/components/unary/plasma_refiner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"tz" = (
+/obj/machinery/button/door{
+	desc = "A remote control switch.";
+	id = "ExploIFuckedUp";
+	name = "Vent Engine Room";
+	pixel_x = 25
+	},
+/obj/machinery/portable_atmospherics/canister/plasma,
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"ui" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/space)
+"uZ" = (
+/obj/machinery/vendor/exploration,
+/turf/open/floor/mineral/titanium,
+/area/space)
+"vv" = (
+/obj/structure/table,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"wa" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/mineral/titanium,
+/area/space)
+"we" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium,
+/area/space)
+"wD" = (
+/obj/machinery/vendor/mining,
+/turf/open/floor/mineral/titanium,
+/area/space)
+"wP" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/airlock/shuttle/glass{
+	autoclose = 0.1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/space)
+"zT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/firealarm/directional/west,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"AW" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"Bz" = (
+/obj/machinery/computer/objective{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium,
+/area/space)
+"BA" = (
+/obj/structure/table,
+/obj/machinery/recharger,
+/obj/machinery/button/door{
+	desc = "A remote control switch.";
+	id = "ExploIFuckedUp";
+	name = "Vent Engine Room";
+	pixel_x = 25
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/mineral/titanium,
+/area/space)
+"BD" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"DA" = (
+/obj/structure/chair/fancy/shuttle,
+/obj/machinery/camera/autoname{
+	dir = 5;
+	network = list("ss13","science","supply","flight_ctrl")
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Ew" = (
+/turf/open/floor/mech_bay_recharge_floor,
+/area/space)
+"EG" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Fu" = (
+/obj/effect/spawner/structure/window/shuttle,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/space)
+"FJ" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/space)
+"FY" = (
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"FZ" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk,
+/obj/item/stack/marker_beacon,
+/turf/template_noop,
+/area/space)
+"HI" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/requests_console{
+	pixel_x = -32
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"HP" = (
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"Ij" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"IN" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 9
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"Jj" = (
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"JD" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"JP" = (
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/space)
+"KW" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/mineral/titanium,
+/area/space)
+"LC" = (
+/obj/machinery/light_switch{
+	pixel_y = -25
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"LR" = (
+/obj/machinery/holopad,
+/turf/open/floor/mineral/titanium,
+/area/space)
+"Mo" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Ms" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium,
+/area/space)
+"Mu" = (
+/obj/machinery/pipedispenser,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"Mw" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 6
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"MT" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "exploration_shuttle"
+	},
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"MU" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Nn" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"NJ" = (
+/obj/machinery/door/poddoor{
+	id = "ExploIFuckedUp";
+	name = "Engine Room Vent"
+	},
+/turf/open/floor/plating,
+/area/space)
+"NQ" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/space)
+"Oy" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8;
+	layer = 3.1
+	},
+/turf/open/space/basic,
+/area/space)
+"PP" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/space)
+"QC" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible,
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"Re" = (
+/obj/item/wrench,
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"Ry" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/space)
+"RF" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/structure/sign/warning/nosmoking/circle{
+	pixel_y = -25
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"So" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"TP" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/mineral/titanium,
+/area/space)
+"Uc" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Ul" = (
+/obj/machinery/camera/autoname{
+	dir = 9;
+	network = list("ss13","science","supply","flight_ctrl")
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"Uq" = (
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Vb" = (
+/obj/machinery/light,
+/obj/structure/closet/crate/science,
+/obj/item/pickaxe,
+/obj/item/mining_scanner,
+/obj/item/radio/headset/headset_exploration,
+/obj/item/radio/headset/headset_exploration,
+/obj/item/radio/headset/headset_exploration,
+/obj/item/gps/mining/exploration{
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/obj/item/gps/mining/exploration{
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/obj/item/gps/mining/exploration{
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/mineral/titanium,
+/area/space)
+"Vx" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/chair/fancy/shuttle,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Wk" = (
+/obj/structure/tank_dispenser/oxygen,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Xf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/loading_area,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Xs" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
+/area/space)
+"Yp" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/space)
+"ZU" = (
+/obj/machinery/power/apc/auto_name/south{
+	cell_type = /obj/item/stock_parts/cell/crap
+	},
+/obj/structure/closet/secure_closet/personal{
+	anchored = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium,
+/area/space)
+
+(1,1,1) = {"
+po
+BD
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+BD
+po
+"}
+(2,1,1) = {"
+BD
+BD
+FY
+FY
+FY
+FY
+FY
+FY
+FY
+BD
+BD
+"}
+(3,1,1) = {"
+BD
+Mw
+be
+cz
+cz
+QC
+cz
+cz
+IN
+ts
+BD
+"}
+(4,1,1) = {"
+NJ
+Yp
+Re
+aY
+fx
+gR
+AW
+Ul
+kU
+So
+Fu
+"}
+(5,1,1) = {"
+Ry
+Xs
+Xs
+Ry
+Mu
+tz
+RF
+Ry
+wP
+Xs
+Ry
+"}
+(6,1,1) = {"
+Ry
+kN
+Wk
+Ry
+Jj
+Ry
+HP
+Ry
+sw
+ng
+Ry
+"}
+(7,1,1) = {"
+Ry
+Ry
+rp
+zT
+DA
+gH
+JD
+HI
+LC
+Ry
+Ry
+"}
+(8,1,1) = {"
+Oy
+MT
+Xf
+Uq
+Vx
+vv
+MU
+Uq
+sw
+oI
+Oy
+"}
+(9,1,1) = {"
+ui
+MT
+Xf
+Uq
+Nn
+Uq
+no
+Uq
+sw
+NQ
+ui
+"}
+(10,1,1) = {"
+Ry
+Ry
+ox
+EG
+Ij
+Uq
+Mo
+Uc
+nQ
+Ry
+Ry
+"}
+(11,1,1) = {"
+Ry
+jF
+nI
+nI
+Ms
+Ms
+qN
+nI
+eP
+qH
+Ry
+"}
+(12,1,1) = {"
+Ry
+Ew
+nI
+nI
+pM
+pM
+sy
+nI
+wa
+ZU
+Ry
+"}
+(13,1,1) = {"
+Xs
+mP
+nI
+nI
+Ms
+we
+qN
+nI
+LR
+TP
+Xs
+"}
+(14,1,1) = {"
+Ry
+FJ
+qe
+kJ
+Bz
+sY
+fq
+BA
+KW
+Vb
+PP
+"}
+(15,1,1) = {"
+Ry
+Ry
+uZ
+Ry
+Xs
+Xs
+Xs
+Ry
+wD
+Ry
+dY
+"}
+(16,1,1) = {"
+po
+Ry
+Xs
+Ry
+po
+JP
+po
+Ry
+Xs
+Ry
+FZ
+"}

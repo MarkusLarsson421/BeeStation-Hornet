@@ -1,0 +1,206 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"d" = (
+/obj/machinery/computer/shuttle_flight/mining,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"f" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/chair/fancy/shuttle{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"h" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"i" = (
+/obj/machinery/holopad,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"o" = (
+/obj/effect/spawner/structure/window/hollow/survival_pod/directional{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"s" = (
+/turf/closed/wall/mineral/titanium/survival,
+/area/space)
+"t" = (
+/obj/structure/window/reinforced,
+/obj/machinery/suit_storage_unit{
+	state_open = 1
+	},
+/obj/machinery/requests_console{
+	department = "Cargo Bay";
+	departmentType = 2;
+	pixel_x = 31;
+	pixel_y = -1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"u" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"w" = (
+/obj/structure/shuttle/engine/propulsion/left,
+/turf/open/floor/plating/airless,
+/area/space)
+"x" = (
+/obj/structure/shuttle/engine/propulsion/burst,
+/turf/open/floor/plating/airless,
+/area/space)
+"z" = (
+/obj/structure/window/reinforced,
+/obj/machinery/camera/autoname{
+	dir = 4;
+	network = list("ss13","supply","flight_ctrl")
+	},
+/obj/machinery/suit_storage_unit{
+	state_open = 1
+	},
+/obj/item/storage/pod{
+	pixel_x = -25;
+	unlocked = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"B" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	layer = 2.9
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"E" = (
+/obj/effect/spawner/structure/window/hollow/survival_pod/directional{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"F" = (
+/obj/machinery/status_display/evac{
+	pixel_x = 33;
+	pixel_y = 31
+	},
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/area/space)
+"H" = (
+/obj/effect/spawner/structure/window/hollow/survival_pod/directional{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"I" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/chair/fancy/shuttle{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"L" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/firstaid/regular{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/machinery/newscaster{
+	pixel_y = 33
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"M" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/emergency,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Q" = (
+/obj/structure/shuttle/engine/propulsion/right,
+/turf/open/floor/plating/airless,
+/area/space)
+"U" = (
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/area/space)
+"X" = (
+/obj/machinery/door/airlock/survival_pod/glass,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/space)
+"Z" = (
+/obj/effect/turf_decal/box,
+/turf/open/floor/plasteel/tech,
+/area/space)
+
+(1,1,1) = {"
+s
+F
+H
+H
+X
+U
+s
+"}
+(2,1,1) = {"
+U
+M
+u
+f
+h
+z
+w
+"}
+(3,1,1) = {"
+o
+d
+Z
+i
+h
+B
+x
+"}
+(4,1,1) = {"
+U
+L
+a
+I
+h
+t
+Q
+"}
+(5,1,1) = {"
+s
+U
+E
+E
+E
+U
+s
+"}
