@@ -111,7 +111,7 @@
 	desc = "Cooks and boils stuff, somehow.";
 	pixel_x = 4
 	},
-/obj/structure/table,
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/space)
 "aC" = (
@@ -127,6 +127,11 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/techmaint,
+/area/space)
+"aE" = (
+/obj/machinery/suit_storage_unit/mining/eva,
+/obj/item/encryptionkey/headset_exp,
+/turf/open/floor/plasteel,
 /area/space)
 "aF" = (
 /obj/structure/table/reinforced,
@@ -971,18 +976,18 @@
 /area/space)
 "gh" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/firedoor,
+/obj/item/paper_bin{
+	pixel_x = 6;
+	pixel_y = 2
+	},
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/item/paper_bin{
-	pixel_x = -6;
-	pixel_y = 2
-	},
 /obj/item/pen{
-	pixel_x = -6;
+	pixel_x = 6;
 	pixel_y = 3
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/plasteel,
 /area/space)
 "gk" = (
@@ -1477,12 +1482,12 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "iy" = (
-/obj/machinery/door/firedoor,
 /obj/machinery/modular_fabricator/autolathe,
-/obj/machinery/door/window/northright{
-	icon_state = "right";
-	name = "Engi Desk";
-	req_one_access_txt = "32;19"
+/obj/machinery/door/firedoor,
+/obj/machinery/door/window/eastright{
+	dir = 1;
+	name = "Research and Development Desk";
+	req_one_access_txt = "47;63"
 	},
 /turf/open/floor/plasteel,
 /area/space)
@@ -1502,14 +1507,15 @@
 /area/space)
 "iH" = (
 /obj/structure/table/reinforced,
+/obj/machinery/door/window/eastright{
+	dir = 1;
+	icon_state = "left";
+	name = "Research and Development Desk";
+	req_one_access_txt = "47;63"
+	},
 /obj/machinery/door/firedoor,
 /obj/structure/desk_bell{
-	pixel_x = 8;
-	pixel_y = 8
-	},
-/obj/machinery/door/window/northleft{
-	name = "Engi Desk";
-	req_one_access_txt = "32;19"
+	pixel_x = -8
 	},
 /turf/open/floor/plasteel,
 /area/space)
@@ -1644,13 +1650,6 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/green,
 /area/space)
-"jK" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/table/reinforced,
-/turf/open/floor/plasteel,
-/area/space)
 "jL" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters{
@@ -1670,7 +1669,6 @@
 /turf/open/floor/plating/airless,
 /area/space)
 "jR" = (
-/obj/structure/table,
 /obj/effect/spawner/lootdrop/donkpockets{
 	pixel_x = 6;
 	pixel_y = 8
@@ -1678,6 +1676,7 @@
 /obj/item/storage/toolbox/emergency{
 	pixel_x = -4
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/space)
 "jU" = (
@@ -1755,6 +1754,7 @@
 /area/space)
 "ka" = (
 /obj/machinery/suit_storage_unit/exploration,
+/obj/item/encryptionkey/headset_exp,
 /turf/open/floor/plasteel,
 /area/space)
 "kb" = (
@@ -1820,13 +1820,6 @@
 	req_one_access_txt = "31;48"
 	},
 /obj/machinery/door/firedoor,
-/turf/open/floor/plasteel,
-/area/space)
-"kx" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/space)
 "kz" = (
@@ -2214,6 +2207,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/space)
+"mN" = (
+/obj/structure/table/reinforced,
+/obj/machinery/fax/sci{
+	name = "Cargo Fax Machine"
+	},
+/turf/open/floor/plasteel,
+/area/space)
 "mP" = (
 /obj/effect/turf_decal/tile/brown/fourcorners/contrasted,
 /obj/machinery/door/airlock/public/glass,
@@ -2243,13 +2243,13 @@
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "mY" = (
-/obj/structure/table/reinforced,
 /obj/item/folder,
 /obj/item/stamp/denied{
 	pixel_x = 3;
 	pixel_y = 3
 	},
 /obj/item/stamp,
+/obj/structure/table,
 /turf/open/floor/plasteel,
 /area/space)
 "na" = (
@@ -2354,7 +2354,7 @@
 /obj/machinery/door/firedoor,
 /obj/item/paper_bin,
 /obj/item/pen,
-/turf/open/floor/plasteel,
+/turf/open/floor/plating,
 /area/space)
 "nD" = (
 /obj/item/tank/internals/air,
@@ -2456,6 +2456,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/plasteel,
 /area/space)
 "og" = (
@@ -2940,7 +2941,7 @@
 /obj/machinery/computer/cargo/request{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/plating,
 /area/space)
 "qM" = (
 /obj/structure/cable{
@@ -2952,12 +2953,13 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "qO" = (
-/obj/machinery/modular_fabricator/autolathe,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/window/eastright{
-	dir = 2;
-	name = "Research and Development Desk";
-	req_one_access_txt = "47;63"
+/obj/machinery/modular_fabricator/autolathe,
+/obj/machinery/door/window/northright{
+	icon_state = "right";
+	name = "Engi Desk";
+	req_one_access_txt = "32;19";
+	dir = 2
 	},
 /turf/open/floor/plasteel,
 /area/space)
@@ -3302,8 +3304,8 @@
 /turf/open/floor/wood,
 /area/space)
 "su" = (
-/obj/structure/table/reinforced,
 /obj/item/storage/box/donkpockets,
+/obj/structure/table,
 /turf/open/floor/plasteel,
 /area/space)
 "sw" = (
@@ -3322,7 +3324,7 @@
 	name = "Cargo Desk";
 	req_access_txt = "50"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/plating,
 /area/space)
 "sN" = (
 /obj/machinery/camera/autoname{
@@ -3379,12 +3381,12 @@
 /turf/open/floor/mineral/titanium,
 /area/space)
 "te" = (
-/obj/structure/table/reinforced,
 /obj/machinery/microwave{
 	desc = "Cooks and boils stuff, somehow.";
 	pixel_x = -3;
 	pixel_y = 5
 	},
+/obj/structure/table,
 /turf/open/floor/plasteel,
 /area/space)
 "tl" = (
@@ -3753,10 +3755,10 @@
 /area/space)
 "vz" = (
 /obj/item/storage/backpack/duffelbag/mining_conscript,
-/obj/structure/table,
 /obj/item/pickaxe/drill{
 	pixel_y = 8
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/space)
 "vA" = (
@@ -3773,10 +3775,10 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "vB" = (
-/obj/structure/table/reinforced,
 /obj/item/paper_bin,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /obj/item/pen,
+/obj/structure/table,
 /turf/open/floor/plasteel,
 /area/space)
 "vG" = (
@@ -4422,6 +4424,11 @@
 /obj/item/circuitboard/computer/mech_bay_power_console,
 /turf/open/floor/mineral/titanium,
 /area/space)
+"Ab" = (
+/obj/machinery/fax/sci,
+/obj/structure/table,
+/turf/open/floor/plasteel,
+/area/space)
 "Ah" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/reinforced,
@@ -4431,9 +4438,16 @@
 	name = "Research and Development Desk";
 	req_one_access_txt = "47;63"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/plating,
 /area/space)
 "Aj" = (
+/turf/open/floor/plasteel,
+/area/space)
+"Al" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/table,
 /turf/open/floor/plasteel,
 /area/space)
 "Ap" = (
@@ -4926,7 +4940,6 @@
 "CH" = (
 /obj/structure/table,
 /obj/machinery/microwave,
-/obj/item/storage/box/donkpockets,
 /turf/open/floor/mineral/titanium,
 /area/space)
 "CI" = (
@@ -4934,6 +4947,13 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/techmaint,
+/area/space)
+"CM" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table,
+/turf/open/floor/plasteel,
 /area/space)
 "CR" = (
 /turf/open/floor/engine{
@@ -5097,6 +5117,18 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"Eg" = (
+/obj/item/storage/box/donkpockets{
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/structure/closet/crate/freezer,
+/turf/open/floor/plasteel/freezer,
+/area/space)
 "Ej" = (
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 8
@@ -5214,7 +5246,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/window/reinforced,
-/turf/open/floor/plasteel,
+/turf/open/floor/plating,
 /area/space)
 "ES" = (
 /obj/structure/cable{
@@ -5316,7 +5348,7 @@
 /obj/machinery/door/firedoor,
 /obj/item/paper_bin,
 /obj/item/pen,
-/turf/open/floor/plasteel,
+/turf/open/floor/plating,
 /area/space)
 "Fx" = (
 /obj/structure/cable/yellow{
@@ -5453,7 +5485,6 @@
 "Gk" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /turf/open/floor/plasteel,
 /area/space)
 "Gl" = (
@@ -6233,6 +6264,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/space)
+"Lk" = (
+/obj/item/stack/package_wrap,
+/obj/item/hand_labeler,
+/obj/structure/table,
+/turf/open/floor/plasteel,
+/area/space)
 "Lq" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/computer/shuttle_flight/custom_shuttle/exploration{
@@ -6348,16 +6385,16 @@
 /area/space)
 "LW" = (
 /obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced,
 /obj/item/paper_bin{
-	pixel_x = 6;
+	pixel_x = -6;
 	pixel_y = 2
 	},
-/obj/structure/window/reinforced,
 /obj/item/pen{
-	pixel_x = 6;
+	pixel_x = -6;
 	pixel_y = 3
 	},
-/obj/machinery/door/firedoor,
 /turf/open/floor/plasteel,
 /area/space)
 "LY" = (
@@ -6454,8 +6491,9 @@
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced,
 /obj/machinery/door/firedoor,
+/obj/item/storage/toolbox/mechanical,
 /obj/item/storage/belt/utility,
-/turf/open/floor/plasteel,
+/turf/open/floor/plating,
 /area/space)
 "MM" = (
 /obj/structure/window/reinforced{
@@ -6848,6 +6886,14 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/techmaint,
+/area/space)
+"Pi" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	id_tag = "commissarydoor2";
+	req_one_access_txt = "49;48"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
 /area/space)
 "Pn" = (
 /obj/structure/lattice/catwalk,
@@ -7290,15 +7336,15 @@
 /area/space)
 "Sd" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/eastright{
-	dir = 2;
-	icon_state = "left";
-	name = "Research and Development Desk";
-	req_one_access_txt = "47;63"
-	},
 /obj/machinery/door/firedoor,
 /obj/structure/desk_bell{
-	pixel_x = -8
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/machinery/door/window/northleft{
+	name = "Engi Desk";
+	req_one_access_txt = "32;19";
+	dir = 2
 	},
 /turf/open/floor/plasteel,
 /area/space)
@@ -7500,7 +7546,7 @@
 "SP" = (
 /obj/item/folder/yellow,
 /obj/item/gps/mining,
-/obj/structure/table,
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/space)
 "SQ" = (
@@ -8210,14 +8256,14 @@
 /area/space)
 "Xj" = (
 /obj/machinery/airalarm/directional/south,
-/obj/structure/table/reinforced,
 /obj/item/flashlight/lamp,
+/obj/structure/table,
 /turf/open/floor/plasteel,
 /area/space)
 "Xk" = (
 /obj/item/storage/backpack/satchel/explorer,
 /obj/item/pickaxe,
-/obj/structure/table,
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/space)
 "Xm" = (
@@ -8461,6 +8507,13 @@
 /area/space)
 "YQ" = (
 /obj/structure/closet/firecloset,
+/turf/open/floor/plating,
+/area/space)
+"YV" = (
+/obj/machinery/door/airlock/external/glass{
+	autoclose = 0.1;
+	req_one_access_txt = "49;48"
+	},
 /turf/open/floor/plating,
 /area/space)
 "YX" = (
@@ -31153,7 +31206,7 @@ cz
 cz
 kP
 FR
-FR
+Eg
 FR
 kP
 Aj
@@ -33686,9 +33739,9 @@ tB
 tB
 ts
 ts
+um
 kP
 kP
-XL
 kP
 kP
 ts
@@ -33738,9 +33791,9 @@ ts
 ts
 kP
 kP
+XL
 kP
 kP
-um
 ts
 ts
 tB
@@ -33948,51 +34001,51 @@ Aj
 Aj
 Aj
 Aj
-Aj
-ts
-Aj
-Aj
-Qi
-SY
-ts
-ts
-lc
-Bh
-lc
-kP
-kP
-sd
-sd
-sd
-sd
-sd
-sd
-kP
-Qi
-Qi
-Qi
-Qi
-Qi
-kP
-sd
-sd
-sd
-sd
-sd
-sd
-kP
-kP
-lc
-Bh
-lc
-ts
-ts
-SY
-Qi
-Aj
-Aj
-ts
 Om
+ts
+Aj
+Aj
+Qi
+SY
+ts
+ts
+lc
+Bh
+lc
+kP
+kP
+sd
+sd
+sd
+sd
+sd
+sd
+kP
+Qi
+Qi
+Qi
+Qi
+Qi
+kP
+sd
+sd
+sd
+sd
+sd
+sd
+kP
+kP
+lc
+Bh
+lc
+ts
+ts
+SY
+Qi
+Aj
+Aj
+ts
+Aj
 Aj
 Aj
 Aj
@@ -34205,51 +34258,51 @@ Aj
 Aj
 Aj
 Aj
+Al
+EM
+Aj
+Aj
+Qi
+SY
+SY
+Qi
+Aj
+GL
+Aj
+kP
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+kP
+Aj
+GL
+Aj
+Qi
+SY
+SY
+Qi
+Aj
+Aj
+EM
 NO
-EM
-Aj
-Aj
-Qi
-SY
-SY
-Qi
-Aj
-GL
-Aj
-kP
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-sd
-kP
-Aj
-GL
-Aj
-Qi
-SY
-SY
-Qi
-Aj
-Aj
-EM
-jK
 Aj
 Aj
 Aj
@@ -34458,8 +34511,8 @@ tB
 of
 Aj
 Aj
-Aj
-Aj
+gB
+op
 Aj
 Aj
 gh
@@ -34509,8 +34562,8 @@ Aj
 LW
 Aj
 Aj
-op
-gB
+Aj
+Aj
 Aj
 Aj
 Gk
@@ -34712,13 +34765,13 @@ tB
 tB
 tB
 tB
-db
+aU
 Aj
 Aj
-Aj
+hM
 EN
 Aj
-Aj
+Fi
 iH
 Aj
 Aj
@@ -34764,13 +34817,13 @@ Aj
 Aj
 Aj
 Sd
-Fi
+Aj
 Aj
 EN
-hM
 Aj
 Aj
-aU
+Aj
+db
 tB
 tB
 tB
@@ -35233,7 +35286,7 @@ Aj
 Aj
 Aj
 Aj
-am
+CM
 EM
 Aj
 Aj
@@ -35255,7 +35308,7 @@ EJ
 ZT
 ZT
 ZT
-bu
+ZT
 ZT
 ZT
 ZT
@@ -35277,7 +35330,7 @@ Qi
 Aj
 Aj
 EM
-kx
+am
 Aj
 Aj
 Aj
@@ -35484,13 +35537,13 @@ tB
 tB
 tB
 ts
-Aj
-Aj
+Ab
+Zb
 Qi
-db
+aU
 Qi
-Aj
-Aj
+Wp
+yX
 ts
 lc
 lc
@@ -35512,7 +35565,7 @@ EJ
 KE
 KE
 KE
-EJ
+KE
 KE
 KE
 KE
@@ -35534,13 +35587,13 @@ ts
 lc
 lc
 ts
-kd
-Wp
+Aj
+Aj
 Qi
-aU
+db
 Qi
-Zb
-Hk
+Aj
+Aj
 ts
 tB
 tB
@@ -36274,7 +36327,7 @@ GL
 Aj
 kP
 kP
-XL
+Pi
 ts
 ts
 tB
@@ -36297,7 +36350,7 @@ kP
 kP
 Aj
 GL
-Aj
+GL
 Aj
 Aj
 Aj
@@ -36548,13 +36601,13 @@ RR
 wW
 wX
 ts
-VW
+aE
 Aj
 AC
 kP
 kP
-GL
 Aj
+GL
 Aj
 Aj
 Aj
@@ -36805,13 +36858,13 @@ wW
 wW
 wX
 ts
-VW
+aE
 Aj
 Aj
 XK
 kP
-GL
 Aj
+GL
 Aj
 Aj
 Aj
@@ -37042,12 +37095,12 @@ kJ
 Aj
 Aj
 GL
-Ml
+YV
 Aj
 Aj
 Aj
 Aj
-Ml
+YV
 PZ
 rG
 PQ
@@ -37067,8 +37120,8 @@ Aj
 Aj
 Aj
 Ml
-GL
 Aj
+GL
 Aj
 wn
 gE
@@ -37299,12 +37352,12 @@ uY
 Aj
 Aj
 GL
-Ml
+YV
 Aj
 Aj
 Aj
 Aj
-Ml
+YV
 Pn
 GV
 PQ
@@ -37324,8 +37377,8 @@ Aj
 Aj
 Aj
 Qi
-GL
 Aj
+GL
 Aj
 lk
 FW
@@ -37350,7 +37403,7 @@ BM
 kP
 Aj
 Aj
-Aj
+yX
 Aj
 Aj
 XT
@@ -37576,13 +37629,13 @@ wW
 wW
 tB
 ts
-VW
+aE
 Aj
 Aj
 Ne
 kP
-GL
 Aj
+GL
 Aj
 Aj
 Aj
@@ -37833,13 +37886,13 @@ Ms
 wW
 tB
 ts
-VW
+aE
 Aj
 AC
 kP
 kP
-GL
 Aj
+GL
 Aj
 Aj
 Aj
@@ -38073,7 +38126,7 @@ GL
 Aj
 kP
 kP
-XL
+Pi
 ts
 ts
 zi
@@ -38096,7 +38149,7 @@ kP
 kP
 Aj
 GL
-Aj
+GL
 Aj
 Aj
 Aj
@@ -39906,12 +39959,12 @@ Aj
 qL
 Aj
 Aj
-Hk
+mN
 wu
 Aj
 Aj
 MK
-Wx
+Lk
 Jg
 Aj
 Aj
@@ -40166,7 +40219,7 @@ Aj
 Aj
 Aj
 Aj
-DI
+Aj
 Qi
 Aj
 pE
@@ -40423,7 +40476,7 @@ Aj
 Aj
 FS
 Aj
-tl
+DI
 ts
 vB
 FX
@@ -41418,7 +41471,7 @@ Aj
 Aj
 Aj
 lc
-Aj
+GL
 GL
 Aj
 Aj
@@ -41428,7 +41481,7 @@ Aj
 Aj
 Aj
 GL
-Aj
+GL
 lc
 Aj
 Aj
@@ -43019,7 +43072,7 @@ Aj
 Aj
 aA
 jR
-yX
+kd
 kP
 Aj
 Aj
@@ -43525,8 +43578,8 @@ kP
 Aj
 Az
 Xk
-an
 Xt
+an
 Qh
 vz
 XK
@@ -43990,13 +44043,13 @@ kP
 Aj
 Aj
 GL
+GL
 Aj
 Aj
 Aj
 Aj
 Aj
-Aj
-Aj
+GL
 GL
 Aj
 Aj
@@ -44248,11 +44301,11 @@ Aj
 GL
 GL
 GL
-Aj
-Aj
-Aj
-Aj
-Aj
+GL
+GL
+GL
+GL
+GL
 GL
 GL
 GL
@@ -44503,15 +44556,15 @@ GL
 GL
 GL
 GL
+Aj
+Aj
+Aj
 GL
 GL
 GL
-GL
-GL
-GL
-GL
-GL
-GL
+Aj
+Aj
+Aj
 GL
 GL
 GL
@@ -44805,7 +44858,7 @@ kP
 pU
 DI
 kd
-kd
+Hk
 Qi
 IV
 tB
