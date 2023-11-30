@@ -654,6 +654,14 @@
 	suffix = "rad"
 	name = "cargo ferry (Rad)"
 
+/datum/map_template/shuttle/mining/cool
+	suffix = "cool"
+	name = "mining shuttle (Cool)"
+
+/datum/map_template/shuttle/cargo/cool
+	suffix = "cool"
+	name = "cargo ferry (Cool)"
+
 /datum/map_template/shuttle/science
 	port_id = "science"
 	suffix = "outpost"
@@ -681,6 +689,10 @@
 /datum/map_template/shuttle/exploration/rad
 	suffix = "rad"
 	name = "rad exploration shuttle"
+	
+/datum/map_template/shuttle/exploration/cool
+	suffix = "cool"
+	name = "cool exploration shuttle"
 
 /datum/map_template/shuttle/labour/delta
 	suffix = "delta"

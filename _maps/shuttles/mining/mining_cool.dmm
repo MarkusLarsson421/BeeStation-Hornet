@@ -152,6 +152,12 @@
 "X" = (
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/structure/fans/tiny,
+/obj/docking_port/mobile{
+	dir = 4;
+	id = "mining";
+	name = "mining shuttle";
+	port_direction = 4
+	},
 /turf/open/floor/plating,
 /area/space)
 "Z" = (

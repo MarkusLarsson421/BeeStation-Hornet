@@ -187,9 +187,6 @@
 	id = "MailConv"
 	},
 /obj/structure/plasticflaps,
-/obj/docking_port/mobile/supply{
-	dir = 2
-	},
 /turf/open/floor/plasteel/tech,
 /area/space)
 "CR" = (
@@ -329,6 +326,15 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
+"NX" = (
+/obj/machinery/door/airlock/survival_pod/glass{
+	dir = 4
+	},
+/obj/docking_port/mobile/supply{
+	dir = 2
+	},
+/turf/open/floor/plating,
+/area/space)
 "Og" = (
 /obj/effect/turf_decal/stripes/end{
 	dir = 1
@@ -358,7 +364,7 @@
 	name = "emergency crate"
 	},
 /obj/item/paper{
-	default_raw_text = # Central Command Shipping Manifest---Order: 5516Destination: Space Station 13Item: Emergency Bot/Internals CrateContents:- air tank- air tank- air tank- air tank- air tank- breath mask- breath mask- breath mask- breath mask- breath mask- Floorbot- Floorbot- Medibot- Medibot__Stamp below to confirm receipt of goods:__;
+	default_raw_text = #CentralCommandShippingManifest---Order:5516Destination:SpaceStation13Item:EmergencyBot/InternalsCrateContents:-airtank-airtank-airtank-airtank-airtank-breathmask-breathmask-breathmask-breathmask-breathmask-Floorbot-Floorbot-Medibot-Medibot__Stampbelowtoconfirmreceiptofgoods:__;
 	name = "Order 5516"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -534,7 +540,7 @@ PL
 yk
 "}
 (8,1,1) = {"
-Ix
+NX
 Pe
 rH
 TA

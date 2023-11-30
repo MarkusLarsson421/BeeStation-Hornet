@@ -588,6 +588,19 @@
 	},
 /turf/open/floor/plasteel/techmaint,
 /area/space)
+"ZQ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8;
+	layer = 3.1
+	},
+/obj/docking_port/mobile{
+	id = "exploration";
+	name = "Exploration Shuttle";
+	shuttle_object_type = /datum/orbital_object/shuttle/custom_shuttle
+	},
+/turf/open/space/basic,
+/area/space)
 "ZU" = (
 /obj/machinery/power/apc/auto_name/south{
 	cell_type = /obj/item/stock_parts/cell/crap
@@ -701,7 +714,7 @@ MU
 Uq
 sw
 oI
-Oy
+ZQ
 "}
 (9,1,1) = {"
 ui
