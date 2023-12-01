@@ -124,6 +124,9 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/light_switch{
+	pixel_y = 25
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/exploration)
 "oI" = (
@@ -149,6 +152,9 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
+"qy" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/exploration)
 "qH" = (
 /obj/structure/closet/secure_closet/personal{
 	anchored = 1
@@ -169,8 +175,14 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
 	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/exploration)
+"sr" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /obj/machinery/light_switch{
-	pixel_y = 25
+	pixel_y = -25
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/exploration)
@@ -390,15 +402,6 @@
 "KW" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/exploration)
-"LC" = (
-/obj/machinery/light_switch{
-	pixel_y = -25
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/mineral/plastitanium,
 /area/shuttle/exploration)
 "LR" = (
 /obj/machinery/holopad,
@@ -621,7 +624,7 @@ BD
 jL
 jL
 jL
-jL
+BD
 jL
 jL
 jL
@@ -629,17 +632,17 @@ BD
 po
 "}
 (2,1,1) = {"
+qy
 BD
-BD
-FY
-FY
-FY
-FY
 FY
 FY
 FY
 BD
+FY
+FY
+FY
 BD
+qy
 "}
 (3,1,1) = {"
 BD
@@ -694,7 +697,7 @@ ng
 Ry
 "}
 (7,1,1) = {"
-Ry
+NQ
 Ry
 rp
 zT
@@ -702,9 +705,9 @@ DA
 gH
 JD
 HI
-LC
+sw
 Ry
-Ry
+NQ
 "}
 (8,1,1) = {"
 Oy
@@ -728,12 +731,12 @@ Nn
 Uq
 no
 Uq
-sw
-NQ
+sr
+Ry
 ui
 "}
 (10,1,1) = {"
-Ry
+NQ
 Ry
 ox
 EG
@@ -743,7 +746,7 @@ Mo
 Uc
 nQ
 Ry
-Ry
+NQ
 "}
 (11,1,1) = {"
 Ry

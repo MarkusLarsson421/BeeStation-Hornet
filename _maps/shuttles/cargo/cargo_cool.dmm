@@ -28,6 +28,9 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
+"dB" = (
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/area/shuttle/supply)
 "eV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -142,31 +145,8 @@
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
 "zO" = (
-/obj/item/stack/sheet/iron/fifty{
-	amount = 15
-	},
-/obj/item/circuitboard/machine/recharger,
-/obj/item/circuitboard/machine/recharger{
-	pixel_x = -2;
-	pixel_y = 2
-	},
-/obj/item/circuitboard/machine/recharger{
-	pixel_x = -4;
-	pixel_y = 4
-	},
-/obj/item/stack/cable_coil/red,
-/obj/item/stock_parts/capacitor,
-/obj/item/stock_parts/capacitor{
-	pixel_x = -2;
-	pixel_y = 2
-	},
-/obj/item/stock_parts/capacitor{
-	pixel_x = -4;
-	pixel_y = 4
-	},
-/obj/structure/closet/crate/engineering,
 /obj/effect/turf_decal/bot,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/oil/streak,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
@@ -194,6 +174,7 @@
 /area/shuttle/supply)
 "CR" = (
 /obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/oil/streak,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
@@ -312,7 +293,7 @@
 /area/shuttle/supply)
 "Lw" = (
 /obj/structure/sign/warning/fire,
-/turf/closed/wall/mineral/titanium/survival,
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
 /area/shuttle/supply)
 "MU" = (
 /obj/effect/turf_decal/bot,
@@ -346,32 +327,6 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/sepia,
-/area/shuttle/supply)
-"On" = (
-/obj/item/tank/internals/air,
-/obj/item/tank/internals/air,
-/obj/item/tank/internals/air,
-/obj/item/tank/internals/air,
-/obj/item/tank/internals/air,
-/obj/item/clothing/mask/breath,
-/obj/item/clothing/mask/breath,
-/obj/item/clothing/mask/breath,
-/obj/item/clothing/mask/breath,
-/obj/item/clothing/mask/breath,
-/mob/living/simple_animal/bot/medbot,
-/mob/living/simple_animal/bot/medbot,
-/mob/living/simple_animal/bot/floorbot,
-/mob/living/simple_animal/bot/floorbot,
-/obj/effect/turf_decal/bot,
-/obj/structure/closet/crate/internals{
-	name = "emergency crate"
-	},
-/obj/item/paper{
-	default_raw_text = #CentralCommandShippingManifest---Order:5516Destination:SpaceStation13Item:EmergencyBot/InternalsCrateContents:-airtank-airtank-airtank-airtank-airtank-breathmask-breathmask-breathmask-breathmask-breathmask-Floorbot-Floorbot-Medibot-Medibot__Stampbelowtoconfirmreceiptofgoods:__;
-	name = "Order 5516"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/tech/grid,
 /area/shuttle/supply)
 "Oo" = (
 /obj/structure/shuttle/engine/propulsion/burst/left{
@@ -426,11 +381,6 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
-"TA" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/ore_box,
-/turf/open/floor/plasteel/tech/grid,
-/area/shuttle/supply)
 "WN" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -458,7 +408,7 @@
 "Xs" = (
 /obj/effect/turf_decal/stripes/end,
 /obj/machinery/computer/shuttle_flight{
-	icon_state = "computer"
+	dir = 4
 	},
 /turf/open/floor/plasteel/sepia,
 /area/shuttle/supply)
@@ -525,7 +475,7 @@ sM
 Ix
 Pe
 he
-On
+rH
 Iv
 ZV
 sM
@@ -543,7 +493,7 @@ yk
 NX
 Pe
 rH
-TA
+yY
 Ha
 ZV
 sM
@@ -552,7 +502,7 @@ sM
 yk
 zL
 CR
-yY
+rH
 Iv
 cu
 sM
@@ -576,13 +526,13 @@ GU
 sM
 "}
 (12,1,1) = {"
-yk
+dB
 Lw
 rQ
 rQ
 GE
 Lw
-yk
+dB
 "}
 (13,1,1) = {"
 Qp
