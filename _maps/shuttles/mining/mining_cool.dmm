@@ -5,11 +5,11 @@
 	},
 /obj/effect/turf_decal/box/white,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/mining)
 "d" = (
 /obj/machinery/computer/shuttle_flight/mining,
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/mining)
 "f" = (
 /obj/machinery/light{
 	dir = 8
@@ -19,27 +19,27 @@
 	},
 /obj/effect/turf_decal/box/white,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/mining)
 "h" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/caution/stand_clear,
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/mining)
 "i" = (
 /obj/machinery/holopad,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/mining)
 "o" = (
 /obj/effect/spawner/structure/window/hollow/survival_pod/directional{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/mining)
 "s" = (
 /turf/closed/wall/mineral/titanium/survival,
-/area/space)
+/area/shuttle/mining)
 "t" = (
 /obj/structure/window/reinforced,
 /obj/machinery/suit_storage_unit{
@@ -52,22 +52,22 @@
 	pixel_y = -1
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/mining)
 "u" = (
 /obj/structure/chair/fancy/shuttle{
 	dir = 4
 	},
 /obj/effect/turf_decal/box/white,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/mining)
 "w" = (
 /obj/structure/shuttle/engine/propulsion/left,
 /turf/open/floor/plating/airless,
-/area/space)
+/area/shuttle/mining)
 "x" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/open/floor/plating/airless,
-/area/space)
+/area/shuttle/mining)
 "z" = (
 /obj/structure/window/reinforced,
 /obj/machinery/camera/autoname{
@@ -82,7 +82,7 @@
 	unlocked = 1
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/mining)
 "B" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
@@ -96,26 +96,26 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/mining)
 "E" = (
 /obj/effect/spawner/structure/window/hollow/survival_pod/directional{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/mining)
 "F" = (
 /obj/machinery/status_display/evac{
 	pixel_x = 33;
 	pixel_y = 31
 	},
 /turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/space)
+/area/shuttle/mining)
 "H" = (
 /obj/effect/spawner/structure/window/hollow/survival_pod/directional{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/mining)
 "I" = (
 /obj/machinery/light{
 	dir = 4
@@ -125,7 +125,7 @@
 	},
 /obj/effect/turf_decal/box/white,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/mining)
 "L" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/regular{
@@ -136,19 +136,19 @@
 	pixel_y = 33
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/mining)
 "M" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/emergency,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/mining)
 "Q" = (
 /obj/structure/shuttle/engine/propulsion/right,
 /turf/open/floor/plating/airless,
-/area/space)
+/area/shuttle/mining)
 "U" = (
 /turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/space)
+/area/shuttle/mining)
 "X" = (
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/structure/fans/tiny,
@@ -159,11 +159,11 @@
 	port_direction = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/mining)
 "Z" = (
 /obj/effect/turf_decal/box,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/mining)
 
 (1,1,1) = {"
 s

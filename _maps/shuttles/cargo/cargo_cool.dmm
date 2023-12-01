@@ -12,7 +12,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "cu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/conveyor{
@@ -20,14 +20,14 @@
 	id = "QMLoad2"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "cM" = (
 /obj/machinery/conveyor/inverted{
 	dir = 9;
 	id = "garbage"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "eV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -36,20 +36,20 @@
 	id = "QMLoad2"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "gn" = (
 /turf/template_noop,
-/area/space)
+/area/template_noop)
 "he" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/oil/streak,
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "lj" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/holopad,
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "op" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -58,12 +58,12 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "rH" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "rQ" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -72,7 +72,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/supply)
 "sH" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
@@ -81,24 +81,24 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "sM" = (
 /obj/effect/spawner/structure/window/hollow/survival_pod/directional,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/supply)
 "td" = (
 /obj/structure/shuttle/engine/propulsion/burst/right{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/space)
+/area/shuttle/supply)
 "xW" = (
 /obj/effect/turf_decal/stripes/closeup{
 	dir = 4
 	},
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/sepia,
-/area/space)
+/area/shuttle/supply)
 "yg" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
@@ -106,10 +106,10 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "yk" = (
 /turf/closed/wall/mineral/titanium/survival,
-/area/space)
+/area/shuttle/supply)
 "yl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -119,11 +119,11 @@
 	id = "MailConv"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "yY" = (
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "zL" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -140,7 +140,7 @@
 	req_access_txt = "31"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "zO" = (
 /obj/item/stack/sheet/iron/fifty{
 	amount = 15
@@ -171,13 +171,13 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "zU" = (
 /obj/effect/spawner/structure/window/hollow/survival_pod/directional{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/supply)
 "Be" = (
 /obj/machinery/door/poddoor{
 	id = "QMLoaddoor";
@@ -188,24 +188,24 @@
 	},
 /obj/structure/plasticflaps,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "CR" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "DT" = (
 /obj/structure/chair/office/light{
 	dir = 8;
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "EO" = (
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "GE" = (
 /obj/effect/spawner/structure/window/hollow/survival_pod/directional{
 	dir = 4
@@ -214,7 +214,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/supply)
 "GU" = (
 /obj/machinery/light{
 	dir = 4
@@ -225,7 +225,7 @@
 	id = "MailConv"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "Ha" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/loading_area{
@@ -235,7 +235,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "HJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -245,7 +245,7 @@
 	id = "MailConv"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "Ij" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/office/light{
@@ -253,20 +253,20 @@
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "Iv" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/loading_area{
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "Ix" = (
 /obj/machinery/door/airlock/survival_pod/glass{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/supply)
 "Jn" = (
 /obj/machinery/door/poddoor{
 	id = "QMLoaddoor2";
@@ -278,13 +278,13 @@
 	},
 /obj/structure/plasticflaps,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "Jv" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/space)
+/area/shuttle/supply)
 "JY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -295,7 +295,7 @@
 	id = "MailConv"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "Kh" = (
 /obj/machinery/light{
 	dir = 8
@@ -306,18 +306,18 @@
 	id = "MailConv"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "Lw" = (
 /obj/structure/sign/warning/fire,
 /turf/closed/wall/mineral/titanium/survival,
-/area/space)
+/area/shuttle/supply)
 "MU" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/glass{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "Nx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -325,7 +325,7 @@
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "NX" = (
 /obj/machinery/door/airlock/survival_pod/glass{
 	dir = 4
@@ -334,7 +334,7 @@
 	dir = 2
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/supply)
 "Og" = (
 /obj/effect/turf_decal/stripes/end{
 	dir = 1
@@ -343,7 +343,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/sepia,
-/area/space)
+/area/shuttle/supply)
 "On" = (
 /obj/item/tank/internals/air,
 /obj/item/tank/internals/air,
@@ -369,13 +369,13 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "Oo" = (
 /obj/structure/shuttle/engine/propulsion/burst/left{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/space)
+/area/shuttle/supply)
 "OE" = (
 /obj/machinery/light{
 	dir = 8
@@ -387,7 +387,7 @@
 	id = "QMLoad2"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "OU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line,
@@ -395,13 +395,13 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "Pe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/caution/stand_clear,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "PL" = (
 /obj/machinery/light,
 /obj/machinery/conveyor{
@@ -412,10 +412,10 @@
 	pixel_y = -32
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "Qp" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/space)
+/area/shuttle/supply)
 "Qw" = (
 /obj/machinery/light{
 	dir = 4
@@ -425,12 +425,12 @@
 	id = "MailConv"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "TA" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/ore_box,
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/shuttle/supply)
 "WN" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -447,34 +447,34 @@
 	req_access_txt = "31"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "Xh" = (
 /obj/machinery/conveyor/inverted{
 	dir = 10;
 	id = "QMLoad2"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 "Xs" = (
 /obj/effect/turf_decal/stripes/end,
 /obj/machinery/computer/shuttle_flight{
 	icon_state = "computer"
 	},
 /turf/open/floor/plasteel/sepia,
-/area/space)
+/area/shuttle/supply)
 "Xy" = (
 /obj/effect/spawner/structure/window/hollow/survival_pod/directional{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/supply)
 "ZV" = (
 /obj/machinery/conveyor{
 	dir = 8;
 	id = "QMLoad2"
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/shuttle/supply)
 
 (1,1,1) = {"
 gn

@@ -4,32 +4,32 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "be" = (
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "cz" = (
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
 	dir = 4
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "dY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/space)
+/area/shuttle/exploration)
 "eP" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "fq" = (
 /obj/machinery/computer/shuttle_flight/custom_shuttle/exploration{
 	dir = 8
@@ -38,13 +38,13 @@
 	dir = 10
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "fx" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "gH" = (
 /obj/structure/table,
 /obj/machinery/button/door{
@@ -54,21 +54,21 @@
 	pixel_x = -25
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "gR" = (
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "jF" = (
 /obj/machinery/computer,
 /obj/item/circuitboard/computer/mech_bay_power_console,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "jL" = (
 /obj/machinery/shuttle/engine/plasma{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/exploration)
 "kJ" = (
 /obj/structure/table,
 /obj/item/paper{
@@ -76,21 +76,21 @@
 	name = "New recharger"
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "kN" = (
 /obj/machinery/atmospherics/components/unary/tank/air{
 	initialize_directions = 1;
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "kU" = (
 /obj/effect/decal/cleanable/oil/streak,
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "mP" = (
 /obj/structure/frame/machine{
 	anchored = 1
@@ -98,20 +98,20 @@
 /obj/item/circuitboard/machine/mech_recharger,
 /obj/item/stack/cable_coil/red,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "ng" = (
 /obj/machinery/telecomms/relay/preset/exploration,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "no" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "nI" = (
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "nQ" = (
 /obj/machinery/light,
 /obj/structure/cable{
@@ -119,43 +119,43 @@
 	},
 /obj/structure/ore_box,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "ox" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "oI" = (
 /obj/machinery/door/airlock/external/glass{
 	autoclose = 0.1
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/exploration)
 "po" = (
 /obj/structure/lattice/catwalk,
 /obj/item/stack/marker_beacon,
 /turf/template_noop,
-/area/space)
+/area/shuttle/exploration)
 "pM" = (
 /obj/structure/table,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "qe" = (
 /obj/machinery/newscaster{
 	pixel_x = 25;
 	pixel_y = 32
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "qH" = (
 /obj/structure/closet/secure_closet/personal{
 	anchored = 1
 	},
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "qN" = (
 /obj/structure/chair/fancy/shuttle{
 	dir = 4
@@ -164,7 +164,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "rp" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
@@ -173,13 +173,13 @@
 	pixel_y = 25
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "sw" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "sy" = (
 /obj/structure/table,
 /obj/item/toy/cards/deck/unum{
@@ -190,18 +190,18 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "sY" = (
 /obj/structure/table,
 /obj/machinery/microwave,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "ts" = (
 /obj/machinery/atmospherics/components/unary/plasma_refiner{
 	dir = 8
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "tz" = (
 /obj/machinery/button/door{
 	desc = "A remote control switch.";
@@ -211,7 +211,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/plasma,
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "ui" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -221,31 +221,31 @@
 	dir = 4
 	},
 /turf/open/space/basic,
-/area/space)
+/area/shuttle/exploration)
 "uZ" = (
 /obj/machinery/vendor/exploration,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "vv" = (
 /obj/structure/table,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "wa" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "we" = (
 /obj/structure/chair/fancy/shuttle{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "wD" = (
 /obj/machinery/vendor/mining,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "wP" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -260,7 +260,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/exploration)
 "zT" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/firealarm/directional/west,
@@ -268,19 +268,19 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "AW" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "Bz" = (
 /obj/machinery/computer/objective{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "BA" = (
 /obj/structure/table,
 /obj/machinery/recharger,
@@ -292,10 +292,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "BD" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "DA" = (
 /obj/structure/chair/fancy/shuttle,
 /obj/machinery/camera/autoname{
@@ -304,33 +304,33 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "Ew" = (
 /turf/open/floor/mech_bay_recharge_floor,
-/area/space)
+/area/shuttle/exploration)
 "EG" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "Fu" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/exploration)
 "FJ" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "FY" = (
 /obj/machinery/atmospherics/components/unary/shuttle/heater{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/exploration)
 "FZ" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 8
@@ -338,7 +338,7 @@
 /obj/structure/lattice/catwalk,
 /obj/item/stack/marker_beacon,
 /turf/template_noop,
-/area/space)
+/area/shuttle/exploration)
 "HI" = (
 /obj/machinery/light{
 	dir = 8
@@ -347,33 +347,33 @@
 	pixel_x = -32
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "HP" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/exploration)
 "Ij" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 9
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "IN" = (
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 9
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "Jj" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/exploration)
 "JD" = (
 /obj/structure/chair/fancy/shuttle{
 	dir = 1
@@ -382,15 +382,15 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "JP" = (
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
-/area/space)
+/area/shuttle/exploration)
 "KW" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "LC" = (
 /obj/machinery/light_switch{
 	pixel_y = -25
@@ -399,36 +399,36 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "LR" = (
 /obj/machinery/holopad,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "Mo" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "Ms" = (
 /obj/structure/chair/fancy/shuttle{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "Mu" = (
 /obj/machinery/pipedispenser,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "Mw" = (
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 6
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "MT" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "exploration_shuttle"
@@ -439,7 +439,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/exploration)
 "MU" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/chair/fancy/shuttle{
@@ -449,24 +449,24 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "Nn" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "NJ" = (
 /obj/machinery/door/poddoor{
 	id = "ExploIFuckedUp";
 	name = "Engine Room Vent"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/exploration)
 "NQ" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/space)
+/area/shuttle/exploration)
 "Oy" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -474,24 +474,24 @@
 	layer = 3.1
 	},
 /turf/open/space/basic,
-/area/space)
+/area/shuttle/exploration)
 "PP" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 5
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/space)
+/area/shuttle/exploration)
 "QC" = (
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "Re" = (
 /obj/item/wrench,
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "Ry" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/space)
+/area/shuttle/exploration)
 "RF" = (
 /obj/machinery/portable_atmospherics/canister/plasma,
 /obj/structure/sign/warning/nosmoking/circle{
@@ -501,7 +501,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "So" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/structure/cable,
@@ -509,17 +509,17 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "TP" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "Uc" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "Ul" = (
 /obj/machinery/camera/autoname{
 	dir = 9;
@@ -529,10 +529,10 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "Uq" = (
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "Vb" = (
 /obj/machinery/light,
 /obj/structure/closet/crate/science,
@@ -555,14 +555,14 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 "Vx" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /obj/structure/chair/fancy/shuttle,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "Wk" = (
 /obj/structure/tank_dispenser/oxygen,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -570,24 +570,24 @@
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "Xf" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/loading_area,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/shuttle/exploration)
 "Xs" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/exploration)
 "Yp" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 8
 	},
 /turf/open/floor/plasteel/techmaint,
-/area/space)
+/area/shuttle/exploration)
 "ZQ" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -597,10 +597,13 @@
 /obj/docking_port/mobile{
 	id = "exploration";
 	name = "Exploration Shuttle";
-	shuttle_object_type = /datum/orbital_object/shuttle/custom_shuttle
+	shuttle_object_type = /datum/orbital_object/shuttle/custom_shuttle;
+	height = 11;
+	width = 16;
+	dwidth = 7
 	},
 /turf/open/space/basic,
-/area/space)
+/area/shuttle/exploration)
 "ZU" = (
 /obj/machinery/power/apc/auto_name/south{
 	cell_type = /obj/item/stock_parts/cell/crap
@@ -610,7 +613,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/shuttle/exploration)
 
 (1,1,1) = {"
 po
