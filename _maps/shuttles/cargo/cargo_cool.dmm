@@ -17,14 +17,14 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/conveyor{
 	dir = 8;
-	id = "QMLoad2"
+	id = "QMLoad1"
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
 "cM" = (
 /obj/machinery/conveyor/inverted{
 	dir = 9;
-	id = "garbage"
+	id = "QMLoad1"
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
@@ -33,7 +33,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/conveyor{
 	dir = 8;
-	id = "QMLoad2"
+	id = "QMLoad1"
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
@@ -116,7 +116,7 @@
 	dir = 5
 	},
 /obj/machinery/conveyor{
-	id = "MailConv"
+	id = "QMLoad1"
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
@@ -184,9 +184,12 @@
 	name = "Supply Dock Loading Door"
 	},
 /obj/machinery/conveyor{
-	id = "MailConv"
+	id = "QMLoad1"
 	},
 /obj/structure/plasticflaps,
+/obj/machinery/conveyor{
+	id = "QMLoad1"
+	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
 "CR" = (
@@ -222,7 +225,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/conveyor{
 	dir = 10;
-	id = "MailConv"
+	id = "QMLoad1"
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
@@ -242,7 +245,7 @@
 	dir = 4
 	},
 /obj/machinery/conveyor{
-	id = "MailConv"
+	id = "QMLoad1"
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
@@ -272,11 +275,11 @@
 	id = "QMLoaddoor2";
 	name = "Supply Dock Loading Door"
 	},
+/obj/structure/plasticflaps,
 /obj/machinery/conveyor{
 	dir = 1;
 	id = "QMLoad2"
 	},
-/obj/structure/plasticflaps,
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
 "Jv" = (
@@ -292,7 +295,7 @@
 	dir = 6
 	},
 /obj/machinery/conveyor{
-	id = "MailConv"
+	id = "QMLoad1"
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
@@ -303,7 +306,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/conveyor{
 	dir = 4;
-	id = "MailConv"
+	id = "QMLoad2"
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
@@ -382,10 +385,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad2"
-	},
+/obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
 "OU" = (
@@ -404,12 +404,12 @@
 /area/shuttle/supply)
 "PL" = (
 /obj/machinery/light,
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad2"
-	},
 /obj/machinery/status_display/supply{
 	pixel_y = -32
+	},
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad1"
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
@@ -422,7 +422,7 @@
 	},
 /obj/machinery/conveyor{
 	dir = 6;
-	id = "MailConv"
+	id = "QMLoad1"
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)
@@ -471,7 +471,7 @@
 "ZV" = (
 /obj/machinery/conveyor{
 	dir = 8;
-	id = "QMLoad2"
+	id = "QMLoad1"
 	},
 /turf/open/floor/plasteel/tech,
 /area/shuttle/supply)

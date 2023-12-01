@@ -59,8 +59,8 @@
 /turf/open/floor/plasteel/techmaint,
 /area/shuttle/exploration)
 "jF" = (
-/obj/machinery/computer,
 /obj/item/circuitboard/computer/mech_bay_power_console,
+/obj/structure/frame/computer,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "jL" = (

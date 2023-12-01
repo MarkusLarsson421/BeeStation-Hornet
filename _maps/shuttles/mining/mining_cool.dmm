@@ -156,7 +156,10 @@
 	dir = 4;
 	id = "mining";
 	name = "mining shuttle";
-	port_direction = 4
+	port_direction = 4;
+	dwidth = 4;
+	height = 5;
+	width = 7
 	},
 /turf/open/floor/plating,
 /area/shuttle/mining)
