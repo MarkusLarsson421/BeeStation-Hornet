@@ -1,0 +1,12 @@
+{
+    "map_name": "Outpost 13",
+    "map_link": "Outpost13",
+    "map_path": "map_files/Outpost13",
+    "map_file": "Outpost13.dmm",
+    "shuttles": {
+	    "cargo": "cargo_o13",
+	    "ferry": "ferry_o13",
+	    "whiteship": "whiteship_o13",
+	    "emergency": "emergency_o13"
+    }
+}
