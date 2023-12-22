@@ -466,7 +466,7 @@
 	weight = 4
 
 /datum/map_template/ruin_part/charliestation_mini
-	file_name = "17x17_charliecrew"
+	file_name = "18x17_charliecrew"
 	weight = 1
 	max_occurrences = 1
 
@@ -566,7 +566,7 @@
 
 /datum/map_template/ruin_part/mothroom
 	file_name = "4x6_mothroom_rad"
-	weight = 10
+	weight = 1
 	max_occurrences = 2
 
 /datum/map_template/ruin_part/eva_cool
@@ -574,3 +574,7 @@
 	weight = 3
 	max_occurrences = 1
 	
+/datum/map_template/ruin_part/shuttledock_large
+	file_name = "33x27_shuttledock"
+	weight = 10
+
