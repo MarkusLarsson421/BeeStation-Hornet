@@ -1,0 +1,2530 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"af" = (
+/obj/effect/turf_decal/raven/six,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"aj" = (
+/obj/structure/statue/silver/medborg,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"ax" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"aL" = (
+/obj/machinery/door/firedoor/window,
+/obj/effect/spawner/structure/window/plastitanium,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"aV" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"aW" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"bb" = (
+/obj/effect/turf_decal/tile/dark_blue{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"bN" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"cN" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/camera_assembly{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"cT" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"dc" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"de" = (
+/obj/effect/turf_decal/raven/six,
+/obj/effect/turf_decal/tile/purple/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"dj" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/stasis,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"dt" = (
+/obj/machinery/modular_fabricator/exosuit_fab,
+/obj/effect/turf_decal/box/white/corners,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"dx" = (
+/obj/structure/window/reinforced,
+/obj/effect/turf_decal/bot,
+/obj/machinery/computer/monitor{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"dy" = (
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"dA" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/camera_assembly{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"dI" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"dP" = (
+/obj/effect/turf_decal/box/white/corners{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/white/corners{
+	dir = 1
+	},
+/obj/machinery/space_heater,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"dT" = (
+/obj/structure/sign/warning/securearea,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/escape)
+"er" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/poddoor/preopen{
+	id = "shuttle_airlock_blastdoor_port_quarter";
+	name = "Airlock Blast door"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"es" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/sign/warning/vacuum/external{
+	pixel_y = 32
+	},
+/obj/machinery/button/door{
+	pixel_x = 25;
+	id = "shuttle_airlock_blastdoor_port_quarter";
+	name = "Airlock Blast door button";
+	req_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"ew" = (
+/obj/machinery/porta_turret/ai,
+/obj/effect/turf_decal/bot_white{
+	color = "#00c8ff"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"fe" = (
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"fw" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/highsecurity,
+/obj/machinery/door/poddoor{
+	id = "shuttle_airlock_blastdoor_port_quarter";
+	name = "Airlock Blast door"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"fx" = (
+/obj/structure/sign/departments/security,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/escape)
+"fB" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"fE" = (
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"fH" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"fP" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/sign/warning/biohazard{
+	pixel_x = 32
+	},
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"ga" = (
+/obj/effect/turf_decal/tile/purple/fourcorners/contrasted{
+	alpha = 180
+	},
+/obj/machinery/button/door{
+	pixel_x = 25;
+	id = "shuttle_airlock_blastdoor_port_quarter";
+	name = "Airlock Blast door button";
+	req_access_txt = "150"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"gN" = (
+/obj/structure/statue/silver/secborg,
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"gP" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/aicard,
+/obj/structure/table/glass,
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"hm" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/poddoor/preopen{
+	id = "shuttle_airlock_blastdoor_starboard_quarter";
+	name = "Airlock Blast door"
+	},
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"hy" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	alpha = 180
+	},
+/obj/machinery/button/door{
+	id = "escape_cockpit_blast";
+	name = "Cockpit Airlock Blast Doors";
+	pixel_y = -26;
+	req_access_txt = "19"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"hz" = (
+/obj/item/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_y = 21
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"hA" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted{
+	alpha = 180
+	},
+/obj/structure/camera_assembly,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"hK" = (
+/obj/effect/mapping_helpers/dead_body_placer,
+/obj/effect/decal/cleanable/blood/gibs/old,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"hN" = (
+/obj/structure/window/reinforced,
+/obj/machinery/computer/upload/borg{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"hW" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"ia" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"iv" = (
+/obj/machinery/porta_turret/syndicate/energy/raven{
+	dir = 9
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/escape)
+"iB" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"iT" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"iY" = (
+/obj/effect/turf_decal/raven/four,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"ki" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"kB" = (
+/obj/machinery/button/door{
+	id = "escape_cockpit_windows";
+	name = "Cockpit Window Blast Doors";
+	pixel_x = -7;
+	req_access_txt = "19"
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/turretid{
+	desc = "Used to the Raven's automated defenses.";
+	icon_state = "control_kill";
+	lethal = 1;
+	req_access = null;
+	req_access_txt = "19";
+	pixel_x = 32
+	},
+/obj/structure/camera_assembly,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"kN" = (
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"kU" = (
+/obj/machinery/status_display/evac{
+	dir = 8;
+	pixel_x = -32
+	},
+/obj/structure/camera_assembly{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"lh" = (
+/obj/effect/turf_decal/raven/five,
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"lt" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"lz" = (
+/obj/docking_port/mobile/emergency{
+	dwidth = 14;
+	height = 21;
+	name = "CentCom Raven Cruiser";
+	width = 32
+	},
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/poddoor{
+	id = "shuttle_airlock_blastdoor_port";
+	name = "Airlock Blast door"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"lI" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/innards,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"lL" = (
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/shieldgen{
+	anchored = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"lX" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"ma" = (
+/obj/machinery/porta_turret/syndicate/energy/raven{
+	dir = 10
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/escape)
+"mp" = (
+/obj/structure/window/reinforced,
+/obj/effect/turf_decal/bot,
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"mw" = (
+/obj/effect/turf_decal/stripes/white/line,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"mA" = (
+/obj/effect/turf_decal/bot_white,
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/obj/machinery/computer/aifixer{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"mB" = (
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"mD" = (
+/obj/machinery/button/door{
+	req_access_txt = "150";
+	name = "Airlock Blast door button";
+	id = "shuttle_airlock_blastdoor_port"
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/escape)
+"mF" = (
+/obj/structure/shuttle/engine/large,
+/turf/open/floor/plating/airless,
+/area/shuttle/escape)
+"mS" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/escape)
+"mU" = (
+/obj/effect/turf_decal/box/white/corners{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"nf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"nj" = (
+/obj/machinery/light,
+/obj/machinery/status_display/evac{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	alpha = 180
+	},
+/obj/structure/camera_assembly{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"nm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/sign/warning/biohazard{
+	pixel_x = -32
+	},
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"nA" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"nJ" = (
+/obj/structure/sign/warning/electricshock,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/escape)
+"nR" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"ob" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"on" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"ov" = (
+/obj/effect/turf_decal/raven/three,
+/obj/effect/turf_decal/tile/purple/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"oz" = (
+/obj/structure/sign/departments/engineering,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/escape)
+"oB" = (
+/obj/effect/turf_decal/raven/four,
+/obj/effect/turf_decal/tile/purple/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"pq" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"pE" = (
+/obj/effect/turf_decal/raven/two,
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"pW" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/shieldgen{
+	anchored = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"qh" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/camera_assembly{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"qO" = (
+/obj/machinery/door/firedoor/window,
+/obj/effect/spawner/structure/window/plastitanium,
+/obj/machinery/door/poddoor/shutters{
+	id = "escape_cargo_shutters";
+	name = "Robotics Shutters"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"qP" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"qR" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/poddoor/preopen{
+	id = "shuttle_airlock_blastdoor_starboard_quarter";
+	name = "Airlock Blast door"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"ru" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/poddoor{
+	id = "shuttle_airlock_blastdoor_port";
+	name = "Airlock Blast door"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"rJ" = (
+/obj/machinery/modular_fabricator/exosuit_fab,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"rZ" = (
+/obj/structure/showcase/cyborg,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"sx" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Escape Shuttle Infirmary"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"sK" = (
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"sP" = (
+/obj/machinery/light,
+/obj/structure/sign/departments/minsky/research/robotics{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/tile/purple/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"tc" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/mob/living/simple_animal/bot/secbot/beepsky{
+	desc = "It's Officer Beepsky! Powered by a potato and a shot of whiskey, and with a sturdier reinforced chassis, too.";
+	health = 45;
+	maxHealth = 45;
+	name = "Officer Beepsky"
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"td" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"tw" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/recharge_station,
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"tG" = (
+/obj/machinery/computer/emergency_shuttle,
+/obj/machinery/turretid{
+	control_area = "/area/shuttle/escape/";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"tJ" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/escape)
+"ub" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Holding Area";
+	req_access_txt = "2"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"uq" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/recharge_station,
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"uR" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"vk" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"vq" = (
+/obj/machinery/porta_turret/syndicate/energy/raven{
+	dir = 6
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/escape)
+"vM" = (
+/obj/machinery/status_display/evac{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/tile/blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"vY" = (
+/obj/effect/turf_decal/raven/three,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"ws" = (
+/obj/effect/turf_decal/box/white/corners,
+/obj/effect/decal/cleanable/robot_debris,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"wG" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "escape_cockpit_windows";
+	name = "Cockpit Blast Door"
+	},
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"wK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"wT" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/shieldgen{
+	anchored = 1
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"xo" = (
+/obj/machinery/door/poddoor{
+	id = "aft_blast_door";
+	name = Aft Blast Door
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"xI" = (
+/obj/effect/turf_decal/bot_white{
+	color = "#00c8ff"
+	},
+/obj/machinery/porta_turret/ai,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"xL" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/machinery/button/door{
+	id = "escape_cargo_shutters";
+	name = "Cargo Bay Shutters";
+	pixel_x = 26
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "escape_cargo_shutters";
+	name = "Robotics Shutters"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"xQ" = (
+/obj/effect/landmark/start/ai,
+/turf/open/floor/circuit/red/airless,
+/area/shuttle/escape)
+"xU" = (
+/obj/structure/window/reinforced,
+/obj/effect/turf_decal/bot,
+/obj/item/stack/sheet/plastitaniumglass{
+	amount = 20;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/sheet/glass{
+	amount = 20;
+	pixel_x = 2;
+	pixel_y = -2
+	},
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/sheet/iron/fifty{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"yj" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "escape_cockpit_blast";
+	name = "Cockpit Blast Door"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"ym" = (
+/obj/structure/closet/crate/internals,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"yv" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"yA" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/highsecurity,
+/obj/machinery/door/poddoor{
+	id = "shuttle_airlock_blastdoor_port_quarter";
+	name = "Airlock Blast door"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"yL" = (
+/obj/structure/shuttle/engine/propulsion,
+/turf/open/floor/plating/airless,
+/area/shuttle/escape)
+"zj" = (
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/shieldgen{
+	anchored = 1
+	},
+/turf/open/floor/mineral/plastitanium/red/brig{
+	icon_state = "darkfull"
+	},
+/area/shuttle/escape)
+"zk" = (
+/obj/effect/turf_decal/bot_white,
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/obj/machinery/computer/secure_data{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"zA" = (
+/obj/machinery/porta_turret/syndicate/energy/raven{
+	dir = 8
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/escape)
+"zD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/status_display/evac{
+	pixel_y = 32
+	},
+/obj/machinery/stasis,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"zL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/structure/camera_assembly{
+	dir = 4
+	},
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"AF" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"AU" = (
+/obj/structure/statue/diamond/captain,
+/obj/structure/window/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Bm" = (
+/obj/item/aiModule/reset/purge,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"BD" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"BM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/item/bot_assembly/cleanbot,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"BP" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"BZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"Cf" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"Cn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"CD" = (
+/obj/effect/spawner/structure/window/plastitanium,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"CS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"Dn" = (
+/obj/effect/turf_decal/tile/purple/fourcorners/contrasted{
+	alpha = 180
+	},
+/obj/machinery/button/door{
+	pixel_x = -25;
+	id = "shuttle_airlock_blastdoor_starboard_quarter";
+	name = "Airlock Blast door button";
+	req_access_txt = "150"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Do" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/recharge_station,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"DI" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Escape Shuttle Infirmary";
+	req_one_access_txt = "2;19"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Eb" = (
+/obj/effect/turf_decal/bot_white,
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/obj/machinery/computer/communications{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Eg" = (
+/obj/machinery/porta_turret/syndicate/energy/raven{
+	dir = 5
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/escape)
+"EB" = (
+/obj/structure/window/reinforced,
+/obj/machinery/computer/robotics{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"EZ" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "escape_cockpit_windows";
+	name = "Cockpit Blast Door"
+	},
+/obj/effect/spawner/structure/window/plastitanium,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Ff" = (
+/obj/machinery/porta_turret/syndicate/energy/raven{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/escape)
+"Fs" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/mob/living/simple_animal/bot/medbot{
+	name = "\improper emergency medibot";
+	pixel_x = -3;
+	pixel_y = 2
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"Fu" = (
+/obj/effect/turf_decal/raven/one,
+/obj/effect/turf_decal/tile/purple/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Fv" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/stasis,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"FB" = (
+/turf/open/floor/plating/airless,
+/area/shuttle/escape)
+"FU" = (
+/obj/effect/turf_decal/raven/one,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"FY" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/obj/structure/camera_assembly{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Gf" = (
+/obj/effect/turf_decal/raven/seven,
+/obj/effect/turf_decal/tile/purple/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Gi" = (
+/obj/effect/turf_decal/raven/nine,
+/obj/effect/turf_decal/tile/purple/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Gm" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "escape_cockpit_blast";
+	name = "Cockpit Blast Door"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Gw" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/camera_assembly{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"GC" = (
+/obj/machinery/light,
+/obj/machinery/status_display/ai{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	dir = 8;
+	alpha = 180
+	},
+/obj/structure/camera_assembly{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"GU" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"GX" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/machinery/door/poddoor/shutters{
+	id = "escape_cargo_shutters";
+	name = "Robotics Shutters"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"GY" = (
+/obj/structure/window/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/frame/computer{
+	dir = 1
+	},
+/obj/item/shard{
+	pixel_x = 4
+	},
+/obj/item/shard{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/circuitboard/computer/aiupload{
+	pixel_x = 2;
+	pixel_y = -1
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"He" = (
+/obj/effect/turf_decal/box/white/corners{
+	dir = 1
+	},
+/obj/structure/rack,
+/obj/item/storage/toolbox/electrical{
+	pixel_x = -3;
+	pixel_y = 1
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = -1
+	},
+/obj/item/storage/toolbox/emergency{
+	pixel_x = 3;
+	pixel_y = -5
+	},
+/obj/item/multitool,
+/obj/structure/camera_assembly{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Hy" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"HE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/camera_assembly{
+	dir = 8
+	},
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"HO" = (
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 8;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"HV" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/structure/sign/warning/vacuum/external{
+	pixel_y = 32
+	},
+/obj/machinery/button/door{
+	pixel_x = -25;
+	id = "shuttle_airlock_blastdoor_starboard_quarter";
+	name = "Airlock Blast door button";
+	req_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Iy" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/poddoor/preopen{
+	id = "shuttle_airlock_blastdoor_starboard";
+	name = "Airlock Blast door"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"IK" = (
+/turf/open/floor/circuit,
+/area/shuttle/escape)
+"IU" = (
+/obj/machinery/ore_silo,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"JD" = (
+/obj/machinery/power/smes/engineering,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Km" = (
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Kq" = (
+/obj/structure/closet/crate{
+	name = "Materials crate"
+	},
+/obj/item/storage/box/material{
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/obj/item/storage/box/material,
+/obj/item/storage/box/material{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/box/white/corners,
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"KT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Lq" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/decal/cleanable/shreds,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Lx" = (
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"LA" = (
+/mob/living/silicon/robot/shell,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"LR" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/computer/operating{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"LW" = (
+/obj/machinery/porta_turret/syndicate/energy/raven{
+	dir = 6
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"Ml" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"My" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Emergency Shuttle Cargo Bay"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"MB" = (
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/shieldgen{
+	anchored = 1
+	},
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"MT" = (
+/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"MY" = (
+/obj/effect/turf_decal/box/white/corners,
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Ng" = (
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4
+	},
+/obj/machinery/modular_fabricator/autolathe/hacked,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"NB" = (
+/obj/machinery/holopad,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"NE" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "escape_cockpit_blast";
+	name = "Cockpit Blast Door"
+	},
+/obj/structure/statue/diamond/ai1,
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"NO" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Of" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"Ok" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/machinery/button/door{
+	id = "escape_cargo_shutters";
+	name = "Cargo Bay Shutters";
+	pixel_x = -26
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "escape_cargo_shutters";
+	name = "Robotics Shutters"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Oo" = (
+/turf/template_noop,
+/area/space)
+"Op" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Oq" = (
+/obj/structure/closet/toolcloset,
+/obj/structure/camera_assembly{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Ot" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"OA" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"OG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"OH" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/obj/structure/camera_assembly{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"OZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/recharge_station,
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"Pl" = (
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Qc" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Qf" = (
+/obj/effect/turf_decal/raven/seven,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Qv" = (
+/obj/structure/sign/warning/vacuum/external{
+	pixel_y = 32
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Qw" = (
+/obj/effect/turf_decal/raven/eight,
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"Qz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"QQ" = (
+/obj/effect/turf_decal/box/white/corners{
+	dir = 8
+	},
+/obj/machinery/rnd/production/circuit_imprinter/department/science,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"QR" = (
+/obj/item/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_y = -28
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"QT" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Rg" = (
+/obj/effect/turf_decal/box/white/corners{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Rr" = (
+/obj/machinery/status_display/evac{
+	dir = 8;
+	pixel_x = 32
+	},
+/obj/structure/camera_assembly{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Rv" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"RC" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/poddoor/preopen{
+	id = "shuttle_airlock_blastdoor_port_quarter";
+	name = "Airlock Blast door"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"RD" = (
+/obj/machinery/status_display/evac{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"RZ" = (
+/obj/effect/turf_decal/tile/purple/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Sg" = (
+/obj/structure/window/reinforced,
+/obj/effect/turf_decal/bot,
+/obj/machinery/power/port_gen/pacman,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Sn" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/obj/structure/camera_assembly{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Sp" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/highsecurity,
+/obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/crude,
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/machinery/door/poddoor{
+	id = "shuttle_airlock_blastdoor_starboard_quarter";
+	name = "Airlock Blast door"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"SC" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"SN" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Holding Area";
+	req_access_txt = "2"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"Ty" = (
+/obj/effect/turf_decal/raven/nine,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"TY" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"Ue" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/decal/cleanable/oil/streak,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Va" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/highsecurity,
+/obj/machinery/door/poddoor{
+	id = "shuttle_airlock_blastdoor_starboard_quarter";
+	name = "Airlock Blast door"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Vt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"Vv" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"VU" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/mob/living/simple_animal/bot/secbot/beepsky{
+	desc = "It's Officer Beepsky! Powered by a potato and a shot of whiskey, and with a sturdier reinforced chassis, too.";
+	health = 45;
+	maxHealth = 45;
+	name = "Officer Beepsky"
+	},
+/obj/structure/camera_assembly{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"VW" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/poddoor/preopen{
+	id = "shuttle_airlock_blastdoor_port";
+	name = "Airlock Blast door"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"VY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"We" = (
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"Wi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Wk" = (
+/obj/machinery/button/door{
+	pixel_x = 25;
+	id = "aft_blast_door";
+	name = "Aft Blast door button"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Wn" = (
+/obj/effect/turf_decal/tile/blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Wr" = (
+/obj/effect/turf_decal/stripes/white/line,
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Wz" = (
+/obj/machinery/porta_turret/ai,
+/obj/effect/turf_decal/bot_white{
+	color = "#00c8ff"
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"WJ" = (
+/obj/effect/turf_decal/tile/dark_blue{
+	alpha = 180;
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Xi" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/circuit/airless,
+/area/shuttle/escape)
+"Xz" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	dir = 8;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"XH" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/table/optable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"XK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/mob/living/simple_animal/bot/medbot{
+	name = "\improper emergency medibot";
+	pixel_x = -3;
+	pixel_y = 2
+	},
+/obj/structure/camera_assembly{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
+"XL" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "escape_cockpit_windows";
+	name = "Cockpit Blast Door"
+	},
+/obj/machinery/door/firedoor/window,
+/obj/effect/spawner/structure/window/plastitanium,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"XV" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/poddoor{
+	id = "shuttle_airlock_blastdoor_starboard";
+	name = "Airlock Blast door"
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"XW" = (
+/obj/structure/sign/departments/medbay/alt,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/escape)
+"XX" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/status_display/evac{
+	pixel_y = 32
+	},
+/obj/machinery/recharge_station,
+/turf/open/floor/mineral/plastitanium/airless,
+/area/shuttle/escape)
+"Yf" = (
+/obj/machinery/computer/med_data{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"YD" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/escape)
+"YH" = (
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 1;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"Zj" = (
+/obj/effect/decal/cleanable/blood/gibs/limb,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/oil/slippery,
+/obj/structure/camera_assembly,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Zk" = (
+/obj/machinery/button/door{
+	req_access_txt = "150";
+	name = "Airlock Blast door button";
+	id = "shuttle_airlock_blastdoor_starboard"
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/escape)
+"Zu" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"ZA" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"ZK" = (
+/obj/structure/closet/crate/medical,
+/obj/item/storage/firstaid/regular,
+/obj/item/storage/firstaid/o2{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/firstaid/toxin{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/item/healthanalyzer{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/lazarus_injector,
+/obj/effect/turf_decal/box/white/corners{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/white/corners{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+
+(1,1,1) = {"
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+mS
+mD
+ru
+zA
+lz
+mD
+mS
+Oo
+mS
+tJ
+hW
+zA
+hW
+tJ
+mS
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+"}
+(2,1,1) = {"
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+iv
+aL
+tJ
+tJ
+Qv
+lX
+CS
+yv
+MT
+tJ
+aL
+tJ
+MT
+on
+Hy
+ob
+iT
+tJ
+tJ
+CD
+ma
+Oo
+Oo
+Oo
+"}
+(3,1,1) = {"
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+mS
+tJ
+tJ
+zj
+tJ
+rZ
+fe
+HE
+wK
+fP
+tJ
+tJ
+lL
+tJ
+tJ
+es
+iB
+Gw
+iT
+tJ
+tJ
+pW
+tJ
+mS
+Oo
+Oo
+"}
+(4,1,1) = {"
+Oo
+Oo
+Oo
+Oo
+Oo
+iv
+tJ
+tw
+Do
+uq
+tJ
+tJ
+tJ
+mD
+VW
+tJ
+tJ
+dI
+ew
+dI
+tJ
+tJ
+er
+tJ
+tJ
+tJ
+JD
+NO
+Sg
+tJ
+ma
+Oo
+"}
+(5,1,1) = {"
+Oo
+Oo
+Oo
+Oo
+Oo
+tJ
+tw
+TY
+Lx
+aW
+ia
+CD
+xI
+fE
+We
+fE
+kU
+Qf
+iY
+FU
+fE
+CD
+uR
+dA
+Zu
+tJ
+Oq
+fe
+xU
+tJ
+FB
+mF
+"}
+(6,1,1) = {"
+Oo
+XL
+XL
+XL
+tJ
+tJ
+XX
+Lx
+gN
+Lx
+Cf
+SN
+We
+We
+We
+We
+We
+Qw
+lh
+pE
+We
+fw
+ax
+NB
+mw
+yA
+fe
+fe
+dx
+YD
+FB
+FB
+"}
+(7,1,1) = {"
+XL
+XL
+MB
+Yf
+zk
+tJ
+OZ
+BD
+Lx
+lt
+tc
+CD
+Km
+We
+RZ
+RZ
+RZ
+Gi
+de
+ov
+ga
+CD
+Vv
+ki
+Rv
+oz
+td
+fe
+mp
+YD
+yL
+Oo
+"}
+(8,1,1) = {"
+XL
+ew
+We
+YH
+GC
+tJ
+tJ
+fH
+nR
+VU
+tJ
+fx
+hA
+We
+sP
+tJ
+tJ
+qO
+qO
+My
+tJ
+tJ
+RC
+CD
+CD
+tJ
+CD
+nJ
+tJ
+YD
+yL
+Oo
+"}
+(9,1,1) = {"
+tJ
+mS
+wG
+EZ
+WJ
+Xz
+tJ
+tJ
+ub
+tJ
+tJ
+RD
+Km
+We
+RZ
+tJ
+He
+IU
+QQ
+OA
+ZK
+tJ
+Wi
+nA
+qP
+Sn
+mB
+Ot
+tJ
+YD
+FB
+mF
+"}
+(10,1,1) = {"
+tJ
+tG
+We
+EZ
+EZ
+HO
+bN
+Gm
+Ml
+AF
+We
+We
+We
+We
+RZ
+Ok
+kN
+LA
+ws
+OA
+Kq
+CD
+KT
+nA
+qP
+nA
+BM
+OA
+tJ
+tJ
+FB
+FB
+"}
+(11,1,1) = {"
+XL
+fE
+xQ
+fE
+EZ
+HO
+EZ
+NE
+Ml
+XL
+sK
+sK
+ew
+We
+RZ
+GX
+Ue
+OA
+OA
+OA
+QR
+tJ
+hz
+OA
+KT
+KT
+KT
+OA
+Wk
+xo
+fe
+Oo
+"}
+(12,1,1) = {"
+tJ
+kB
+We
+EZ
+EZ
+HO
+bN
+yj
+Ml
+AF
+IK
+IK
+IK
+We
+RZ
+xL
+Rg
+LA
+mU
+Lq
+dP
+CD
+KT
+Qc
+nA
+qP
+OA
+OA
+tJ
+tJ
+FB
+mF
+"}
+(13,1,1) = {"
+tJ
+mS
+wG
+EZ
+bb
+hy
+tJ
+tJ
+DI
+tJ
+tJ
+vM
+Wn
+We
+RZ
+tJ
+Ng
+rJ
+dt
+OA
+MY
+tJ
+KT
+qP
+qP
+FY
+ZK
+ym
+tJ
+YD
+FB
+FB
+"}
+(14,1,1) = {"
+XL
+ew
+We
+Pl
+nj
+tJ
+tJ
+cT
+nf
+XK
+tJ
+XW
+OH
+We
+sP
+tJ
+tJ
+qO
+qO
+My
+tJ
+tJ
+hm
+CD
+CD
+tJ
+CD
+dT
+tJ
+YD
+yL
+Oo
+"}
+(15,1,1) = {"
+XL
+XL
+MB
+mA
+Eb
+tJ
+Fv
+BP
+dy
+fB
+Fs
+CD
+Wn
+We
+RZ
+RZ
+RZ
+Gf
+oB
+Fu
+Dn
+CD
+uR
+SC
+ZA
+oz
+gP
+lI
+GY
+YD
+yL
+Oo
+"}
+(16,1,1) = {"
+Oo
+XL
+XL
+XL
+tJ
+tJ
+zD
+dy
+aj
+dy
+Of
+sx
+We
+We
+We
+We
+We
+Qw
+lh
+pE
+We
+Va
+ax
+NB
+Wr
+Sp
+Op
+hK
+hN
+YD
+FB
+mF
+"}
+(17,1,1) = {"
+Oo
+Oo
+Oo
+Oo
+Oo
+tJ
+dj
+GU
+dy
+vk
+aV
+CD
+ew
+fE
+We
+fE
+Rr
+Ty
+af
+vY
+fE
+CD
+Vv
+cN
+Rv
+tJ
+Zj
+Bm
+AU
+tJ
+FB
+FB
+"}
+(18,1,1) = {"
+Oo
+Oo
+Oo
+Oo
+Oo
+Eg
+tJ
+Qz
+LR
+XH
+tJ
+tJ
+tJ
+Zk
+Iy
+tJ
+tJ
+dI
+ew
+dI
+tJ
+tJ
+qR
+tJ
+tJ
+tJ
+Wz
+dc
+EB
+tJ
+LW
+Oo
+"}
+(19,1,1) = {"
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+mS
+tJ
+tJ
+lL
+tJ
+rZ
+fe
+zL
+Xi
+nm
+tJ
+tJ
+lL
+tJ
+tJ
+HV
+OG
+qh
+iT
+tJ
+tJ
+wT
+tJ
+mS
+Oo
+Oo
+"}
+(20,1,1) = {"
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Eg
+aL
+tJ
+tJ
+Qv
+Vt
+BZ
+pq
+MT
+tJ
+aL
+tJ
+MT
+VY
+Cn
+QT
+iT
+tJ
+tJ
+CD
+vq
+Oo
+Oo
+Oo
+"}
+(21,1,1) = {"
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+mS
+Zk
+XV
+Ff
+XV
+Zk
+mS
+Oo
+mS
+tJ
+hW
+Ff
+hW
+tJ
+mS
+Oo
+Oo
+Oo
+Oo
+Oo
+Oo
+"}

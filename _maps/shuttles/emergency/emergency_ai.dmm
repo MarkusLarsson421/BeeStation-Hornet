@@ -1,0 +1,797 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bF" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"bO" = (
+/obj/effect/turf_decal/tile/dark_blue{
+	dir = 8;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"bT" = (
+/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"er" = (
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"eG" = (
+/obj/effect/turf_decal/tile/dark_red/anticorner/contrasted{
+	color = "#DE3A3A";
+	alpha = 180;
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"fU" = (
+/obj/structure/window/reinforced,
+/obj/structure/shuttle/engine/heater{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"hf" = (
+/obj/effect/turf_decal/tile/green{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"hn" = (
+/obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
+	dir = 1;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"hr" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"hy" = (
+/turf/open/floor/plasteel/tech,
+/area/space)
+"iA" = (
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	alpha = 180;
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"iB" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"iF" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	dir = 4;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"jx" = (
+/obj/effect/turf_decal/tile/dark_red{
+	alpha = 180;
+	color = "#DE3A3A";
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"kA" = (
+/obj/effect/turf_decal/tile/dark_red/anticorner/contrasted{
+	color = "#DE3A3A";
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"lp" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"mi" = (
+/obj/effect/turf_decal/tile/green/anticorner/contrasted{
+	dir = 4;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"oq" = (
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	alpha = 180;
+	color = "#DE3A3A";
+	dir = 8
+	},
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"oW" = (
+/obj/effect/turf_decal/tile/green/anticorner/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"pn" = (
+/obj/machinery/computer/emergency_shuttle{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 8;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"pX" = (
+/obj/effect/turf_decal/tile/dark_red/anticorner/contrasted{
+	color = "#DE3A3A";
+	alpha = 180;
+	dir = 8
+	},
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"qt" = (
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"sP" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"ty" = (
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	alpha = 180;
+	color = "#DE3A3A"
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"uk" = (
+/obj/effect/turf_decal/tile/green/anticorner/contrasted{
+	dir = 8;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"uK" = (
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	alpha = 180;
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"vd" = (
+/obj/effect/landmark/start/ai,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"vf" = (
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"wB" = (
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"wE" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"wN" = (
+/obj/effect/turf_decal/tile/dark_blue{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"xl" = (
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 8;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"yc" = (
+/obj/effect/turf_decal/tile/dark_red/anticorner/contrasted{
+	color = "#DE3A3A";
+	alpha = 180;
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"zJ" = (
+/turf/open/floor/plasteel/dark,
+/area/space)
+"zQ" = (
+/obj/effect/turf_decal/tile/green/half/contrasted{
+	dir = 1;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Bt" = (
+/obj/effect/turf_decal/tile/green/half/contrasted{
+	dir = 4;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"CC" = (
+/obj/effect/turf_decal/tile/yellow{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"CH" = (
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"DY" = (
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	alpha = 180;
+	color = "#DE3A3A";
+	dir = 4
+	},
+/obj/structure/chair/fancy/shuttle,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Fc" = (
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 4;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"GK" = (
+/obj/docking_port/mobile/emergency/shuttle_build{
+	dwidth = 6;
+	height = 15;
+	name = "Shuttle Under Construction";
+	port_direction = 4;
+	preferred_direction = 2;
+	width = 23
+	},
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Iu" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"IM" = (
+/obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
+	dir = 8;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Jh" = (
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 1;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"JH" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Kh" = (
+/obj/effect/turf_decal/tile/green/anticorner/contrasted{
+	dir = 1;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"KC" = (
+/obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"KL" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/space)
+"LO" = (
+/obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
+	dir = 4;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Mn" = (
+/obj/structure/window/plastitanium,
+/turf/open/floor/plating,
+/area/space)
+"MC" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Nh" = (
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	alpha = 180;
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"OB" = (
+/obj/effect/turf_decal/tile/dark_red/anticorner/contrasted{
+	color = "#DE3A3A";
+	alpha = 180;
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"OR" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"PS" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Qq" = (
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/plating,
+/area/space)
+"QL" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"RT" = (
+/obj/effect/turf_decal/tile/green/fourcorners/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"UD" = (
+/turf/template_noop,
+/area/space)
+"Vg" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"Vw" = (
+/obj/effect/turf_decal/tile/green/half/contrasted{
+	dir = 8;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"VL" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"Wj" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	dir = 1;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"XI" = (
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Yp" = (
+/obj/effect/turf_decal/tile/green/half/contrasted{
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Yq" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	dir = 8;
+	alpha = 180
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+
+(1,1,1) = {"
+UD
+VL
+KL
+KL
+PS
+KL
+GK
+KL
+Mn
+Mn
+Mn
+KL
+JH
+KL
+PS
+KL
+VL
+UD
+UD
+UD
+UD
+UD
+UD
+"}
+(2,1,1) = {"
+Vg
+fU
+hn
+uK
+IM
+VL
+Kh
+zQ
+zQ
+zQ
+zQ
+zQ
+uk
+KL
+OB
+eG
+KL
+VL
+UD
+UD
+UD
+UD
+UD
+"}
+(3,1,1) = {"
+Vg
+fU
+iA
+CC
+KC
+Mn
+Bt
+zJ
+zJ
+zJ
+zJ
+zJ
+Vw
+Mn
+DY
+jx
+pX
+KL
+UD
+UD
+UD
+UD
+UD
+"}
+(4,1,1) = {"
+VL
+VL
+iA
+Nh
+VL
+VL
+Bt
+zJ
+zJ
+zJ
+zJ
+zJ
+Vw
+Mn
+DY
+zJ
+oq
+KL
+KL
+Mn
+Mn
+VL
+UD
+"}
+(5,1,1) = {"
+Vg
+fU
+iA
+Nh
+Mn
+Kh
+RT
+Yp
+Yp
+Yp
+Yp
+Yp
+oW
+KL
+yc
+ty
+kA
+XI
+Wj
+Jh
+Yq
+KL
+VL
+"}
+(6,1,1) = {"
+Vg
+fU
+iA
+Nh
+Mn
+Bt
+Vw
+VL
+Mn
+Mn
+Mn
+KL
+er
+KL
+Mn
+CH
+Mn
+KL
+Fc
+zJ
+bO
+Yq
+KL
+"}
+(7,1,1) = {"
+Vg
+fU
+iA
+Nh
+Mn
+mi
+oW
+Mn
+hy
+hy
+hy
+Mn
+zJ
+zJ
+zJ
+zJ
+zJ
+XI
+Fc
+zJ
+zJ
+xl
+Mn
+"}
+(8,1,1) = {"
+VL
+VL
+iA
+Nh
+VL
+qt
+qt
+VL
+hy
+vd
+hy
+Qq
+zJ
+zJ
+zJ
+zJ
+zJ
+Mn
+Fc
+zJ
+zJ
+pn
+Mn
+"}
+(9,1,1) = {"
+Vg
+fU
+iA
+Nh
+Mn
+OR
+MC
+Mn
+hy
+hy
+hy
+Mn
+zJ
+zJ
+zJ
+zJ
+zJ
+XI
+Fc
+zJ
+zJ
+xl
+Mn
+"}
+(10,1,1) = {"
+Vg
+fU
+iA
+Nh
+Mn
+lp
+Iu
+VL
+Mn
+Mn
+Mn
+KL
+er
+KL
+Mn
+CH
+Mn
+KL
+Fc
+zJ
+wN
+sP
+KL
+"}
+(11,1,1) = {"
+Vg
+fU
+iA
+Nh
+Mn
+hr
+bT
+bF
+bF
+bF
+bF
+bF
+MC
+KL
+Kh
+zQ
+uk
+XI
+iF
+wB
+sP
+KL
+VL
+"}
+(12,1,1) = {"
+VL
+VL
+iA
+Nh
+VL
+VL
+lp
+zJ
+zJ
+zJ
+zJ
+zJ
+Iu
+Mn
+Bt
+zJ
+Vw
+KL
+KL
+Mn
+Mn
+VL
+UD
+"}
+(13,1,1) = {"
+Vg
+fU
+iA
+QL
+IM
+Mn
+lp
+zJ
+zJ
+zJ
+zJ
+zJ
+Iu
+Mn
+Bt
+hf
+oW
+KL
+UD
+UD
+UD
+UD
+UD
+"}
+(14,1,1) = {"
+Vg
+fU
+LO
+vf
+KC
+VL
+hr
+iB
+iB
+iB
+iB
+iB
+wE
+KL
+mi
+oW
+KL
+VL
+UD
+UD
+UD
+UD
+UD
+"}
+(15,1,1) = {"
+UD
+VL
+KL
+KL
+Mn
+KL
+KL
+KL
+Mn
+Mn
+Mn
+KL
+KL
+KL
+Mn
+KL
+VL
+UD
+UD
+UD
+UD
+UD
+UD
+"}
