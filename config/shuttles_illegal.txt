@@ -29,3 +29,5 @@ _maps/shuttles/emergency/emergency_meteor.dmm
 _maps/shuttles/emergency/emergency_supermatter.dmm
 _maps/shuttles/emergency/emergency_wabbajack.dmm
 _maps/shuttles/emergency/emergency_discoinferno.dmm
+#_maps/shuttles/emergency/emergency_ai.dmm
+#_maps/shuttles/emergency/emergency_ai_malf.dmm

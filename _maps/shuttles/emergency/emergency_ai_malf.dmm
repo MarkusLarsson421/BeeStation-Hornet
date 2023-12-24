@@ -12,6 +12,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "aL" = (
@@ -106,6 +107,7 @@
 /obj/structure/camera_assembly{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "dI" = (
@@ -297,6 +299,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "iT" = (
@@ -405,6 +408,7 @@
 "mw" = (
 /obj/effect/turf_decal/stripes/white/line,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "mA" = (
@@ -492,12 +496,14 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "on" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "ov" = (
@@ -542,6 +548,7 @@
 /obj/structure/camera_assembly{
 	dir = 5
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "qO" = (
@@ -666,6 +673,7 @@
 	dir = 6
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "vk" = (
@@ -723,7 +731,7 @@
 "xo" = (
 /obj/machinery/door/poddoor{
 	id = "aft_blast_door";
-	name = Aft Blast Door
+	name = AftBlastDoor
 	},
 /turf/open/floor/plating,
 /area/shuttle/escape)
@@ -919,6 +927,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "CD" = (
@@ -964,6 +973,10 @@
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
+/area/shuttle/escape)
+"DJ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
 /area/shuttle/escape)
 "Eb" = (
 /obj/effect/turf_decal/bot_white,
@@ -1082,6 +1095,7 @@
 /obj/structure/camera_assembly{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "GC" = (
@@ -1161,6 +1175,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "HE" = (
@@ -1192,6 +1207,7 @@
 	name = "Airlock Blast door button";
 	req_access_txt = "150"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "Iy" = (
@@ -1321,6 +1337,7 @@
 "NB" = (
 /obj/machinery/holopad,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "NE" = (
@@ -1345,6 +1362,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "Of" = (
@@ -1379,6 +1397,7 @@
 /obj/structure/camera_assembly{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "Ot" = (
@@ -1393,6 +1412,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "OH" = (
@@ -1461,6 +1481,7 @@
 	pixel_y = -28
 	},
 /obj/machinery/light,
+/obj/machinery/recharge_station,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "QT" = (
@@ -1489,6 +1510,7 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "RC" = (
@@ -1546,6 +1568,7 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "SN" = (
@@ -1592,6 +1615,7 @@
 	dir = 10
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "VU" = (
@@ -1621,6 +1645,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "We" = (
@@ -1638,6 +1663,7 @@
 	id = "aft_blast_door";
 	name = "Aft Blast door button"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "Wn" = (
@@ -1650,6 +1676,7 @@
 /obj/effect/turf_decal/stripes/white/line,
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "Wz" = (
@@ -1978,7 +2005,7 @@ dA
 Zu
 tJ
 Oq
-fe
+DJ
 xU
 tJ
 FB
@@ -2011,8 +2038,8 @@ ax
 NB
 mw
 yA
-fe
-fe
+DJ
+DJ
 dx
 YD
 FB
@@ -2046,7 +2073,7 @@ ki
 Rv
 oz
 td
-fe
+DJ
 mp
 YD
 yL
