@@ -46,6 +46,18 @@
 	icon_state = "weapon_crate"
 	icon_door = null
 	icon_door_override = FALSE
+	
+/obj/structure/closet/crate/secure/weapon/contraband
+	name = "\proper Exploration Contraband crate"
+	desc = "A secure weapons crate."
+	req_one_access = list(ACCESS_EXPLORATION, ACCESS_SECURITY)
+	icon_state = "weapon_crate"
+	icon_door_override = FALSE
+	
+/obj/structure/closet/crate/secure/weapon/contraband/populate_contents_immediate()
+	..()
+	new /obj/item/reagent_containers/food/drinks/syndicatebeer(src)
+	new /obj/item/reagent_containers/food/drinks/syndicatebeer(src)
 
 /obj/structure/closet/crate/secure/plasma
 	desc = "A secure plasma crate."
@@ -79,7 +91,7 @@
 	desc = "A crate with a lock on it, painted in the scheme of the station's scientists."
 	icon_state = "sci_secure_crate"
 	icon_door = "sci_crate"
-
+	
 /obj/structure/closet/crate/secure/owned
 	name = "private crate"
 	desc = "A crate cover designed to only open for who purchased its contents."

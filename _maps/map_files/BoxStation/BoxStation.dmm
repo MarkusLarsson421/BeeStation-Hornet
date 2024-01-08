@@ -27193,6 +27193,13 @@
 	},
 /turf/open/floor/plasteel/cafeteria_red,
 /area/crew_quarters/bar)
+"gGj" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/quartermaster/exploration_dock)
 "gGm" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
@@ -39398,6 +39405,11 @@
 /obj/structure/grille,
 /turf/open/floor/plating,
 /area/maintenance/central)
+"mxn" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/pipedispenser,
+/turf/open/floor/plasteel,
+/area/quartermaster/exploration_dock)
 "myL" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
@@ -42732,6 +42744,13 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
 /area/storage/tech)
+"oec" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/quartermaster/exploration_dock)
 "oed" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -46875,13 +46894,14 @@
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "qqt" = (
-/obj/machinery/door/airlock/external,
-/obj/machinery/atmospherics/pipe/layer_manifold{
-	dir = 4
-	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/layer_manifold{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external,
+/obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
 /area/quartermaster/exploration_dock)
 "qqN" = (
@@ -50611,15 +50631,20 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/machinery/atmospherics/components/binary/dp_vent_pump/layer2{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
+/obj/machinery/light/small{
+	dir = 1
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/components/binary/dp_vent_pump/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/binary/volume_pump/layer2{
+	dir = 4;
+	name = "Station to Shuttle"
+	},
+/obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
 /area/quartermaster/exploration_dock)
 "saW" = (
@@ -57396,6 +57421,13 @@
 	},
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/aisat/hallway)
+"vsQ" = (
+/obj/machinery/atmospherics/pipe/layer_manifold{
+	dir = 4
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/quartermaster/exploration_dock)
 "vtj" = (
 /obj/machinery/light{
 	dir = 4
@@ -60375,16 +60407,15 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "wZj" = (
-/obj/machinery/door/airlock/external,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external,
+/obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
 /area/quartermaster/exploration_dock)
 "wZY" = (
@@ -115066,7 +115097,7 @@ jjp
 kVh
 tJF
 qOj
-ezu
+mxn
 gQd
 aaf
 aaa
@@ -115577,9 +115608,9 @@ iAO
 gQd
 wOv
 pqr
-xkR
+gGj
 wZj
-xkR
+gQd
 gQd
 gQd
 aaa
@@ -115834,10 +115865,10 @@ gQd
 gQd
 tEj
 dOV
-xkR
+oec
 sad
 gQd
-gQd
+gXs
 gXs
 aaa
 aaa
@@ -116091,11 +116122,11 @@ aaa
 gQd
 xkR
 xkR
-xkR
+vsQ
 qqt
-xkR
 gQd
 gXs
+aaa
 aaa
 aaa
 aaa
