@@ -1,0 +1,115 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall,
+/area/ruin/unpowered)
+"f" = (
+/obj/machinery/door/airlock{
+	id_tag = "Dorm5";
+	name = "Recharger";
+	id = "recharger"
+	},
+/obj/effect/mapping_helpers/airlock/abandoned,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"h" = (
+/obj/structure/urinal{
+	pixel_y = 32
+	},
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -14
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"k" = (
+/obj/machinery/recharge_station,
+/obj/machinery/button/door{
+	id = "recharger";
+	name = "Cyborg Recharger lock";
+	normaldoorcontrol = 1;
+	specialfunctions = 4;
+	pixel_y = -25
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"r" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -14
+	},
+/obj/structure/mirror{
+	pixel_x = -28
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"F" = (
+/obj/effect/abstract/doorway_marker{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Q" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/machinery/button/door{
+	id = "toilet";
+	name = "Toilet lock";
+	normaldoorcontrol = 1;
+	specialfunctions = 4;
+	pixel_y = 25
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"T" = (
+/obj/structure/sign/poster/random{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"U" = (
+/obj/machinery/door/airlock{
+	id_tag = "Dorm5";
+	name = "Toilet";
+	id = "toilet"
+	},
+/obj/effect/mapping_helpers/airlock/abandoned,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+
+(1,1,1) = {"
+a
+a
+F
+a
+a
+"}
+(2,1,1) = {"
+a
+h
+T
+r
+a
+"}
+(3,1,1) = {"
+a
+f
+a
+U
+a
+"}
+(4,1,1) = {"
+a
+k
+a
+Q
+a
+"}
+(5,1,1) = {"
+a
+a
+a
+a
+a
+"}

@@ -1,0 +1,646 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"c" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"e" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"h" = (
+/obj/structure/table/reinforced,
+/obj/effect/spawner/lootdrop/ruinloot/important,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"i" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"j" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"l" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"m" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"n" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"q" = (
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"r" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"s" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/vault{
+	name = "Vault Door";
+	req_access_txt = "53";
+	state_open = 1
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"t" = (
+/obj/effect/abstract/open_area_marker,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"u" = (
+/obj/machinery/nuclearbomb/selfdestruct{
+	base_icon_state = null
+	},
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
+/area/ruin/unpowered)
+"w" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"z" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate/silvercrate,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"A" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"B" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
+"F" = (
+/obj/machinery/ore_silo,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"I" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered)
+"K" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"M" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/food/drinks/bottle/vodka/badminka{
+	pixel_x = -7;
+	pixel_y = 17
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 5;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 9;
+	pixel_y = 5
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"Q" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/pen/fountain{
+	pixel_x = 4;
+	pixel_y = 7
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"R" = (
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/vault{
+	name = "Vault Door";
+	req_access_txt = "53";
+	state_open = 1
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"S" = (
+/turf/closed/wall,
+/area/ruin/unpowered)
+"U" = (
+/obj/effect/abstract/open_area_marker{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"V" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"W" = (
+/obj/structure/safe,
+/obj/item/folder/documents,
+/obj/item/stack/spacecash/c1000,
+/obj/item/stack/spacecash/c1000,
+/obj/item/stack/spacecash/c1000,
+/obj/item/stack/spacecash/c1000,
+/obj/item/stack/spacecash/c1000,
+/obj/item/stack/spacecash/c500,
+/obj/item/stack/spacecash/c500,
+/obj/item/ammo_box/a357,
+/obj/item/reagent_containers/food/snacks/grown/shell/gatfruit,
+/obj/item/gun/ballistic/automatic/pistol/deagle,
+/obj/item/gun/ballistic/revolver/russian,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"X" = (
+/obj/structure/closet/crate/goldcrate,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"Z" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+
+(1,1,1) = {"
+a
+a
+a
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+a
+I
+B
+B
+B
+B
+B
+B
+B
+B
+B
+I
+a
+a
+a
+"}
+(3,1,1) = {"
+a
+a
+a
+I
+B
+I
+I
+I
+I
+I
+I
+I
+B
+I
+a
+a
+a
+"}
+(4,1,1) = {"
+B
+B
+B
+I
+B
+I
+h
+W
+q
+b
+e
+I
+B
+I
+a
+a
+a
+"}
+(5,1,1) = {"
+a
+a
+a
+I
+B
+I
+i
+n
+K
+V
+X
+I
+B
+I
+a
+a
+a
+"}
+(6,1,1) = {"
+a
+a
+a
+I
+B
+I
+j
+A
+u
+m
+F
+I
+B
+I
+a
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+I
+B
+I
+z
+c
+l
+Z
+i
+I
+B
+I
+a
+a
+a
+"}
+(8,1,1) = {"
+B
+B
+B
+I
+B
+I
+Q
+q
+q
+q
+M
+I
+B
+I
+a
+a
+a
+"}
+(9,1,1) = {"
+a
+a
+a
+I
+B
+I
+I
+I
+R
+I
+I
+I
+B
+I
+a
+a
+a
+"}
+(10,1,1) = {"
+a
+a
+a
+I
+B
+B
+I
+q
+q
+q
+I
+B
+B
+I
+a
+a
+a
+"}
+(11,1,1) = {"
+a
+a
+a
+I
+I
+I
+I
+I
+s
+I
+I
+I
+I
+I
+a
+a
+a
+"}
+(12,1,1) = {"
+a
+a
+a
+a
+a
+S
+w
+w
+w
+w
+w
+S
+a
+a
+a
+a
+a
+"}
+(13,1,1) = {"
+a
+a
+a
+a
+a
+S
+w
+w
+w
+w
+w
+S
+a
+a
+a
+a
+a
+"}
+(14,1,1) = {"
+a
+a
+a
+a
+a
+S
+w
+w
+w
+w
+w
+S
+a
+a
+a
+a
+a
+"}
+(15,1,1) = {"
+S
+r
+r
+r
+S
+S
+w
+w
+w
+w
+w
+S
+S
+r
+r
+r
+S
+"}
+(16,1,1) = {"
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+"}
+(17,1,1) = {"
+U
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+t
+"}
+(18,1,1) = {"
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+"}
+(19,1,1) = {"
+S
+r
+r
+r
+S
+S
+w
+w
+w
+w
+w
+S
+S
+r
+r
+r
+S
+"}
+(20,1,1) = {"
+a
+a
+a
+a
+a
+S
+w
+w
+w
+w
+w
+S
+a
+a
+a
+a
+a
+"}
+(21,1,1) = {"
+a
+a
+a
+a
+a
+S
+w
+w
+w
+w
+w
+S
+a
+a
+a
+a
+a
+"}
+(22,1,1) = {"
+a
+a
+a
+a
+a
+S
+w
+w
+w
+w
+w
+S
+a
+a
+a
+a
+a
+"}
+(23,1,1) = {"
+a
+a
+a
+a
+a
+S
+S
+r
+r
+r
+S
+S
+a
+a
+a
+a
+a
+"}

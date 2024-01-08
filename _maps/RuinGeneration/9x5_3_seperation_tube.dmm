@@ -1,0 +1,135 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"c" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/transit_tube/crossing{
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"e" = (
+/turf/closed/wall,
+/area/ruin/unpowered)
+"i" = (
+/obj/effect/abstract/doorway_marker{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"p" = (
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"s" = (
+/obj/effect/abstract/open_area_marker{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"w" = (
+/obj/structure/transit_tube/station/reverse,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"B" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/transit_tube{
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"D" = (
+/obj/effect/spawner/structure/window,
+/obj/structure/transit_tube{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"H" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"L" = (
+/turf/template_noop,
+/area/template_noop)
+"S" = (
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/template_noop)
+"V" = (
+/obj/structure/transit_tube/station/reverse/flipped{
+	dir = 1
+	},
+/obj/structure/transit_tube_pod{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"X" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+e
+a
+s
+a
+e
+"}
+(2,1,1) = {"
+e
+V
+a
+a
+e
+"}
+(3,1,1) = {"
+e
+D
+H
+H
+e
+"}
+(4,1,1) = {"
+L
+c
+X
+S
+L
+"}
+(5,1,1) = {"
+L
+B
+X
+S
+L
+"}
+(6,1,1) = {"
+L
+c
+X
+S
+L
+"}
+(7,1,1) = {"
+e
+D
+H
+H
+e
+"}
+(8,1,1) = {"
+e
+w
+p
+p
+e
+"}
+(9,1,1) = {"
+e
+e
+i
+e
+e
+"}

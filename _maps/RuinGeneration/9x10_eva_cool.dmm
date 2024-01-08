@@ -1,0 +1,279 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"c" = (
+/obj/machinery/suit_storage_unit,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"d" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/door/window/northleft{
+	dir = 4;
+	name = "RCD Storage";
+	pixel_x = 1;
+	req_access_txt = "19"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"e" = (
+/obj/structure/table,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/turf/open/floor/circuit,
+/area/ruin/unpowered)
+"j" = (
+/obj/machinery/door/airlock/command{
+	name = "E.V.A. Storage";
+	req_access_txt = "18"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"l" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"r" = (
+/turf/open/floor/circuit,
+/area/ruin/unpowered)
+"t" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/door/window/northleft{
+	dir = 8;
+	name = "Magboots Storage";
+	pixel_x = -1;
+	req_access_txt = "19"
+	},
+/obj/structure/closet/crate/engineering,
+/obj/item/clothing/shoes/magboots,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"v" = (
+/obj/machinery/door/firedoor,
+/obj/effect/abstract/doorway_marker{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"y" = (
+/obj/item/stack/sheet/iron/fifty{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/stack/sheet/glass/fifty,
+/obj/structure/closet/crate/engineering,
+/obj/effect/turf_decal/bot,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/door/window/northleft{
+	dir = 4;
+	name = "Resource Storage";
+	pixel_x = 1;
+	req_access_txt = "19"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"A" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "evashutters";
+	name = "E.V.A. Storage Shutters"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"D" = (
+/obj/machinery/door/firedoor,
+/obj/effect/abstract/doorway_marker{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"F" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered)
+"G" = (
+/obj/structure/table,
+/turf/open/floor/circuit,
+/area/ruin/unpowered)
+"H" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "evashutters";
+	name = "E.V.A. Storage Shutters"
+	},
+/obj/effect/abstract/open_area_marker{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"J" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/closet/crate/engineering,
+/obj/item/tank/jetpack/carbondioxide{
+	pixel_x = 2;
+	pixel_y = -2
+	},
+/obj/machinery/door/window/northleft{
+	dir = 8;
+	name = "Jetpack Storage";
+	pixel_x = -1;
+	req_access_txt = "19"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"L" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"M" = (
+/turf/closed/wall,
+/area/ruin/unpowered)
+"N" = (
+/obj/structure/tank_dispenser/oxygen{
+	pixel_x = -1;
+	pixel_y = 2;
+	oxygentanks = 2
+	},
+/turf/open/floor/circuit,
+/area/ruin/unpowered)
+"O" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "evashutters";
+	name = "E.V.A. Storage Shutters"
+	},
+/obj/machinery/button/door{
+	id = "evashutters";
+	name = "E.V.A. Shutters";
+	pixel_x = -25;
+	req_access_txt = "19"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"P" = (
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"S" = (
+/obj/machinery/camera/autoname{
+	network = list("ss13","command")
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+
+(1,1,1) = {"
+F
+F
+F
+F
+F
+F
+F
+F
+D
+M
+"}
+(2,1,1) = {"
+M
+c
+L
+c
+c
+c
+M
+l
+a
+M
+"}
+(3,1,1) = {"
+M
+P
+P
+P
+P
+P
+j
+a
+a
+M
+"}
+(4,1,1) = {"
+O
+P
+P
+G
+J
+t
+M
+P
+a
+M
+"}
+(5,1,1) = {"
+H
+P
+r
+N
+M
+M
+M
+P
+a
+M
+"}
+(6,1,1) = {"
+A
+P
+P
+e
+d
+y
+M
+P
+a
+M
+"}
+(7,1,1) = {"
+M
+S
+P
+P
+P
+P
+j
+a
+a
+M
+"}
+(8,1,1) = {"
+M
+c
+L
+c
+c
+L
+M
+l
+a
+M
+"}
+(9,1,1) = {"
+F
+F
+F
+F
+F
+F
+F
+F
+v
+M
+"}

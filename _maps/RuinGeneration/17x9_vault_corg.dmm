@@ -1,0 +1,351 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/circuit/green,
+/area/ruin/unpowered)
+"b" = (
+/turf/template_noop,
+/area/template_noop)
+"d" = (
+/obj/item/radio/intercom{
+	pixel_x = -26
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"g" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"i" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/radio/intercom{
+	pixel_x = -28;
+	pixel_y = -2
+	},
+/turf/open/floor/circuit/green,
+/area/ruin/unpowered)
+"j" = (
+/obj/structure/sign/warning/nosmoking{
+	pixel_x = -32
+	},
+/obj/structure/safe,
+/obj/item/clothing/neck/stethoscope,
+/obj/item/book{
+	desc = "An undeniably handy book.";
+	icon_state = "bookknock";
+	name = "A Simpleton's Guide to Safe-cracking with Stethoscopes"
+	},
+/obj/item/stack/sheet/mineral/diamond,
+/obj/item/stack/spacecash/c1000,
+/obj/item/stack/spacecash/c1000,
+/obj/item/stack/spacecash/c1000,
+/obj/item/stack/spacecash/c1000,
+/obj/item/stack/spacecash/c1000,
+/obj/item/stack/spacecash/c500,
+/obj/item/stack/spacecash/c500,
+/obj/item/stack/spacecash/c500,
+/obj/item/stack/spacecash/c500,
+/obj/item/stack/spacecash/c500,
+/obj/item/gun/ballistic/automatic/pistol/deagle,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"n" = (
+/obj/machinery/door/airlock/vault{
+	name = "Vault Door";
+	req_access_txt = "53"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"o" = (
+/obj/structure/closet/crate/silvercrate,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"p" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/neck/stethoscope,
+/obj/machinery/camera/motion{
+	c_tag = "Vault";
+	dir = 4;
+	network = list("vault")
+	},
+/turf/open/floor/circuit/green,
+/area/ruin/unpowered)
+"w" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"A" = (
+/obj/machinery/door/firedoor,
+/obj/effect/abstract/doorway_marker{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"C" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/circuit/green,
+/area/ruin/unpowered)
+"F" = (
+/obj/structure/filingcabinet,
+/obj/structure/sign/warning/explosives{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"G" = (
+/obj/machinery/door/airlock/vault{
+	name = "Vault Door";
+	req_access_txt = "53"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"H" = (
+/obj/structure/closet/crate/goldcrate,
+/obj/machinery/light,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"I" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
+"L" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"O" = (
+/obj/effect/abstract/open_area_marker{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"P" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered)
+"Q" = (
+/obj/machinery/holopad,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"R" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"V" = (
+/obj/effect/abstract/open_area_marker,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"X" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+"Z" = (
+/obj/machinery/ore_silo,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered)
+
+(1,1,1) = {"
+b
+b
+b
+I
+b
+I
+b
+b
+b
+"}
+(2,1,1) = {"
+b
+b
+P
+P
+P
+P
+P
+b
+b
+"}
+(3,1,1) = {"
+b
+P
+P
+C
+p
+i
+P
+P
+b
+"}
+(4,1,1) = {"
+I
+P
+j
+w
+Q
+w
+F
+P
+I
+"}
+(5,1,1) = {"
+b
+P
+o
+a
+a
+a
+H
+P
+b
+"}
+(6,1,1) = {"
+b
+P
+w
+a
+w
+a
+w
+P
+b
+"}
+(7,1,1) = {"
+b
+P
+w
+a
+a
+a
+w
+P
+b
+"}
+(8,1,1) = {"
+I
+P
+w
+w
+w
+w
+Z
+P
+I
+"}
+(9,1,1) = {"
+b
+P
+P
+P
+n
+P
+P
+P
+b
+"}
+(10,1,1) = {"
+b
+b
+g
+L
+R
+d
+g
+b
+b
+"}
+(11,1,1) = {"
+b
+b
+g
+g
+Q
+g
+g
+b
+b
+"}
+(12,1,1) = {"
+b
+b
+b
+g
+X
+g
+b
+b
+b
+"}
+(13,1,1) = {"
+P
+P
+g
+g
+G
+g
+g
+P
+P
+"}
+(14,1,1) = {"
+w
+w
+w
+w
+w
+w
+w
+w
+w
+"}
+(15,1,1) = {"
+O
+w
+w
+w
+w
+w
+w
+w
+V
+"}
+(16,1,1) = {"
+w
+w
+w
+w
+w
+w
+w
+w
+w
+"}
+(17,1,1) = {"
+P
+P
+A
+P
+P
+P
+A
+P
+P
+"}

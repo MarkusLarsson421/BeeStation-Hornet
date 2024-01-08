@@ -1,0 +1,827 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"an" = (
+/obj/machinery/door/airlock{
+	id_tag = "Dorm4";
+	name = "Cabin 4"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"bz" = (
+/obj/item/flashlight/seclite,
+/turf/open/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/ruin/unpowered)
+"bI" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"bY" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"cc" = (
+/obj/structure/table/wood,
+/obj/item/folder/red,
+/obj/item/pen,
+/obj/structure/sign/nanotrasen{
+	pixel_x = -32
+	},
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered)
+"cM" = (
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"dD" = (
+/obj/structure/dresser,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/ruin/unpowered)
+"dT" = (
+/obj/structure/table_frame/wood,
+/obj/item/crowbar/red,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"eV" = (
+/obj/item/kirbyplants/random,
+/obj/structure/sign/nanotrasen{
+	pixel_x = 32;
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/unpowered)
+"fm" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/carpet/purple,
+/area/ruin/unpowered)
+"ij" = (
+/obj/structure/table/wood,
+/obj/item/folder/red,
+/obj/item/pen,
+/obj/structure/sign/nanotrasen{
+	pixel_x = -32
+	},
+/turf/open/floor/carpet/purple,
+/area/ruin/unpowered)
+"iC" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/snacks/grown/flower/lily,
+/obj/item/reagent_containers/food/snacks/grown/flower/lily,
+/obj/item/reagent_containers/food/snacks/grown/flower/lily,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/unpowered)
+"iY" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/ruin/unpowered)
+"jh" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/tile/neutral,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"jq" = (
+/obj/structure/dresser,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/unpowered)
+"jU" = (
+/obj/machinery/door/airlock{
+	id_tag = "Dorm2";
+	name = "Cabin 2"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"jW" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/machinery/newscaster{
+	pixel_x = -32
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"kN" = (
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered)
+"lh" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp,
+/obj/structure/sign/nanotrasen{
+	pixel_x = -32
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"lG" = (
+/obj/structure/dresser,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"mH" = (
+/obj/structure/bed,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/status_display/evac{
+	pixel_y = 32
+	},
+/obj/item/bedsheet/dorms,
+/turf/open/floor/carpet/purple,
+/area/ruin/unpowered)
+"mU" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"mZ" = (
+/obj/machinery/door/airlock{
+	id_tag = "Dorm6";
+	name = "Cabin 6"
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/unpowered)
+"ox" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/item/clothing/suit/jacket/letterman_nanotrasen,
+/obj/item/clothing/suit/toggle/lawyer,
+/obj/item/clothing/under/costume/maid,
+/obj/item/clothing/head/kitty,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"pj" = (
+/obj/effect/spawner/structure/window/reinforced/tinted,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"pl" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"qe" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/machinery/button/door{
+	id = "Dorm3";
+	name = "Dormitory Door Lock";
+	normaldoorcontrol = 1;
+	pixel_x = -26;
+	pixel_y = 7;
+	specialfunctions = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/ruin/unpowered)
+"qK" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/obj/machinery/newscaster{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/unpowered)
+"rm" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken2"
+	},
+/area/ruin/unpowered)
+"rN" = (
+/obj/structure/table/wood,
+/obj/item/folder/blue,
+/obj/item/pen/blue,
+/obj/machinery/button/door{
+	id = "Dorm6";
+	name = "Dormitory Door Lock";
+	normaldoorcontrol = 1;
+	pixel_x = -26;
+	pixel_y = 7;
+	specialfunctions = 4
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/unpowered)
+"rS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock{
+	name = "Dormitories"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"sA" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = -3;
+	pixel_y = 15
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/food/drinks/beer{
+	desc = "Whatever it is, it reeks of foul, putrid froth.";
+	list_reagents = list(/datum/reagent/consumable/ethanol/bacchus_blessing=15);
+	name = "Delta-Down";
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/ruin/unpowered)
+"sC" = (
+/obj/effect/abstract/open_area_marker{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"tc" = (
+/obj/structure/table/wood,
+/obj/item/folder,
+/obj/machinery/newscaster{
+	pixel_x = -32
+	},
+/obj/item/razor,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"te" = (
+/obj/machinery/door/airlock{
+	id_tag = "Dorm5";
+	name = "Cabin 1"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/ruin/unpowered)
+"tp" = (
+/obj/structure/bed,
+/obj/item/bedsheet/dorms,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/unpowered)
+"tw" = (
+/turf/open/floor/plasteel/grimy,
+/area/ruin/unpowered)
+"uj" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green,
+/obj/machinery/newscaster{
+	pixel_x = -32
+	},
+/turf/open/floor/carpet/purple,
+/area/ruin/unpowered)
+"wi" = (
+/obj/machinery/door/airlock{
+	id_tag = "Dorm5";
+	name = "Cabin 5"
+	},
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered)
+"wp" = (
+/obj/structure/table/wood,
+/obj/item/storage/briefcase{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/briefcase,
+/obj/machinery/newscaster{
+	pixel_x = -32
+	},
+/obj/item/cane,
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered)
+"xN" = (
+/obj/effect/abstract/open_area_marker{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"yl" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"yK" = (
+/obj/machinery/button/door{
+	id = "Dorm4";
+	name = "Dormitory Door Lock";
+	normaldoorcontrol = 1;
+	pixel_x = -26;
+	pixel_y = 7;
+	specialfunctions = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"yS" = (
+/obj/machinery/camera{
+	c_tag = "Dormitories - Center";
+	dir = 1;
+	name = "dormitories camera"
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"zc" = (
+/obj/structure/bed,
+/obj/item/bedsheet/dorms,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"zr" = (
+/turf/open/floor/carpet/purple,
+/area/ruin/unpowered)
+"Al" = (
+/turf/closed/wall,
+/area/ruin/unpowered)
+"BV" = (
+/obj/item/stack/sheet/wood,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"Ce" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"Co" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Cq" = (
+/obj/item/clipboard{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/item/newspaper{
+	pixel_x = 7;
+	pixel_y = 11
+	},
+/obj/item/newspaper,
+/obj/item/pen/red,
+/turf/open/floor/wood{
+	icon_state = "wood-broken2"
+	},
+/area/ruin/unpowered)
+"Cs" = (
+/obj/structure/dresser,
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/carpet/purple,
+/area/ruin/unpowered)
+"CJ" = (
+/obj/machinery/door/airlock{
+	id_tag = "Dorm3";
+	name = "Cabin 3"
+	},
+/turf/open/floor/carpet/purple,
+/area/ruin/unpowered)
+"DA" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp,
+/obj/item/radio/intercom{
+	pixel_x = 26;
+	pixel_y = 26
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/unpowered)
+"DN" = (
+/obj/machinery/button/door{
+	id = "Dorm1";
+	name = "Dormitory Door Lock";
+	normaldoorcontrol = 1;
+	pixel_x = -26;
+	pixel_y = 7;
+	specialfunctions = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"DV" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered)
+"GS" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/item/clothing/suit/jacket{
+	desc = "All the class of a trenchcoat without the security fibers.";
+	icon_state = "detective";
+	name = "trenchcoat"
+	},
+/obj/item/clothing/suit/toggle/lawyer/purple,
+/obj/item/clothing/head/fedora{
+	icon_state = "detective"
+	},
+/obj/item/clothing/under/rank/civilian/lawyer/female,
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered)
+"GT" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Hi" = (
+/obj/structure/chair/office,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"Hl" = (
+/obj/machinery/button/door{
+	id = "Dorm2";
+	name = "Dormitory Door Lock";
+	normaldoorcontrol = 1;
+	pixel_x = -26;
+	pixel_y = 7;
+	specialfunctions = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"Ia" = (
+/obj/structure/dresser,
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered)
+"Iz" = (
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"IH" = (
+/obj/item/kirbyplants/random,
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"KF" = (
+/obj/structure/bed,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/bedsheet/dorms,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"LJ" = (
+/obj/effect/turf_decal/tile/neutral,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"LU" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/machinery/light,
+/obj/item/clothing/suit/jacket{
+	desc = "All the class of a trenchcoat without the security fibers.";
+	icon_state = "greydet";
+	name = "trenchcoat"
+	},
+/obj/item/clothing/suit/toggle/lawyer/black,
+/obj/item/clothing/head/fedora,
+/obj/item/clothing/under/dress/redeveninggown,
+/obj/item/clothing/head/rabbitears,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/unpowered)
+"Mc" = (
+/obj/structure/bed,
+/obj/machinery/light,
+/obj/item/bedsheet/dorms,
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered)
+"Mi" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Oa" = (
+/obj/item/kirbyplants/random,
+/obj/item/radio/intercom{
+	pixel_x = 26;
+	pixel_y = 26
+	},
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered)
+"PY" = (
+/obj/machinery/camera{
+	c_tag = "Dormitories - Starboard";
+	name = "dormitories camera"
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"RA" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Se" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/item/clothing/suit/jacket{
+	desc = "All the class of a trenchcoat without the security fibers.";
+	icon_state = "detective";
+	name = "trenchcoat"
+	},
+/obj/item/clothing/suit/toggle/lawyer/purple,
+/obj/item/radio/intercom{
+	pixel_x = 26;
+	pixel_y = 26
+	},
+/obj/item/clothing/head/fedora{
+	icon_state = "detective"
+	},
+/obj/item/clothing/under/costume/geisha,
+/obj/item/clothing/head/fedora{
+	icon_state = "curator"
+	},
+/obj/item/clothing/suit/jacket{
+	desc = "This looks awfully familiar...";
+	icon_state = "curator"
+	},
+/obj/item/clothing/under/rank/civilian/curator/treasure_hunter,
+/turf/open/floor/carpet/purple,
+/area/ruin/unpowered)
+"Ts" = (
+/obj/structure/table/wood,
+/obj/item/folder,
+/obj/item/pen,
+/obj/machinery/light,
+/obj/item/paicard,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"Um" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/status_display/evac{
+	pixel_y = 32
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"UU" = (
+/obj/machinery/button/door{
+	id = "Dorm5";
+	name = "Dormitory Door Lock";
+	normaldoorcontrol = 1;
+	pixel_x = -26;
+	pixel_y = 7;
+	specialfunctions = 4
+	},
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered)
+"VJ" = (
+/obj/structure/dresser,
+/obj/item/radio/intercom{
+	pixel_x = 26;
+	pixel_y = 26
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"VT" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/item/clothing/suit/jacket/letterman_nanotrasen,
+/obj/item/clothing/suit/toggle/lawyer,
+/obj/item/radio/intercom{
+	pixel_x = 26;
+	pixel_y = 26
+	},
+/obj/item/clothing/under/costume/kilt,
+/obj/item/clothing/head/beret,
+/turf/open/floor/wood,
+/area/ruin/unpowered)
+"ZI" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/ruin/unpowered)
+
+(1,1,1) = {"
+Al
+Al
+Al
+Al
+Al
+Al
+Iz
+xN
+Iz
+Al
+Al
+Al
+Al
+Al
+Al
+"}
+(2,1,1) = {"
+Al
+dD
+Ce
+Cq
+DN
+Al
+rS
+pj
+rS
+Al
+yK
+bI
+jW
+lh
+Al
+"}
+(3,1,1) = {"
+Al
+ZI
+BV
+cM
+rm
+te
+Mi
+bY
+Co
+an
+cM
+cM
+Hi
+Ts
+Al
+"}
+(4,1,1) = {"
+Al
+dT
+bz
+KF
+sA
+Al
+Mi
+Iz
+RA
+Al
+VJ
+zc
+cM
+ox
+Al
+"}
+(5,1,1) = {"
+Al
+Al
+Al
+Al
+Al
+Al
+Mi
+Iz
+yS
+Al
+Al
+Al
+Al
+Al
+Al
+"}
+(6,1,1) = {"
+Al
+lh
+tc
+IH
+Hl
+Al
+Mi
+Iz
+Co
+Al
+UU
+wp
+cc
+Ia
+Al
+"}
+(7,1,1) = {"
+Al
+Um
+yl
+cM
+cM
+jU
+GT
+Iz
+pl
+wi
+kN
+DV
+kN
+Mc
+Al
+"}
+(8,1,1) = {"
+Al
+VT
+cM
+zc
+lG
+Al
+mU
+Iz
+LJ
+Al
+Oa
+kN
+kN
+GS
+Al
+"}
+(9,1,1) = {"
+Al
+Al
+Al
+Al
+Al
+Al
+PY
+Iz
+LJ
+Al
+Al
+Al
+Al
+Al
+Al
+"}
+(10,1,1) = {"
+Al
+Cs
+ij
+uj
+qe
+Al
+mU
+Iz
+jh
+Al
+rN
+qK
+tw
+jq
+Al
+"}
+(11,1,1) = {"
+Al
+mH
+zr
+iY
+zr
+CJ
+mU
+bY
+LJ
+mZ
+tw
+tw
+tw
+LU
+Al
+"}
+(12,1,1) = {"
+Al
+Se
+zr
+zr
+fm
+Al
+rS
+pj
+rS
+Al
+DA
+eV
+tp
+iC
+Al
+"}
+(13,1,1) = {"
+Al
+Al
+Al
+Al
+Al
+Al
+Iz
+sC
+Iz
+Al
+Al
+Al
+Al
+Al
+Al
+"}

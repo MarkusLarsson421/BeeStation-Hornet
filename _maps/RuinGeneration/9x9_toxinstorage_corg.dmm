@@ -34,7 +34,6 @@
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
 "p" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
@@ -58,7 +57,6 @@
 /area/ruin/unpowered)
 "v" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
 "z" = (
@@ -76,8 +74,10 @@
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
 "F" = (
-/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
-/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/table,
+/obj/item/wrench,
+/obj/item/analyzer,
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
 "I" = (
@@ -117,6 +117,7 @@
 /obj/machinery/portable_atmospherics/canister/plasma,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/glitter,
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
 "U" = (
@@ -141,11 +142,11 @@ V
 "}
 (2,1,1) = {"
 V
-k
+F
 I
 N
 U
-z
+v
 z
 e
 V
@@ -155,9 +156,9 @@ i
 k
 t
 v
-U
+v
 z
-z
+v
 p
 V
 "}
@@ -199,8 +200,8 @@ V
 k
 t
 d
-F
-C
+v
+v
 T
 T
 V
@@ -212,7 +213,7 @@ I
 q
 l
 C
-C
+v
 K
 V
 "}

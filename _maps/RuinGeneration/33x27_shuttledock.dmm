@@ -1,0 +1,1519 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"cT" = (
+/obj/structure/chair/fancy/sofa/old/left{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"dP" = (
+/obj/structure/marker_beacon,
+/turf/open/floor/dock/drydock,
+/area/template_noop)
+"dR" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/ruinloot,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"eX" = (
+/obj/item/storage/firstaid/random,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"fe" = (
+/obj/structure/ore_box,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"fk" = (
+/obj/effect/decal/remains/human,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"fI" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate/science,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"gp" = (
+/obj/machinery/light/broken{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"gQ" = (
+/obj/effect/abstract/doorway_marker{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"ha" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"hp" = (
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"hL" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/drinks/britcup{
+	pixel_x = 7;
+	pixel_y = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"ib" = (
+/obj/effect/abstract/open_area_marker{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"iM" = (
+/obj/structure/chair/fancy/sofa/old,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"iN" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"jy" = (
+/obj/structure/chair/stool{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"kz" = (
+/obj/effect/decal/cleanable/blood/gibs/body,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"kR" = (
+/obj/structure/lattice/catwalk/over,
+/obj/structure/curtain/bounty,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"kZ" = (
+/obj/item/bodybag,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"lq" = (
+/obj/structure/bed/double/maint,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"lt" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/maintenance/eight,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"mc" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/maintenance/two,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"mF" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"mV" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"ox" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"oS" = (
+/turf/closed/wall,
+/area/ruin/unpowered)
+"py" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/maintenance/four,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"pV" = (
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"qb" = (
+/obj/effect/abstract/open_area_marker{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"qE" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"rf" = (
+/obj/machinery/door/firedoor/closed,
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"ro" = (
+/obj/effect/spawner/lootdrop/glowstick/lit,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"rp" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/lootdrop/ruinloot/medical,
+/obj/item/reagent_containers/food/drinks/bottle/hooch,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"rB" = (
+/obj/structure/sign/poster/ripped{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"sQ" = (
+/obj/structure/sign/poster/random{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"sV" = (
+/obj/structure/chair/stool{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"tf" = (
+/obj/structure/sign/poster/random{
+	pixel_x = -32
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"th" = (
+/obj/structure/table_frame/wood,
+/obj/item/trash/tray{
+	pixel_x = 3
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"tx" = (
+/obj/effect/spawner/randomvend/cola,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"tR" = (
+/obj/structure/bed/roller,
+/obj/effect/mapping_helpers/dead_body_placer/ruin_morgue,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"vg" = (
+/obj/structure/sign/poster/ripped{
+	pixel_x = 32
+	},
+/obj/machinery/light/broken{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"vy" = (
+/obj/machinery/door/firedoor,
+/obj/effect/decal/remains/plasma,
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"wv" = (
+/obj/structure/chair/fancy/sofa/old/right,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"xl" = (
+/obj/machinery/light/small,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"xw" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_y = -28
+	},
+/obj/machinery/light/broken,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"yC" = (
+/obj/structure/sign/poster/ripped{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"zM" = (
+/obj/machinery/disposal/bin,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"zQ" = (
+/obj/effect/abstract/open_area_marker{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Ar" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"AD" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"AF" = (
+/obj/machinery/space_heater,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"AT" = (
+/obj/structure/rack,
+/obj/item/storage/firstaid,
+/obj/item/stack/medical/gauze,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"BF" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 28
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"BJ" = (
+/obj/effect/turf_decal/stripes,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"BS" = (
+/obj/structure/lattice/catwalk/over,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"CD" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Df" = (
+/turf/open/floor/dock/drydock,
+/area/template_noop)
+"Dz" = (
+/obj/machinery/door/firedoor/closed,
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"DC" = (
+/obj/structure/barricade/security,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Ew" = (
+/obj/effect/abstract/open_area_marker,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Ex" = (
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/stripes,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"FD" = (
+/obj/effect/spawner/randomvend/snack,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"FO" = (
+/obj/structure/closet/crate/critter,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"GS" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"HG" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch";
+	req_one_access_txt = "12"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"Ig" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/fans/tiny,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Je" = (
+/obj/structure/closet/body_bag,
+/obj/effect/mapping_helpers/dead_body_placer/ruin_morgue,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Js" = (
+/obj/effect/acid,
+/turf/closed/wall,
+/area/ruin/unpowered)
+"LG" = (
+/obj/structure/chair/fancy/sofa/old/corner/concave,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Mt" = (
+/obj/structure/lattice/catwalk/over,
+/obj/machinery/light/small{
+	brightness = 3;
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"MF" = (
+/obj/item/stack/rods,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Np" = (
+/obj/structure/closet/crate/miningcar{
+	pixel_x = 1;
+	pixel_y = 2
+	},
+/obj/item/pickaxe/drill,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Oa" = (
+/obj/structure/closet/crate/miningcar{
+	pixel_x = 1;
+	pixel_y = 2
+	},
+/obj/item/stack/sheet/mineral/sandstone/twenty{
+	pixel_x = -1;
+	pixel_y = 7
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Ol" = (
+/obj/effect/spawner/lootdrop/glowstick/lit,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Ou" = (
+/obj/structure/sign/poster/ripped{
+	pixel_x = 32
+	},
+/obj/machinery/light/broken{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/dead_body_placer/ruin_morgue,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"OL" = (
+/obj/structure/closet,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Pe" = (
+/obj/structure/table,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"QC" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Rf" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Ro" = (
+/obj/effect/abstract/doorway_marker,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"SM" = (
+/obj/structure/chair/fancy/sofa/old{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Tp" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"Uc" = (
+/obj/structure/table,
+/obj/item/gps{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/radio{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Us" = (
+/obj/machinery/light/broken,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"UA" = (
+/obj/structure/bookcase/manuals/medical,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"Vv" = (
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"VP" = (
+/obj/item/crowbar{
+	pixel_y = 5
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"VV" = (
+/obj/structure/closet/crate/large,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"VX" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"WE" = (
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes,
+/obj/machinery/door/firedoor/window,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"WH" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate/engineering,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Xf" = (
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Xk" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Xm" = (
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"Xs" = (
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"XF" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes,
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"XS" = (
+/obj/docking_port/stationary{
+	dir = 1;
+	dwidth = 16;
+	height = 15;
+	id = "exploration";
+	name = "Arrivals Dock";
+	width = 25
+	},
+/obj/docking_port/stationary{
+	dwidth = 2;
+	height = 5;
+	id = "laborcamp_home";
+	name = "fore bay 1";
+	roundstart_template = /datum/map_template/shuttle/labour/corg;
+	width = 8
+	},
+/turf/open/floor/dock/drydock,
+/area/template_noop)
+"Yq" = (
+/obj/effect/mapping_helpers/dead_body_placer/ruin_morgue,
+/turf/open/floor/plasteel,
+/area/ruin/unpowered)
+"Zk" = (
+/obj/effect/spawner/lootdrop/grille_or_trash,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+
+(1,1,1) = {"
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+Vv
+ib
+Vv
+oS
+oS
+oS
+oS
+oS
+oS
+"}
+(2,1,1) = {"
+oS
+Vv
+Vv
+Vv
+eX
+Vv
+Vv
+kZ
+Vv
+Vv
+OL
+Vv
+Vv
+Vv
+mc
+Vv
+Vv
+oS
+rf
+vy
+rf
+oS
+Oa
+Np
+fe
+Pe
+oS
+"}
+(3,1,1) = {"
+oS
+AD
+Vv
+Yq
+Vv
+Vv
+Vv
+Vv
+Je
+Vv
+Vv
+Vv
+kz
+Vv
+Vv
+Vv
+Vv
+Vv
+Vv
+VP
+Vv
+Vv
+Vv
+Vv
+Vv
+Uc
+oS
+"}
+(4,1,1) = {"
+oS
+Vv
+Vv
+VP
+tR
+Vv
+Ou
+Vv
+ha
+Vv
+QC
+Vv
+Vv
+Vv
+Vv
+Vv
+gp
+Vv
+Vv
+Vv
+vg
+Vv
+Vv
+Vv
+Vv
+zM
+oS
+"}
+(5,1,1) = {"
+oS
+oS
+rf
+rf
+rf
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+ox
+ox
+ox
+oS
+ox
+ox
+ox
+oS
+oS
+Dz
+Dz
+Dz
+oS
+oS
+"}
+(6,1,1) = {"
+oS
+BJ
+Vv
+Vv
+Vv
+oS
+dP
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+dP
+oS
+Vv
+Vv
+Vv
+pV
+oS
+"}
+(7,1,1) = {"
+gQ
+BJ
+Vv
+Vv
+Vv
+oS
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+oS
+Vv
+Vv
+Vv
+pV
+Ro
+"}
+(8,1,1) = {"
+oS
+BJ
+Vv
+Vv
+Vv
+oS
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+oS
+Vv
+Vv
+Vv
+pV
+oS
+"}
+(9,1,1) = {"
+oS
+oS
+BF
+Vv
+Vv
+oS
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+oS
+Ol
+Vv
+xw
+oS
+oS
+"}
+(10,1,1) = {"
+oS
+zM
+Vv
+Vv
+Vv
+ox
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+ox
+Vv
+Vv
+Vv
+fI
+oS
+"}
+(11,1,1) = {"
+oS
+tx
+Vv
+Vv
+Vv
+ox
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+ox
+Vv
+Vv
+Vv
+GS
+oS
+"}
+(12,1,1) = {"
+oS
+FD
+Ol
+Vv
+Vv
+oS
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+oS
+Vv
+Vv
+Vv
+WH
+oS
+"}
+(13,1,1) = {"
+oS
+Vv
+Vv
+Vv
+xl
+oS
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+oS
+AD
+Vv
+Vv
+Vv
+oS
+"}
+(14,1,1) = {"
+oS
+jy
+Vv
+Vv
+Vv
+ox
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+ox
+DC
+Vv
+Vv
+GS
+oS
+"}
+(15,1,1) = {"
+oS
+hL
+Vv
+Vv
+DC
+ox
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+ox
+DC
+Vv
+Vv
+FO
+oS
+"}
+(16,1,1) = {"
+oS
+sV
+Vv
+Vv
+yC
+oS
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+oS
+Vv
+Vv
+Vv
+VV
+oS
+"}
+(17,1,1) = {"
+oS
+oS
+CD
+Vv
+Vv
+WE
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+WE
+Vv
+Vv
+mV
+oS
+oS
+"}
+(18,1,1) = {"
+Vv
+XF
+MF
+Vv
+Vv
+WE
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+WE
+Vv
+Vv
+Vv
+XF
+Vv
+"}
+(19,1,1) = {"
+zQ
+XF
+Vv
+Vv
+Vv
+oS
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Js
+rB
+Vv
+Vv
+XF
+Ew
+"}
+(20,1,1) = {"
+Vv
+XF
+Vv
+Vv
+DC
+oS
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+oS
+sQ
+Vv
+Vv
+XF
+Vv
+"}
+(21,1,1) = {"
+oS
+oS
+CD
+Ol
+Vv
+ox
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+ox
+DC
+Vv
+Us
+oS
+oS
+"}
+(22,1,1) = {"
+oS
+Ar
+Vv
+Vv
+Vv
+Ig
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+XS
+Ig
+fk
+Vv
+Vv
+Ar
+oS
+"}
+(23,1,1) = {"
+oS
+Xf
+Vv
+Vv
+Vv
+oS
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+oS
+Vv
+Vv
+Vv
+Xf
+oS
+"}
+(24,1,1) = {"
+oS
+Rf
+Vv
+Vv
+Vv
+oS
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Js
+Vv
+Vv
+Vv
+Xf
+oS
+"}
+(25,1,1) = {"
+oS
+Rf
+Vv
+Vv
+Vv
+ox
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+ox
+Vv
+Vv
+Vv
+Rf
+oS
+"}
+(26,1,1) = {"
+oS
+oS
+BF
+Vv
+Vv
+ox
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+ox
+Vv
+Vv
+xw
+oS
+oS
+"}
+(27,1,1) = {"
+oS
+Ex
+Vv
+Vv
+Vv
+ox
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+ox
+Vv
+Vv
+Vv
+Xs
+oS
+"}
+(28,1,1) = {"
+gQ
+BJ
+Vv
+Vv
+Vv
+oS
+dP
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+Df
+dP
+oS
+Vv
+Vv
+Vv
+pV
+Ro
+"}
+(29,1,1) = {"
+oS
+oS
+Xk
+Xk
+Xk
+oS
+oS
+ox
+ox
+ox
+oS
+ox
+ox
+ox
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+HG
+oS
+oS
+oS
+"}
+(30,1,1) = {"
+oS
+wv
+Vv
+Vv
+Vv
+Vv
+iN
+Vv
+Vv
+Vv
+tf
+Vv
+Vv
+Vv
+oS
+Mt
+kR
+BS
+BS
+BS
+BS
+kR
+Mt
+BS
+Zk
+qE
+oS
+"}
+(31,1,1) = {"
+oS
+iM
+Vv
+Vv
+Vv
+Vv
+Vv
+MF
+Vv
+Vv
+Vv
+Vv
+Vv
+Vv
+HG
+BS
+oS
+th
+ro
+mF
+AT
+oS
+dR
+Xm
+Xm
+Tp
+oS
+"}
+(32,1,1) = {"
+oS
+LG
+SM
+cT
+VX
+oS
+Xk
+Xk
+Xk
+oS
+Vv
+Vv
+Vv
+Vv
+oS
+AF
+Zk
+UA
+lq
+rp
+py
+oS
+lt
+Xm
+AF
+hp
+oS
+"}
+(33,1,1) = {"
+oS
+oS
+oS
+oS
+oS
+oS
+Vv
+qb
+Vv
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+oS
+"}

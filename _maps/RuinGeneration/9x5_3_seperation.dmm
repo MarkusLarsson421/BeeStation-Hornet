@@ -28,6 +28,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
+"W" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
 "Y" = (
 /turf/template_noop,
 /area/template_noop)
@@ -56,21 +60,21 @@ t
 (4,1,1) = {"
 Y
 s
-Y
+W
 s
 Y
 "}
 (5,1,1) = {"
 Y
 s
-Y
+W
 s
 Y
 "}
 (6,1,1) = {"
 Y
 s
-Y
+W
 s
 Y
 "}

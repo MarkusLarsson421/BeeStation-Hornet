@@ -1,0 +1,475 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/plasteel,
+/area/space)
+"b" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/ore_silo,
+/obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"c" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/mob_spawn/swarmer,
+/turf/open/floor/engine,
+/area/space)
+"d" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/mob/living/simple_animal/hostile/swarmer/ai/ranged_combat,
+/turf/open/floor/engine,
+/area/space)
+"e" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/holopad,
+/turf/open/floor/engine,
+/area/space)
+"i" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/structure/table,
+/obj/item/clipboard,
+/obj/item/pen,
+/obj/item/radio/intercom{
+	pixel_y = 22
+	},
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
+/area/space)
+"j" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-16"
+	},
+/obj/effect/turf_decal/box/corners{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"k" = (
+/obj/effect/abstract/open_area_marker{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"m" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/vault{
+	name = "Vault";
+	req_access_txt = "53"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"n" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/mob_spawn/swarmer,
+/turf/open/floor/engine,
+/area/space)
+"o" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/box/corners{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"p" = (
+/obj/effect/turf_decal/box,
+/turf/open/floor/plasteel,
+/area/space)
+"q" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/cobweb,
+/obj/structure/safe{
+	pixel_x = 3
+	},
+/obj/item/stack/spacecash/c500{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/stack/spacecash/c1000,
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"r" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"s" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/swarmer/ai/resource,
+/turf/open/floor/engine,
+/area/space)
+"u" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/caution,
+/turf/open/floor/plasteel,
+/area/space)
+"v" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/sign/warning/securearea{
+	name = "EMERGENCY STORAGE";
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/light/small,
+/obj/structure/closet/firecloset,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"w" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate/silvercrate,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/item/powertool/hand_drill,
+/obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"x" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/camera/motion{
+	c_tag = "Vault";
+	dir = 1;
+	name = "vault camera";
+	network = list("vault")
+	},
+/turf/open/floor/engine,
+/area/space)
+"y" = (
+/obj/machinery/newscaster{
+	pixel_y = -30
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-21"
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"z" = (
+/turf/closed/wall,
+/area/space)
+"A" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/caution/stand_clear,
+/obj/effect/abstract/open_area_marker{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"B" = (
+/obj/machinery/camera{
+	c_tag = "Fore Hallway Vault";
+	dir = 1;
+	name = "fore camera"
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"C" = (
+/turf/closed/wall/r_wall,
+/area/space)
+"E" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"F" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/holopad,
+/turf/open/floor/plasteel,
+/area/space)
+"G" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/space)
+"H" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"J" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"K" = (
+/obj/structure/sign/warning/securearea,
+/obj/item/multitool,
+/turf/closed/wall/r_wall,
+/area/space)
+"L" = (
+/obj/structure/table,
+/obj/item/folder/blue{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/clothing/neck/stethoscope{
+	pixel_y = 5
+	},
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
+/area/space)
+"M" = (
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
+/area/space)
+"N" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/engine,
+/area/space)
+"O" = (
+/obj/structure/sign/poster/official/random,
+/turf/closed/wall,
+/area/space)
+"P" = (
+/turf/template_noop,
+/area/template_noop)
+"Q" = (
+/obj/effect/turf_decal/delivery,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/goldcrate,
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"R" = (
+/obj/effect/abstract/doorway_marker,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"S" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"T" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/engine,
+/area/space)
+"U" = (
+/obj/structure/sign/departments/security,
+/turf/closed/wall/r_wall,
+/area/space)
+"V" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"W" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/engine,
+/area/space)
+"X" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel,
+/area/space)
+"Y" = (
+/obj/structure/sign/warning/securearea{
+	pixel_y = 32
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
+/area/space)
+"Z" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/swarmer/ai/melee_combat,
+/turf/open/floor/engine,
+/area/space)
+
+(1,1,1) = {"
+P
+C
+C
+C
+C
+C
+P
+z
+S
+A
+S
+z
+z
+"}
+(2,1,1) = {"
+C
+C
+q
+V
+Q
+C
+C
+z
+r
+H
+H
+v
+z
+"}
+(3,1,1) = {"
+C
+L
+T
+Z
+G
+n
+K
+j
+a
+a
+a
+J
+R
+"}
+(4,1,1) = {"
+C
+Y
+d
+M
+e
+W
+m
+u
+a
+a
+B
+O
+z
+"}
+(5,1,1) = {"
+C
+i
+c
+s
+N
+x
+U
+o
+a
+p
+a
+y
+z
+"}
+(6,1,1) = {"
+C
+C
+b
+E
+w
+C
+C
+z
+a
+F
+a
+X
+z
+"}
+(7,1,1) = {"
+P
+C
+C
+C
+C
+C
+P
+z
+a
+a
+k
+a
+z
+"}

@@ -265,6 +265,8 @@
 	var/isonshuttle = istype(get_area(src), /area/shuttle)
 	for(var/turf/T as() in RANGE_TURFS(1, src))
 		var/area/A = get_area(T)
+		if(istype(A, /area/ruin/unpowered))
+			continue
 		if(isspaceturf(T) || (!isonshuttle && (istype(A, /area/shuttle) || istype(A, /area/space))) || (isonshuttle && !istype(A, /area/shuttle)))
 			to_chat(S, "<span class='warning'>Destroying this object has the potential to cause a hull breach. Aborting.</span>")
 			S.LoseTarget()
@@ -345,6 +347,8 @@
 	var/isonshuttle = istype(loc, /area/shuttle)
 	for(var/turf/T as() in RANGE_TURFS(1, src))
 		var/area/A = get_area(T)
+		if(istype(A, /area/ruin/unpowered))
+			continue
 		if(isspaceturf(T) || (!isonshuttle && (istype(A, /area/shuttle) || istype(A, /area/space))) || (isonshuttle && !istype(A, /area/shuttle)))
 			to_chat(S, "<span class='warning'>Destroying this object has the potential to cause a hull breach. Aborting.</span>")
 			S.LoseTarget()
@@ -359,6 +363,8 @@
 	var/isonshuttle = istype(get_area(src), /area/shuttle)
 	for(var/turf/T as() in RANGE_TURFS(1, src))
 		var/area/A = get_area(T)
+		if(istype(A, /area/ruin/unpowered))
+			continue
 		if(isspaceturf(T) || (!isonshuttle && (istype(A, /area/shuttle) || istype(A, /area/space))) || (isonshuttle && !istype(A, /area/shuttle)))
 			to_chat(S, "<span class='warning'>Destroying this object has the potential to cause a hull breach. Aborting.</span>")
 			S.LoseTarget()
