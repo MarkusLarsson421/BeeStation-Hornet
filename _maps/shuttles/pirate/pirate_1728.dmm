@@ -170,12 +170,16 @@
 "ms" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/condiment/milk{
-	pixel_x = 4;
-	pixel_y = 6
+	pixel_y = 2;
+	pixel_x = -7
 	},
-/obj/item/reagent_containers/food/condiment/milk,
 /obj/item/candle/infinite{
-	pixel_x = -10
+	pixel_x = 1;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/food/condiment/soymilk{
+	pixel_x = 10;
+	pixel_y = 7
 	},
 /turf/open/floor/wood,
 /area/shuttle/pirate)
@@ -273,17 +277,15 @@
 /turf/open/floor/wood,
 /area/shuttle/pirate)
 "tl" = (
-/obj/machinery/vending/boozeomat/all_access{
-	onstation = 0
-	},
 /obj/effect/turf_decal/stripes/line,
-/turf/closed/wall/mineral/wood,
+/turf/open/floor/wood,
 /area/shuttle/pirate)
 "tm" = (
 /turf/open/floor/plating,
 /area/shuttle/pirate)
 "tq" = (
 /obj/item/chair/wood,
+/obj/effect/mob_spawn/human/skeleton,
 /turf/open/floor/wood,
 /area/shuttle/pirate)
 "tW" = (
@@ -375,10 +377,14 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
-/obj/item/gun/energy/laser/retro,
-/obj/item/gun/energy/laser/retro{
-	pixel_x = -3;
-	pixel_y = 6
+/obj/item/gun/ballistic/rifle/leveraction{
+	pixel_y = 10
+	},
+/obj/item/gun/ballistic/rifle/boltaction{
+	pixel_y = 5
+	},
+/obj/item/gun/ballistic/revolver/golden{
+	pixel_y = -3
 	},
 /obj/item/candle/infinite{
 	pixel_x = 7;
@@ -446,6 +452,12 @@
 	},
 /turf/open/floor/wood,
 /area/shuttle/pirate)
+"zP" = (
+/obj/machinery/vending/boozeomat/all_access{
+	onstation = 0
+	},
+/turf/closed/wall/mineral/wood,
+/area/shuttle/pirate)
 "Aj" = (
 /obj/structure/grille,
 /turf/open/floor/plating,
@@ -496,8 +508,8 @@
 /area/shuttle/pirate)
 "Bx" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/secure_closet/personal,
 /obj/effect/turf_decal/stripes/line,
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/wood,
 /area/shuttle/pirate)
 "BL" = (
@@ -557,6 +569,11 @@
 "CV" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/siding/wood,
+/obj/structure/closet/crate/secure/weapon{
+	req_access_txt = "180";
+	desc = "A secure ammo crate.";
+	name = "ammo crate"
+	},
 /turf/open/floor/wood,
 /area/shuttle/pirate)
 "Dp" = (
@@ -911,7 +928,7 @@ Cy
 RP
 gc
 uX
-gz
+zP
 aq
 Yj
 "}
