@@ -1,12 +1,14 @@
+GLOBAL_VAR_INIT(1728_pirates_spawned, FALSE)
+
 // Pirates threat
 /// No way
-#define PIRATE_RESPONSE_NO_PAY "pirate_answer_no_pay"
+#define PIRATE_RESPONSE_NO_PAY "pirates_1728_answer_no_pay"
 /// We'll pay
-#define PIRATE_RESPONSE_PAY "pirate_answer_pay"
+#define PIRATE_RESPONSE_PAY "pirates_1728_answer_pay"
 
-/datum/round_event_control/pirates/pirates_1728
+/datum/round_event_control/pirates_1728
 	name = "1728 Space Pirates"
-	typepath = /datum/round_event/pirates/pirates_1728
+	typepath = /datum/round_event/pirates_1728
 	weight = 10
 	max_occurrences = 1
 	min_players = 20
@@ -14,12 +16,17 @@
 	gamemode_blacklist = list("nuclear")
 	cannot_spawn_after_shuttlecall = TRUE
 
-/datum/round_event/pirates/pirates_1728/start()
-	if(!GLOB.pirates_spawned)
+/datum/round_event_control/pirates/preRunEvent()
+	if (!SSmapping.empty_space)
+		return EVENT_CANT_RUN
+	return ..()
+
+/datum/round_event/pirates_1728/start()
+	if(!GLOB.1728_pirates_spawned)
 		send_pirate_1728_threat()
 
 /proc/send_pirate_1728_threat()
-	GLOB.pirates_spawned = TRUE
+	GLOB.1728_pirates_spawned = TRUE
 	var/ship_name = "Space Privateers Association"
 	var/payoff_min = 7500
 	var/payoff = 0
@@ -37,9 +44,26 @@
 		PIRATE_RESPONSE_PAY = "We'll pay.",
 		PIRATE_RESPONSE_NO_PAY = "No way.",
 	)
-	threat.answer_callback = CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(pirates_answered), threat, payoff, ship_name, initial_send_time, response_max_time)
+	threat.answer_callback = CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(pirates_1728_answered), threat, payoff, ship_name, initial_send_time, response_max_time)
 	addtimer(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(spawn_1728_pirates), threat, FALSE), response_max_time)
 	SScommunications.send_message(threat,unique = TRUE)
+
+/proc/pirates_1728_answered(datum/comm_message/threat, payoff, ship_name, initial_send_time, response_max_time)
+	if(world.time > initial_send_time + response_max_time)
+		priority_announce("Too late to beg for mercy!",sender_override = ship_name)
+		return
+	// Attempted to pay off
+	if(threat?.answered == PIRATE_RESPONSE_PAY)
+		var/datum/bank_account/D = SSeconomy.get_budget_account(ACCOUNT_CAR_ID)
+		if(!D)
+			return
+		// Check if they can afford it
+		if(D.adjust_money(-payoff))
+			priority_announce("Thanks for the credits, landlubbers.", sound = SSstation.announcer.get_rand_alert_sound(), sender_override = ship_name)
+		else
+			priority_announce("Trying to cheat us? You'll regret this!", sound = SSstation.announcer.get_rand_alert_sound(), sender_override = ship_name)
+			spawn_1728_pirates(threat, TRUE) // insta-spawn!
+
 
 /proc/spawn_1728_pirates(datum/comm_message/threat, skip_answer_check)
 	// If they paid it off in the meantime, don't spawn pirates
@@ -60,7 +84,7 @@
 		CRASH("Pirate event found no turf to load in")
 
 	var/datum/async_map_generator/template_placer = ship.load(T)
-	template_placer.on_completion(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(after_pirate_spawn), ship, candidates))
+	template_placer.on_completion(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(after_pirate_1728_spawn), ship, candidates))
 
 	priority_announce("Unidentified armed ship detected near the station.", sound = SSstation.announcer.get_rand_alert_sound())
 
