@@ -152,6 +152,12 @@
 	helmet_type = /obj/item/clothing/head/helmet/space/hunter
 	suit_type = /obj/item/clothing/suit/space/hunter
 	mask_type = /obj/item/clothing/mask/breath
+	
+/obj/machinery/suit_storage_unit/pirate
+	suit_type = /obj/item/clothing/suit/space
+	helmet_type = /obj/item/clothing/head/helmet/space
+	mask_type = /obj/item/clothing/mask/breath
+	storage_type = /obj/item/tank/internals/oxygen
 
 /obj/machinery/suit_storage_unit/open
 	state_open = TRUE

@@ -224,7 +224,7 @@
 	port_id = "assault_pod"
 	can_be_bought = FALSE
 
-/datum/map_template/shuttle/pirate
+/datum/map_template/shuttle/pirate_default
 	port_id = "pirate"
 	can_be_bought = FALSE
 
@@ -733,6 +733,10 @@
 /datum/map_template/shuttle/pirate/default
 	suffix = "default"
 	name = "pirate ship (Default)"
+
+/datum/map_template/shuttle/pirate/pirate_1728
+	suffix = "1728"
+	name = "pirate ship 1728"
 
 /datum/map_template/shuttle/hunter/space_cop
 	suffix = "space_cop"
