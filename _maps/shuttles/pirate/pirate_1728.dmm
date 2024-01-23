@@ -535,16 +535,13 @@
 /area/shuttle/pirate)
 "If" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/storage/backpack/duffelbag/syndie/x4{
-	pixel_y = 8
-	},
-/obj/item/storage/backpack/duffelbag/syndie/c4,
+/obj/item/storage/backpack/duffelbag/syndie/x4,
 /obj/item/grenade/empgrenade{
-	pixel_y = 10
+	pixel_y = 4
 	},
 /obj/item/grenade/empgrenade{
 	pixel_x = 8;
-	pixel_y = 10
+	pixel_y = 4
 	},
 /obj/item/grenade/smokebomb{
 	pixel_x = -5
