@@ -154,6 +154,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/fans/tiny,
 /obj/effect/decal/cleanable/cobweb,
+/obj/structure/barricade/wooden/crude,
 /turf/open/floor/wood,
 /area/shuttle/pirate)
 "kp" = (
@@ -257,6 +258,11 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
+/area/shuttle/pirate)
+"rz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/holopad,
+/turf/open/floor/wood,
 /area/shuttle/pirate)
 "sc" = (
 /obj/structure/fans/tiny,
@@ -428,6 +434,11 @@
 	},
 /turf/open/floor/wood,
 /area/shuttle/pirate)
+"xS" = (
+/obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/crude,
+/turf/closed/wall/mineral/wood,
+/area/shuttle/pirate)
 "yP" = (
 /obj/machinery/shuttle_scrambler,
 /obj/machinery/button/door{
@@ -574,6 +585,13 @@
 	desc = "A secure ammo crate.";
 	name = "ammo crate"
 	},
+/obj/item/storage/box/breacherslug,
+/obj/item/storage/box/breacherslug,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
 /turf/open/floor/wood,
 /area/shuttle/pirate)
 "Dp" = (
@@ -897,10 +915,10 @@ RG
 sc
 sc
 sc
-gz
-sh
 sh
 gz
+gz
+sh
 gz
 gz
 tm
@@ -946,7 +964,7 @@ RH
 WA
 YX
 HR
-vB
+YX
 Un
 WA
 nu
@@ -978,7 +996,7 @@ YX
 AG
 ms
 cs
-YX
+rz
 CV
 hK
 YX
@@ -1000,7 +1018,7 @@ Sc
 Gd
 wH
 Ii
-YX
+vB
 KC
 fX
 tq
@@ -1049,7 +1067,7 @@ En
 En
 En
 Aj
-gz
+xS
 Lj
 Lj
 Lj
@@ -1060,7 +1078,7 @@ VB
 VB
 VB
 gz
-RG
+xS
 gz
 gz
 gz
