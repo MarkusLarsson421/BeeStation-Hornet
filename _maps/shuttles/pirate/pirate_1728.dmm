@@ -253,6 +253,11 @@
 /obj/machinery/loot_locator,
 /turf/open/floor/wood,
 /area/shuttle/pirate)
+"mK" = (
+/obj/machinery/holopad,
+/obj/effect/turf_decal/box,
+/turf/open/floor/wood,
+/area/shuttle/pirate)
 "nD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/shard{
@@ -1190,7 +1195,7 @@ vv
 FF
 cb
 cb
-Yz
+mK
 If
 Lv
 sL
