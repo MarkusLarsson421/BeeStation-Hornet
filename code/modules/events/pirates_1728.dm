@@ -1,5 +1,3 @@
-GLOBAL_VAR_INIT(1728_pirates_spawned, FALSE)
-
 // Pirates threat
 /// No way
 #define PIRATE_RESPONSE_NO_PAY "pirates_1728_answer_no_pay"
@@ -22,11 +20,11 @@ GLOBAL_VAR_INIT(1728_pirates_spawned, FALSE)
 	return ..()
 
 /datum/round_event/pirates_1728/start()
-	if(!GLOB.1728_pirates_spawned)
+	if(!GLOB.pirates_spawned)
 		send_pirate_1728_threat()
 
 /proc/send_pirate_1728_threat()
-	GLOB.1728_pirates_spawned = TRUE
+	GLOB.pirates_spawned = TRUE
 	var/ship_name = "Space Privateers Association"
 	var/payoff_min = 7500
 	var/payoff = 0
