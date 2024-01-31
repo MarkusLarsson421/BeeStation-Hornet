@@ -334,6 +334,9 @@
 /obj/machinery/modular_computer/console/preset/command{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "bC" = (
@@ -459,7 +462,10 @@
 	dir = 2;
 	network = list("ss13","command")
 	},
-/turf/open/floor/plasteel/techmaint,
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/bridge)
 "cu" = (
 /obj/structure/table,
@@ -499,6 +505,7 @@
 	network = list("command");
 	name = "Command Camera console"
 	},
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "cD" = (
@@ -1175,7 +1182,10 @@
 	pixel_y = -25;
 	name = "\improper Satellite Telescreen"
 	},
-/turf/open/floor/plasteel/techmaint,
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/bridge)
 "fN" = (
 /turf/open/floor/plasteel,
@@ -1999,6 +2009,12 @@
 "jt" = (
 /turf/closed/wall,
 /area/maintenance/fore)
+"ju" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/bridge)
 "jx" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "AI Upload";
@@ -4240,11 +4256,13 @@
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat/foyer)
 "tW" = (
-/obj/machinery/holopad,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/techmaint,
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/bridge)
 "tX" = (
 /obj/machinery/newscaster{
@@ -5233,6 +5251,13 @@
 /obj/machinery/fax/sec,
 /turf/open/floor/plasteel/dark,
 /area/space)
+"zH" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/holopad,
+/turf/open/floor/plasteel/dark,
+/area/bridge)
 "zJ" = (
 /turf/open/floor/carpet/royalblue,
 /area/crew_quarters/heads/captain/private)
@@ -5764,6 +5789,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "Cr" = (
@@ -7388,6 +7414,13 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/aisat/atmos)
+"Le" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/bridge)
 "Lf" = (
 /obj/machinery/computer/security{
 	network = list("medbay");
@@ -8458,6 +8491,12 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass,
 /area/hallway/primary/central)
+"QV" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/bridge)
 "QW" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 8
@@ -40449,7 +40488,7 @@ jg
 fc
 eR
 kt
-ts
+Ji
 SC
 SC
 Ji
@@ -40706,7 +40745,7 @@ jg
 fc
 eR
 eR
-Qi
+iY
 Mn
 Mn
 pk
@@ -40963,7 +41002,7 @@ jg
 fc
 eR
 eR
-Qi
+iY
 Mn
 Mn
 Mn
@@ -41220,7 +41259,7 @@ jg
 fc
 eR
 eR
-Qi
+iY
 Mn
 Mn
 Mn
@@ -41477,7 +41516,7 @@ jg
 fc
 eR
 eR
-Qi
+iY
 Mn
 Mn
 Mn
@@ -41734,7 +41773,7 @@ jg
 fc
 eR
 eR
-Qi
+iY
 Mn
 Mn
 pk
@@ -41991,7 +42030,7 @@ WZ
 kt
 kt
 eR
-Qi
+iY
 Mn
 Mn
 Ji
@@ -42248,7 +42287,7 @@ jg
 jg
 kt
 fc
-ts
+Ji
 Mn
 Mn
 Ji
@@ -42505,7 +42544,7 @@ jg
 jg
 jg
 jg
-WZ
+SC
 Mn
 Mn
 mr
@@ -42762,7 +42801,7 @@ jg
 jg
 jg
 jg
-WZ
+SC
 Mn
 Mn
 Nd
@@ -55337,7 +55376,7 @@ fW
 TO
 hl
 Ex
-CI
+Le
 Ex
 hl
 iv
@@ -55593,9 +55632,9 @@ WU
 Ud
 QE
 Rp
-aV
+ju
 tW
-aV
+QV
 Rp
 hK
 az
@@ -55851,7 +55890,7 @@ CC
 Je
 Gz
 ct
-CI
+zH
 fL
 Gz
 uI
