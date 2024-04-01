@@ -22,7 +22,7 @@ GLOBAL_PROTECT(exp_to_update)
 		return 0
 	var/my_exp = C.calc_exp_type(get_exp_req_type())
 	var/job_requirement = get_exp_req_amount()
-	if(my_exp >= job_requirement)
+	if(my_exp >= job_requirement | my_exp <= max_exp_requirements)
 		return 0
 	else
 		return (job_requirement - my_exp)
