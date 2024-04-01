@@ -61,3 +61,6 @@
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
 
 	chameleon_extras = /obj/item/gun/syringe
+
+/datum/job/medical_doctor
+	title = JOB_NAME_MEDICAL_INTERN

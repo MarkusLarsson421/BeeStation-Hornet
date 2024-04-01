@@ -63,3 +63,6 @@
 	..()
 	if(prob(0.4))
 		neck = /obj/item/clothing/neck/tie/horrible
+
+/datum/job/scientist
+	title = JOB_NAME_SCIENTIST_INTERN

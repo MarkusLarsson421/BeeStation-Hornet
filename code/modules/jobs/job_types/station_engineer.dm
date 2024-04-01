@@ -65,3 +65,5 @@
 	head = null
 	internals_slot = ITEM_SLOT_SUITSTORE
 
+/datum/job/station_engineer
+	title = JOB_NAME_STATIONENGINEER_INTERN
