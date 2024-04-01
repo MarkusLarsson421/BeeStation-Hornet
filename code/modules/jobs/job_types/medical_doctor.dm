@@ -64,3 +64,5 @@
 
 /datum/job/medical_doctor
 	title = JOB_NAME_MEDICAL_INTERN
+	exp_requirements = 0
+	max_exp_requirements = 120

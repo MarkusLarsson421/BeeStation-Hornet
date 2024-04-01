@@ -66,3 +66,5 @@
 
 /datum/job/scientist
 	title = JOB_NAME_SCIENTIST_INTERN
+	exp_requirements = 0
+	max_exp_requirements = 120

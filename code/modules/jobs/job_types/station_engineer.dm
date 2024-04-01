@@ -67,3 +67,5 @@
 
 /datum/job/station_engineer
 	title = JOB_NAME_STATIONENGINEER_INTERN
+	exp_requirements = 0
+	max_exp_requirements = 120
