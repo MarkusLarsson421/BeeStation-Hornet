@@ -44,15 +44,8 @@
 	jobtype = /datum/job/chemist
 
 	id = /obj/item/card/id/job/chemist
-	glasses = /obj/item/clothing/glasses/science
 	belt = /obj/item/modular_computer/tablet/pda/chemist
 	ears = /obj/item/radio/headset/headset_med
-	uniform = /obj/item/clothing/under/rank/medical/chemist
-	shoes = /obj/item/clothing/shoes/sneakers/white
-	suit =  /obj/item/clothing/suit/toggle/labcoat/chemist
-	backpack = /obj/item/storage/backpack/chemistry
-	satchel = /obj/item/storage/backpack/satchel/chem
-	duffelbag = /obj/item/storage/backpack/duffelbag/med
 
 	chameleon_extras = /obj/item/gun/syringe
 

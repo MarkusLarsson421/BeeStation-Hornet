@@ -45,13 +45,21 @@
 	id = /obj/item/card/id/job/geneticist
 	belt = /obj/item/modular_computer/tablet/pda/geneticist
 	ears = /obj/item/radio/headset/headset_med
-	uniform = /obj/item/clothing/under/rank/medical/geneticist
-	shoes = /obj/item/clothing/shoes/sneakers/white
-	suit =  /obj/item/clothing/suit/toggle/labcoat/genetics
-	suit_store =  /obj/item/flashlight/pen
-	l_pocket = /obj/item/sequence_scanner
+
+/obj/structure/closet/secure_closet/locker/geneticist
+	name = "geneticist locker"
+	desc = "Stores clothes and equipment of the Geneticist."
+	req_access = list(ACCESS_GENETICS)
+	icon_door = "cmo"
+
+/obj/structure/closet/secure_closet/locker/geneticist/PopulateContents()
+	..()
+	new /obj/item/clothing/under/rank/medical/geneticist
+	new /obj/item/clothing/shoes/sneakers/white
+	new /obj/item/clothing/suit/toggle/labcoat/genetics
+	new /obj/item/flashlight/pen
+	new/obj/item/sequence_scanner
 
 	backpack = /obj/item/storage/backpack/genetics
 	satchel = /obj/item/storage/backpack/satchel/gen
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
-

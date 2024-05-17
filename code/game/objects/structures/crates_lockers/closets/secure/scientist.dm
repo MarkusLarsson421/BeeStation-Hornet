@@ -53,3 +53,43 @@
 	new /obj/item/clothing/under/rank/rnd/research_director/turtleneck/skirt(src)
 	new /obj/item/clothing/head/beret/sci(src)
 	new /obj/item/clothing/shoes/sneakers/brown(src)
+
+/obj/structure/closet/secure_closet/Scientist
+	name = "\proper scientist locker"
+	req_access = list(ACCESS_SCIENTIST)
+	icon_state = "rd"
+
+/obj/structure/closet/secure_closet/Scientist/PopulateContents()
+	..()
+	new /obj/item/clothing/glasses/science(src)
+	new /obj/item/clothing/under/rank/rnd/scientist
+	new /obj/item/clothing/shoes/sneakers/white
+	new /obj/item/clothing/suit/toggle/labcoat/science
+
+	new /obj/item/discovery_scanner
+
+	new /obj/item/storage/backpack/science
+	new /obj/item/storage/backpack/satchel/tox
+	new /obj/item/storage/backpack/duffelbag/science
+
+	if(prob(0.4))
+		new /obj/item/clothing/neck/tie/horrible
+
+/obj/structure/closet/secure_closet/Roboticist
+	name = "\proper roboticist locker"
+	req_access = list(ACCESS_ROBOTICST)
+	icon_state = "rd"
+
+/obj/structure/closet/secure_closet/Roboticist/PopulateContents()
+	..()
+	new /obj/item/clothing/glasses/hud/diagnostic(src)
+	new /obj/item/clothing/under/rank/rnd/roboticist(src)
+	new /obj/item/clothing/suit/toggle/labcoat(src)
+	new /obj/item/storage/belt/utility/full(src)
+
+	new /obj/item/storage/backpack/science(src)
+	new /obj/item/storage/backpack/satchel/tox(src)
+	new /obj/item/storage/backpack/duffelbag/science(src)
+
+	if(prob(0.4))
+		new /obj/item/clothing/neck/tie/horrible(src)

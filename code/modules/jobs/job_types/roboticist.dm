@@ -41,14 +41,7 @@
 	jobtype = /datum/job/roboticist
 
 	id = /obj/item/card/id/job/roboticist
-	belt = /obj/item/storage/belt/utility/full
 	l_pocket = /obj/item/modular_computer/tablet/pda/roboticist
 	ears = /obj/item/radio/headset/headset_sci
-	uniform = /obj/item/clothing/under/rank/rnd/roboticist
-	suit = /obj/item/clothing/suit/toggle/labcoat
-
-	backpack = /obj/item/storage/backpack/science
-	satchel = /obj/item/storage/backpack/satchel/tox
-	duffelbag = /obj/item/storage/backpack/duffelbag/science
-
+	
 	pda_slot = ITEM_SLOT_LPOCKET

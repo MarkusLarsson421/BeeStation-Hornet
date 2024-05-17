@@ -48,16 +48,3 @@
 	belt = /obj/item/modular_computer/tablet/pda/science
 	ears = /obj/item/radio/headset/headset_sci
 	uniform = /obj/item/clothing/under/rank/rnd/scientist
-	shoes = /obj/item/clothing/shoes/sneakers/white
-	suit = /obj/item/clothing/suit/toggle/labcoat/science
-
-	r_pocket = /obj/item/discovery_scanner
-
-	backpack = /obj/item/storage/backpack/science
-	satchel = /obj/item/storage/backpack/satchel/tox
-	duffelbag = /obj/item/storage/backpack/duffelbag/science
-
-/datum/outfit/job/scientist/pre_equip(mob/living/carbon/human/H)
-	..()
-	if(prob(0.4))
-		neck = /obj/item/clothing/neck/tie/horrible

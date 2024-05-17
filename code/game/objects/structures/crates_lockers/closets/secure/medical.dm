@@ -178,3 +178,50 @@
 	new /obj/item/construction/plumbing(src)
 	new	/obj/item/plunger(src)
 	new	/obj/item/plunger(src)
+
+/obj/structure/closet/secure_closet/locker/medical_doctor
+	name = "doctor locker"
+	desc = "Stores clothes and equipment of the Doctor."
+	req_access = list(ACCESS_SURGERY)
+	icon_state = "med"
+
+
+/obj/structure/closet/secure_closet/locker/chemist
+	name = "chemist locker"
+	desc = "Stores clothes and equipment of the Chemist."
+	req_access = list(ACCESS_CHEMISTRY)
+	icon_state = "med_secure"
+	icon_door = "chemical"
+
+/obj/structure/closet/secure_closet/locker/chemist/PopulateContents()
+	..()
+	new /obj/item/clothing/under/rank/medical/chemist(src)
+	new /obj/item/clothing/shoes/sneakers/white(src)
+	new /obj/item/clothing/suit/toggle/labcoat/chemist(src)
+
+	new /obj/item/storage/backpack/chemistry(src)
+	new /obj/item/storage/backpack/satchel/chem(src)
+	new /obj/item/storage/backpack/duffelbag/med(src)
+
+	new /obj/item/clothing/glasses/science(src)
+	new /obj/item/storage/box/pillbottles(src)
+	new /obj/item/storage/bag/chemistry(src)
+
+/obj/structure/closet/secure_closet/locker/geneticist
+	name = "geneticist locker"
+	desc = "Stores clothes and equipment of the Geneticist."
+	req_access = list(ACCESS_GENETICS)
+	icon_state = "med_secure"
+	icon_door = "cmo"
+
+/obj/structure/closet/secure_closet/locker/geneticist/PopulateContents()
+	..()
+	new /obj/item/clothing/under/rank/medical/geneticist(src)
+	new /obj/item/clothing/shoes/sneakers/white(src)
+	new /obj/item/clothing/suit/toggle/labcoat/genetics(src)
+	new /obj/item/flashlight/pen(src)
+	new /obj/item/sequence_scanner(src)
+
+	new /obj/item/storage/backpack/genetics(src)
+	new /obj/item/storage/backpack/satchel/gen(src)
+	new /obj/item/storage/backpack/duffelbag/med(src)
