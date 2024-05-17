@@ -1412,7 +1412,7 @@
 "bsT" = (/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,/obj/structure/cable/yellow{icon_state = "1-2"},/obj/structure/disposalpipe/sorting/mail{dir = 4; sortType = 23},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/turf/open/floor/iron,/area/medical/medbay/central)
 "bsW" = (/turf/closed/wall,/area/hallway/primary/central)
 "bth" = (/obj/structure/cable/yellow{icon_state = "0-4"},/obj/structure/cable/yellow{icon_state = "4-8"},/obj/structure/sign/warning/vacuum,/turf/closed/wall,/area/security/brig)
-"btw" = (/obj/structure/extinguisher_cabinet{pixel_x = 26},/obj/effect/turf_decal/tile/blue,/obj/structure/disposalpipe/segment{dir = 2},/turf/open/floor/iron/white,/area/medical/medbay/aft)
+"btw" = (/obj/structure/extinguisher_cabinet{pixel_x = 26},/obj/effect/turf_decal/tile/blue,/obj/structure/disposalpipe/segment{dir = 2},/turf/closed/wall/r_wall,/area/medical/medbay/aft)
 "btz" = (/obj/structure/cable/yellow{icon_state = "1-2"},/turf/open/floor/carpet/red,/area/crew_quarters/heads/hos)
 "btD" = (/obj/machinery/light,/obj/machinery/status_display/ai{pixel_y = -32},/obj/item/radio/intercom{pixel_x = 26; pixel_y = -26},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/iron,/area/crew_quarters/heads/hos)
 "btE" = (/obj/machinery/suit_storage_unit/hos,/obj/effect/turf_decal/stripes/line{dir = 5},/turf/open/floor/iron,/area/crew_quarters/heads/hos)
