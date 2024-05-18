@@ -45,8 +45,8 @@
 	name = JOB_NAME_VIROLOGIST
 	jobtype = /datum/job/virologist
 
+	uniform = /obj/item/clothing/under/rank/medical/virologist
 	id = /obj/item/card/id/job/virologist
 	ears = /obj/item/radio/headset/headset_med
-	uniform = /obj/item/clothing/under/rank/medical/virologist
-	r_pocket = /obj/item/modular_computer/tablet/pda/virologist
-	pda_slot = ITEM_SLOT_RPOCKET
+	belt = /obj/item/modular_computer/tablet/pda/virologist
+	shoes = /obj/item/clothing/shoes/sneakers/white
