@@ -42,6 +42,7 @@
 	if(visualsOnly || latejoin)
 		return ..()
 	var/static/exploration_job_id = 0
+	var/list/extra_dep_access = null
 	exploration_job_id ++
 	switch(exploration_job_id)
 		if(1)
@@ -64,42 +65,38 @@
 
 	id = /obj/item/card/id/job/exploration_crew
 	belt = /obj/item/modular_computer/tablet/pda/exploration_crew
-	ears = /obj/item/radio/headset/headset_exploration
+	ears = /obj/item/radio/headset/headset_exploration/sci
 	shoes = /obj/item/clothing/shoes/jackboots
 	uniform = /obj/item/clothing/under/rank/cargo/exploration
 
 	chameleon_extras = /obj/item/gun/energy/e_gun/mini/exploration
 
 /datum/outfit/job/exploration_crew/scientist
-	name = "Exploration Crew (Scientist)"
+	name = "Exploration Scientist"
 
 /datum/outfit/job/exploration_crew/engineer
 	department_head = list(JOB_NAME_RESEARCHDIRECTOR, JOB_NAME_CHIEFENGINEER)
 	supervisors = "the research director and chief engineer"
 
-	name = "Exploration Crew (Engineer)"
-	r_pocket = /obj/item/modular_computer/tablet/pda/exploration_crew
+	access = list(ACCESS_MAINT_TUNNELS, ACCESS_RESEARCH, ACCESS_EXPLORATION, ACCESS_MECH_ENGINE, ACCESS_XENOBIOLOGY, ACCESS_CONSTRUCTION, ACCESS_TECH_STORAGE)
+	minimal_access = list(ACCESS_RESEARCH, ACCESS_EXPLORATION, ACCESS_MECH_ENGINE, ACCESS_CONSTRUCTION, ACCESS_TECH_STORAGE, ACCESS_MAINT_TUNNELS)
+
+	name = "Exploration Engineer"
+	belt = /obj/item/modular_computer/tablet/pda/exploration_crew
+	ear = /obj/item/radio/headset/headset_exploration/eng
 
 /datum/outfit/job/exploration_crew/medic
 	department_head = list(JOB_NAME_RESEARCHDIRECTOR, JOB_NAME_CHIEFMEDICALOFFICER)
 	supervisors = "the research director and chief medical officer"
 
-	name = "Exploration Crew (Medical Doctor)"
+	access = list(ACCESS_MAINT_TUNNELS, ACCESS_RESEARCH, ACCESS_EXPLORATION, ACCESS_MECH_MEDICAL, ACCESS_XENOBIOLOGY, ACCESS_MEDICAL)
+	minimal_access = list(ACCESS_RESEARCH, ACCESS_EXPLORATION, ACCESS_MECH_MEDICAL, ACCESS_MEDICAL)
+
+	name = "Exploration Doctor"
+	ear = /obj/item/radio/headset/headset_exploration/med
 
 /datum/outfit/job/exploration_crew/hardsuit
 	name = "Exploration Crew (Hardsuit)"
 	suit = /obj/item/clothing/suit/space/hardsuit/exploration
 	suit_store = /obj/item/tank/internals/emergency_oxygen/double
 	mask = /obj/item/clothing/mask/breath
-
-/obj/item/radio/headset/headset_exploration/sci
-	keyslot = new /obj/item/encryptionkey/headset_sci
-	keyslot2 = new /obj/item/encryptionkey/headset_exp
-
-/obj/item/radio/headset/headset_exploration/eng
-	keyslot = new /obj/item/encryptionkey/headset_eng
-	keyslot2 = new /obj/item/encryptionkey/headset_exp
-
-/obj/item/radio/headset/headset_exploration/med
-	keyslot = new /obj/item/encryptionkey/headset_med
-	keyslot2 = new /obj/item/encryptionkey/headset_exp

@@ -24,6 +24,7 @@
 	new /obj/item/storage/backpack/satchel/explorer(src)
 	new /obj/item/storage/backpack/duffelbag(src)
 	//equipment
+	new /obj/item/radio/headset/headset_exploration/sci(src)
 	new /obj/item/clothing/glasses/science(src)
 	new /obj/item/sbeacondrop/exploration(src)
 	new /obj/item/research_disk_pinpointer(src)
@@ -37,6 +38,7 @@
 	..()
 	//clothes
 	//equipment
+	new /obj/item/radio/headset/headset_exploration/eng(src)
 	new /obj/item/grenade/exploration(src)
 	new /obj/item/grenade/exploration(src)
 	new /obj/item/grenade/exploration(src)
@@ -56,6 +58,7 @@
 	new /obj/item/storage/backpack/satchel/med(src)
 	new /obj/item/storage/backpack/duffelbag/med(src)
 	//equipment
+	new /obj/item/radio/headset/headset_exploration/med(src)
 	new /obj/item/storage/firstaid/medical(src)
 	new /obj/item/pinpointer/crew(src)
 	new /obj/item/sensor_device(src)

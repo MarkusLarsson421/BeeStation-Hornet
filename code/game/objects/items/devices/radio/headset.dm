@@ -256,6 +256,15 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	worn_icon_state = "mine_headset"
 	keyslot = new /obj/item/encryptionkey/headset_exp
 
+/obj/item/radio/headset/headset_exploration/sci
+	keyslot2 = new /obj/item/encryptionkey/headset_sci
+
+/obj/item/radio/headset/headset_exploration/eng
+	keyslot2 = new /obj/item/encryptionkey/headset_eng
+
+/obj/item/radio/headset/headset_exploration/med
+	keyslot2 = new /obj/item/encryptionkey/headset_med
+
 /obj/item/radio/headset/headset_cargo/shaft_miner
 	name = "mining radio headset"
 	desc = "Headset used by shaft miners."
