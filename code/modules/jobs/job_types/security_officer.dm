@@ -41,7 +41,7 @@
 	L |= ..() | check_config_for_sec_maint()
 	return L
 
-GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, SEC_DEPT_SCIENCE, SEC_DEPT_SUPPLY))
+GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, SEC_DEPT_SCIENCE, SEC_DEPT_EXPLORATION, SEC_DEPT_SUPPLY))
 
 /datum/job/security_officer/after_spawn(mob/living/carbon/human/H, mob/M, latejoin = FALSE, client/preference_source, on_dummy = FALSE)
 	. = ..()
@@ -97,6 +97,7 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 		if(SEC_DEPT_EXPLORATION)
 			ears = /obj/item/radio/headset/headset_sec/alt/department/sci
 			accessory = /obj/item/clothing/accessory/armband/exploration
+			belt = /obj/item/gun/energy/e_gun/exp
 			if(!on_dummy)
 				dep_access = list(ACCESS_RESEARCH, ACCESS_EXPLORATION)
 				destination = /area/security/checkpoint/science

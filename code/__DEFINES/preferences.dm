@@ -29,6 +29,12 @@
 #define SEC_DEPT_EXPLORATION "Exploration"
 #define SEC_DEPT_SUPPLY "Supply"
 
+#define EXP_DEPT_NONE "None"
+#define EXP_DEPT_RANDOM "Random"
+#define EXP_DEPT_ENGINEERING "Engineering"
+#define EXP_DEPT_MEDICAL "Medical"
+#define EXP_DEPT_SCIENCE "Science"
+
 // Playtime tracking system, see jobs_exp.dm
 #define EXP_TYPE_LIVING			"Living"
 #define EXP_TYPE_CREW			"Crew"

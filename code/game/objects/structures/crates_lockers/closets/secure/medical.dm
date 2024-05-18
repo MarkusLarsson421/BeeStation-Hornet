@@ -210,7 +210,7 @@
 /obj/structure/closet/secure_closet/locker/medbay/paramedic
 	name = "paramedic locker"
 	desc = "Stores clothes and equipment of the Paramedic."
-	req_access = list(ACCESS_MEDBAY)
+	req_access = list(ACCESS_MEDICAL)
 	icon_state = "med"
 
 /obj/structure/closet/secure_closet/locker/medbay/paramedic/PopulateContents()

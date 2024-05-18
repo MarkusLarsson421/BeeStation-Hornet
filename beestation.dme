@@ -2351,6 +2351,7 @@
 #include "code\modules\client\preferences\entries\character\quirks.dm"
 #include "code\modules\client\preferences\entries\character\random.dm"
 #include "code\modules\client\preferences\entries\character\security_department.dm"
+#include "code\modules\client\preferences\entries\character\exploration_department.dm"
 #include "code\modules\client\preferences\entries\character\skin_tone.dm"
 #include "code\modules\client\preferences\entries\character\species.dm"
 #include "code\modules\client\preferences\entries\character\underwear_color.dm"

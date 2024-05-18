@@ -71,7 +71,7 @@
 
 /obj/structure/closet/secure_closet/locker/science/Scientist
 	name = "\proper scientist locker"
-	req_access = list(ACCESS_SCIENTIST)
+	req_access = list(ACCESS_TOX)
 	icon_state = "rd"
 
 /obj/structure/closet/secure_closet/locker/science/Scientist/PopulateContents()
@@ -84,7 +84,7 @@
 
 /obj/structure/closet/secure_closet/locker/science/Roboticist
 	name = "\proper roboticist locker"
-	req_access = list(ACCESS_ROBOTICST)
+	req_access = list(ACCESS_ROBOTICS)
 	icon_state = "rd"
 
 /obj/structure/closet/secure_closet/locker/science/Roboticist/PopulateContents()
