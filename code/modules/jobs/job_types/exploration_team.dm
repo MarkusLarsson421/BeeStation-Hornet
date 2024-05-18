@@ -14,7 +14,7 @@
 
 	outfit = /datum/outfit/job/exploration_crew
 
-	access = list(ACCESS_MAINT_TUNNELS, ACCESS_RESEARCH, ACCESS_EXPLORATION, ACCESS_TOX,ACCESS_TOX_STORAGE, ACCESS_MECH_SCIENCE, ACCESS_XENOBIOLOGY)
+	access = list(ACCESS_MAINT_TUNNELS, ACCESS_RESEARCH, ACCESS_EXPLORATION, ACCESS_TOX, ACCESS_TOX_STORAGE, ACCESS_MECH_SCIENCE, ACCESS_XENOBIOLOGY)
 	minimal_access = list(ACCESS_RESEARCH, ACCESS_EXPLORATION, ACCESS_TOX, ACCESS_MECH_SCIENCE)
 
 	departments = DEPT_BITFLAG_SCI
@@ -44,7 +44,6 @@
 	var/static/exploration_job_id = 0
 	exploration_job_id ++
 	switch(exploration_job_id)
-		//Scientist is most important due to scanner
 		if(1)
 			to_chat(H, "<span class='notice big'>You are the exploration team's <span class'sciradio'>Scientist</span>!</span>")
 			to_chat(H, "<span class='notice'>Scan undiscovered creates to gain discovery research points!</span>")
@@ -67,73 +66,40 @@
 	belt = /obj/item/modular_computer/tablet/pda/exploration_crew
 	ears = /obj/item/radio/headset/headset_exploration
 	shoes = /obj/item/clothing/shoes/jackboots
-	gloves = /obj/item/clothing/gloves/color/black
 	uniform = /obj/item/clothing/under/rank/cargo/exploration
-	backpack_contents = list(
-		/obj/item/knife/combat/survival=1,\
-		/obj/item/stack/marker_beacon/thirty=1)
-	r_pocket = /obj/item/gun/energy/e_gun/mini/exploration
-
-	backpack = /obj/item/storage/backpack/explorer
-	satchel = /obj/item/storage/backpack/satchel/explorer
-	duffelbag = /obj/item/storage/backpack/duffelbag
 
 	chameleon_extras = /obj/item/gun/energy/e_gun/mini/exploration
-
-/datum/outfit/job/exploration_crew/engineer
-	name = "Exploration Crew (Engineer)"
-
-	belt = /obj/item/storage/belt/utility/full
-	r_pocket = /obj/item/modular_computer/tablet/pda/exploration_crew
-
-	backpack_contents = list(
-		/obj/item/knife/combat/survival=1,
-		/obj/item/stack/marker_beacon/thirty=1,
-		/obj/item/gun/energy/e_gun/mini/exploration=1,
-		/obj/item/grenade/exploration=3,				//Breaching charges for entering ruins
-		/obj/item/exploration_detonator=1,				//Detonator for the breaching charges.
-		/obj/item/discovery_scanner=1
-	)
-
-	backpack = /obj/item/storage/backpack/industrial
-	satchel = /obj/item/storage/backpack/satchel/eng
-	duffelbag = /obj/item/storage/backpack/duffelbag/engineering
 
 /datum/outfit/job/exploration_crew/scientist
 	name = "Exploration Crew (Scientist)"
 
-	glasses = /obj/item/clothing/glasses/science
+/datum/outfit/job/exploration_crew/engineer
+	department_head = list(JOB_NAME_RESEARCHDIRECTOR, JOB_NAME_CHIEFENGINEER)
+	supervisors = "the research director and chief engineer"
 
-	backpack_contents = list(
-		/obj/item/knife/combat/survival=1,
-		/obj/item/stack/marker_beacon/thirty=1,
-		/obj/item/discovery_scanner=1,
-		/obj/item/sbeacondrop/exploration=1,			//Spawns in a bluespace beacon
-		/obj/item/research_disk_pinpointer=1			//Locates research disks
-	)
-
-	backpack = /obj/item/storage/backpack/science
-	satchel = /obj/item/storage/backpack/satchel/tox
+	name = "Exploration Crew (Engineer)"
+	r_pocket = /obj/item/modular_computer/tablet/pda/exploration_crew
 
 /datum/outfit/job/exploration_crew/medic
+	department_head = list(JOB_NAME_RESEARCHDIRECTOR, JOB_NAME_CHIEFMEDICALOFFICER)
+	supervisors = "the research director and chief medical officer"
+
 	name = "Exploration Crew (Medical Doctor)"
-
-	backpack_contents = list(
-		/obj/item/knife/combat/survival=1,
-		/obj/item/stack/marker_beacon/thirty=1,
-		/obj/item/pinpointer/crew=1,
-		/obj/item/sensor_device=1,
-		/obj/item/rollerbed=1,
-		/obj/item/discovery_scanner=1
-	)
-
-	l_hand = /obj/item/storage/firstaid/medical
-	backpack = /obj/item/storage/backpack/medic
-	satchel = /obj/item/storage/backpack/satchel/med
-	duffelbag = /obj/item/storage/backpack/duffelbag/med
 
 /datum/outfit/job/exploration_crew/hardsuit
 	name = "Exploration Crew (Hardsuit)"
 	suit = /obj/item/clothing/suit/space/hardsuit/exploration
 	suit_store = /obj/item/tank/internals/emergency_oxygen/double
 	mask = /obj/item/clothing/mask/breath
+
+/obj/item/radio/headset/headset_exploration/sci
+	keyslot = new /obj/item/encryptionkey/headset_sci
+	keyslot2 = new /obj/item/encryptionkey/headset_exp
+
+/obj/item/radio/headset/headset_exploration/eng
+	keyslot = new /obj/item/encryptionkey/headset_eng
+	keyslot2 = new /obj/item/encryptionkey/headset_exp
+
+/obj/item/radio/headset/headset_exploration/med
+	keyslot = new /obj/item/encryptionkey/headset_med
+	keyslot2 = new /obj/item/encryptionkey/headset_exp

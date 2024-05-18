@@ -294,6 +294,12 @@
 	desc = "An armband, worn by the station's security forces to display which department they're assigned to. This one is purple."
 	icon_state = "rndband"
 
+/obj/item/clothing/accessory/armband/exploration
+	name = "exploration guard armband"
+	desc = "An armband, worn by the station's security forces to display which department they're assigned to. This one is green."
+	icon_state = "medband"
+	color = "#00ff00"
+
 /obj/item/clothing/accessory/armband/hydro
 	name = "hydroponics guard armband"
 	desc = "An armband, worn by the station's security forces to display which department they're assigned to. This one is green and blue."

@@ -26,6 +26,7 @@
 #define SEC_DEPT_ENGINEERING "Engineering"
 #define SEC_DEPT_MEDICAL "Medical"
 #define SEC_DEPT_SCIENCE "Science"
+#define SEC_DEPT_EXPLORATION "Exploration"
 #define SEC_DEPT_SUPPLY "Supply"
 
 // Playtime tracking system, see jobs_exp.dm

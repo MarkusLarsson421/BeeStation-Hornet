@@ -54,73 +54,43 @@
 	new /obj/item/clothing/head/beret/sci(src)
 	new /obj/item/clothing/shoes/sneakers/brown(src)
 
-/obj/structure/closet/secure_closet/locker/Scientist
-	name = "\proper scientist locker"
-	req_access = list(ACCESS_SCIENTIST)
-	icon_state = "rd"
-
-/obj/structure/closet/secure_closet/locker/Scientist/PopulateContents()
+/obj/structure/closet/secure_closet/locker/science/PopulateContents()
 	..()
 	//clothes
-	new /obj/item/clothing/under/rank/rnd/scientist(src)
-	new /obj/item/clothing/shoes/sneakers/white(src)
 	new /obj/item/clothing/suit/toggle/labcoat/science(src)
 	new /obj/item/storage/backpack/science(src)
 	new /obj/item/storage/backpack/satchel/tox(src)
 	new /obj/item/storage/backpack/duffelbag/science(src)
+	new /obj/item/clothing/shoes/sneakers/white(src)
+	if(prob(0.4))
+		new /obj/item/clothing/neck/tie/horrible(src)
+	//equipment
+	new /obj/item/radio/headset/headset_sci(src)
+	if(prob(0.6))
+		new /obj/item/disk/tech_disk(src)
+
+/obj/structure/closet/secure_closet/locker/science/Scientist
+	name = "\proper scientist locker"
+	req_access = list(ACCESS_SCIENTIST)
+	icon_state = "rd"
+
+/obj/structure/closet/secure_closet/locker/science/Scientist/PopulateContents()
+	..()
+	//clothes
+	new /obj/item/clothing/under/rank/rnd/scientist(src)
 	//equipment
 	new /obj/item/discovery_scanner(src)
 	new /obj/item/clothing/glasses/science(src)
 
-	if(prob(0.4))
-		new /obj/item/clothing/neck/tie/horrible
-
-/obj/structure/closet/secure_closet/locker/Roboticist
+/obj/structure/closet/secure_closet/locker/science/Roboticist
 	name = "\proper roboticist locker"
 	req_access = list(ACCESS_ROBOTICST)
 	icon_state = "rd"
 
-/obj/structure/closet/secure_closet/locker/Roboticist/PopulateContents()
+/obj/structure/closet/secure_closet/locker/science/Roboticist/PopulateContents()
 	..()
 	//clothes
-	new /obj/item/clothing/shoes/sneakers/white(src)
 	new /obj/item/clothing/under/rank/rnd/roboticist(src)
-	new /obj/item/clothing/suit/toggle/labcoat(src)
-	new /obj/item/storage/backpack/science(src)
-	new /obj/item/storage/backpack/satchel/tox(src)
-	new /obj/item/storage/backpack/duffelbag/science(src)
-	if(prob(0.4))
-		new /obj/item/clothing/neck/tie/horrible(src)
 	//equipment
 	new /obj/item/clothing/glasses/hud/diagnostic(src)
 	new /obj/item/storage/belt/utility/full(src)
-
-/obj/structure/closet/secure_closet/locker/explorer_scientist
-	name = "\proper explorer scientist locker"
-	req_access = list(ACCESS_EXPLORATION, ACCESS_TOX)
-	icon_state = "rd"
-
-/obj/structure/closet/secure_closet/locker/explorer_scientist/PopulateContents()
-	..()
-	//clothes
-	//equipment
-
-/obj/structure/closet/secure_closet/locker/explorer_engineer
-	name = "\proper explorer engineer locker"
-	req_access = list(ACCESS_EXPLORATION, ACCESS_TOX)
-	icon_state = "rd"
-
-/obj/structure/closet/secure_closet/locker/explorer_engineer/PopulateContents()
-	..()
-	//clothes
-	//equipment
-
-/obj/structure/closet/secure_closet/locker/explorer_doctor
-	name = "\proper explorer doctor locker"
-	req_access = list(ACCESS_EXPLORATION, ACCESS_TOX)
-	icon_state = "rd"
-
-/obj/structure/closet/secure_closet/locker/explorer_doctor/PopulateContents()
-	..()
-	//clothes
-	//equipment

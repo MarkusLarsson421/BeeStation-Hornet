@@ -254,7 +254,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	desc = "A headset used by exploration teams."
 	icon_state = "exploration_headset"
 	worn_icon_state = "mine_headset"
-	keyslot = new /obj/item/encryptionkey/headset_expteam
+	keyslot = new /obj/item/encryptionkey/headset_exp
 
 /obj/item/radio/headset/headset_cargo/shaft_miner
 	name = "mining radio headset"

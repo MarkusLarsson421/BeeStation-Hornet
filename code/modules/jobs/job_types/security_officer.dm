@@ -94,6 +94,14 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 				destination = /area/security/checkpoint/science
 				spawn_point = locate(/obj/effect/landmark/start/depsec/science) in GLOB.department_security_spawns
 				minimal_lightup_areas |= GLOB.science_lightup_areas
+		if(SEC_DEPT_EXPLORATION)
+			ears = /obj/item/radio/headset/headset_sec/alt/department/sci
+			accessory = /obj/item/clothing/accessory/armband/exploration
+			if(!on_dummy)
+				dep_access = list(ACCESS_RESEARCH, ACCESS_TOX, ACCESS_AUX_BASE)
+				destination = /area/security/checkpoint/science
+				spawn_point = locate(/obj/effect/landmark/start/depsec/science) in GLOB.department_security_spawns
+				minimal_lightup_areas |= GLOB.science_lightup_areas
 
 	if(accessory)
 		var/obj/item/clothing/under/U = H.w_uniform
