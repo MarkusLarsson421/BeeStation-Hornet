@@ -40,8 +40,10 @@
 	name = JOB_NAME_ROBOTICIST
 	jobtype = /datum/job/roboticist
 
+	uniform = /obj/item/clothing/under/rank/rnd/roboticist
 	id = /obj/item/card/id/job/roboticist
 	l_pocket = /obj/item/modular_computer/tablet/pda/roboticist
 	ears = /obj/item/radio/headset/headset_sci
+	shoes = /obj/item/clothing/shoes/sneakers/white
 	
 	pda_slot = ITEM_SLOT_LPOCKET

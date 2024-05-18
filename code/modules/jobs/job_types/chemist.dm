@@ -45,7 +45,9 @@
 
 	id = /obj/item/card/id/job/chemist
 	belt = /obj/item/modular_computer/tablet/pda/chemist
+	uniform = /obj/item/clothing/under/rank/medical/chemist
 	ears = /obj/item/radio/headset/headset_med
+	shoes = /obj/item/clothing/shoes/sneakers/white
 
 	chameleon_extras = /obj/item/gun/syringe
 

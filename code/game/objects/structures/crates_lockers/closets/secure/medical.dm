@@ -185,6 +185,42 @@
 	req_access = list(ACCESS_SURGERY)
 	icon_state = "med"
 
+/obj/structure/closet/secure_closet/locker/medical_doctor/PopulateContents()
+	..()
+	//clothes
+	new /obj/item/clothing/under/rank/medical/doctor(src)
+	new /obj/item/clothing/suit/toggle/labcoat(src)
+	new /obj/item/clothing/gloves/color/latex/nitrile(src)
+	new /obj/item/clothing/shoes/sneakers/white(src)
+	new /obj/item/storage/backpack/medic(src)
+	new /obj/item/storage/backpack/satchel/med(src)
+	new /obj/item/storage/backpack/duffelbag/med(src)
+	//equipment
+	new /obj/item/storage/firstaid/medical(src)
+	new /obj/item/flashlight/pen(src)
+
+/obj/structure/closet/secure_closet/locker/paramedic
+	name = "paramedic locker"
+	desc = "Stores clothes and equipment of the Paramedic."
+	req_access = list(ACCESS_MEDBAY)
+	icon_state = "med"
+
+/obj/structure/closet/secure_closet/locker/paramedic/PopulateContents()
+	..()
+	//clothes
+	new /obj/item/clothing/gloves/color/latex/nitrile(src)
+	new /obj/item/clothing/under/rank/medical/paramedic(src)
+	new /obj/item/clothing/shoes/sneakers/white(src)
+	new /obj/item/clothing/head/soft/paramedic(src)
+	new /obj/item/clothing/suit/toggle/labcoat/paramedic(src)
+	new /obj/item/storage/backpack/medic(src)
+	new /obj/item/storage/backpack/satchel/med(src)
+	new /obj/item/storage/backpack/duffelbag/med(src)
+	//equipment
+	new /obj/item/pinpointer/crew(src)
+	new /obj/item/sensor_device(src)
+	new /obj/item/storage/firstaid/medical(src)
+
 
 /obj/structure/closet/secure_closet/locker/chemist
 	name = "chemist locker"
@@ -195,14 +231,14 @@
 
 /obj/structure/closet/secure_closet/locker/chemist/PopulateContents()
 	..()
+	//clothes
 	new /obj/item/clothing/under/rank/medical/chemist(src)
-	new /obj/item/clothing/shoes/sneakers/white(src)
 	new /obj/item/clothing/suit/toggle/labcoat/chemist(src)
-
+	new /obj/item/clothing/shoes/sneakers/white(src)
 	new /obj/item/storage/backpack/chemistry(src)
 	new /obj/item/storage/backpack/satchel/chem(src)
 	new /obj/item/storage/backpack/duffelbag/med(src)
-
+	//equipment
 	new /obj/item/clothing/glasses/science(src)
 	new /obj/item/storage/box/pillbottles(src)
 	new /obj/item/storage/bag/chemistry(src)
@@ -216,12 +252,34 @@
 
 /obj/structure/closet/secure_closet/locker/geneticist/PopulateContents()
 	..()
+	//clothes
 	new /obj/item/clothing/under/rank/medical/geneticist(src)
-	new /obj/item/clothing/shoes/sneakers/white(src)
 	new /obj/item/clothing/suit/toggle/labcoat/genetics(src)
-	new /obj/item/flashlight/pen(src)
-	new /obj/item/sequence_scanner(src)
-
+	new /obj/item/clothing/shoes/sneakers/white(src)
 	new /obj/item/storage/backpack/genetics(src)
 	new /obj/item/storage/backpack/satchel/gen(src)
 	new /obj/item/storage/backpack/duffelbag/med(src)
+	//equipment
+	new /obj/item/flashlight/pen(src)
+	new /obj/item/sequence_scanner(src)
+
+/obj/structure/closet/secure_closet/locker/virology
+	name = "virologist locker"
+	desc = "Stores clothes and equipment of the Virologist."
+	req_access = list(ACCESS_VIROLOGY)
+	icon_state = "bio_viro"
+	icon_door = "cmo"
+
+/obj/structure/closet/secure_closet/locker/virology/PopulateContents()
+	..()
+	//clothes
+	new /obj/item/clothing/under/rank/medical/virologist(src)
+	new /obj/item/clothing/shoes/sneakers/white(src)
+	new /obj/item/clothing/mask/surgical(src)
+	new /obj/item/clothing/suit/toggle/labcoat/virologist(src)
+	new /obj/item/storage/backpack/virology(src)
+	new /obj/item/storage/backpack/satchel/vir(src)
+	new /obj/item/storage/backpack/duffelbag/med(src)
+	//equipment
+	new /obj/item/extrapolator(src)
+	new /obj/item/flashlight/pen(src)

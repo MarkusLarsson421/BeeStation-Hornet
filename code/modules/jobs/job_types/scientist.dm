@@ -48,3 +48,4 @@
 	belt = /obj/item/modular_computer/tablet/pda/science
 	ears = /obj/item/radio/headset/headset_sci
 	uniform = /obj/item/clothing/under/rank/rnd/scientist
+	shoes = /obj/item/clothing/shoes/sneakers/white
