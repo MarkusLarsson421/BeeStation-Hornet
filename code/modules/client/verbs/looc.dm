@@ -78,7 +78,7 @@ GLOBAL_VAR_INIT(looc_allowed, TRUE)
 			prefix = "[(client in targets) ? "" : "(R)"]LOOC (NEARBY)"
 		else
 			prefix = "[(client in targets) ? "" : "(R)"]LOOC"
-		to_chat(client, "<span class='looc'><span class='prefix'>[prefix]:</span> <EM>[ADMIN_LOOKUPFLW(mob)]:</EM> <span class='message'>[msg]</span></span>", avoid_highlighting = (client == src))
+		to_chat(client, "<span class='looc'><span class='prefix'>[prefix]:</span> <EM>[client.ckey]:</EM> <span class='message'>[msg]</span></span>", avoid_highlighting = (client == src))
 
 /proc/log_looc(text)
 	if (CONFIG_GET(flag/log_ooc))
