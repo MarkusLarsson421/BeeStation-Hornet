@@ -1,0 +1,193 @@
+"ah" = (/obj/machinery/mech_bay_recharge_port,/turf/open/floor/plating,/area/syndicate_mothership/control)
+"bl" = (/obj/structure/flora/grass/both,/obj/effect/light_emitter{set_cap = 1; set_luminosity = 4},/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"bw" = (/obj/structure/table/wood,/obj/item/pizzabox,/obj/item/storage/crayons{pixel_x = -2; pixel_y = 5},/obj/item/storage/crayons{pixel_x = 2; pixel_y = 5},/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"bM" = (/obj/structure/table,/obj/effect/turf_decal/stripes/line{dir = 1},/obj/item/gun/energy/ionrifle/carbine/pin,/turf/open/floor/mineral/plastitanium/red,/area/syndicate_mothership/control)
+"cF" = (/obj/effect/turf_decal/stripes/line{dir = 1},/obj/machinery/light,/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"dq" = (/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"dQ" = (/obj/structure/flora/grass/brown,/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"eq" = (/obj/machinery/light{dir = 1},/turf/open/floor/mech_bay_recharge_floor,/area/syndicate_mothership/control)
+"fp" = (/obj/item/disk/data,/obj/effect/light_emitter{set_cap = 1; set_luminosity = 4},/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"gk" = (/obj/machinery/vending/cigarette/syndicate,/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"go" = (/obj/structure/chair/stool,/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"gF" = (/obj/structure/mirror{pixel_x = 28},/obj/item/mop,/turf/open/floor/iron/freezer,/area/syndicate_mothership/control)
+"hj" = (/turf/closed/indestructible/cordon,/area/space)
+"iE" = (/turf/open/floor/wood,/area/syndicate_mothership/control)
+"iQ" = (/obj/docking_port/stationary{dwidth = 3; height = 7; name = "escape pod loader"; roundstart_template = /datum/map_template/shuttle/assault_pod/default; width = 7},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"iU" = (/obj/effect/spawner/xmastree,/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"jG" = (/obj/structure/urinal{pixel_y = 28},/turf/open/floor/iron/freezer,/area/syndicate_mothership/control)
+"jR" = (/obj/machinery/light,/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"lg" = (/turf/open/floor/plating,/area/syndicate_mothership/control)
+"lC" = (/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"lM" = (/obj/structure/closet/cardboard,/obj/effect/turf_decal/stripes/corner,/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"lZ" = (/obj/structure/statue/uranium/nuke,/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"mB" = (/obj/machinery/light,/turf/open/floor/plating,/area/syndicate_mothership/control)
+"mW" = (/obj/effect/turf_decal/stripes/line{dir = 5},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"ng" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/drinks/shaker,/turf/open/floor/wood,/area/syndicate_mothership/control)
+"nz" = (/obj/structure/sign/map/left{pixel_y = -32},/obj/structure/table/wood,/obj/machinery/chem_dispenser/drinks{dir = 1},/turf/open/floor/wood,/area/syndicate_mothership/control)
+"oa" = (/obj/structure/closet/syndicate/personal,/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/mineral/plastitanium/red,/area/syndicate_mothership/control)
+"oS" = (/obj/effect/landmark/start/nukeop_leader,/turf/open/floor/wood,/area/syndicate_mothership/control)
+"pS" = (/obj/machinery/door/airlock/centcom{name = "Auxillary Dock"; req_access_txt = ""},/turf/open/floor/plating,/area/syndicate_mothership/control)
+"pX" = (/obj/structure/table/wood,/obj/item/syndicatedetonator{desc = "This gaudy button can be used to instantly detonate syndicate bombs that have been activated on the station. It is also fun to press."},/turf/open/floor/wood,/area/syndicate_mothership/control)
+"qh" = (/obj/machinery/light{dir = 8},/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"qp" = (/obj/machinery/door/airlock/external{req_access_txt = "150"},/turf/open/floor/plating,/area/syndicate_mothership/control)
+"qq" = (/obj/structure/toilet{dir = 8},/obj/structure/window/reinforced/tinted{dir = 1},/obj/machinery/door/window{dir = 8; icon_state = "right"; name = "Tactical Toilet"; opacity = 1},/turf/open/floor/iron/freezer,/area/syndicate_mothership/control)
+"qX" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/drinks/beer{pixel_x = 5; pixel_y = -2},/obj/item/toy/cards/deck/syndicate{pixel_x = -6; pixel_y = 6},/obj/item/stack/sheet/telecrystal/five,/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"rD" = (/mob/living/simple_animal/hostile/carp/cayenne,/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"rE" = (/obj/effect/turf_decal/stripes/line{dir = 9},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"sd" = (/obj/effect/turf_decal/stripes/corner{dir = 1},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"tt" = (/obj/effect/turf_decal/stripes/corner{dir = 8},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"tK" = (/turf/closed/indestructible/syndicate,/area/syndicate_mothership/control)
+"tW" = (/obj/machinery/door/poddoor/shuttledock{checkdir = 1; name = "syndicate blast door"; turftype = /turf/open/floor/plating/asteroid/snow},/turf/open/floor/plating,/area/syndicate_mothership/control)
+"vi" = (/obj/machinery/computer/mech_bay_power_console,/turf/open/floor/plating,/area/syndicate_mothership/control)
+"vj" = (/obj/machinery/light{dir = 8},/turf/open/floor/plating,/area/syndicate_mothership/control)
+"vp" = (/obj/effect/turf_decal/stripes/corner{dir = 4},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"vs" = (/obj/structure/flora/grass/both,/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"vQ" = (/turf/closed/indestructible/rock/snow,/area/syndicate_mothership)
+"ws" = (/obj/machinery/vending/boozeomat,/turf/open/floor/wood,/area/syndicate_mothership/control)
+"wS" = (/obj/machinery/door/window{base_state = "right"; dir = 4; icon_state = "right"; name = "Uplink Management Control"; req_access_txt = "151"},/turf/open/floor/wood,/area/syndicate_mothership/control)
+"xM" = (/obj/structure/flora/grass/brown,/obj/effect/light_emitter{set_cap = 1; set_luminosity = 4},/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"xV" = (/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"xW" = (/obj/structure/closet/cardboard/metal,/obj/effect/turf_decal/stripes/corner{dir = 4},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"Ao" = (/obj/effect/turf_decal/stripes/line,/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"Ax" = (/obj/structure/flora/bush,/obj/effect/light_emitter{set_cap = 1; set_luminosity = 4},/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"AM" = (/obj/effect/light_emitter{set_cap = 1; set_luminosity = 4},/obj/structure/sign/warning/securearea{desc = "A warning sign which reads 'FOURTH WALL'."; name = "\improper FOURTH WALL"; pixel_x = -32},/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"Bz" = (/obj/structure/mopbucket,/obj/item/soap/syndie,/obj/machinery/light/small{dir = 1},/turf/open/floor/iron/freezer,/area/syndicate_mothership/control)
+"BG" = (/obj/structure/table/wood,/obj/item/paicard,/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"CN" = (/turf/open/floor/iron/dark,/area/syndicate_mothership/control)
+"DQ" = (/obj/effect/turf_decal/stripes/line{dir = 6},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"Ek" = (/turf/template_noop,/area/template_noop)
+"Es" = (/obj/effect/turf_decal/stripes/corner,/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"EE" = (/obj/structure/table/wood,/obj/item/food/syndicake{pixel_y = 3},/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"EP" = (/obj/docking_port/stationary{dheight = 1; dir = 8; dwidth = 12; height = 17; id = "syndicate_away"; name = "syndicate recon outpost"; roundstart_template = /datum/map_template/shuttle/infiltrator/basic; width = 23},/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"FQ" = (/obj/structure/flora/tree/pine,/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"FR" = (/obj/item/storage/box/drinkingglasses,/obj/item/reagent_containers/food/drinks/bottle/rum,/obj/structure/table/wood,/turf/open/floor/wood,/area/syndicate_mothership/control)
+"Gs" = (/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"GM" = (/obj/structure/table/wood,/obj/item/toy/nuke,/turf/open/floor/wood,/area/syndicate_mothership/control)
+"HD" = (/obj/machinery/vending/coffee,/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"HW" = (/obj/effect/turf_decal/stripes/line{dir = 10},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"Ir" = (/obj/structure/flora/bush,/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"IL" = (/obj/machinery/vending/cola,/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"IV" = (/obj/structure/table/wood,/turf/open/floor/wood,/area/syndicate_mothership/control)
+"Jo" = (/obj/machinery/vending/tool,/turf/open/floor/iron/dark,/area/syndicate_mothership/control)
+"Kk" = (/obj/machinery/light{dir = 4},/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"Kt" = (/obj/structure/chair/stool,/turf/open/floor/iron/dark,/area/syndicate_mothership/control)
+"KT" = (/obj/structure/chair/stool,/obj/effect/landmark/start/nukeop,/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"Md" = (/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plating,/area/syndicate_mothership/control)
+"Nh" = (/turf/closed/indestructible/opsglass,/area/syndicate_mothership/control)
+"Ny" = (/obj/effect/turf_decal/stripes/line{dir = 4},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"NJ" = (/obj/structure/sign/map/right{pixel_y = -32},/obj/structure/table/wood,/obj/machinery/chem_dispenser/drinks/beer{dir = 1},/turf/open/floor/wood,/area/syndicate_mothership/control)
+"Ot" = (/obj/structure/flora/tree/pine,/obj/effect/light_emitter{set_cap = 1; set_luminosity = 4},/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"Pb" = (/obj/machinery/door/airlock/centcom{name = "Equipment Room"; req_access_txt = "150"},/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"PG" = (/obj/structure/mirror{pixel_x = 28},/obj/structure/sink{dir = 4; pixel_x = 11},/turf/open/floor/iron/freezer,/area/syndicate_mothership/control)
+"PM" = (/obj/machinery/light/small{brightness = 3; dir = 8},/turf/open/floor/iron/freezer,/area/syndicate_mothership/control)
+"QG" = (/obj/item/toy/figure/syndie,/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"QW" = (/obj/machinery/light,/turf/open/floor/wood,/area/syndicate_mothership/control)
+"Rg" = (/obj/structure/table/wood,/obj/item/paper/fluff/stations/centcom/disk_memo,/turf/open/floor/wood,/area/syndicate_mothership/control)
+"Rl" = (/obj/machinery/door/poddoor/shutters{id = "nukeop_ready"; name = "shuttle dock"},/turf/open/floor/plating,/area/syndicate_mothership/control)
+"RP" = (/obj/machinery/washing_machine,/turf/open/floor/iron/freezer,/area/syndicate_mothership/control)
+"Tx" = (/obj/item/toy/figure/syndie,/obj/effect/light_emitter{set_cap = 1; set_luminosity = 4},/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"Vo" = (/obj/effect/turf_decal/stripes/line,/obj/machinery/light{dir = 1},/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"Vu" = (/obj/item/kirbyplants/random,/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"Vy" = (/obj/machinery/door/airlock/centcom{name = "Restroom"; req_access_txt = "150"},/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"VI" = (/obj/machinery/computer/shuttle_flight/syndicate/recall,/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"Wr" = (/obj/effect/baseturf_helper/asteroid/snow,/turf/closed/indestructible/syndicate,/area/syndicate_mothership/control)
+"Ww" = (/turf/open/floor/iron/freezer,/area/syndicate_mothership/control)
+"Xa" = (/obj/effect/baseturf_helper/asteroid/snow,/turf/closed/indestructible/rock/snow,/area/syndicate_mothership)
+"Xb" = (/obj/docking_port/stationary{dwidth = 25; height = 50; id = "emergency_syndicate"; name = "Syndicate Auxillary Shuttle Dock"; width = 50},/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+"Xm" = (/turf/open/floor/plating/airless,/area/syndicate_mothership/control)
+"XF" = (/obj/machinery/button/door/indestructible{id = "nukeop_ready"; name = "mission launch control"; pixel_x = -26; req_access_txt = "151"},/obj/effect/turf_decal/tile/bar/opposingcorners,/turf/open/floor/iron,/area/syndicate_mothership/control)
+"YU" = (/obj/effect/light_emitter{set_cap = 1; set_luminosity = 4},/turf/open/floor/plating/asteroid/snow/airless,/area/syndicate_mothership)
+
+(1,1,1) = {"
+hjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhj
+hjXavQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsXbGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUtKtWtWtWtWtWtWtWtWtWtWtWtWtWtKYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjvQvQvQvQvQvQvQvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUtKMdMdMdMdMdMdMdMdMdMdMdMdMdtKYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+hjhjhjhjhjhjhjhjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUtKlglglgmBlglglglglgmBlglglgtKYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+EkEkEkEkEkEkEkhjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUtKtKtKtKtKtKtKlgtKtKtKtKtKtKtKYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+EkEkEkEkEkEkEkhjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUYUYUYUYUYUYUtKlgtKYUYUYUYUblYUYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+EkEkEkEkEkEkEkhjvQGsGsGsGsGsGsGsGsGsGsdQGsGsGsFQvsGsGsGsGsGsFQGsYUtKlgNhfpFQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+EkEkEkEkEkEkEkhjvQGsGsGsGsGsdQGsGsGsGsGsGsGsGsGsGsGsFQGsGsGsGsGsYUtKlgNhTxGsGsFQGsFQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+EkEkEkEkEkEkEkhjvQGsGsGsGsGsGsGsGsIrGsGsGsGsGsdQGsGsvsGsGsFQGsGsYUtKvjNhblGsFQGsGsvsGsFQGsvsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+EkEkEkEkEkEkEkhjvQGsGsGsGsYUGsGsGsGsGsGsGsGsGsYUGsGsGsGsGsGsdQGsYUtKlgtKYUFQGsvsFQGsvsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+EkEkEkEkEkEkEkhjvQGsGsGsGsYUGsGsGsGsGsGsGsGsGsYUGsGsGsGsGsGsGsGsYUtKlgtKblGsFQGsGsGsFQGsFQGsFQGsGsGsGsGsGsGsGsGsGsGsvQhj
+EkEkEkEkEkEkEkhjvQGsGsGsGsYUGsGsGsGsGsGsGsGsGsYUGsGsGsGsvsGsGsGsYUtKlgtKblGsGsGsGsvsGsGsGsvsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+EkEkEkEkEkEkEkhjvQGsGsGsGsYUGsGsGsGsGsGsGsGsGsYUIrGsGsGsGsYUAxYUYUtKlgtKYUFQYUOtOtYUblOtvsGsGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+EkEkEkEkEkEkEkhjvQGsGsGsGsYUGsGsGsGsGsGsGsGsGsYUGsGsGsGsYUYUtKNhNhtKpStKYUblOtGsGsGsGsblGsFQGsGsGsGsGsGsGsGsGsGsGsGsvQhj
+EkEkEkEkEkEkEkhjvQGsGsGsGsYUGsGsGsGsGsGsGsGsGsYUGsGsGsGsYUtKWrgkdqdqKktKtKtKtKtKNhtKtKvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQhj
+EkEkEkEkEkEkEkhjvQGsYUYUYUYUGsGsGsGsGsGsGsGsGsYUYUYUYUGsYUtKVIdqiUdqdqHDILtKtKBzRPtKtKvQvQvQvQvQvQvQvQvQvQvQhjhjhjhjhjhj
+EkEkEkEkEkEkEkhjvQGsYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUGsYUtKdqdqgogorDdqdqtKjGWwgFtKtKtKtKtKtKtKtKtKtKtKtKtKhjEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQGsYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUYUYUtKqhKTBGbwKTdqdqVyWwWwPGtKtKXmXmEsAoVoAoAoAottXmtKhjEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQGsYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsNhNhNhtKdqKTEEqXKTdqdqtKPMqqtKtKtKXmlMDQXmXmXmXmXmHWtttKhjEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQGsYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsEPqplgqpRldqdqdqdqdqdqdqtKtKtKtKtKtKXmNyXmXmXmXmXmXmXmxVtKhjEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQGsYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsNhNhNhtKXFgogogodqdqdqVuNhNhNhNhNhNhNhXmXmXmXmXmXmXmxVtKhjEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQYUYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUYUYUtKFRRgpXIVGMdqdqdqqplglglglglgqpXmXmXmXmXmXmXmxVtKhjEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQAMGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUxMtKQWoSiEiEwSdqdqjRNhNhNhNhNhNhNhXmXmXmXmXmXmXmxVtKhjEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUYUtKtKngwsnzNJtKPbtKtKtKtKtKtKXmNyXmXmXmXmXmXmXmxVtKhjEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUYUYUtKtKtKtKtKtKCNCNaheqviJotKXmxWmWXmXmiQXmXmrEsdtKhjEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUGsYUYUYUYUAxYUtKCNCNCNCNCNCNtKXmXmvplCcFlClClCsdXmtKhjEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUGsGsGsdQGsGsblNhCNCNCNCNCNKttKtKtKtKtKtKtKtKtKtKtKtKhjEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUGsGsGsIrFQdQAxtKoaoaoaoaoabMtKhjhjhjhjhjhjhjhjhjhjhjhjEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUGsGsGsGsGsFQYUtKtKtKtKtKtKtKtKhjEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUGsGsGsFQGsIrYUvQhjhjhjhjhjhjhjhjEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQYUGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsYUGsGsGsGsGsGsGsvQhjEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQYUGsGsGsGsGsYUYUYUYUYUYUYUGsGsGsGsGsYUGsGsGsGsQGGsGsvQhjEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQYUYUYUYUYUYUYUGsGsGsGsGsYUYUYUYUYUYUYUGsGsGsQGlZQGGsvQhjEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsQGGsGsvQhjEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEk
+EkEkEkEkEkEkEkhjvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQvQhjEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEk
+EkEkEkEkEkEkEkhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjhjEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkEk
+"}
