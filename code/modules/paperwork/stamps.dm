@@ -19,7 +19,7 @@
 	return OXYLOSS
 
 /obj/item/stamp/get_writing_implement_details()
-	var/datum/asset/spritesheet/sheet = get_asset_datum(/datum/asset/spritesheet/simple/paper)
+	var/datum/asset/spritesheet_batched/sheet = get_asset_datum(/datum/asset/spritesheet/simple/paper)
 	return list(
 		interaction_mode = MODE_STAMPING,
 		stamp_icon_state = icon_state,
@@ -79,6 +79,25 @@
 	name = "clown's rubber stamp"
 	icon_state = "stamp-clown"
 	dye_color = DYE_CLOWN
+
+/obj/item/stamp/chap
+	name = "chaplain's rubber stamp"
+	icon_state = "stamp-chap"
+
+/obj/item/stamp/mime
+	name = "mime's rubber stamp"
+	icon_state = "stamp-mime"
+	dye_color = DYE_MIME
+
+/obj/item/stamp/centcom
+	name = "CENTCOM rubber stamp"
+	icon_state = "stamp-cent"
+	dye_color = DYE_CENTCOM
+
+/obj/item/stamp/syndicate
+	name = "syndicate rubber stamp"
+	icon_state = "stamp-syndicate"
+	dye_color = DYE_SYNDICATE
 
 /obj/item/stamp/attack_paw(mob/user)
 	return attack_hand(user)
