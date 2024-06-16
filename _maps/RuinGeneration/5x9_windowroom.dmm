@@ -1,44 +1,44 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"c" = (
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"e" = (
+/obj/structure/filingcabinet/security,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
 "f" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ruin/unpowered)
-"k" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/gloves,
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"m" = (
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"u" = (
-/obj/structure/chair/office{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"B" = (
+"g" = (
 /obj/effect/abstract/doorway_marker{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
-"E" = (
-/obj/structure/table,
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"G" = (
+"t" = (
 /obj/structure/filingcabinet/chestdrawer,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
-"M" = (
+"C" = (
+/obj/structure/table,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"I" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/gloves,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"J" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"V" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance,
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"R" = (
-/obj/structure/filingcabinet/security,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "X" = (
 /turf/closed/wall,
@@ -47,45 +47,45 @@
 (1,1,1) = {"
 X
 X
-B
+g
 X
 X
 X
-B
+g
 X
 X
 "}
 (2,1,1) = {"
 X
-m
-m
-m
-m
-m
-m
-G
+c
+c
+c
+c
+c
+c
+t
 X
 "}
 (3,1,1) = {"
 X
-M
-m
-m
-m
-m
-u
-E
+V
+c
+c
+c
+c
+J
+C
 X
 "}
 (4,1,1) = {"
 X
-R
-m
-m
-m
-k
-E
-E
+e
+c
+c
+c
+I
+C
+C
 X
 "}
 (5,1,1) = {"

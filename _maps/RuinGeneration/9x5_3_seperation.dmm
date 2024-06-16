@@ -1,7 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"b" = (
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
 "f" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
@@ -12,6 +9,9 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/unpowered)
+"q" = (
+/turf/open/floor/iron,
+/area/ruin/unpowered)
 "s" = (
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
@@ -19,35 +19,35 @@
 "t" = (
 /turf/closed/wall,
 /area/ruin/unpowered)
-"E" = (
-/turf/open/floor/plating,
-/area/ruin/unpowered)
-"L" = (
+"v" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
-"W" = (
+"C" = (
 /obj/structure/lattice,
 /turf/template_noop,
 /area/template_noop)
+"E" = (
+/turf/open/floor/plating,
+/area/ruin/unpowered)
 "Y" = (
 /turf/template_noop,
 /area/template_noop)
 
 (1,1,1) = {"
 t
-b
-L
-b
+q
+v
+q
 t
 "}
 (2,1,1) = {"
 t
-b
-b
-b
+q
+q
+q
 t
 "}
 (3,1,1) = {"
@@ -60,21 +60,21 @@ t
 (4,1,1) = {"
 Y
 s
-W
+C
 s
 Y
 "}
 (5,1,1) = {"
 Y
 s
-W
+C
 s
 Y
 "}
 (6,1,1) = {"
 Y
 s
-W
+C
 s
 Y
 "}

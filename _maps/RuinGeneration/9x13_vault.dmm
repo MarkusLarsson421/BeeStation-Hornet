@@ -1,89 +1,185 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"a" = (
+"aa" = (
 /turf/closed/wall,
 /area/ruin/unpowered)
-"b" = (
+"ab" = (
 /obj/effect/turf_decal/bot_white/left,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
-"e" = (
+"ac" = (
+/obj/structure/sign/poster/random{
+	pixel_y = -32
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"ad" = (
+/obj/structure/safe,
+/obj/effect/turf_decal/bot_white/left,
+/obj/item/ammo_box/a357,
+/obj/item/paper{
+	default_raw_text = "IOU - One Very Cool Revolver (Thanks HOP)"
+	},
+/obj/item/reagent_containers/food/drinks/bottle/vodka/badminka,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/unpowered)
+"ae" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered)
-"g" = (
+"af" = (
+/obj/machinery/door/airlock/vault{
+	req_access_txt = "53"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark,
+/area/ruin/unpowered)
+"ag" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
-"h" = (
+"ah" = (
 /obj/effect/abstract/doorway_marker,
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
-"i" = (
+"ai" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered)
-"m" = (
+"aj" = (
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"ak" = (
+/obj/effect/abstract/open_area_marker{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"al" = (
+/turf/template_noop,
+/area/template_noop)
+"am" = (
 /obj/effect/turf_decal/bot_white/right,
 /obj/item/circuitboard/machine/ore_silo,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
-"o" = (
+"an" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"ao" = (
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
-"p" = (
+"ap" = (
 /obj/structure/filingcabinet,
 /obj/item/folder,
 /obj/effect/turf_decal/bot_white/left,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
-"s" = (
+"aq" = (
+/obj/effect/turf_decal/bot_white/right,
+/obj/structure/frame/machine,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/unpowered)
+"ar" = (
+/obj/structure/closet/crate/silvercrate,
+/obj/effect/turf_decal/bot_white/left,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/unpowered)
+"as" = (
 /obj/structure/frame/computer,
 /obj/effect/turf_decal/bot_white/right,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
-"t" = (
+"at" = (
 /obj/item/weldingtool/mini,
 /turf/open/floor/plating/airless{
 	icon_state = "panelscorched"
 	},
 /area/ruin/unpowered)
-"u" = (
+"au" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
-"w" = (
+"av" = (
+/obj/item/stack/cable_coil/random/five,
+/obj/effect/turf_decal/tile/neutral,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/unpowered)
+"aw" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ruin/unpowered)
-"y" = (
+"ax" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"ay" = (
 /obj/item/stack/cable_coil/random/five,
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
-"z" = (
+"az" = (
+/turf/template_noop/open,
+/area/template_noop)
+"aA" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark,
+/area/ruin/unpowered)
+"aB" = (
+/obj/effect/abstract/open_area_marker{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"aC" = (
+/obj/structure/lattice,
 /turf/template_noop,
 /area/template_noop)
-"D" = (
+"aD" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
-"F" = (
+"aE" = (
+/obj/item/weldingtool/mini,
+/turf/open/floor/plating/airless{
+	burnt = 1
+	},
+/area/ruin/unpowered)
+"aF" = (
 /obj/effect/turf_decal/bot_white/right,
 /obj/structure/frame/machine,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
-"H" = (
+"aG" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/mob_spawn/human/corpse/cargo_tech,
+/obj/item/gun/ballistic/revolver/russian,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/airless,
+/area/ruin/unpowered)
+"aH" = (
 /obj/structure/frame/machine,
 /obj/item/stamp/clown{
 	pixel_y = 5
@@ -91,13 +187,25 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered)
-"K" = (
+"aI" = (
+/obj/effect/turf_decal/bot_white/right,
+/obj/item/circuitboard/machine/ore_silo,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/unpowered)
+"aJ" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"aK" = (
 /obj/structure/closet/crate/silvercrate,
 /obj/effect/turf_decal/bot_white/left,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
-"L" = (
+"aL" = (
 /obj/structure/safe,
 /obj/effect/turf_decal/bot_white/left,
 /obj/item/ammo_box/a357,
@@ -108,24 +216,34 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
-"N" = (
+"aM" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/airless,
+/area/ruin/unpowered)
+"aN" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered)
-"O" = (
+"aO" = (
 /obj/structure/sign/poster/random{
 	pixel_y = -32
 	},
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
-"Q" = (
+"aP" = (
+/obj/effect/abstract/doorway_marker,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"aQ" = (
 /obj/structure/closet/crate/goldcrate,
 /obj/effect/turf_decal/bot_white/right,
 /obj/effect/spawner/lootdrop/ruinloot/important,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
-"R" = (
+"aR" = (
 /obj/machinery/door/airlock/vault{
 	req_access_txt = "53"
 	},
@@ -133,23 +251,34 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered)
-"T" = (
-/obj/structure/lattice,
-/turf/template_noop,
-/area/template_noop)
-"U" = (
+"aS" = (
+/obj/structure/closet/crate/goldcrate,
+/obj/effect/turf_decal/bot_white/right,
+/obj/effect/spawner/lootdrop/ruinloot/important,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/unpowered)
+"aT" = (
+/obj/structure/frame/machine,
+/obj/item/stamp/clown{
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark,
+/area/ruin/unpowered)
+"aU" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
-"V" = (
+"aV" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
-"W" = (
+"aW" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/mob_spawn/human/corpse/cargo_tech,
 /obj/item/gun/ballistic/revolver/russian,
@@ -158,148 +287,170 @@
 	},
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
-"X" = (
+"aX" = (
 /turf/open/floor/circuit/airless,
 /area/ruin/unpowered)
-"Z" = (
+"aY" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark,
+/area/ruin/unpowered)
+"aZ" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
+"ng" = (
+/obj/effect/turf_decal/bot_white/left,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/unpowered)
+"pm" = (
+/obj/structure/filingcabinet,
+/obj/item/folder,
+/obj/effect/turf_decal/bot_white/left,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/unpowered)
+"TB" = (
+/obj/structure/frame/computer,
+/obj/effect/turf_decal/bot_white/right,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/unpowered)
 
 (1,1,1) = {"
-z
-T
-z
-T
-z
-T
-z
-z
-a
-Z
-D
-o
-a
+al
+aC
+al
+aC
+al
+aC
+al
+al
+aa
+aJ
+aB
+aj
+aa
 "}
 (2,1,1) = {"
-T
-i
-i
-t
-i
-i
-i
-T
-w
-g
-o
-o
-a
+aC
+ai
+ai
+aE
+ai
+ai
+ai
+aC
+aw
+ax
+aj
+aj
+aa
 "}
 (3,1,1) = {"
-z
-i
-s
-m
-Q
-F
-i
-z
-w
-g
-o
-o
-h
+al
+ai
+TB
+aI
+aS
+aq
+ai
+al
+aw
+ax
+aj
+aj
+aP
 "}
 (4,1,1) = {"
-T
-i
-X
-X
-X
-y
-i
-w
-w
-g
-o
-o
-a
+aC
+ai
+aX
+aX
+aX
+av
+ai
+aw
+aw
+ax
+aj
+aj
+aa
 "}
 (5,1,1) = {"
-z
-i
-X
-H
-X
-U
-R
-N
-e
-g
-o
-o
-a
+al
+ai
+aX
+aT
+aX
+aM
+af
+aY
+aA
+ax
+aj
+aj
+aa
 "}
 (6,1,1) = {"
-T
-i
-X
-X
-X
-W
-i
-w
-w
-g
-o
-o
-a
+aC
+ai
+aX
+aX
+aX
+aG
+ai
+aw
+aw
+ax
+aj
+aj
+aa
 "}
 (7,1,1) = {"
-z
-i
-p
-b
-K
-L
-i
-z
-w
-g
-o
-O
-a
+al
+ai
+pm
+ng
+ar
+ad
+ai
+al
+aw
+ax
+aj
+ac
+aa
 "}
 (8,1,1) = {"
-T
-i
-i
-i
-i
-i
-i
-T
-w
-g
-o
-o
-a
+aC
+ai
+ai
+ai
+ai
+ai
+ai
+aC
+aw
+ax
+aj
+aj
+aa
 "}
 (9,1,1) = {"
-z
-T
-z
-T
-z
-T
-z
-z
-a
-u
-V
-o
-a
+al
+aC
+al
+aC
+al
+aC
+al
+al
+aa
+an
+ak
+aj
+aa
 "}
