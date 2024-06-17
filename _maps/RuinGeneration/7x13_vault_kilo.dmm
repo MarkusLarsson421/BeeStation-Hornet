@@ -1,6 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "b" = (
 /obj/effect/turf_decal/bot,
@@ -9,7 +9,7 @@
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "c" = (
 /obj/effect/turf_decal/stripes/line{
@@ -68,13 +68,13 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "k" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "m" = (
 /obj/machinery/door/firedoor,
@@ -88,7 +88,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "n" = (
 /obj/effect/turf_decal/stripes/line{
@@ -105,11 +105,11 @@
 /obj/effect/turf_decal/box/corners{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "p" = (
 /obj/effect/turf_decal/box,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "q" = (
 /obj/effect/turf_decal/bot,
@@ -123,7 +123,7 @@
 	},
 /obj/item/stack/spacecash/c1000,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "r" = (
 /obj/effect/turf_decal/stripes/line{
@@ -132,7 +132,7 @@
 /obj/structure/sign/nanotrasen{
 	pixel_y = 32
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "s" = (
 /obj/effect/turf_decal/stripes/line{
@@ -149,7 +149,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/caution,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "v" = (
 /obj/effect/turf_decal/bot,
@@ -166,7 +166,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "w" = (
 /obj/effect/turf_decal/delivery,
@@ -178,7 +178,7 @@
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "x" = (
 /obj/effect/turf_decal/stripes/line{
@@ -202,7 +202,7 @@
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "z" = (
 /turf/closed/wall,
@@ -213,7 +213,7 @@
 /obj/effect/abstract/open_area_marker{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "B" = (
 /obj/machinery/camera{
@@ -221,7 +221,7 @@
 	dir = 1;
 	name = "fore camera"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "C" = (
 /turf/closed/wall/r_wall,
@@ -231,12 +231,12 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "F" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/holopad,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "G" = (
 /obj/effect/turf_decal/stripes/line{
@@ -251,14 +251,14 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "J" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "K" = (
 /obj/structure/sign/warning/securearea,
@@ -305,16 +305,16 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/goldcrate,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "R" = (
 /obj/effect/abstract/doorway_marker,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "S" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "T" = (
 /obj/effect/turf_decal/stripes/line{
@@ -335,7 +335,7 @@
 	},
 /obj/effect/turf_decal/box,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "W" = (
 /obj/effect/turf_decal/stripes/line,
@@ -344,7 +344,7 @@
 /area/space)
 "X" = (
 /obj/machinery/light,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "Y" = (
 /obj/structure/sign/warning/securearea{

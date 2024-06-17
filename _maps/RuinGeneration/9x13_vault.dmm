@@ -2,11 +2,6 @@
 "aa" = (
 /turf/closed/wall,
 /area/ruin/unpowered)
-"ab" = (
-/obj/effect/turf_decal/bot_white/left,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/dark/airless,
-/area/ruin/unpowered)
 "ac" = (
 /obj/structure/sign/poster/random{
 	pixel_y = -32
@@ -24,11 +19,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/iron/dark/airless,
 /area/ruin/unpowered)
-"ae" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
 "af" = (
 /obj/machinery/door/airlock/vault{
 	req_access_txt = "53"
@@ -36,16 +26,6 @@
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/iron/dark,
-/area/ruin/unpowered)
-"ag" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"ah" = (
-/obj/effect/abstract/doorway_marker,
-/turf/open/floor/plasteel,
 /area/ruin/unpowered)
 "ai" = (
 /turf/closed/wall/r_wall,
@@ -62,27 +42,11 @@
 "al" = (
 /turf/template_noop,
 /area/template_noop)
-"am" = (
-/obj/effect/turf_decal/bot_white/right,
-/obj/item/circuitboard/machine/ore_silo,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/dark/airless,
-/area/ruin/unpowered)
 "an" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/ruin/unpowered)
-"ao" = (
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"ap" = (
-/obj/structure/filingcabinet,
-/obj/item/folder,
-/obj/effect/turf_decal/bot_white/left,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
 "aq" = (
 /obj/effect/turf_decal/bot_white/right,
@@ -95,24 +59,6 @@
 /obj/effect/turf_decal/bot_white/left,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/iron/dark/airless,
-/area/ruin/unpowered)
-"as" = (
-/obj/structure/frame/computer,
-/obj/effect/turf_decal/bot_white/right,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/dark/airless,
-/area/ruin/unpowered)
-"at" = (
-/obj/item/weldingtool/mini,
-/turf/open/floor/plating/airless{
-	icon_state = "panelscorched"
-	},
-/area/ruin/unpowered)
-"au" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
 /area/ruin/unpowered)
 "av" = (
 /obj/item/stack/cable_coil/random/five,
@@ -129,14 +75,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered)
-"ay" = (
-/obj/item/stack/cable_coil/random/five,
-/obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/plasteel/dark/airless,
-/area/ruin/unpowered)
-"az" = (
-/turf/template_noop/open,
-/area/template_noop)
 "aA" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
@@ -152,23 +90,11 @@
 /obj/structure/lattice,
 /turf/template_noop,
 /area/template_noop)
-"aD" = (
-/obj/effect/abstract/open_area_marker{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
 "aE" = (
 /obj/item/weldingtool/mini,
 /turf/open/floor/plating/airless{
 	burnt = 1
 	},
-/area/ruin/unpowered)
-"aF" = (
-/obj/effect/turf_decal/bot_white/right,
-/obj/structure/frame/machine,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
 "aG" = (
 /obj/effect/decal/cleanable/blood,
@@ -178,14 +104,6 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/airless,
-/area/ruin/unpowered)
-"aH" = (
-/obj/structure/frame/machine,
-/obj/item/stamp/clown{
-	pixel_y = 5
-	},
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered)
 "aI" = (
 /obj/effect/turf_decal/bot_white/right,
@@ -199,57 +117,15 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered)
-"aK" = (
-/obj/structure/closet/crate/silvercrate,
-/obj/effect/turf_decal/bot_white/left,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/dark/airless,
-/area/ruin/unpowered)
-"aL" = (
-/obj/structure/safe,
-/obj/effect/turf_decal/bot_white/left,
-/obj/item/ammo_box/a357,
-/obj/item/paper{
-	default_raw_text = "IOU - One Very Cool Revolver (Thanks HOP)"
-	},
-/obj/item/reagent_containers/food/drinks/bottle/vodka/badminka,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/dark/airless,
-/area/ruin/unpowered)
 "aM" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
 	},
 /turf/open/floor/iron/dark/airless,
 /area/ruin/unpowered)
-"aN" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
-"aO" = (
-/obj/structure/sign/poster/random{
-	pixel_y = -32
-	},
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
 "aP" = (
 /obj/effect/abstract/doorway_marker,
 /turf/open/floor/iron,
-/area/ruin/unpowered)
-"aQ" = (
-/obj/structure/closet/crate/goldcrate,
-/obj/effect/turf_decal/bot_white/right,
-/obj/effect/spawner/lootdrop/ruinloot/important,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/dark/airless,
-/area/ruin/unpowered)
-"aR" = (
-/obj/machinery/door/airlock/vault{
-	req_access_txt = "53"
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered)
 "aS" = (
 /obj/structure/closet/crate/goldcrate,
@@ -266,39 +142,12 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/iron/dark,
 /area/ruin/unpowered)
-"aU" = (
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark/airless,
-/area/ruin/unpowered)
-"aV" = (
-/obj/effect/abstract/open_area_marker{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"aW" = (
-/obj/effect/decal/cleanable/blood,
-/obj/effect/mob_spawn/human/corpse/cargo_tech,
-/obj/item/gun/ballistic/revolver/russian,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark/airless,
-/area/ruin/unpowered)
 "aX" = (
 /turf/open/floor/circuit/airless,
 /area/ruin/unpowered)
 "aY" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/iron/dark,
-/area/ruin/unpowered)
-"aZ" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
 /area/ruin/unpowered)
 "ng" = (
 /obj/effect/turf_decal/bot_white/left,

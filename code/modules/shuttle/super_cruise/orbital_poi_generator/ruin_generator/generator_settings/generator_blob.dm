@@ -23,22 +23,9 @@
 	for(var/trash in subtypesof(/obj/item/trash))
 		.[trash] = 1
 
-/datum/generator_settings/blob/get_directional_walltrash()
-	return list(
-		/obj/machinery/light/built = 5,
-		/obj/machinery/light = 1,
-		/obj/machinery/light/broken = 4,
-		/obj/machinery/light/small = 2,
-		/obj/machinery/light/small/broken = 5,
-		null = 75,
-	)
-
 /datum/generator_settings/blob/get_non_directional_walltrash()
 	return list(
-		/obj/item/radio/intercom = 1,
-		/obj/structure/sign/poster/random = 1,
+		/obj/structure/sign/poster/random = 4,
 		/obj/structure/sign/poster/ripped = 2,
-		/obj/machinery/newscaster = 1,
-		/obj/structure/extinguisher_cabinet = 3,
 		null = 30
 	)

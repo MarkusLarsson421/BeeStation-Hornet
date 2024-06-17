@@ -4,35 +4,18 @@
 /area/ruin/unpowered)
 "f" = (
 /obj/machinery/door/airlock{
-	id_tag = "Dorm5";
 	name = "Recharger";
-	id = "recharger"
+	id_tag = "derelict_toilet_1"
 	},
 /obj/effect/mapping_helpers/airlock/abandoned,
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/robot_debris,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "h" = (
 /obj/structure/urinal{
 	pixel_y = 32
 	},
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -14
-	},
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"k" = (
-/obj/machinery/recharge_station,
-/obj/machinery/button/door{
-	id = "recharger";
-	name = "Cyborg Recharger lock";
-	normaldoorcontrol = 1;
-	specialfunctions = 4;
-	pixel_y = -25
-	},
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"r" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /obj/structure/sink{
 	dir = 8;
 	pixel_x = -14
@@ -40,42 +23,88 @@
 /obj/structure/mirror{
 	pixel_x = -28
 	},
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"k" = (
+/obj/machinery/recharge_station,
+/obj/machinery/button/door{
+	id = "derelict_toilet_1";
+	name = "Toilet lock";
+	normaldoorcontrol = 1;
+	specialfunctions = 4;
+	pixel_y = -25
+	},
+/obj/machinery/newscaster{
+	pixel_x = 32
+	},
+/obj/item/radio/intercom{
+	pixel_y = 24
+	},
+/obj/effect/turf_decal/box,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"r" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "F" = (
 /obj/effect/abstract/doorway_marker{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/obj/structure/sign/departments/restroom{
+	pixel_y = -32
+	},
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Q" = (
 /obj/structure/toilet{
 	dir = 8
 	},
-/obj/effect/spawner/lootdrop/maintenance,
 /obj/machinery/button/door{
-	id = "toilet";
 	name = "Toilet lock";
 	normaldoorcontrol = 1;
 	specialfunctions = 4;
-	pixel_y = 25
+	pixel_y = 25;
+	id_tag = "derelict_toilet_2"
 	},
-/turf/open/floor/plasteel,
+/obj/machinery/newscaster{
+	pixel_x = 32
+	},
+/obj/item/radio/intercom{
+	pixel_y = -26
+	},
+/obj/item/reagent_containers/food/drinks/beer/almost_empty,
+/obj/effect/mob_spawn/human/corpse/cargo_tech,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "T" = (
 /obj/structure/sign/poster/random{
 	pixel_x = 32
 	},
-/turf/open/floor/plasteel,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light_switch{
+	pixel_x = -21;
+	pixel_y = 23
+	},
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "U" = (
 /obj/machinery/door/airlock{
-	id_tag = "Dorm5";
 	name = "Toilet";
-	id = "toilet"
+	id_tag = "derelict_toilet_2"
 	},
 /obj/effect/mapping_helpers/airlock/abandoned,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 
 (1,1,1) = {"

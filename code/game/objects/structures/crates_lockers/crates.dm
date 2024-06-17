@@ -157,6 +157,14 @@
 	desc = "An internals crate."
 	name = "internals crate"
 	icon_state = "o2_crate"
+	
+/obj/structure/closet/crate/internals/full
+
+/obj/structure/closet/crate/internals/full/PopulateContents()
+	new /obj/item/clothing/suit/hazardvest(src)
+	new /obj/item/tank/internals/emergency_oxygen(src)
+	new /obj/item/clothing/mask/breath(src)
+	new /obj/item/clothing/head/utility/hardhat/orange(src)
 
 /obj/structure/closet/crate/trashcart
 	desc = "A heavy, metal trashcart with wheels."
@@ -235,6 +243,15 @@
 	name = "hydroponics crate"
 	desc = "All you need to destroy those pesky weeds and pests."
 	icon_state = "hydro_crate"
+	
+/obj/structure/closet/crate/hydroponics/full
+
+/obj/structure/closet/crate/hydroponics/full/PopulateContents()
+	new /obj/item/shovel/spade(src)
+	new /obj/item/wrench(src)
+	new /obj/item/reagent_containers/glass/bucket
+	new /obj/item/cultivator(src)
+	new /obj/item/wirecutters(src)
 
 /obj/structure/closet/crate/engineering
 	name = "engineering crate"

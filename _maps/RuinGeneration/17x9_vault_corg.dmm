@@ -12,7 +12,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "g" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -50,7 +50,7 @@
 /obj/item/stack/spacecash/c500,
 /obj/item/stack/spacecash/c500,
 /obj/item/gun/ballistic/automatic/pistol/deagle,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "n" = (
 /obj/machinery/door/airlock/vault{
@@ -62,14 +62,14 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "o" = (
 /obj/structure/closet/crate/silvercrate,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "p" = (
 /obj/structure/table/reinforced,
@@ -82,14 +82,14 @@
 /turf/open/floor/circuit/green,
 /area/ruin/unpowered)
 "w" = (
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "A" = (
 /obj/machinery/door/firedoor,
 /obj/effect/abstract/doorway_marker{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "C" = (
 /obj/structure/table/reinforced,
@@ -100,7 +100,7 @@
 /obj/structure/sign/warning/explosives{
 	pixel_x = -32
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "G" = (
 /obj/machinery/door/airlock/vault{
@@ -111,12 +111,12 @@
 	dir = 8
 	},
 /obj/machinery/door/firedoor,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "H" = (
 /obj/structure/closet/crate/goldcrate,
 /obj/machinery/light,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "I" = (
 /obj/structure/lattice,
@@ -126,40 +126,40 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "O" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "P" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered)
 "Q" = (
 /obj/machinery/holopad,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "R" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "V" = (
 /obj/effect/abstract/open_area_marker,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "X" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "Z" = (
 /obj/machinery/ore_silo,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 
 (1,1,1) = {"

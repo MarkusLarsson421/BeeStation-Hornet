@@ -7,7 +7,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "c" = (
 /obj/structure/table/reinforced,
@@ -18,7 +18,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "d" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -35,7 +35,7 @@
 	pixel_x = -1;
 	pixel_y = -4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "i" = (
 /obj/item/clothing/under/rank/medical/paramedic,
@@ -43,7 +43,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 27
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "o" = (
 /obj/machinery/door/airlock/medical/glass{
@@ -56,12 +56,12 @@
 	},
 /obj/effect/turf_decal/tile/blue/half,
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "q" = (
 /obj/machinery/vending/wardrobe/medi_wardrobe,
 /obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "s" = (
 /obj/structure/window/reinforced{
@@ -79,7 +79,7 @@
 	pixel_x = 1;
 	pixel_y = 29
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "v" = (
 /obj/structure/sign/warning/nosmoking,
@@ -89,19 +89,19 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 4
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "y" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 8
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "F" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 4
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "H" = (
 /obj/structure/table/reinforced,
@@ -113,15 +113,15 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "N" = (
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "P" = (
 /obj/effect/turf_decal/stripes/box,
 /obj/structure/frame/machine,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "S" = (
 /obj/machinery/vending/wallmed{
@@ -137,7 +137,7 @@
 /obj/item/folder/white{
 	pixel_y = -1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "X" = (
 /obj/effect/turf_decal/stripes/box,
@@ -148,7 +148,7 @@
 	network = list("ss13","medbay")
 	},
 /obj/structure/frame/computer,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 
 (1,1,1) = {"

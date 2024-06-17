@@ -18,7 +18,7 @@
 /area/ruin/unpowered)
 "bY" = (
 /obj/item/kirbyplants/random,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "cc" = (
 /obj/structure/table/wood,
@@ -52,7 +52,7 @@
 	pixel_x = 32;
 	pixel_y = -32
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "fm" = (
 /obj/item/kirbyplants/random,
@@ -72,7 +72,7 @@
 /obj/item/reagent_containers/food/snacks/grown/flower/lily,
 /obj/item/reagent_containers/food/snacks/grown/flower/lily,
 /obj/item/reagent_containers/food/snacks/grown/flower/lily,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "iY" = (
 /obj/structure/chair/office{
@@ -83,11 +83,11 @@
 "jh" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "jq" = (
 /obj/structure/dresser,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "jU" = (
 /obj/machinery/door/airlock{
@@ -135,14 +135,14 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "mZ" = (
 /obj/machinery/door/airlock{
 	id_tag = "Dorm6";
 	name = "Cabin 6"
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "ox" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
@@ -160,7 +160,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "qe" = (
 /obj/structure/table/wood,
@@ -182,7 +182,7 @@
 /obj/machinery/newscaster{
 	pixel_x = -32
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "rm" = (
 /turf/open/floor/wood{
@@ -201,7 +201,7 @@
 	pixel_y = 7;
 	specialfunctions = 4
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "rS" = (
 /obj/effect/turf_decal/stripes/line{
@@ -214,7 +214,7 @@
 /obj/machinery/door/airlock{
 	name = "Dormitories"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "sA" = (
 /obj/structure/table/wood,
@@ -241,7 +241,7 @@
 /obj/effect/abstract/open_area_marker{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "tc" = (
 /obj/structure/table/wood,
@@ -265,10 +265,10 @@
 "tp" = (
 /obj/structure/bed,
 /obj/item/bedsheet/dorms,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "tw" = (
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "uj" = (
 /obj/structure/table/wood,
@@ -302,7 +302,7 @@
 /obj/effect/abstract/open_area_marker{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "yl" = (
 /obj/structure/chair/office{
@@ -330,7 +330,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "zc" = (
 /obj/structure/bed,
@@ -357,7 +357,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Cq" = (
 /obj/item/clipboard{
@@ -393,7 +393,7 @@
 	pixel_x = 26;
 	pixel_y = 26
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "DN" = (
 /obj/machinery/button/door{
@@ -431,7 +431,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Hi" = (
 /obj/structure/chair/office,
@@ -453,7 +453,7 @@
 /turf/open/floor/carpet/blue,
 /area/ruin/unpowered)
 "Iz" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "IH" = (
 /obj/item/kirbyplants/random,
@@ -468,7 +468,7 @@
 /area/ruin/unpowered)
 "LJ" = (
 /obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "LU" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
@@ -482,7 +482,7 @@
 /obj/item/clothing/head/fedora,
 /obj/item/clothing/under/dress/redeveninggown,
 /obj/item/clothing/head/rabbitears,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "Mc" = (
 /obj/structure/bed,
@@ -494,7 +494,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Oa" = (
 /obj/item/kirbyplants/random,
@@ -512,14 +512,14 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "RA" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Se" = (
 /obj/structure/closet/secure_closet/personal/cabinet,

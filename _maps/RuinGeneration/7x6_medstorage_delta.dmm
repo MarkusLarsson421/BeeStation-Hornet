@@ -8,7 +8,7 @@
 	req_access = null;
 	req_access_txt = "5"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "b" = (
 /obj/machinery/light{
@@ -18,7 +18,7 @@
 	dir = 10
 	},
 /obj/structure/frame/machine,
-/turf/open/floor/plasteel/grid/steel,
+/turf/open/floor/iron/grid/steel,
 /area/ruin/unpowered)
 "c" = (
 /obj/machinery/door/airlock/medical/glass{
@@ -33,7 +33,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/plasteel/grid/steel,
+/turf/open/floor/iron/grid/steel,
 /area/ruin/unpowered)
 "f" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -43,7 +43,7 @@
 /obj/effect/abstract/doorway_marker{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "i" = (
 /obj/structure/sign/warning/nosmoking,
@@ -54,7 +54,7 @@
 	pixel_x = 16;
 	pixel_y = 16
 	},
-/turf/open/floor/plasteel/grid/steel,
+/turf/open/floor/iron/grid/steel,
 /area/ruin/unpowered)
 "k" = (
 /obj/structure/sign/warning/biohazard,
@@ -73,14 +73,14 @@
 	},
 /obj/machinery/light,
 /obj/item/storage/box/syringes,
-/turf/open/floor/plasteel/grid/steel,
+/turf/open/floor/iron/grid/steel,
 /area/ruin/unpowered)
 "n" = (
 /obj/effect/turf_decal/delivery,
 /obj/structure/frame/computer{
 	dir = 4
 	},
-/turf/open/floor/plasteel/grid/steel,
+/turf/open/floor/iron/grid/steel,
 /area/ruin/unpowered)
 "o" = (
 /obj/effect/turf_decal/stripes/line{
@@ -96,20 +96,20 @@
 	req_access = null;
 	req_access_txt = "5"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "q" = (
 /obj/effect/spawner/structure/window/reinforced/tinted,
 /turf/open/floor/plating,
 /area/ruin/unpowered)
 "r" = (
-/turf/open/floor/plasteel/grid/steel,
+/turf/open/floor/iron/grid/steel,
 /area/ruin/unpowered)
 "w" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 1
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "x" = (
 /obj/structure/table/glass,
@@ -126,10 +126,10 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "A" = (
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "F" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
@@ -156,7 +156,7 @@
 	layer = 2.9
 	},
 /obj/effect/loot_jobscale/medical/first_aid_kit,
-/turf/open/floor/plasteel{
+/turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
 /area/ruin/unpowered)
@@ -167,7 +167,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "J" = (
 /obj/machinery/door/airlock/medical{
@@ -183,16 +183,16 @@
 /obj/effect/abstract/doorway_marker{
 	dir = 1
 	},
-/turf/open/floor/plasteel/grid/steel,
+/turf/open/floor/iron/grid/steel,
 /area/ruin/unpowered)
 "K" = (
 /obj/effect/abstract/open_area_marker,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "L" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /obj/machinery/vending/wardrobe/medi_wardrobe,
-/turf/open/floor/plasteel{
+/turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
 /area/ruin/unpowered)
@@ -210,13 +210,13 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -29
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "P" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "Q" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
@@ -224,7 +224,7 @@
 	},
 /obj/machinery/vending/medical,
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "U" = (
 /obj/machinery/light{
@@ -233,7 +233,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "Y" = (
 /obj/structure/table/glass,
@@ -254,7 +254,7 @@
 	dir = 10;
 	network = list("ss13","medbay")
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 
 (1,1,1) = {"

@@ -74,7 +74,7 @@
 /area/ruin/unpowered)
 "t" = (
 /obj/effect/abstract/open_area_marker,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "u" = (
 /obj/machinery/nuclearbomb/selfdestruct{
@@ -85,7 +85,7 @@
 	},
 /area/ruin/unpowered)
 "w" = (
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "z" = (
 /obj/effect/turf_decal/bot,
@@ -165,7 +165,7 @@
 /obj/effect/abstract/open_area_marker{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "V" = (
 /obj/effect/turf_decal/stripes/line{

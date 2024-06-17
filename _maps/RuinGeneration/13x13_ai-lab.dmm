@@ -9,12 +9,13 @@
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)
 "cw" = (
-/obj/effect/turf_decal/caution/stand_clear{
-	dir = 4
-	},
 /obj/effect/turf_decal{
 	dir = 8
 	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/effect/spawner/lootdrop/ruinloot/important,
 /turf/open/floor/circuit/red,
 /area/ruin/unpowered)
 "ef" = (
@@ -67,17 +68,21 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood,
-/obj/item/ammo_casing/c9mm{
-	dir = 4;
-	pixel_x = 3;
-	pixel_y = 2
-	},
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)
 "lX" = (
 /obj/effect/decal/cleanable/robot_debris/old,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
+	},
+/turf/open/floor/iron/tech/grid,
+/area/ruin/unpowered)
+"nj" = (
+/obj/item/ammo_casing/c9mm,
+/obj/item/ammo_casing/c9mm{
+	dir = 8;
+	pixel_x = -3;
+	pixel_y = 9
 	},
 /turf/open/floor/iron/tech/grid,
 /area/ruin/unpowered)
@@ -98,9 +103,20 @@
 	},
 /turf/open/floor/iron/tech/grid,
 /area/ruin/unpowered)
+"rk" = (
+/obj/item/ammo_casing/c9mm{
+	dir = 4;
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/item/ammo_casing/c9mm{
+	pixel_x = 9;
+	pixel_y = -6
+	},
+/turf/open/floor/iron/tech/grid,
+/area/ruin/unpowered)
 "sx" = (
 /obj/effect/decal/cleanable/glass,
-/obj/structure/windoor_assembly,
 /turf/open/floor/circuit/red,
 /area/ruin/unpowered)
 "sG" = (
@@ -162,12 +178,6 @@
 /obj/machinery/holopad,
 /turf/open/floor/iron/tech/grid,
 /area/ruin/unpowered)
-"vv" = (
-/obj/structure/AIcore{
-	name = "\broken AI core"
-	},
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
 "vX" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen,
@@ -183,14 +193,10 @@
 /turf/open/floor/iron/tech/grid,
 /area/ruin/unpowered)
 "AP" = (
-/obj/structure/window/reinforced/survival_pod{
-	dir = 4
-	},
 /obj/machinery/flasher{
 	id = "AI";
 	pixel_y = 24
 	},
-/obj/effect/spawner/lootdrop/ruinloot/important,
 /turf/open/floor/circuit/red,
 /area/ruin/unpowered)
 "BT" = (
@@ -208,17 +214,13 @@
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)
 "Dy" = (
-/obj/item/ammo_casing/c9mm,
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)
-"Fw" = (
-/turf/open/floor/circuit/red/anim,
-/area/ruin/unpowered)
 "Gh" = (
-/obj/effect/turf_decal/caution/stand_clear{
-	dir = 8
-	},
 /obj/effect/turf_decal{
+	dir = 4
+	},
+/obj/structure/window/reinforced/survival_pod{
 	dir = 4
 	},
 /turf/open/floor/circuit/red,
@@ -228,9 +230,17 @@
 /obj/structure/sign/warning/nosmoking,
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered)
+"Hk" = (
+/obj/item/ammo_casing/c9mm{
+	dir = 4;
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/turf/open/floor/iron/tech/grid,
+/area/ruin/unpowered)
 "Ib" = (
-/obj/machinery/porta_turret/syndicate/energy{
-	name = "AI Chamber Turret"
+/obj/structure/AIcore{
+	name = "\broken AI core"
 	},
 /turf/open/floor/pod/dark,
 /area/ruin/unpowered)
@@ -277,11 +287,6 @@
 	network = list("ss13","tcomms")
 	},
 /obj/effect/decal/cleanable/blood/tracks,
-/obj/item/ammo_casing/c9mm{
-	dir = 8;
-	pixel_x = 3;
-	pixel_y = 3
-	},
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)
 "MV" = (
@@ -296,15 +301,21 @@
 /turf/open/floor/iron/tech/grid,
 /area/ruin/unpowered)
 "NP" = (
-/obj/effect/turf_decal/caution/stand_clear{
-	dir = 1
-	},
 /obj/effect/turf_decal,
+/obj/structure/window/reinforced/survival_pod,
 /turf/open/floor/circuit/red,
 /area/ruin/unpowered)
 "Os" = (
 /obj/effect/turf_decal/bot_red,
-/obj/item/bot_assembly/medbot,
+/mob/living/simple_animal/bot/medbot,
+/turf/open/floor/iron/tech/grid,
+/area/ruin/unpowered)
+"Pi" = (
+/obj/item/ammo_casing/c9mm{
+	dir = 8;
+	pixel_x = 3;
+	pixel_y = 3
+	},
 /turf/open/floor/iron/tech/grid,
 /area/ruin/unpowered)
 "Pw" = (
@@ -362,24 +373,20 @@
 /obj/effect/turf_decal{
 	dir = 1
 	},
+/obj/structure/windoor_assembly,
 /turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"YP" = (
+/obj/machinery/porta_turret/ai{
+	mode = 1
+	},
+/turf/open/floor/pod/dark,
 /area/ruin/unpowered)
 "Zy" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4;
 	pixel_x = 6;
 	pixel_y = 4
-	},
-/obj/item/ammo_casing/c9mm{
-	dir = 4;
-	pixel_x = 3;
-	pixel_y = 2
-	},
-/obj/item/ammo_casing/c9mm,
-/obj/item/ammo_casing/c9mm{
-	dir = 8;
-	pixel_x = 3;
-	pixel_y = 3
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)
@@ -450,7 +457,7 @@ SV
 ef
 SV
 SV
-SV
+rk
 JS
 "}
 (5,1,1) = {"
@@ -464,31 +471,31 @@ JS
 to
 SV
 vj
-SV
-SV
+nj
+Hk
 JS
 "}
 (6,1,1) = {"
 JS
-Qa
+YP
 tO
 tO
 tO
-tO
+YP
 KU
 lX
 SV
 SV
-SV
+Pi
 SV
 JS
 "}
 (7,1,1) = {"
 JS
 tO
-Fw
+tO
 Gh
-Fw
+Qa
 gf
 JS
 tL
@@ -516,9 +523,9 @@ JS
 (9,1,1) = {"
 JS
 AP
-Fw
+tO
 cw
-Fw
+tO
 gf
 JS
 tL
@@ -530,11 +537,11 @@ JS
 "}
 (10,1,1) = {"
 JS
-vv
+YP
 sx
 tA
 tO
-tO
+YP
 KU
 za
 SV

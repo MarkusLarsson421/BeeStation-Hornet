@@ -6,35 +6,68 @@
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 "g" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -14
-	},
-/obj/structure/mirror{
-	pixel_x = -28
-	},
-/turf/open/floor/iron,
-/area/ruin/unpowered)
-"l" = (
-/obj/structure/sign/poster/random{
-	pixel_y = 32
-	},
+/obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 "p" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light_switch{
+	pixel_x = -25;
+	pixel_y = -25
+	},
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 "q" = (
 /turf/closed/wall,
 /area/ruin/unpowered)
-"K" = (
-/obj/effect/abstract/doorway_marker{
+"A" = (
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/structure/sign/poster/random{
+	pixel_y = 32
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"C" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 8
+	},
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"G" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered)
+"K" = (
+/obj/effect/abstract/doorway_marker{
+	dir = 8
+	},
+/obj/structure/sign/departments/restroom{
+	pixel_y = 32
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered)
 "M" = (
-/obj/machinery/door/window/eastright,
+/obj/item/radio/intercom{
+	pixel_y = -26
+	},
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 "X" = (
@@ -42,6 +75,10 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced/spawner/north,
+/obj/machinery/newscaster{
+	pixel_x = 32
+	},
+/obj/machinery/door/window/westleft,
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 
@@ -61,15 +98,15 @@ q
 "}
 (3,1,1) = {"
 q
-l
-p
+c
+G
 M
 q
 "}
 (4,1,1) = {"
 q
-c
-p
+A
+C
 X
 q
 "}

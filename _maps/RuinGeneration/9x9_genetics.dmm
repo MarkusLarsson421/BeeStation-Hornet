@@ -3,37 +3,6 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted,
 /turf/open/floor/iron/white,
 /area/ruin/unpowered)
-"ab" = (
-/obj/structure/rack,
-/obj/item/storage/box/rxglasses{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/box/monkeycubes,
-/obj/effect/spawner/lootdrop/ruinloot/medical,
-/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
-"ac" = (
-/obj/machinery/door/window/westright{
-	dir = 1;
-	name = "Monkey Pen";
-	pixel_y = 2
-	},
-/turf/open/floor/plasteel/freezer,
-/area/ruin/unpowered)
-"ad" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
-"ae" = (
-/obj/effect/turf_decal/tile/blue/half/contrasted{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
 "af" = (
 /obj/machinery/computer/scan_consolenew{
 	dir = 1
@@ -45,13 +14,6 @@
 /obj/effect/spawner/lootdrop/ruinloot/security,
 /turf/open/floor/iron/freezer,
 /area/ruin/unpowered)
-"ah" = (
-/obj/structure/window/reinforced{
-	dir = 1;
-	pixel_y = 1
-	},
-/turf/open/floor/plasteel/freezer,
-/area/ruin/unpowered)
 "ai" = (
 /obj/structure/sink{
 	dir = 4;
@@ -60,45 +22,11 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted,
 /turf/open/floor/iron/white,
 /area/ruin/unpowered)
-"aj" = (
-/obj/structure/table/glass,
-/obj/item/storage/box/disks{
-	pixel_y = 5
-	},
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
-/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
-"ak" = (
-/obj/machinery/vending/wardrobe/gene_wardrobe,
-/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
 "al" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
 /turf/open/floor/iron/white,
-/area/ruin/unpowered)
-"am" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 12
-	},
-/obj/effect/turf_decal/tile/blue/half/contrasted,
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
-"an" = (
-/obj/structure/table/glass,
-/obj/effect/spawner/lootdrop/ruinloot/medical,
-/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
-"ao" = (
-/obj/machinery/dna_scannernew,
-/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
-/turf/open/floor/plasteel/white,
 /area/ruin/unpowered)
 "ap" = (
 /obj/structure/window/reinforced{
@@ -109,26 +37,6 @@
 /area/ruin/unpowered)
 "aq" = (
 /turf/closed/wall,
-/area/ruin/unpowered)
-"ar" = (
-/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
-"as" = (
-/obj/machinery/door/window/westleft{
-	dir = 1;
-	name = "Monkey Pen";
-	pixel_y = 2
-	},
-/turf/open/floor/plasteel/freezer,
-/area/ruin/unpowered)
-"at" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
 /area/ruin/unpowered)
 "au" = (
 /obj/effect/turf_decal/tile/blue{
@@ -142,52 +50,16 @@
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
 /turf/open/floor/iron/white,
 /area/ruin/unpowered)
-"aw" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
 "ax" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/item/weldingtool,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
-"ay" = (
-/obj/structure/chair/office/light{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
-"az" = (
-/obj/structure/table/glass,
-/obj/item/storage/pill_bottle/mutadone{
-	pixel_x = -1;
-	pixel_y = 4
-	},
-/obj/item/flashlight/pen{
-	pixel_x = 1;
-	pixel_y = 1
-	},
-/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
-"aA" = (
-/obj/effect/turf_decal/tile/blue/half/contrasted,
-/turf/open/floor/plasteel/white,
 /area/ruin/unpowered)
 "aB" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
 	},
 /turf/open/floor/iron/white,
-/area/ruin/unpowered)
-"aC" = (
-/obj/structure/bed/roller,
-/turf/open/floor/plasteel/freezer,
 /area/ruin/unpowered)
 "aD" = (
 /turf/open/floor/iron/white,
@@ -200,12 +72,6 @@
 /obj/effect/abstract/doorway_marker,
 /turf/open/floor/plating,
 /area/ruin/unpowered)
-"aG" = (
-/obj/effect/turf_decal/tile/blue/half/contrasted{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
 "aH" = (
 /obj/machinery/door/window/westleft{
 	dir = 1;
@@ -214,33 +80,9 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/ruin/unpowered)
-"aI" = (
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
-"aJ" = (
-/obj/structure/window/reinforced{
-	dir = 1;
-	pixel_y = 1
-	},
-/obj/structure/bed/roller,
-/turf/open/floor/plasteel/freezer,
-/area/ruin/unpowered)
-"aK" = (
-/turf/open/floor/plasteel/freezer,
-/area/ruin/unpowered)
-"aL" = (
-/obj/effect/abstract/doorway_marker{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
 "aM" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
-"aN" = (
-/obj/effect/spawner/lootdrop/ruinloot/security,
-/turf/open/floor/plasteel/freezer,
 /area/ruin/unpowered)
 "aO" = (
 /turf/open/floor/plating,
@@ -259,29 +101,12 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/unpowered)
-"aR" = (
-/obj/machinery/vending/medical,
-/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
-"aS" = (
-/obj/machinery/computer/scan_consolenew{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
 "aT" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/iron/white,
-/area/ruin/unpowered)
-"aU" = (
-/obj/machinery/computer/scan_consolenew,
-/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
-/turf/open/floor/plasteel/white,
 /area/ruin/unpowered)
 "aV" = (
 /obj/machinery/dna_scannernew,
@@ -297,19 +122,6 @@
 /area/ruin/unpowered)
 "aX" = (
 /turf/open/floor/iron/freezer,
-/area/ruin/unpowered)
-"aY" = (
-/obj/structure/chair/office/light,
-/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
-"aZ" = (
-/obj/effect/turf_decal/tile/blue/half/contrasted{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
 /area/ruin/unpowered)
 "jw" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted{

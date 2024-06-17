@@ -3,7 +3,7 @@
 /obj/structure/chair/fancy/sofa/old/left{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "dP" = (
 /obj/structure/marker_beacon,
@@ -16,36 +16,36 @@
 /area/ruin/unpowered)
 "eX" = (
 /obj/item/storage/firstaid/random,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "fe" = (
 /obj/structure/ore_box,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "fk" = (
 /obj/effect/decal/remains/human,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "fI" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/crate/science,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "gp" = (
 /obj/machinery/light/broken{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "gQ" = (
 /obj/effect/abstract/doorway_marker{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "ha" = (
 /obj/structure/reagent_dispensers/fueltank,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "hp" = (
 /obj/structure/closet/crate/trashcart,
@@ -57,36 +57,36 @@
 	pixel_x = 7;
 	pixel_y = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "ib" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "iM" = (
 /obj/structure/chair/fancy/sofa/old,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "iN" = (
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "jy" = (
 /obj/structure/chair/stool{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "kz" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "kR" = (
 /obj/structure/lattice/catwalk/over,
@@ -95,7 +95,7 @@
 /area/ruin/unpowered)
 "kZ" = (
 /obj/item/bodybag,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "lq" = (
 /obj/structure/bed/double/maint,
@@ -109,7 +109,7 @@
 "mc" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance/two,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "mF" = (
 /obj/effect/decal/cleanable/glass,
@@ -117,7 +117,7 @@
 /area/ruin/unpowered)
 "mV" = (
 /obj/machinery/light,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "ox" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -135,13 +135,13 @@
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "qb" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "qE" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -155,7 +155,7 @@
 /obj/effect/turf_decal/stripes{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "ro" = (
 /obj/effect/spawner/lootdrop/glowstick/lit,
@@ -171,19 +171,19 @@
 /obj/structure/sign/poster/ripped{
 	pixel_y = 32
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "sQ" = (
 /obj/structure/sign/poster/random{
 	pixel_y = 32
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "sV" = (
 /obj/structure/chair/stool{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "tf" = (
 /obj/structure/sign/poster/random{
@@ -192,7 +192,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "th" = (
 /obj/structure/table_frame/wood,
@@ -203,12 +203,12 @@
 /area/ruin/unpowered)
 "tx" = (
 /obj/effect/spawner/randomvend/cola,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "tR" = (
 /obj/structure/bed/roller,
 /obj/effect/mapping_helpers/dead_body_placer/ruin_morgue,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "vg" = (
 /obj/structure/sign/poster/ripped{
@@ -217,7 +217,7 @@
 /obj/machinery/light/broken{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "vy" = (
 /obj/machinery/door/firedoor,
@@ -228,48 +228,48 @@
 /obj/effect/turf_decal/stripes{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "wv" = (
 /obj/structure/chair/fancy/sofa/old/right,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "xl" = (
 /obj/machinery/light/small,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "xw" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -28
 	},
 /obj/machinery/light/broken,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "yC" = (
 /obj/structure/sign/poster/ripped{
 	pixel_y = -32
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "zM" = (
 /obj/machinery/disposal/bin,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "zQ" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Ar" = (
 /obj/item/kirbyplants/random,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "AD" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "AF" = (
 /obj/machinery/space_heater,
@@ -288,11 +288,11 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "BJ" = (
 /obj/effect/turf_decal/stripes,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "BS" = (
 /obj/structure/lattice/catwalk/over,
@@ -302,7 +302,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Df" = (
 /turf/open/floor/dock/drydock,
@@ -315,33 +315,33 @@
 /obj/effect/turf_decal/stripes{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "DC" = (
 /obj/structure/barricade/security,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Ew" = (
 /obj/effect/abstract/open_area_marker,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Ex" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/stripes,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "FD" = (
 /obj/effect/spawner/randomvend/snack,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "FO" = (
 /obj/structure/closet/crate/critter,
 /obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "GS" = (
 /obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "HG" = (
 /obj/machinery/door/firedoor,
@@ -355,12 +355,12 @@
 /obj/machinery/door/airlock/external/glass,
 /obj/structure/fans/tiny,
 /obj/structure/barricade/wooden/crude,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Je" = (
 /obj/structure/closet/body_bag,
 /obj/effect/mapping_helpers/dead_body_placer/ruin_morgue,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Js" = (
 /obj/effect/acid,
@@ -368,7 +368,7 @@
 /area/ruin/unpowered)
 "LG" = (
 /obj/structure/chair/fancy/sofa/old/corner/concave,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Mt" = (
 /obj/structure/lattice/catwalk/over,
@@ -380,7 +380,7 @@
 /area/ruin/unpowered)
 "MF" = (
 /obj/item/stack/rods,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Np" = (
 /obj/structure/closet/crate/miningcar{
@@ -388,7 +388,7 @@
 	pixel_y = 2
 	},
 /obj/item/pickaxe/drill,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Oa" = (
 /obj/structure/closet/crate/miningcar{
@@ -399,11 +399,11 @@
 	pixel_x = -1;
 	pixel_y = 7
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Ol" = (
 /obj/effect/spawner/lootdrop/glowstick/lit,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Ou" = (
 /obj/structure/sign/poster/ripped{
@@ -413,35 +413,35 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/dead_body_placer/ruin_morgue,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "OL" = (
 /obj/structure/closet,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Pe" = (
 /obj/structure/table,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "QC" = (
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Rf" = (
 /obj/structure/closet/emcloset,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Ro" = (
 /obj/effect/abstract/doorway_marker,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "SM" = (
 /obj/structure/chair/fancy/sofa/old{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Tp" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -458,33 +458,33 @@
 	pixel_y = 8
 	},
 /obj/machinery/light/small,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Us" = (
 /obj/machinery/light/broken,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "UA" = (
 /obj/structure/bookcase/manuals/medical,
 /turf/open/floor/plating,
 /area/ruin/unpowered)
 "Vv" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "VP" = (
 /obj/item/crowbar{
 	pixel_y = 5
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "VV" = (
 /obj/structure/closet/crate/large,
 /obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "VX" = (
 /obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "WE" = (
 /obj/structure/fans/tiny,
@@ -493,16 +493,16 @@
 	},
 /obj/effect/turf_decal/stripes,
 /obj/machinery/door/firedoor/window,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "WH" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/crate/engineering,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Xf" = (
 /obj/structure/closet/firecloset/full,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Xk" = (
 /obj/machinery/door/firedoor,
@@ -512,7 +512,7 @@
 /obj/effect/turf_decal/stripes{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Xm" = (
 /turf/open/floor/plating,
@@ -522,7 +522,7 @@
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "XF" = (
 /obj/machinery/door/firedoor,
@@ -530,7 +530,7 @@
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "XS" = (
 /obj/docking_port/stationary{
@@ -553,7 +553,7 @@
 /area/template_noop)
 "Yq" = (
 /obj/effect/mapping_helpers/dead_body_placer/ruin_morgue,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Zk" = (
 /obj/effect/spawner/lootdrop/grille_or_trash,

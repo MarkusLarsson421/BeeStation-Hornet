@@ -3,12 +3,19 @@
 /turf/closed/wall,
 /area/ruin/unpowered)
 "f" = (
-/obj/structure/closet/crate,
-/obj/effect/spawner/lootdrop/maintenance,
-/obj/effect/spawner/lootdrop/maintenance,
+/obj/effect/spawner/lootdrop/storage,
+/obj/effect/turf_decal/bot,
+/obj/machinery/newscaster{
+	pixel_x = 32
+	},
+/obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 "i" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 "j" = (
@@ -19,25 +26,60 @@
 /area/ruin/unpowered)
 "k" = (
 /obj/effect/decal/cleanable/oil,
+/obj/machinery/light_switch{
+	pixel_x = -25;
+	pixel_y = 25
+	},
+/obj/effect/turf_decal/delivery,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"y" = (
+/obj/machinery/airalarm/directional/east,
+/obj/effect/spawner/lootdrop/storage,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 "z" = (
 /obj/effect/decal/cleanable/oil/streak,
-/turf/open/floor/plating,
+/obj/effect/spawner/lootdrop/storage,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "G" = (
 /obj/effect/decal/cleanable/blood/drip,
+/obj/effect/spawner/lootdrop/storage,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 "W" = (
-/turf/open/floor/plating,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/item/radio/intercom{
+	pixel_y = -26
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "X" = (
-/obj/vehicle/ridden/atv,
+/obj/effect/spawner/lootdrop/storage,
+/obj/effect/turf_decal/bot,
+/obj/structure/sign/departments/minsky/supply/cargo{
+	pixel_x = -32
+	},
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 "Y" = (
-/obj/structure/closet/crate/secure/loot,
+/obj/effect/spawner/lootdrop/storage,
+/obj/effect/turf_decal/bot,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -26
+	},
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 
@@ -65,7 +107,7 @@ e
 (4,1,1) = {"
 e
 f
-i
+y
 z
 e
 "}

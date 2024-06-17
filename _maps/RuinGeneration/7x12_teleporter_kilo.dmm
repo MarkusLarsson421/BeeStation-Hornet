@@ -8,14 +8,14 @@
 "c" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "d" = (
 /obj/effect/turf_decal/tile/dark_blue/half/contrasted{
 	alpha = 180;
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "e" = (
 /obj/effect/turf_decal/bot,
@@ -24,7 +24,7 @@
 	pixel_y = 2;
 	oxygentanks = 3
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "f" = (
 /obj/structure/table,
@@ -35,12 +35,12 @@
 	name = "command camera"
 	},
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "g" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "h" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -52,13 +52,13 @@
 /obj/item/gps{
 	gpstag = "TP0"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "l" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "m" = (
 /obj/effect/turf_decal/loading_area{
@@ -66,7 +66,7 @@
 	},
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "n" = (
 /obj/machinery/door/firedoor,
@@ -77,7 +77,7 @@
 /obj/effect/abstract/doorway_marker{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "o" = (
 /obj/machinery/shieldwallgen,
@@ -86,7 +86,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "p" = (
 /obj/effect/turf_decal/stripes/line{
@@ -95,7 +95,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "q" = (
 /obj/effect/turf_decal/bot,
@@ -108,7 +108,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "r" = (
 /obj/effect/turf_decal/delivery,
@@ -117,19 +117,19 @@
 	dir = 8
 	},
 /obj/item/beacon,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "s" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/shieldwallgen,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "t" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
 /obj/machinery/shieldwallgen,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "u" = (
 /obj/effect/turf_decal/stripes/line{
@@ -141,7 +141,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "w" = (
 /obj/machinery/button/door{
@@ -159,7 +159,7 @@
 	alpha = 180;
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "x" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -169,14 +169,14 @@
 	alpha = 180;
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "z" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "A" = (
 /obj/machinery/teleport/hub,
@@ -184,7 +184,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "B" = (
 /obj/machinery/door/airlock/maintenance{
@@ -204,14 +204,14 @@
 	alpha = 180;
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "E" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "F" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -224,7 +224,7 @@
 	alpha = 180;
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "G" = (
 /obj/effect/decal/cleanable/dirt,
@@ -234,13 +234,13 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "H" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "I" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -250,14 +250,14 @@
 	alpha = 180;
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "J" = (
 /obj/structure/rack,
 /obj/item/wrench,
 /obj/item/stack/package_wrap,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "K" = (
 /obj/machinery/computer/teleporter{
@@ -274,21 +274,21 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "L" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "M" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "N" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/holopad,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "P" = (
 /obj/machinery/teleport/station,
@@ -301,7 +301,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "Q" = (
 /obj/effect/turf_decal/stripes/line{
@@ -309,7 +309,7 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/decal/cleanable/glass,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "R" = (
 /obj/machinery/door/poddoor/shutters{
@@ -317,12 +317,12 @@
 	name = "Teleporter Access Shutter"
 	},
 /obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "T" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /obj/effect/decal/cleanable/glass,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "U" = (
 /obj/machinery/bluespace_beacon,
@@ -330,7 +330,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "W" = (
 /obj/machinery/door/firedoor,
@@ -338,7 +338,7 @@
 	name = "Teleporter Access";
 	req_one_access_txt = "17;19"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "X" = (
 /obj/effect/turf_decal/bot,
@@ -351,7 +351,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered)
 "Y" = (
 /obj/structure/sign/warning/securearea{
@@ -364,7 +364,7 @@
 	alpha = 180;
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Z" = (
 /turf/closed/wall/r_wall,

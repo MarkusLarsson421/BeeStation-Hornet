@@ -4,7 +4,7 @@
 /obj/effect/turf_decal/guideline/guideline_edge/blue{
 	color = "#267878"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "c" = (
 /obj/machinery/cryopod,
@@ -13,7 +13,7 @@
 	color = "#267878";
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "f" = (
 /obj/effect/turf_decal/delivery,
@@ -21,7 +21,7 @@
 	color = "#267878";
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "q" = (
 /obj/machinery/door/airlock/public/glass{
@@ -34,7 +34,7 @@
 /obj/effect/abstract/doorway_marker{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "s" = (
 /obj/effect/spawner/structure/window,
@@ -54,7 +54,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "D" = (
 /obj/structure/closet/secure_closet/personal,
@@ -67,21 +67,21 @@
 	color = "#267878";
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "P" = (
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted{
 	alpha = 200;
 	color = "#267878"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Q" = (
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/guideline/guideline_edge/blue{
 	color = "#267878"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "R" = (
 /obj/machinery/cryopod,
@@ -89,7 +89,7 @@
 /obj/effect/turf_decal/guideline/guideline_edge/blue{
 	color = "#267878"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "X" = (
 /obj/structure/sign/poster/random{
