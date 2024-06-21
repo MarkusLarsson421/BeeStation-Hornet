@@ -101,6 +101,7 @@
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/atmos_auto_connect,
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/science)
 "x" = (
