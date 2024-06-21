@@ -41,9 +41,6 @@
 	dir = 8;
 	light_color = "#e8eaff"
 	},
-/obj/machinery/atmospherics/pipe/simple/purple/visible{
-	dir = 6
-	},
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/science)
 "m" = (
@@ -64,11 +61,8 @@
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/science)
 "o" = (
-/obj/machinery/portable_atmospherics/canister/plasma,
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 1
-	},
 /obj/effect/turf_decal/box,
+/obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/science)
 "r" = (
@@ -103,6 +97,10 @@
 /area/shuttle/science)
 "v" = (
 /obj/effect/turf_decal/box,
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/science)
 "x" = (
@@ -132,7 +130,6 @@
 /turf/open/floor/plating,
 /area/shuttle/science)
 "N" = (
-/obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/science)
 "O" = (
@@ -152,6 +149,12 @@
 /area/shuttle/science)
 "T" = (
 /obj/machinery/door/airlock/titanium/glass,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/science)
+"X" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 6
+	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/science)
 
@@ -184,7 +187,7 @@ Q
 S
 T
 S
-O
+X
 J
 m
 "}
@@ -195,7 +198,7 @@ Q
 S
 T
 S
-f
+O
 J
 m
 "}
@@ -206,7 +209,7 @@ x
 s
 t
 S
-S
+f
 v
 y
 "}
