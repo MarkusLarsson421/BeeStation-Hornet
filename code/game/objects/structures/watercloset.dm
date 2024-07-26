@@ -468,6 +468,12 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/urinal, 32)
 	color = null
 	alpha = 255
 
+/obj/structure/curtain/bounty/closed
+	icon_type = "bounty"
+	icon_state = "bounty-closed"
+	color = null
+	alpha = 255
+
 /obj/structure/curtain/proc/toggle(mob/M)
     if (check(M))
         open = !open
