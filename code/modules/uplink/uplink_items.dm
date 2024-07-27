@@ -1889,7 +1889,7 @@ GLOBAL_LIST_INIT(illegal_tech_blacklist, typecacheof(list(
 	name = "Syndicate Encryption Key"
 	desc = "A key that, when inserted into a radio headset, allows you to listen to all station department channels \
 			as well as talk on an encrypted Syndicate channel with other agents that have the same key."
-	item = /obj/item/encryptionkey/syndicate/all
+	item = /obj/item/encryptionkey/syndicate
 	cost = 2
 	surplus = 75
 	purchasable_from = ~(UPLINK_INCURSION | UPLINK_EXCOMMUNICATE)
