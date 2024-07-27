@@ -474,7 +474,8 @@ update_label("John Doe", "Clowny")
 	access = list(ACCESS_PIRATES)
 	hud_state = JOB_HUD_SYNDICATE
 
-/obj/item/card/id/syndicate
+
+/obj/item/card/id/chameleon
 	name = "agent card"
 	access = list(ACCESS_MAINT_TUNNELS, ACCESS_SYNDICATE)
 	icon_state = "syndicate"
@@ -483,7 +484,7 @@ update_label("John Doe", "Clowny")
 
 	var/datum/action/item_action/chameleon/change/chameleon_action
 
-/obj/item/card/id/syndicate/Initialize(mapload)
+/obj/item/card/id/chameleon/Initialize(mapload)
 	. = ..()
 	chameleon_action = new(src)
 	chameleon_action.chameleon_type = /obj/item/card/id
@@ -509,10 +510,10 @@ update_label("John Doe", "Clowny")
 		/obj/item/card/id/gulag/six,
 		/obj/item/card/id/gulag/seven,
 		/obj/item/card/id/departmental_budget,
-		/obj/item/card/id/syndicate/anyone,
-		/obj/item/card/id/syndicate/nuke_leader,
-		/obj/item/card/id/syndicate/debug,
-		/obj/item/card/id/syndicate/broken,
+		/obj/item/card/id/chameleon/anyone,
+		/obj/item/card/id/chameleon/nuke_leader,
+		/obj/item/card/id/chameleon/debug,
+		/obj/item/card/id/chameleon/broken,
 		/obj/item/card/id/away/old/apc,
 		/obj/item/card/id/away/deep_storage,
 		/obj/item/card/id/changeling,
@@ -520,7 +521,7 @@ update_label("John Doe", "Clowny")
 		/obj/item/card/id/pass), only_root_path = TRUE)
 	chameleon_action.initialize_disguises()
 
-/obj/item/card/id/syndicate/afterattack(obj/item/O, mob/user, proximity)
+/obj/item/card/id/chameleon/afterattack(obj/item/O, mob/user, proximity)
 	if(!proximity)
 		return
 	if(istype(O, /obj/item/card/id))
@@ -531,7 +532,7 @@ update_label("John Doe", "Clowny")
 			if(user.mind.special_role || anyone)
 				to_chat(usr, "<span class='notice'>The card's microscanners activate as you pass it over the ID, copying its access.</span>")
 
-/obj/item/card/id/syndicate/attack_self(mob/user)
+/obj/item/card/id/chameleon/attack_self(mob/user)
 	if(chameleon_action.hidden)
 		return ..()
 	if(isliving(user) && user.mind)
@@ -600,13 +601,13 @@ update_label("John Doe", "Clowny")
 	return ..()
 
 
-/obj/item/card/id/syndicate/emp_act(severity)
+/obj/item/card/id/chameleon/emp_act(severity)
 	. = ..()
 	if(. & EMP_PROTECT_SELF)
 		return
 	chameleon_action.emp_randomise()
 
-/obj/item/card/id/syndicate/attackby(obj/item/W, mob/user, params)
+/obj/item/card/id/chameleon/attackby(obj/item/W, mob/user, params)
 	if(W.tool_behaviour == TOOL_MULTITOOL)
 		if(chameleon_action.hidden)
 			chameleon_action.hidden = FALSE
@@ -623,30 +624,39 @@ update_label("John Doe", "Clowny")
 	. = ..()
 
 // broken chameleon agent card
-/obj/item/card/id/syndicate/broken
+/obj/item/card/id/chameleon/broken
 	access = list() // their access is even broken
 
-/obj/item/card/id/syndicate/broken/afterattack(obj/item/O, mob/user, proximity)
+/obj/item/card/id/chameleon/broken/afterattack(obj/item/O, mob/user, proximity)
 	return
 
-/obj/item/card/id/syndicate/broken/Initialize(mapload)
+/obj/item/card/id/chameleon/broken/Initialize(mapload)
 	. = ..()
 	chameleon_action.emp_randomise(INFINITY)
 
-/obj/item/card/id/syndicate/anyone
+/obj/item/card/id/chameleon/anyone
 	anyone = TRUE
 
-/obj/item/card/id/syndicate/nuke_leader
+/obj/item/card/id/chameleon/nuke_leader
 	name = "lead agent card"
 	access = list(ACCESS_MAINT_TUNNELS, ACCESS_SYNDICATE, ACCESS_SYNDICATE_LEADER)
 
-/obj/item/card/id/syndicate/ratvar
+/obj/item/card/id/chameleon/ratvar
 	name = "servant ID card"
 	icon_state = "ratvar"
 	access = list(ACCESS_CLOCKCULT, ACCESS_MAINT_TUNNELS)
 	hud_state = JOB_HUD_UNKNOWN
 
-/obj/item/card/id/syndicate_command
+/obj/item/card/id/syndicate
+	name = "syndicate ID card"
+	desc = "An ID straight from the Syndicate."
+	registered_name = "Syndicate"
+	icon_state = "syndicate"
+	assignment = "Syndicate"
+	access = list(ACCESS_SYNDICATE)
+	hud_state = JOB_HUD_SYNDICATE
+
+/obj/item/card/id/syndicate/command
 	name = "syndicate ID card"
 	desc = "An ID straight from the Syndicate."
 	registered_name = "Syndicate"
@@ -655,7 +665,7 @@ update_label("John Doe", "Clowny")
 	access = list(ACCESS_SYNDICATE)
 	hud_state = JOB_HUD_SYNDICATE
 
-/obj/item/card/id/syndicate/debug
+/obj/item/card/id/chameleon/debug
 	name = "\improper Debug ID"
 	desc = "A shimmering ID card with the ability to open anything."
 	icon_state = "centcom"
@@ -664,7 +674,7 @@ update_label("John Doe", "Clowny")
 	anyone = TRUE
 	hud_state = JOB_HUD_CENTCOM
 
-/obj/item/card/id/syndicate/debug/Initialize(mapload)
+/obj/item/card/id/chameleon/debug/Initialize(mapload)
 	access = get_every_access()
 	registered_account = SSeconomy.get_budget_account(ACCOUNT_VIP_ID)
 	. = ..()

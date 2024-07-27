@@ -3,6 +3,8 @@
 /obj/structure/bed/roller,
 /obj/machinery/iv_drip,
 /obj/item/reagent_containers/blood/OMinus,
+/obj/effect/mob_spawn/human/miner,
+/obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "af" = (
@@ -109,7 +111,7 @@
 "bv" = (
 /obj/structure/closet/crate/medical,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
-/obj/machinery/light{
+/obj/machinery/light/infinite{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/white,
@@ -349,7 +351,7 @@
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "eI" = (
-/obj/machinery/light/small{
+/obj/machinery/light/small/infinite{
 	dir = 1
 	},
 /obj/structure/closet/emcloset,
@@ -481,7 +483,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
 	},
-/obj/machinery/light{
+/obj/machinery/light/infinite{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
@@ -583,7 +585,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 4
 	},
-/obj/machinery/light,
+/obj/machinery/light/infinite,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/hallway/starboard)
 "hM" = (
@@ -783,7 +785,7 @@
 	dir = 10
 	},
 /obj/effect/turf_decal/stripes/line,
-/obj/machinery/light{
+/obj/machinery/light/infinite{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/purple,
@@ -852,7 +854,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
-/obj/machinery/light/small,
+/obj/machinery/light/small/infinite,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/nv_73/security)
 "kG" = (
@@ -883,6 +885,10 @@
 /area/shuttle/nv_73/engineering)
 "kW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
+	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
 "kY" = (
@@ -1024,6 +1030,7 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "spacebattle_lockdown_shutters"
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark,
 /area/shuttle/nv_73/engineering/aft)
 "mO" = (
@@ -1172,7 +1179,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
-/obj/machinery/light/small{
+/obj/machinery/light/small/infinite{
 	dir = 1
 	},
 /turf/open/floor/plating,
@@ -1348,6 +1355,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "rC" = (
@@ -1376,7 +1384,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/machinery/light,
+/obj/machinery/light/infinite,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "rZ" = (
@@ -1442,7 +1450,7 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "sM" = (
-/obj/machinery/light{
+/obj/machinery/light/infinite{
 	dir = 1
 	},
 /turf/open/floor/engine,
@@ -1523,7 +1531,7 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
 "uj" = (
-/obj/machinery/light,
+/obj/machinery/light/infinite,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "ux" = (
@@ -1633,8 +1641,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/machinery/light/small{
-	brightness = 3;
+/obj/machinery/light/small/infinite{
 	dir = 8
 	},
 /turf/open/floor/engine,
@@ -1772,6 +1779,10 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
+	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
 "yF" = (
@@ -1859,7 +1870,7 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/nv_73/hallway/port)
 "zr" = (
-/obj/machinery/light{
+/obj/machinery/light/infinite{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
@@ -1871,11 +1882,24 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
-/obj/machinery/light{
+/obj/machinery/light/infinite{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/construction)
+"zu" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/nv_73/bridge)
 "zx" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
@@ -1991,7 +2015,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/machinery/light,
+/obj/machinery/light/infinite,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "AF" = (
@@ -2110,7 +2134,7 @@
 "CD" = (
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/machinery/light/small{
+/obj/machinery/light/small/infinite{
 	dir = 8
 	},
 /turf/open/floor/plating,
@@ -2120,7 +2144,7 @@
 	dir = 1
 	},
 /obj/structure/table/optable,
-/obj/machinery/light{
+/obj/machinery/light/infinite{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
@@ -2140,7 +2164,7 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/nv_73/hallway/starboard)
 "CI" = (
-/obj/machinery/light/small{
+/obj/machinery/light/small/infinite{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
@@ -2151,14 +2175,14 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/light{
+/obj/machinery/light/infinite{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "CW" = (
 /obj/machinery/atmospherics/pipe/layer_manifold,
-/obj/machinery/light/small,
+/obj/machinery/light/small/infinite,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/security)
 "Db" = (
@@ -2364,7 +2388,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/machinery/light/small{
+/obj/machinery/light/small/infinite{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -2399,7 +2423,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 1
 	},
-/obj/machinery/light{
+/obj/machinery/light/infinite{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/yellow,
@@ -2683,6 +2707,17 @@
 "Jl" = (
 /obj/structure/bed/roller,
 /obj/item/bedsheet/medical,
+/obj/effect/mob_spawn/human/engineer/rig{
+	brute_damage = 45;
+	burn_damage = 45;
+	reagents = list(/datum/reagent/medicine/epinephrine = 10, /datum/reagent/toxin/formaldehyde = 3);
+	death = 0;
+	random = 1;
+	objectives = "Save Nova Vanguard 73.";
+	short_desc = "You are an Engineer of NV73!";
+	flavour_text = "An attack has occured on the ship and you must assist whoever you can to protect the ship and keep it operational!";
+	important_info = "Listen to the admiral!"
+	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "Jq" = (
@@ -2712,7 +2747,7 @@
 /turf/open/floor/iron,
 /area/shuttle/nv_73/cafeteria)
 "Jy" = (
-/obj/machinery/light{
+/obj/machinery/light/infinite{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/white,
@@ -2833,7 +2868,7 @@
 /area/shuttle/nv_73/cafeteria)
 "KL" = (
 /obj/structure/closet/emcloset,
-/obj/machinery/light/small{
+/obj/machinery/light/small/infinite{
 	dir = 1
 	},
 /turf/open/floor/plating,
@@ -2898,11 +2933,11 @@
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "Le" = (
-/obj/machinery/light,
+/obj/machinery/light/infinite,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
 "Lf" = (
-/obj/machinery/light/small{
+/obj/machinery/light/small/infinite{
 	dir = 4
 	},
 /turf/open/floor/iron/white,
@@ -2998,7 +3033,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/machinery/light/small{
+/obj/machinery/light/small/infinite{
 	dir = 8
 	},
 /turf/open/floor/plating,
@@ -3142,7 +3177,7 @@
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/construction)
 "NG" = (
-/obj/machinery/light/small,
+/obj/machinery/light/small/infinite,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/food/deadmouse,
 /turf/open/floor/plating,
@@ -3163,7 +3198,7 @@
 /obj/structure/chair/fancy/bench{
 	pixel_y = 16
 	},
-/obj/machinery/light,
+/obj/machinery/light/infinite,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
 "NU" = (
@@ -3468,7 +3503,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
-/obj/machinery/light/small,
+/obj/machinery/light/small/infinite,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
 "Sf" = (
@@ -3731,9 +3766,6 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/bsa)
-"UZ" = (
-/turf/open/space/basic,
-/area/shuttle/nv_73/engineering/bsa)
 "Vj" = (
 /obj/effect/turf_decal/tile/brown/fourcorners/contrasted,
 /obj/machinery/portable_atmospherics/canister/plasma,
@@ -3953,6 +3985,10 @@
 /area/shuttle/nv_73/engineering)
 "Xy" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
+	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
 "XE" = (
@@ -3965,6 +4001,9 @@
 /area/shuttle/nv_73/engineering)
 "XG" = (
 /obj/structure/bed/roller,
+/obj/effect/mob_spawn/human/doctor{
+	ghost_usable = 0
+	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "XJ" = (
@@ -3977,13 +4016,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
-/obj/machinery/light{
+/obj/machinery/light/infinite{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "Yf" = (
-/obj/machinery/light{
+/obj/machinery/light/infinite{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -4083,7 +4122,7 @@
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "Zf" = (
-/obj/machinery/light/small,
+/obj/machinery/light/small/infinite,
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/nv_73/engineering/telecom)
 "Zi" = (
@@ -4105,6 +4144,7 @@
 /area/shuttle/nv_73/engineering/aft)
 "Zn" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "Zo" = (
@@ -4139,7 +4179,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
 	},
-/obj/machinery/light/small{
+/obj/machinery/light/small/infinite{
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
@@ -4727,7 +4767,7 @@ my
 my
 lF
 Jl
-Nj
+zu
 XG
 lF
 YL
@@ -5394,7 +5434,7 @@ Wc
 wF
 zW
 af
-UZ
+jo
 FQ
 kY
 zW
@@ -5423,7 +5463,7 @@ Ua
 GV
 zW
 Jq
-UZ
+jo
 Kd
 zW
 zW
@@ -5452,7 +5492,7 @@ nJ
 Ap
 GV
 Gc
-Eo
+jo
 cP
 uG
 Ll
@@ -5481,7 +5521,7 @@ GV
 HM
 GV
 Uh
-Eo
+jo
 Sf
 RC
 VK
@@ -5510,7 +5550,7 @@ GV
 HM
 Tb
 Uh
-Eo
+jo
 UY
 RC
 Ll
@@ -5539,7 +5579,7 @@ GV
 HM
 GV
 Uh
-Eo
+jo
 Uh
 RC
 Tx
@@ -5568,7 +5608,7 @@ GV
 HM
 GV
 Jq
-Eo
+jo
 Jq
 uG
 zr
@@ -5597,7 +5637,7 @@ Sz
 HM
 GV
 Uh
-Eo
+jo
 Uh
 RC
 Ll
@@ -5626,7 +5666,7 @@ Sz
 HM
 Tb
 Uh
-Eo
+jo
 Uh
 RC
 Nn
@@ -5655,7 +5695,7 @@ Sz
 HM
 GV
 Uh
-Eo
+jo
 Uh
 RC
 Ll
@@ -5684,7 +5724,7 @@ GV
 HM
 GV
 Jq
-Eo
+jo
 Jq
 uG
 zr
@@ -5713,7 +5753,7 @@ GV
 HM
 GV
 Uh
-Eo
+jo
 Uh
 RC
 Xg
@@ -5742,7 +5782,7 @@ GV
 HM
 Tb
 Uh
-Eo
+jo
 Uh
 RC
 Xg
@@ -5771,7 +5811,7 @@ GV
 HM
 GV
 Uh
-Eo
+jo
 Uh
 RC
 sF
@@ -5800,7 +5840,7 @@ JD
 jV
 GV
 Gc
-Eo
+jo
 Gc
 uG
 rL
@@ -5829,7 +5869,7 @@ Sz
 GV
 GV
 Jq
-Eo
+jo
 Jq
 uG
 uG

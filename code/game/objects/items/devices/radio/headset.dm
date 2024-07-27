@@ -109,7 +109,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 
 /obj/item/radio/headset/headset_sec
 	name = "security radio headset"
-	desc = "This is used by your elite security force."
+	desc = "This is used by your \"elite\" security force."
 	icon_state = "sec_headset"
 	worn_icon_state = "sec_headset"
 	keyslot = new /obj/item/encryptionkey/headset_sec

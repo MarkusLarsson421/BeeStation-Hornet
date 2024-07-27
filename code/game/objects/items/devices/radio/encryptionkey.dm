@@ -24,11 +24,15 @@
 
 		. += "<span class='notice'>It can access the following channels; [jointext(examine_text_list, ", ")].</span>"
 
-/obj/item/encryptionkey/syndicate
+/obj/item/encryptionkey/syndicate/
 	name = "syndicate encryption key"
 	icon_state = "syn_cypherkey"
-	channels = list(RADIO_CHANNEL_SYNDICATE = 1)
 	syndie = TRUE//Signifies that it de-crypts Syndicate transmissions
+
+/obj/item/encryptionkey/syndicate/all
+	name = "syndicate elite encryption key"
+	icon_state = "syn_cypherkey"
+	channels = list(RADIO_CHANNEL_SYNDICATE = 1)
 
 /obj/item/encryptionkey/binary
 	name = "binary translator key"

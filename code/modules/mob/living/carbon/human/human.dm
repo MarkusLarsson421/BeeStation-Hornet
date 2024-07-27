@@ -517,7 +517,7 @@
 		threatcount -= 1
 
 	//Agent cards lower threatlevel.
-	if(istype(idcard, /obj/item/card/id/syndicate))
+	if(istype(idcard, /obj/item/card/id/chameleon))
 		threatcount -= 5
 
 	//individuals wearing tinfoil hats are 30% more likely to be criminals

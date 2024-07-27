@@ -123,7 +123,7 @@
 	back = /obj/item/storage/backpack/fireproof
 	ears = /obj/item/radio/headset/syndicate/alt
 	l_pocket = /obj/item/modular_computer/tablet/nukeops
-	id = /obj/item/card/id/syndicate
+	id = /obj/item/card/id/chameleon
 	belt = /obj/item/gun/ballistic/automatic/pistol
 	backpack_contents = list(/obj/item/storage/box/syndie=1,\
 		/obj/item/knife/combat/survival)
@@ -135,7 +135,7 @@
 
 /datum/outfit/syndicate/leader
 	name = "Syndicate Leader - Basic"
-	id = /obj/item/card/id/syndicate/nuke_leader
+	id = /obj/item/card/id/chameleon/nuke_leader
 	gloves = /obj/item/clothing/gloves/krav_maga/combatglovesplus
 	r_hand = /obj/item/nuclear_challenge
 	command_radio = TRUE

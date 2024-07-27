@@ -10,7 +10,7 @@
 			new /obj/item/clothing/glasses/thermal/xray(src) // ~8 tc?
 			new /obj/item/storage/briefcase/launchpad(src) //6 tc
 			new	/obj/item/binoculars(src) // 2 tc?
-			new /obj/item/encryptionkey/syndicate(src) // 2 tc
+			new /obj/item/encryptionkey/syndicate/all(src) // 2 tc
 			new /obj/item/storage/box/syndie_kit/space(src) //4 tc
 			new /obj/item/grenade/frag(src) // ~2 tc each?
 			new /obj/item/grenade/frag(src)
@@ -20,11 +20,11 @@
 		if("bloodyspai")
 			new /obj/item/clothing/under/chameleon(src) // 2 tc since it's not the full set
 			new /obj/item/clothing/mask/chameleon(src) // Goes with above
-			new /obj/item/card/id/syndicate(src) // 2 tc
+			new /obj/item/card/id/chameleon(src) // 2 tc
 			new /obj/item/clothing/shoes/chameleon/noslip(src) // 2 tc
 			new /obj/item/camera_bug(src) // 1 tc
 			new /obj/item/multitool/ai_detect(src) // 1 tc
-			new /obj/item/encryptionkey/syndicate(src) // 2 tc
+			new /obj/item/encryptionkey/syndicate/all(src) // 2 tc
 			new /obj/item/reagent_containers/syringe/mulligan(src) // 4 tc
 			new /obj/item/switchblade(src) //I'll count this as 2 tc
 			new /obj/item/storage/fancy/cigarettes/cigpack_syndicate (src) // 2 tc this shit heals
@@ -57,7 +57,7 @@
 			new /obj/item/sbeacondrop/powersink(src)
 			new /obj/item/clothing/suit/space/syndicate/black/red(src)
 			new /obj/item/clothing/head/helmet/space/syndicate/black/red(src)
-			new /obj/item/encryptionkey/syndicate(src)
+			new /obj/item/encryptionkey/syndicate/all(src)
 			new /obj/item/pen/edagger(src)
 
 		if("murder")
@@ -65,7 +65,7 @@
 			new /obj/item/clothing/glasses/thermal/syndi(src)
 			new /obj/item/card/emag(src)
 			new /obj/item/clothing/shoes/chameleon/noslip(src)
-			new /obj/item/encryptionkey/syndicate(src)
+			new /obj/item/encryptionkey/syndicate/all(src)
 			new /obj/item/grenade/syndieminibomb(src)
 
 		if("implant")
@@ -85,7 +85,7 @@
 			new /obj/item/storage/toolbox/syndicate(src)
 			new /obj/item/camera_bug(src)
 			new /obj/item/clothing/glasses/thermal/syndi(src)
-			new /obj/item/card/id/syndicate(src)
+			new /obj/item/card/id/chameleon(src)
 			new /obj/item/pen/edagger(src)
 
 		if("lordsingulo")
@@ -135,10 +135,10 @@
 			new /obj/item/ammo_box/magazine/m10mm/ap(src)
 			new /obj/item/ammo_box/magazine/m10mm/hp(src)
 			new /obj/item/clothing/under/chameleon(src)
-			new /obj/item/card/id/syndicate(src)
+			new /obj/item/card/id/chameleon(src)
 			new /obj/item/reagent_containers/hypospray/medipen/stimulants(src)
 			new /obj/item/reagent_containers/glass/rag(src)
-			new /obj/item/encryptionkey/syndicate(src)
+			new /obj/item/encryptionkey/syndicate/all(src)
 
 		if("ninja")
 			new /obj/item/katana(src) // Unique , hard to tell how much tc this is worth. 8 tc?
@@ -146,14 +146,14 @@
 			for(var/i in 1 to 6)
 				new /obj/item/throwing_star(src) // ~5 tc for all 6
 			new /obj/item/storage/belt/chameleon(src) // Unique but worth at least 2 tc
-			new /obj/item/card/id/syndicate(src) // 2 tc
+			new /obj/item/card/id/chameleon(src) // 2 tc
 			new /obj/item/chameleon(src) // 7 tc
 
 		if("darklord")
 			new /obj/item/dualsaber(src)
 			new /obj/item/dnainjector/telemut/darkbundle(src)
 			new /obj/item/clothing/suit/hooded/chaplain_hoodie(src)
-			new /obj/item/card/id/syndicate(src)
+			new /obj/item/card/id/chameleon(src)
 			new /obj/item/clothing/shoes/chameleon/noslip(src) //because slipping while being a dark lord sucks
 			new /obj/item/book/granter/spell/summonitem(src)
 
@@ -265,7 +265,7 @@
 	new /obj/item/clothing/suit/space/syndicate/contract(src)
 	new /obj/item/clothing/under/chameleon(src)
 	new /obj/item/clothing/mask/chameleon(src)
-	new /obj/item/card/id/syndicate(src)
+	new /obj/item/card/id/chameleon(src)
 	new /obj/item/storage/fancy/cigarettes/cigpack_syndicate(src)
 	new /obj/item/lighter(src)
 	new /obj/item/jammer(src)
@@ -539,7 +539,7 @@
 	new /obj/item/radio/headset/chameleon/broken(src)
 	new /obj/item/stamp/chameleon/broken(src)
 	new /obj/item/modular_computer/tablet/pda/chameleon/broken(src)
-	new /obj/item/card/id/syndicate/broken(src)
+	new /obj/item/card/id/chameleon/broken(src)
 	// No chameleon laser, they can't randomise for //REASONS//
 
 /obj/item/storage/box/syndie_kit/bee_grenades

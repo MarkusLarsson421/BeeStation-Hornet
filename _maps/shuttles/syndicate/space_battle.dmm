@@ -249,6 +249,7 @@
 /obj/structure/chair/fancy/shuttle{
 	dir = 8
 	},
+/obj/effect/mob_spawn/human/corpse/syndicatesoldier,
 /turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "T" = (
@@ -262,6 +263,8 @@
 /area/space)
 "W" = (
 /obj/effect/turf_decal/stripes/line,
+/obj/structure/chair/fancy/shuttle,
+/obj/effect/mob_spawn/human/corpse/syndicatesoldier,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "Y" = (

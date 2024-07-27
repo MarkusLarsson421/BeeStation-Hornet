@@ -19,7 +19,7 @@
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/combat
 	back = /obj/item/storage/backpack
-	id = /obj/item/card/id/syndicate
+	id = /obj/item/card/id/chameleon
 	belt = /obj/item/gun/ballistic/automatic/pistol
 	l_pocket = /obj/item/paper/fluff/vr/fluke_ops
 	backpack_contents = list(/obj/item/storage/box/syndie=1,\

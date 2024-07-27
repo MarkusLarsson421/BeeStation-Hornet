@@ -49,7 +49,7 @@ GLOBAL_LIST_INIT(abductor_gear, subtypesof(/datum/abductor_gear))
 	name = "Agent ID"
 	description = "An agent id to copy the access of specimens id cards."
 	id = "agent_id"
-	build_path = /obj/item/card/id/syndicate
+	build_path = /obj/item/card/id/chameleon
 
 /datum/abductor_gear/superlingual_matrix
 	name = "Superlingual Matrix"

@@ -6,7 +6,7 @@
 	gloves = /obj/item/clothing/gloves/combat
 	belt = /obj/item/storage/belt/utility/chief/full
 	shoes = /obj/item/clothing/shoes/magboots/advance
-	id = /obj/item/card/id/syndicate/debug
+	id = /obj/item/card/id/chameleon/debug
 	suit_store = /obj/item/tank/internals/emergency_oxygen/magic_oxygen
 	internals_slot = ITEM_SLOT_SUITSTORE
 	glasses = /obj/item/clothing/glasses/hud/debug
@@ -202,7 +202,7 @@
 	glasses = /obj/item/clothing/glasses/sunglasses/advanced
 	l_pocket = /obj/item/melee/transforming/energy/sword/saber
 	l_hand = /obj/item/storage/secure/briefcase
-	id = /obj/item/card/id/syndicate
+	id = /obj/item/card/id/chameleon
 	belt = /obj/item/modular_computer/tablet/pda/heads
 
 /datum/outfit/assassin/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -227,7 +227,7 @@
 	pda.saved_identification = H.real_name
 	pda.saved_job = "Reaper"
 
-	var/obj/item/card/id/syndicate/W = H.wear_id
+	var/obj/item/card/id/chameleon/W = H.wear_id
 	W.access = get_all_accesses()
 	W.assignment = "Reaper"
 	W.registered_name = H.real_name

@@ -4,7 +4,7 @@
 	shoes = /obj/item/clothing/shoes/combat
 	back = /obj/item/storage/backpack
 	ears = /obj/item/radio/headset/abductor
-	id = /obj/item/card/id/syndicate
+	id = /obj/item/card/id/chameleon
 
 /datum/outfit/abductor/proc/link_to_console(mob/living/carbon/human/H, team_number)
 	if(!H.mind)

@@ -41,6 +41,11 @@
 	bulb_colour = "#FFDDCC"
 	bulb_power = 0.6
 
+/obj/machinery/light/infinite
+	cell = /obj/item/stock_parts/cell/infinite
+	has_mock_cell = 0
+	start_with_cell = 0
+
 // the smaller bulb light fixture
 
 /obj/machinery/light/small
@@ -74,6 +79,11 @@
 	nightshift_allowed = FALSE
 	bulb_colour = "#FFDDCC"
 	bulb_power = 0.6
+
+/obj/machinery/light/small/infinite
+	cell = /obj/item/stock_parts/cell/infinite
+	has_mock_cell = 0
+	start_with_cell = 0
 
 // -------- Directional presets
 // The directions are backwards on the lights we have now

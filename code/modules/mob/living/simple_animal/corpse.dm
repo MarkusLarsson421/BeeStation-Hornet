@@ -8,7 +8,7 @@
 
 //List of different corpse types
 
-/obj/effect/mob_spawn/human/corpse/syndicatesoldier
+/obj/effect/mob_spawn/human/corpse/syndicate/soldier
 	name = "Syndicate Operative"
 	id_job = "Operative"
 	hair_style = "Bald"
@@ -25,9 +25,9 @@
 	mask = /obj/item/clothing/mask/gas/old
 	head = /obj/item/clothing/head/helmet/swat
 	back = /obj/item/storage/backpack
-	id = /obj/item/card/id/syndicate
+	id = /obj/item/card/id/chameleon
 
-/obj/effect/mob_spawn/human/corpse/syndicatecommando
+/obj/effect/mob_spawn/human/corpse/syndicate/commando
 	name = "Syndicate Commando"
 	id_job = "Operative"
 	hair_style = "Bald"
@@ -44,7 +44,24 @@
 	mask = /obj/item/clothing/mask/gas/syndicate
 	back = /obj/item/tank/jetpack/oxygen
 	r_pocket = /obj/item/tank/internals/emergency_oxygen
-	id = /obj/item/card/id/syndicate
+	id = /obj/item/card/id/chameleon
+
+/obj/effect/mob_spawn/human/corpse/syndicate/operative
+	id_job = "Syndicate Operative"
+	outfit = /datum/outfit/syndicate/operative
+
+/datum/outfit/syndicate/operative
+	name = "Syndicate Operative"
+	uniform = /obj/item/clothing/under/syndicate
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/black
+	ears = /obj/item/radio/headset
+	mask = /obj/item/clothing/mask/gas/syndicate
+	back = /obj/item/tank/jetpack/oxygen
+	r_pocket = /obj/item/tank/internals/emergency_oxygen
+	id = /obj/item/card/id/chameleon
+
+/obj/effect/mob_spawn/human/corpse/syndicate/commander
 
 
 /obj/effect/mob_spawn/human/corpse/syndicatestormtrooper
@@ -63,7 +80,7 @@
 	ears = /obj/item/radio/headset
 	mask = /obj/item/clothing/mask/gas/syndicate
 	back = /obj/item/tank/jetpack/oxygen/harness
-	id = /obj/item/card/id/syndicate
+	id = /obj/item/card/id/chameleon
 
 
 /obj/effect/mob_spawn/human/clown/corpse

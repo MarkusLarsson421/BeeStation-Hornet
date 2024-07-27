@@ -1484,7 +1484,7 @@ GLOBAL_LIST_INIT(illegal_tech_blacklist, typecacheof(list(
 			access gained from another. In addition, they can be forged to display a new assignment and name. \
 			This can be done an unlimited amount of times. Some Syndicate areas and devices can only be accessed \
 			with these cards."
-	item = /obj/item/card/id/syndicate
+	item = /obj/item/card/id/chameleon
 	cost = 2
 
 /datum/uplink_item/stealthy_tools/ai_detector
@@ -1889,7 +1889,7 @@ GLOBAL_LIST_INIT(illegal_tech_blacklist, typecacheof(list(
 	name = "Syndicate Encryption Key"
 	desc = "A key that, when inserted into a radio headset, allows you to listen to all station department channels \
 			as well as talk on an encrypted Syndicate channel with other agents that have the same key."
-	item = /obj/item/encryptionkey/syndicate
+	item = /obj/item/encryptionkey/syndicate/all
 	cost = 2
 	surplus = 75
 	purchasable_from = ~(UPLINK_INCURSION | UPLINK_EXCOMMUNICATE)

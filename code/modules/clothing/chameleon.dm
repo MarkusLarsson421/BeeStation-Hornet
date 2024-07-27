@@ -103,11 +103,11 @@
 	var/datum/outfit/O = new outfit_type()
 	var/list/outfit_types = O.get_chameleon_disguise_info()
 
-	var/obj/item/card/id/syndicate/chamel_card // this is awful but this hardcoding is better than adding `obj/proc/get_chameleon_variable()` for every chalemon item
+	var/obj/item/card/id/chameleon/chamel_card // this is awful but this hardcoding is better than adding `obj/proc/get_chameleon_variable()` for every chalemon item
 	for(var/datum/action/item_action/chameleon/change/A in user.chameleon_item_actions)
 		if(istype(A.target, /obj/item/modular_computer))
 			var/obj/item/modular_computer/comp = A.target
-			if(istype(comp.GetID(), /obj/item/card/id/syndicate))
+			if(istype(comp.GetID(), /obj/item/card/id/chameleon))
 				chamel_card = comp.GetID()
 
 		var/done = FALSE
