@@ -130,6 +130,62 @@
 /area/shuttle/abandoned/pod
 	name = "Abandoned Ship Pod"
 
+
+////////////////////////////Nova Vanguard 73////////////////////////////
+
+/area/shuttle/nv_73
+	name = "NV 73 Ship"
+	requires_power = TRUE
+	canSmoothWithAreas = /area/shuttle/nv_73
+
+/area/shuttle/nv_73/bridge
+	name = "NV 73 Bridge"
+
+/area/shuttle/nv_73/gateway
+	name = "NV 73 Gateway"
+
+/area/shuttle/nv_73/hallway
+	name = "NV 73 Hallway"
+
+/area/shuttle/nv_73/hallway/port
+	name = "NV 73 Port Hallway"
+
+/area/shuttle/nv_73/hallway/starboard
+	name = "NV 73 Starboard Hallway"
+
+/area/shuttle/nv_73/engineering
+	name = "NV 73 Engineering"
+
+/area/shuttle/nv_73/engineering/aft
+	name = "NV 73 Aft Engineering"
+
+/area/shuttle/nv_73/engineering/construction
+	name = "NV 73 Construction"
+
+/area/shuttle/nv_73/engineering/bsa
+	name = "NV 73 BSA"
+
+/area/shuttle/nv_73/engineering
+	name = "NV 73 Engine"
+
+/area/shuttle/nv_73/engineering/port
+	name = "NV 73 Port Engine"
+
+/area/shuttle/nv_73/engineering/starboard
+	name = "NV 73 Starboard Engine"
+
+/area/shuttle/nv_73/engineering/telecom
+	name = "NV 73 Telecommunication"
+
+/area/shuttle/nv_73/cafeteria
+	name = "NV 73 Cafeteria"
+
+/area/shuttle/nv_73/crew_quarters
+	name = "NV 73 Crew Quarters"
+
+/area/shuttle/nv_73/security
+	name = "NV 73 Security"
+
 ////////////////////////////Single-area shuttles////////////////////////////
 
 /area/shuttle/transit

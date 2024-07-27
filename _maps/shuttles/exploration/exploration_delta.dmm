@@ -32,6 +32,12 @@
 "da" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/exploration)
+"eG" = (
+/obj/machinery/atmospherics/components/unary/plasma_refiner{
+	dir = 4
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/exploration)
 "fr" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
@@ -446,7 +452,7 @@ Ax
 oC
 Ax
 oC
-Ax
+eG
 Ax
 Ax
 Ax

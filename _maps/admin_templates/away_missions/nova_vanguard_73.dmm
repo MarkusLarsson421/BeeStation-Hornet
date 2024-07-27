@@ -1,1867 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ac" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"af" = (
-/obj/structure/barricade/security,
-/obj/structure/lattice/catwalk,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"al" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
-	},
-/turf/open/floor/engine,
-/area/space)
-"am" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"av" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup{
-	dir = 1
-	},
-/obj/machinery/door/airlock/security{
-	name = "security";
-	req_one_access_txt = "203"
-	},
-/turf/open/floor/iron/dark,
-/area/space)
-"ay" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"aU" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup,
-/turf/open/floor/iron/dark,
-/area/space)
-"aV" = (
-/obj/machinery/computer/camera_advanced/syndie{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"aY" = (
-/obj/machinery/door/airlock/titanium{
-	name = "airlock";
-	req_one_access_txt = "200"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/space)
-"ba" = (
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"bk" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	req_one_access_txt = "201"
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"bm" = (
-/obj/machinery/computer/shuttle_flight/custom_shuttle/bluespace_pod/traitor{
-	dir = 1;
-	req_access = list(151)
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"bu" = (
-/obj/structure/cable/yellow{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"bF" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"bR" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	req_one_access_txt = "201"
-	},
-/turf/open/floor/plating,
-/area/space)
-"bT" = (
-/obj/structure/cable,
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"cs" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"cI" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/port_gen/pacman,
-/turf/open/floor/plating,
-/area/space)
-"cS" = (
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"cY" = (
-/obj/machinery/launchpad,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"dh" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/toolbox/syndicate,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"er" = (
-/obj/machinery/power/apc/auto_name/directional/east,
-/obj/structure/cable/yellow{
-	icon_state = "0-8"
-	},
-/obj/effect/mapping_helpers/apc/discharged{
-	new_charge = 499
-	},
-/turf/open/floor/plating,
-/area/space)
-"eu" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "11"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"ey" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/space)
-"eE" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"eG" = (
-/obj/effect/turf_decal/tile/brown/fourcorners/contrasted,
-/turf/open/floor/iron,
-/area/space)
-"fb" = (
-/turf/open/floor/mineral/titanium,
-/area/space)
-"fl" = (
-/obj/structure/chair/fancy/bench{
-	pixel_x = 6;
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/white,
-/area/space)
-"fn" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/iron/cafeteria_red,
-/area/space)
-"fo" = (
-/turf/closed/wall/mineral/titanium,
-/area/space)
-"fp" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	req_one_access_txt = "204"
-	},
-/turf/open/floor/plating,
-/area/space)
-"fs" = (
-/obj/structure/lattice/catwalk,
-/turf/open/floor/plating,
-/area/space)
-"fu" = (
-/obj/machinery/door/airlock/external{
-	req_one_access_txt = "203"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"fy" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"fL" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/engine,
-/area/space)
-"gt" = (
-/obj/machinery/door/airlock/titanium{
-	name = "airlock";
-	req_one_access_txt = "200"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/iron/dark,
-/area/space)
-"gF" = (
-/obj/machinery/door/airlock/external{
-	req_one_access_txt = "204"
-	},
-/turf/open/floor/plating,
-/area/space)
-"gI" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "22"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"gW" = (
-/obj/structure/barricade/security,
-/turf/open/floor/mineral/titanium,
-/area/space)
-"gX" = (
-/obj/structure/rack,
-/obj/item/gun/energy/disabler,
-/obj/item/gun/energy/disabler{
-	pixel_x = 4;
-	pixel_y = -4
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"gY" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"hc" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "18"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"hq" = (
-/obj/machinery/sleeper{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/space)
-"hs" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"hx" = (
-/obj/structure/artilleryplaceholder/decorative{
-	icon_state = "27"
-	},
-/turf/open/floor/engine,
-/area/space)
-"hE" = (
-/obj/effect/turf_decal/tile/brown/fourcorners/contrasted,
-/obj/structure/closet/crate/secure/plasma{
-	req_one_access_txt = "204"
-	},
-/obj/item/stack/sheet/mineral/plasma/fifty,
-/obj/item/stack/sheet/mineral/plasma/fifty,
-/turf/open/floor/iron,
-/area/space)
-"hG" = (
-/obj/structure/closet/secure_closet/engineering_personal{
-	req_one_access_txt = "204"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"hM" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-4"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"if" = (
-/obj/structure/chair/fancy/bench{
-	pixel_y = 16
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/iron/cafeteria_red,
-/area/space)
-"ih" = (
-/obj/structure/rack,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"io" = (
-/obj/effect/mapping_helpers/apc/discharged{
-	new_charge = 499
-	},
-/obj/structure/cable/yellow,
-/obj/machinery/power/apc/auto_name/directional/east,
-/turf/open/floor/mineral/titanium/white,
-/area/space)
-"ip" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/table/optable,
-/turf/open/floor/mineral/titanium/blue,
-/area/space)
-"iw" = (
-/obj/machinery/atmospherics/components/unary/plasma_refiner{
-	dir = 4
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/space)
-"iO" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	req_one_access_txt = "203"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"iP" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "15"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"iQ" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/space)
-"iW" = (
-/obj/structure/artilleryplaceholder/decorative{
-	icon_state = "33"
-	},
-/turf/open/floor/engine,
-/area/space)
-"jq" = (
-/obj/machinery/door/airlock/external{
-	req_one_access_txt = "200"
-	},
-/turf/open/floor/plating,
-/area/space)
-"jI" = (
-/obj/structure/table/wood,
-/turf/open/floor/iron/grimy,
-/area/space)
-"jS" = (
-/obj/machinery/gateway{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/purple,
-/area/space)
-"kn" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"kG" = (
-/obj/structure/shuttle/engine/propulsion/right{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/space)
-"kY" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"lg" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "9"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"lk" = (
-/obj/machinery/gateway{
-	dir = 6
-	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/mineral/titanium/purple,
-/area/space)
-"lG" = (
-/obj/structure/chair,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"lH" = (
-/turf/open/floor/engine,
-/area/space)
-"ma" = (
-/obj/structure/bed/roller,
-/turf/open/floor/mineral/titanium,
-/area/space)
-"my" = (
-/obj/structure/chair/fancy/shuttle{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/white,
-/area/space)
-"mQ" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "21"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"nj" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"nk" = (
-/obj/machinery/door/airlock/engineering{
-	req_one_access_txt = "204";
-	name = "construction"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup{
-	dir = 1
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/iron/dark,
-/area/space)
-"nE" = (
-/obj/structure/bed/roller,
-/obj/item/bedsheet/medical,
-/turf/open/floor/mineral/titanium,
-/area/space)
-"nI" = (
-/obj/structure/rack,
-/obj/item/gun/energy/e_gun{
-	cell_type = /obj/item/stock_parts/cell/empty
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"nK" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"nM" = (
-/obj/structure/table,
-/obj/machinery/recharger,
-/turf/open/floor/mineral/titanium,
-/area/space)
-"nQ" = (
-/obj/structure/artilleryplaceholder/decorative{
-	icon_state = "29"
-	},
-/turf/open/floor/engine,
-/area/space)
-"nS" = (
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/structure/cable/yellow{
-	icon_state = "0-8"
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"nW" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"nX" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/closet/crate/medical,
-/obj/item/storage/firstaid/tactical,
-/obj/item/food/syndicake,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"ob" = (
-/obj/structure/shuttle/engine/huge{
-	dir = 8
-	},
-/turf/open/space/basic,
-/area/space)
-"oc" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/mineral/titanium,
-/area/space)
-"og" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"oL" = (
-/obj/machinery/suit_storage_unit/security,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"oZ" = (
-/obj/machinery/power/smes/engineering,
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "0-8"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"pd" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"pf" = (
-/obj/effect/spawner/structure/window/plastitanium,
-/turf/open/floor/plating,
-/area/space)
-"pl" = (
-/turf/open/floor/mineral/titanium/white,
-/area/space)
-"pz" = (
-/obj/structure/chair/fancy/bench{
-	pixel_y = 16
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"pH" = (
-/obj/machinery/suit_storage_unit/engine,
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"pI" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"pM" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/power/apc/auto_name/directional/west{
-	pixel_x = -24;
-	locked = 0
-	},
-/obj/structure/cable/yellow{
-	icon_state = "0-4"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"pX" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/iron/cafeteria_red,
-/area/space)
-"pZ" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"qa" = (
-/obj/effect/spawner/room/fivexthree,
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"qJ" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 6
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"qO" = (
-/obj/effect/turf_decal/tile/brown/fourcorners/contrasted,
-/obj/structure/cable/yellow{
-	icon_state = "0-4"
-	},
-/obj/machinery/power/apc/auto_name/directional/west,
-/obj/effect/mapping_helpers/apc/discharged{
-	new_charge = 499
-	},
-/turf/open/floor/iron,
-/area/space)
-"ri" = (
-/obj/structure/bed,
-/obj/item/bedsheet/dorms,
-/obj/structure/curtain/bounty,
-/turf/open/floor/mineral/titanium,
-/area/space)
-"rp" = (
-/obj/structure/closet/crate,
-/obj/item/stack/sheet/iron/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/mineral/copper/ten,
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"rH" = (
-/obj/machinery/suit_storage_unit/open,
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"rL" = (
-/obj/machinery/door/airlock/engineering{
-	req_one_access_txt = "204";
-	name = "power"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/iron/dark,
-/area/space)
-"st" = (
-/turf/open/floor/mineral/titanium/blue,
-/area/space)
-"sE" = (
-/obj/structure/artilleryplaceholder/decorative{
-	icon_state = "26"
-	},
-/turf/open/floor/engine,
-/area/space)
-"sQ" = (
-/obj/structure/table/reinforced,
-/obj/item/gun/ballistic/automatic/pistol/deagle/gold,
-/turf/open/floor/mineral/titanium/white,
-/area/space)
-"sR" = (
-/obj/item/stack/sheet/wood/fifty,
-/obj/item/stack/sheet/wood/fifty,
-/obj/structure/closet/crate/secure/hydroponics,
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/iron/cafeteria_red,
-/area/space)
-"sS" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "16"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"tB" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"tC" = (
-/obj/structure/table/wood,
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/iron/grimy,
-/area/space)
-"tI" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "19"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"tX" = (
-/obj/machinery/modular_fabricator/autolathe,
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"ug" = (
-/obj/structure/shuttle/engine/propulsion/burst{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/space)
-"uR" = (
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"uT" = (
-/obj/machinery/door/airlock/titanium{
-	name = "airlock";
-	req_one_access_txt = "200"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/iron/dark,
-/area/space)
-"uZ" = (
-/obj/structure/fans/tiny,
-/obj/effect/turf_decal/stripes/closeup{
-	dir = 1
-	},
-/obj/machinery/door/airlock/centcom{
-	name = "shuttle airlock";
-	req_one_access_txt = "150"
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"vl" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"vp" = (
-/turf/open/floor/iron,
-/area/space)
-"vv" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"vG" = (
-/obj/machinery/power/apc/auto_name/directional/east,
-/turf/open/floor/plating,
-/area/space)
-"vH" = (
-/obj/structure/artilleryplaceholder/decorative{
-	icon_state = "28"
-	},
-/obj/machinery/artillerycontrol,
-/turf/open/floor/engine,
-/area/space)
-"vS" = (
-/obj/machinery/door/airlock/external{
-	req_one_access_txt = "200"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"vT" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/iron/cafeteria_red,
-/area/space)
-"vZ" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "24"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"wa" = (
-/obj/structure/artilleryplaceholder/decorative{
-	icon_state = "32"
-	},
-/turf/open/floor/engine,
-/area/space)
-"wg" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/turf/open/floor/iron/dark/textured,
-/area/space)
-"wj" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/turf/open/floor/mineral/titanium/white,
-/area/space)
-"wk" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"wt" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "6"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"wx" = (
-/obj/machinery/door/airlock/engineering{
-	req_one_access_txt = "204";
-	name = "port engines"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/iron/dark,
-/area/space)
-"wy" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-4"
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"wQ" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "3"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"wY" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	req_one_access_txt = "201"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"xd" = (
-/obj/machinery/computer/launchpad{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"xx" = (
-/turf/open/floor/iron/cafeteria_red,
-/area/space)
-"yb" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/space)
-"yc" = (
-/obj/structure/table/reinforced,
-/obj/machinery/recharger,
-/obj/item/gun/energy/e_gun/mini,
-/turf/open/floor/mineral/titanium/white,
-/area/space)
-"yt" = (
-/obj/item/powersink,
-/obj/structure/cable/yellow{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"yy" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/engine,
-/area/space)
-"zq" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"zr" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
-	},
-/turf/open/floor/plating,
-/area/space)
-"zx" = (
-/obj/effect/turf_decal/bot,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"zy" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	req_one_access_txt = "204"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"zY" = (
-/obj/effect/turf_decal/stripes/corner,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"Ah" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Aq" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/engine,
-/area/space)
-"Au" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-4"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/iron/cafeteria_red,
-/area/space)
-"Aw" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/marker_beacon,
-/turf/open/floor/plating,
-/area/space)
 "Ax" = (
 /turf/open/space/basic,
-/area/space)
-"AF" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"AJ" = (
-/obj/effect/spawner/room/threexthree,
-/turf/open/floor/plating,
-/area/space)
-"AQ" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"AS" = (
-/obj/machinery/gateway{
-	dir = 10
-	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/mineral/titanium/purple,
-/area/space)
-"Ck" = (
-/obj/machinery/power/apc/auto_name/directional/south,
-/obj/structure/cable/yellow,
-/turf/open/floor/iron/cafeteria_red,
-/area/space)
-"Co" = (
-/obj/machinery/door/airlock/external{
-	req_one_access_txt = "203"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Cz" = (
-/obj/structure/chair/fancy/bench{
-	pixel_x = -6;
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/white,
-/area/space)
-"CD" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"De" = (
-/obj/effect/mapping_helpers/apc/discharged{
-	new_charge = 499
-	},
-/obj/structure/cable/yellow{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/apc/auto_name/directional/south,
-/turf/open/floor/engine,
-/area/space)
-"Di" = (
-/obj/machinery/suit_storage_unit/open,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"Dn" = (
-/obj/structure/closet/secure_closet/engineering_electrical{
-	req_one_access_txt = "204"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"Dy" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/bed/roller,
-/obj/item/bedsheet/medical,
-/turf/open/floor/mineral/titanium/blue,
-/area/space)
-"DH" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/space)
-"DN" = (
-/obj/machinery/atmospherics/components/unary/shuttle/heater,
-/obj/effect/spawner/structure/window/plastitanium,
-/turf/open/floor/plating,
-/area/space)
-"DQ" = (
-/obj/machinery/door/airlock/engineering{
-	req_one_access_txt = "204";
-	name = "starboard engines"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup{
-	dir = 1
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/iron/dark,
-/area/space)
-"Ew" = (
-/obj/item/stack/cable_coil/yellow{
-	amount = 2
-	},
-/turf/open/floor/plating,
-/area/space)
-"EK" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"EV" = (
-/obj/structure/artilleryplaceholder/decorative{
-	icon_state = "34"
-	},
-/turf/open/floor/engine,
-/area/space)
-"EX" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "5"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"FT" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
-	},
-/turf/open/floor/plating,
-/area/space)
-"FX" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Gd" = (
-/obj/effect/turf_decal/tile/brown/fourcorners/contrasted,
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/iron,
-/area/space)
-"Ge" = (
-/obj/machinery/power/port_gen/pacman,
-/obj/machinery/atmospherics/pipe/manifold/purple/visible,
-/obj/structure/cable/yellow{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Gf" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/obj/structure/cable,
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"Gj" = (
-/obj/machinery/gateway,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/mineral/titanium/purple,
-/area/space)
-"Gt" = (
-/obj/structure/table,
-/turf/open/floor/mineral/titanium/white,
-/area/space)
-"Gv" = (
-/obj/structure/closet/cardboard/metal,
-/turf/open/floor/engine,
-/area/space)
-"GB" = (
-/obj/structure/artilleryplaceholder/decorative{
-	icon_state = "30"
-	},
-/turf/open/floor/engine,
-/area/space)
-"GD" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/turf/open/floor/iron/cafeteria_red,
-/area/space)
-"Hi" = (
-/obj/structure/closet/crate/medical,
-/turf/open/floor/mineral/titanium,
-/area/space)
-"Ht" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Hu" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"Hy" = (
-/obj/structure/artilleryplaceholder/decorative{
-	icon_state = "31"
-	},
-/turf/open/floor/engine,
-/area/space)
-"HA" = (
-/obj/structure/table,
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"HQ" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"HX" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "8"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"Il" = (
-/obj/machinery/atmospherics/pipe/manifold/purple/visible,
-/obj/structure/closet/crate/hydroponics,
-/obj/item/soap/syndie,
-/obj/item/pizzabox/pineapple,
-/obj/item/reagent_containers/food/drinks/syndicatebeer{
-	pixel_x = -8
-	},
-/obj/item/reagent_containers/food/drinks/syndicatebeer,
-/obj/item/reagent_containers/food/drinks/syndicatebeer{
-	pixel_x = 8
-	},
-/turf/open/floor/plating,
-/area/space)
-"Iq" = (
-/obj/machinery/power/apc/auto_name/directional/west,
-/obj/structure/cable/yellow,
-/obj/effect/mapping_helpers/apc/discharged{
-	new_charge = 499
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"IA" = (
-/obj/item/gun/ballistic/automatic/pistol/no_mag,
-/turf/open/floor/plating,
-/area/space)
-"IF" = (
-/obj/machinery/gateway{
-	dir = 9
-	},
-/turf/open/floor/mineral/titanium/purple,
-/area/space)
-"IH" = (
-/obj/structure/table/reinforced,
-/obj/machinery/recharger,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"IK" = (
-/obj/structure/cable/yellow{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/apc/auto_name/directional/south,
-/obj/effect/mapping_helpers/apc/discharged{
-	new_charge = 499
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"IQ" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "23"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"IR" = (
-/obj/machinery/suit_storage_unit/mining,
-/turf/open/floor/plating,
-/area/space)
-"IX" = (
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/space)
-"Jd" = (
-/obj/machinery/power/smes/engineering,
-/obj/structure/cable/yellow{
-	icon_state = "0-8"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"JK" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "10"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"JM" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "17"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"Ki" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Kp" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "2"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"Kr" = (
-/obj/structure/shuttle/engine/propulsion/left{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/space)
-"Kw" = (
-/obj/machinery/portable_atmospherics/canister/plasma,
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 8
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/space)
-"KR" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/stripes/line,
-/obj/machinery/modular_fabricator/autolathe/hacked,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"Lp" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Lr" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"LH" = (
-/obj/machinery/shuttle/engine/plasma,
-/turf/open/floor/plating,
-/area/space)
-"LN" = (
-/obj/machinery/computer/crew/syndie{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"LR" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Mh" = (
-/obj/structure/cable/yellow{
-	icon_state = "0-4"
-	},
-/obj/machinery/power/apc/auto_name/directional/west,
-/obj/effect/mapping_helpers/apc/discharged{
-	new_charge = 499
-	},
-/turf/open/floor/iron/dark/textured,
-/area/space)
-"Mr" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	req_one_access_txt = "203"
-	},
-/turf/open/floor/plating,
-/area/space)
-"MM" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-4"
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"MR" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/mineral/titanium/white,
-/area/space)
-"Na" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-4"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"Nc" = (
-/obj/structure/bed/roller,
-/obj/machinery/iv_drip,
-/obj/item/reagent_containers/blood/OMinus,
-/turf/open/floor/mineral/titanium,
-/area/space)
-"NB" = (
-/obj/structure/chair/fancy/shuttle,
-/turf/open/floor/mineral/titanium/white,
-/area/space)
-"NO" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/closet/crate/secure/gear{
-	req_access_txt = "150"
-	},
-/obj/item/clothing/glasses/sunglasses/advanced,
-/obj/item/clothing/glasses/night,
-/obj/item/clothing/glasses/night,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"NZ" = (
-/obj/machinery/gateway{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/purple,
-/area/space)
-"Od" = (
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/space)
-"Oe" = (
-/obj/structure/closet/crate/secure/engineering{
-	req_one_access_txt = "204"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"On" = (
-/obj/machinery/gateway{
-	dir = 5
-	},
-/turf/open/floor/mineral/titanium/purple,
-/area/space)
-"OI" = (
-/obj/structure/chair/fancy/bench{
-	pixel_y = 16
-	},
-/obj/machinery/power/apc/auto_name/directional/south,
-/obj/structure/cable/yellow{
-	icon_state = "0-4"
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"OO" = (
-/obj/structure/artilleryplaceholder/decorative{
-	icon_state = "25"
-	},
-/turf/open/floor/engine,
-/area/space)
-"OS" = (
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"Pc" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-4"
-	},
-/turf/open/floor/engine,
-/area/space)
-"Pt" = (
-/obj/machinery/gateway{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/purple,
-/area/space)
-"Pu" = (
-/obj/structure/closet/crate/secure/gear{
-	req_one_access_txt = "203"
-	},
-/obj/item/gun/ballistic/shotgun/riot,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"Pz" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-4"
-	},
-/obj/machinery/power/apc/auto_name/directional/south,
-/obj/structure/cable/yellow,
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"PJ" = (
-/obj/structure/closet/firecloset,
-/turf/open/floor/mineral/titanium,
-/area/space)
-"PW" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "7"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"PX" = (
-/obj/machinery/power/apc/auto_name/directional/east,
-/obj/structure/cable/yellow{
-	icon_state = "0-2"
-	},
-/turf/open/floor/mineral/titanium,
-/area/space)
-"PY" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "1"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"Qo" = (
-/obj/effect/spawner/structure/window/shuttle,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Qx" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/iron/grimy,
-/area/space)
-"QA" = (
-/obj/machinery/atmospherics/pipe/manifold/purple/visible,
-/obj/structure/closet/crate,
-/obj/item/stack/sheet/iron{
-	amount = 25
-	},
-/obj/item/stack/sheet/glass{
-	amount = 10
-	},
-/obj/item/stack/sheet/mineral/copper{
-	amount = 5
-	},
-/obj/effect/spawner/lootdrop/maintenance/two,
-/obj/item/pickaxe/emergency,
-/obj/item/stack/sheet/mineral/plasma/five,
-/turf/open/floor/plating,
-/area/space)
-"QP" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/mineral/titanium/white,
-/area/space)
-"QS" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	req_one_access_txt = "201"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"QX" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"Rf" = (
-/turf/open/floor/iron/white,
-/area/space)
-"Rl" = (
-/obj/machinery/door/airlock/engineering{
-	req_one_access_txt = "204";
-	name = "telecommunication"
-	},
-/obj/machinery/door/firedoor,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/iron/dark,
-/area/space)
-"Ry" = (
-/obj/structure/closet/emcloset,
-/turf/open/floor/mineral/titanium,
-/area/space)
-"RD" = (
-/obj/structure/cable/yellow{
-	icon_state = "0-4"
-	},
-/obj/machinery/power/apc/auto_name/directional/south,
-/obj/effect/mapping_helpers/apc/discharged{
-	new_charge = 499
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"RI" = (
-/obj/machinery/door/airlock/titanium{
-	name = "airlock";
-	req_one_access_txt = "200"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup{
-	dir = 1
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/iron/dark,
-/area/space)
-"RM" = (
-/obj/item/stack/sheet/iron{
-	amount = 2
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/engine,
-/area/space)
-"RV" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/turf/open/floor/engine,
-/area/space)
-"Sn" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup{
-	dir = 1
-	},
-/obj/machinery/door/airlock/command{
-	req_one_access_txt = "203";
-	name = "bridge"
-	},
-/obj/effect/mapping_helpers/airlock/unres{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/space)
-"Sw" = (
-/obj/item/t_scanner,
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"SA" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"Ti" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "35"
-	},
-/turf/open/floor/engine,
-/area/space)
-"Tu" = (
-/obj/structure/table,
-/turf/open/floor/mineral/titanium/blue,
-/area/space)
-"Ty" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "13"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"Tz" = (
-/obj/machinery/power/apc/auto_name/directional/south,
-/obj/structure/cable/yellow{
-	icon_state = "0-4"
-	},
-/obj/effect/mapping_helpers/apc/discharged{
-	new_charge = 499
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"TE" = (
-/turf/open/floor/iron/grimy,
-/area/space)
-"Ua" = (
-/obj/structure/chair/fancy/shuttle{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"Ur" = (
-/obj/structure/closet/secure_closet/engineering_welding{
-	req_one_access_txt = "204"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"Uu" = (
-/obj/machinery/computer/operating{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/space)
-"Uv" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "12"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"UB" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"UC" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "4"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"UJ" = (
-/obj/structure/table/reinforced,
-/obj/item/toy/cards/deck/syndicate,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"UN" = (
-/obj/structure/cable/yellow,
-/turf/open/floor/plating,
-/area/space)
-"UT" = (
-/obj/machinery/door/airlock/external{
-	req_one_access_txt = "200"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Vp" = (
-/turf/open/floor/plating,
-/area/space)
-"VA" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"Wp" = (
-/obj/effect/turf_decal/bot,
-/obj/item/gun/ballistic/automatic/pistol/suppressed,
-/obj/item/gun/ballistic/automatic/pistol/suppressed,
-/obj/item/gun/ballistic/automatic/c20r,
-/obj/item/grenade/smokebomb,
-/obj/structure/closet/crate/secure/weapon{
-	req_access_txt = "150"
-	},
-/obj/item/restraints/handcuffs,
-/obj/item/clothing/mask/muzzle,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"Wr" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup{
-	dir = 1
-	},
-/obj/machinery/door/airlock/command{
-	req_one_access_txt = "203";
-	name = "gateway"
-	},
-/obj/effect/mapping_helpers/airlock/unres{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/space)
-"Xb" = (
-/turf/open/floor/iron/dark/textured,
-/area/space)
-"Xm" = (
-/obj/structure/bed,
-/obj/item/bedsheet/dorms,
-/obj/structure/curtain/bounty/closed,
-/turf/open/floor/mineral/titanium,
-/area/space)
-"XQ" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "14"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"XX" = (
-/obj/machinery/door/airlock/titanium{
-	name = "airlock";
-	req_one_access_txt = "200"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/closeup,
-/turf/open/floor/iron/dark,
-/area/space)
-"YB" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-4"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"YY" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/marker_beacon,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Zh" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	req_one_access_txt = "201"
-	},
-/obj/effect/turf_decal/delivery,
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Zj" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"Zr" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
-	},
-/obj/structure/table,
-/turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"ZG" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/turf/open/floor/plating,
-/area/space)
-"ZH" = (
-/obj/structure/artilleryplaceholder{
-	icon_state = "20"
-	},
-/obj/effect/turf_decal/stripes/full,
-/turf/open/floor/engine,
-/area/space)
-"ZL" = (
-/obj/machinery/gateway/centeraway{
-	calibrated = 0
-	},
-/turf/open/floor/mineral/titanium/purple,
-/area/space)
-"ZR" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/turf/open/floor/mineral/titanium,
 /area/space)
 
 (1,1,1) = {"
@@ -31261,10 +29400,6 @@ Ax
 Ax
 Ax
 Ax
-ob
-Ax
-Ax
-ob
 Ax
 Ax
 Ax
@@ -31272,10 +29407,14 @@ Ax
 Ax
 Ax
 Ax
-ob
 Ax
 Ax
-ob
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -31514,7 +29653,6 @@ Ax
 Ax
 Ax
 Ax
-ob
 Ax
 Ax
 Ax
@@ -31536,7 +29674,8 @@ Ax
 Ax
 Ax
 Ax
-ob
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -31772,25 +29911,25 @@ Ax
 Ax
 Ax
 Ax
-iQ
-Kr
-ug
-kG
-Kr
-ug
-kG
-fo
-fo
-jq
-Od
-fo
-Kr
-ug
-kG
-Kr
-ug
-kG
-iQ
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -32025,33 +30164,33 @@ Ax
 Ax
 Ax
 Ax
-iQ
-Kr
-ug
-kG
-iQ
-IX
-IX
-IX
-IX
-IX
-IX
-fo
-Vp
-Vp
-IR
-fo
-IX
-IX
-IX
-IX
-IX
-IX
-iQ
-Kr
-ug
-kG
-iQ
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -32282,33 +30421,33 @@ Ax
 Ax
 Ax
 Ax
-iQ
-IX
-IX
-IX
-Vp
-FT
-eE
-eE
-FX
-Vp
-Vp
-fo
-fo
-jq
-fo
-fo
-Vp
-Vp
-Vp
-Vp
-Vp
-Vp
-Vp
-IX
-IX
-IX
-iQ
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -32519,15 +30658,6 @@ Ax
 Ax
 Ax
 Ax
-iQ
-iQ
-iQ
-uZ
-pf
-iQ
-iQ
-pf
-iQ
 Ax
 Ax
 Ax
@@ -32539,33 +30669,42 @@ Ax
 Ax
 Ax
 Ax
-iQ
-Vp
-Vp
-yt
-eE
-CD
-fo
-fo
-QS
-fo
-fo
-fo
-qO
-eG
-eG
-fo
-fo
-fo
-fo
-fo
-fo
-Vp
-Vp
-Vp
-Vp
-Vp
-iQ
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -32775,17 +30914,6 @@ Ax
 Ax
 Ax
 Ax
-iQ
-iQ
-iw
-pM
-zx
-tB
-cY
-xd
-dh
-pf
-pf
 Ax
 Ax
 Ax
@@ -32796,33 +30924,44 @@ Ax
 Ax
 Ax
 Ax
-fo
-Od
-Od
-fo
-QX
-nK
-fo
-Vp
-vv
-Vp
-fo
-eG
-Gd
-eG
-eG
-eG
-fo
-Vp
-Vp
-AJ
-fo
-QX
-QX
-fo
-Od
-Od
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -33032,17 +31171,6 @@ Ax
 Ax
 Ax
 Ax
-LH
-DN
-Il
-UB
-OS
-wk
-hs
-hs
-Lr
-LN
-pf
 Ax
 Ax
 Ax
@@ -33053,33 +31181,44 @@ Ax
 Ax
 Ax
 Ax
-fo
-Aw
-fs
-fo
-uR
-IK
-fo
-FT
-LR
-eE
-wY
-af
-gY
-Ah
-ay
-ay
-wY
-eE
-eE
-FX
-fo
-uR
-uR
-fo
-fs
-Aw
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -33289,17 +31428,6 @@ Ax
 Ax
 Ax
 Ax
-LH
-DN
-Ge
-nj
-NO
-nX
-Wp
-OS
-VA
-bm
-pf
 Ax
 Ax
 Ax
@@ -33313,27 +31441,38 @@ Ax
 Ax
 Ax
 Ax
-fo
-uR
-uR
-fo
-vv
-er
-Vp
-fo
-eG
-eG
-Lp
-eG
-hE
-fo
-Vp
-Vp
-vv
-fo
-uR
-RD
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -33546,17 +31685,6 @@ Ax
 Ax
 Ax
 Ax
-LH
-DN
-QA
-pZ
-OS
-zY
-vl
-vl
-qJ
-aV
-pf
 Ax
 Ax
 Ax
@@ -33570,27 +31698,38 @@ Ax
 Ax
 Ax
 Ax
-fo
-uR
-uR
-fo
-vv
-fo
-fo
-fo
-fo
-fo
-Zh
-fo
-fo
-fo
-fo
-fo
-vv
-fo
-uR
-AQ
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -33803,17 +31942,6 @@ Ax
 Ax
 Ax
 Ax
-iQ
-iQ
-Kw
-pd
-zx
-KR
-Ua
-Ua
-UJ
-pf
-pf
 Ax
 Ax
 Ax
@@ -33826,29 +31954,40 @@ Ax
 Ax
 Ax
 Ax
-fo
-fo
-wx
-fo
-fo
-vv
-fo
-IF
-jS
-AS
-Gt
-MR
-Cz
-ip
-Uu
-Tu
-fo
-vv
-fo
-fo
-DQ
-fo
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -34061,15 +32200,6 @@ Ax
 Ax
 Ax
 Ax
-iQ
-iQ
-iQ
-uZ
-pf
-iQ
-iQ
-pf
-iQ
 Ax
 Ax
 Ax
@@ -34083,29 +32213,38 @@ Ax
 Ax
 Ax
 Ax
-fo
-oc
-gW
-Ry
-fo
-vv
-fo
-NZ
-ZL
-Gj
-pl
-MR
-pl
-yb
-st
-st
-fo
-ZG
-wY
-kY
-Na
-fb
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -34340,29 +32479,29 @@ Ax
 Ax
 Ax
 Ax
-fo
-fb
-fb
-PJ
-fo
-vv
-fo
-On
-Pt
-lk
-fl
-wj
-io
-Dy
-hq
-Tu
-fo
-vG
-fo
-oc
-HQ
-fb
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -34595,33 +32734,33 @@ Ax
 Ax
 Ax
 Ax
-Aw
-fo
-fo
-fo
-fb
-fo
-fo
-bk
-fo
-fo
-fo
-fo
-fo
-Wr
-fo
-fo
-fo
-fo
-fo
-fo
-fo
-fo
-HQ
-fo
-fo
-fo
-Aw
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -34852,33 +32991,33 @@ Ax
 Ax
 Ax
 Ax
-fs
-jq
-Vp
-jq
-fb
-XX
-Hu
-bF
-fb
-fb
-fb
-gt
-fb
-fb
-fb
-gt
-fb
-Hu
-kY
-kY
-uT
-kY
-wy
-jq
-Vp
-jq
-fs
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -35109,33 +33248,33 @@ Ax
 Ax
 Ax
 Ax
-Aw
-fo
-Od
-fo
-fb
-fo
-QS
-fo
-fo
-fo
-fo
-fo
-fo
-fb
-fo
-fo
-fo
-nk
-fo
-fo
-fo
-oc
-HQ
-fo
-Od
-fo
-Aw
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -35369,27 +33508,27 @@ Ax
 Ax
 Ax
 Ax
-Od
-fb
-fo
-vv
-fo
-Mh
-Xb
-Xb
-fo
-nE
-fb
-ma
-fo
-Ur
-Zj
-Iq
-pH
-fo
-fo
-HQ
-Od
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -35626,27 +33765,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-fb
-fo
-ZG
-Rl
-wg
-Xb
-Xb
-fo
-Hi
-fb
-nE
-fo
-hG
-uR
-uR
-rH
-fo
-fb
-HQ
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -35883,27 +34022,27 @@ Ax
 Ax
 Ax
 Ax
-Od
-fb
-fo
-Vp
-fo
-Xb
-Xb
-Xb
-fo
-Nc
-fb
-oc
-fo
-uR
-uR
-uR
-tX
-fo
-nM
-HQ
-Od
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -36140,27 +34279,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-fb
-fo
-fp
-fo
-fo
-Xb
-fo
-fo
-fo
-Sn
-fo
-fo
-fo
-uR
-rp
-uR
-fo
-fo
-RI
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -36397,27 +34536,27 @@ Ax
 Ax
 Ax
 Ax
-Od
-fb
-fo
-uR
-HA
-fo
-fo
-fo
-pl
-pl
-pl
-pl
-pl
-fo
-uR
-uR
-uR
-fo
-fb
-HQ
-Od
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -36654,27 +34793,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-OI
-fo
-uR
-HA
-fo
-pH
-fo
-pl
-my
-sQ
-NB
-pl
-fo
-uR
-uR
-uR
-fo
-pz
-HQ
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -36911,27 +35050,27 @@ Ax
 Ax
 Ax
 Ax
-Od
-pI
-rL
-SA
-SA
-hM
-uR
-fo
-yc
-pl
-pl
-pl
-QP
-fo
-Sw
-fo
-fo
-fo
-fo
-HQ
-Od
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -37168,27 +35307,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-HQ
-fo
-fo
-fo
-AQ
-uR
-fo
-fo
-pl
-NB
-pl
-fo
-fo
-gF
-fo
-Vp
-Vp
-fo
-HQ
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -37425,27 +35564,27 @@ Ax
 Ax
 Ax
 Ax
-Od
-ZR
-bR
-FX
-fo
-Oe
-uR
-Dn
-fo
-Od
-Od
-Od
-fo
-Vp
-Vp
-fo
-Vp
-Vp
-fo
-HQ
-Od
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -37682,27 +35821,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-fb
-fo
-vv
-fo
-AQ
-uR
-fo
-fo
-lH
-lH
-lH
-fo
-Od
-gF
-fo
-FT
-eE
-wY
-kn
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -37939,27 +36078,27 @@ Ax
 Ax
 Ax
 Ax
-Od
-fb
-fo
-vv
-fo
-Zr
-Pz
-fo
-al
-Ew
-RM
-yy
-yy
-Pc
-lH
-fo
-vv
-fo
-fo
-nS
-Od
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -38196,27 +36335,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-aY
-fo
-vv
-fo
-oZ
-Gf
-Qo
-RV
-cS
-PY
-Ty
-OO
-Aq
-lH
-fo
-vv
-fo
-Ry
-fb
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -38453,27 +36592,27 @@ Ax
 Ax
 Ax
 Ax
-Od
-fb
-fo
-vv
-fo
-Jd
-bT
-Od
-lH
-cS
-Kp
-XQ
-lH
-Aq
-lH
-fo
-vv
-fo
-fb
-fb
-Od
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -38710,27 +36849,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-fb
-fo
-vv
-fo
-cI
-ba
-fo
-lH
-cS
-wQ
-iP
-sE
-Aq
-fo
-fo
-vv
-fo
-fo
-fb
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -38967,27 +37106,27 @@ Ax
 Ax
 Ax
 Ax
-Od
-fb
-fo
-QS
-fo
-fo
-fo
-fo
-fo
-cS
-UC
-sS
-hx
-Aq
-fo
-Vp
-vv
-AJ
-fo
-fb
-Od
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -39224,27 +37363,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-pz
-fo
-pX
-xx
-xx
-xx
-vT
-fo
-cS
-EX
-JM
-vH
-fL
-Qo
-eE
-YB
-Vp
-fo
-fb
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -39481,27 +37620,27 @@ Ax
 Ax
 Ax
 Ax
-Od
-fb
-fo
-pX
-xx
-xx
-TE
-TE
-Od
-cS
-wt
-hc
-nQ
-De
-fo
-Vp
-vv
-Vp
-fo
-fb
-Od
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -39738,27 +37877,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-fb
-fo
-sR
-xx
-xx
-jI
-jI
-Od
-cS
-PW
-tI
-GB
-lH
-fo
-Vp
-vv
-fo
-fo
-aY
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -39994,29 +38133,29 @@ Ax
 Ax
 Ax
 Ax
-fo
-fo
-fb
-fo
-if
-xx
-xx
-TE
-TE
-fo
-cS
-HX
-ZH
-Hy
-Gv
-fo
-fo
-QS
-fo
-fb
-fb
-fo
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -40251,29 +38390,29 @@ Ax
 Ax
 Ax
 Ax
-fo
-Ry
-fb
-XX
-GD
-fn
-fn
-Au
-Ck
-fo
-cS
-lg
-mQ
-wa
-fo
-fo
-fb
-ZR
-kY
-kY
-kY
-MM
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -40508,29 +38647,29 @@ Ax
 Ax
 Ax
 Ax
-fo
-fo
-fo
-fo
-xx
-xx
-xx
-Qx
-TE
-fo
-cS
-JK
-gI
-iW
-fo
-oc
-fb
-fb
-fo
-fo
-fo
-zy
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -40765,29 +38904,29 @@ Ax
 Ax
 Ax
 Ax
-fo
-Rf
-Rf
-fo
-xx
-xx
-xx
-tC
-jI
-Od
-cS
-eu
-IQ
-EV
-fo
-nM
-fb
-fo
-fo
-Vp
-Vp
-qa
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -41022,29 +39161,29 @@ Ax
 Ax
 Ax
 Ax
-fo
-Rf
-Rf
-aU
-xx
-xx
-xx
-Qx
-TE
-Od
-cS
-Uv
-vZ
-Ti
-fo
-fb
-fb
-PJ
-fo
-Vp
-Vp
-vv
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -41279,29 +39418,29 @@ Ax
 Ax
 Ax
 Ax
-fo
-fo
-fo
-fo
-xx
-xx
-xx
-pX
-vT
-fo
-lH
 Ax
-lH
-lH
-fo
-fb
-fb
-Ry
-fo
-Vp
-FT
-fy
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -41536,29 +39675,29 @@ Ax
 Ax
 Ax
 Ax
-Od
-vp
-vp
-fo
-aY
-fo
-fo
-QS
-fo
-fo
-Aw
 Ax
-Aw
-fo
-fo
-fo
-av
-fo
-fo
-Vp
-vv
-Vp
-Od
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -41793,29 +39932,29 @@ Ax
 Ax
 Ax
 Ax
-fo
-vp
-vp
-fo
-fs
-fo
-Vp
-ZG
-FX
-fo
-fs
 Ax
-fs
-fo
-EK
-og
-EK
-EK
-Mr
-Vp
-vv
-Vp
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -42050,29 +40189,29 @@ Ax
 Ax
 Ax
 Ax
-fo
-fo
-DH
-fo
-aY
-fo
-fo
-fo
-vv
-fo
-Vp
 Ax
-Vp
-Od
-lG
-og
-EK
-fo
-fo
-fo
-zy
-fo
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -42308,27 +40447,27 @@ Ax
 Ax
 Ax
 Ax
-Od
-fb
-fb
-fb
-fb
-ri
-fo
-vv
-Od
-Vp
 Ax
-IA
-Od
-EK
-EK
-EK
-EK
-EK
-fo
-vv
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -42565,27 +40704,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-ri
-Xm
-fb
-fb
-ri
-fo
-vv
-fo
-Vp
 Ax
-Vp
-Od
-am
-EK
-EK
-EK
-EK
-fo
-vv
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -42822,27 +40961,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-fo
-fo
-fb
-fo
-fo
-fo
-vv
-fo
-Aw
 Ax
-Aw
-fo
-EK
-EK
-EK
-fo
-fo
-fo
-vv
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -43079,27 +41218,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-ri
-ri
-fb
-Xm
-fo
-Vp
-vv
-fo
-Vp
 Ax
-Vp
-Od
-EK
-EK
-EK
-EK
-EK
-fo
-vv
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -43336,27 +41475,27 @@ Ax
 Ax
 Ax
 Ax
-Od
-oc
-fb
-fb
-Xm
-fo
-Vp
-vv
-Od
-Vp
 Ax
-Vp
-Od
-ih
-EK
-EK
-EK
-EK
-fo
-ey
-Od
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -43593,27 +41732,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-Xm
-ri
-fb
-ri
-fo
-Vp
-vv
-fo
-Vp
 Ax
-Vp
-Od
-EK
-EK
-EK
-fo
-fo
-fo
-vv
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -43850,27 +41989,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-fo
-fo
-fb
-fo
-fo
-fo
-vv
-fo
-Aw
 Ax
-Aw
-fo
-EK
-EK
-IH
-fo
-ih
-fo
-vv
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -44107,27 +42246,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-ri
-ri
-fb
-fb
-ri
-fo
-vv
-fo
-Vp
 Ax
-Vp
-Od
-Di
-EK
-EK
-EK
-Tz
-fo
-vv
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -44364,27 +42503,27 @@ Ax
 Ax
 Ax
 Ax
-Od
-oc
-fb
-PX
-MM
-Xm
-fo
-vv
-Od
-Vp
 Ax
-Vp
-Od
-Di
-EK
-EK
-nW
-zq
-iO
-Ki
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -44621,27 +42760,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-fo
-Od
-fo
-QS
-fo
-fo
-vv
-fo
-Vp
 Ax
-Vp
-Od
-oL
-EK
-EK
-cs
-fo
-fo
-fo
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -44878,27 +43017,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-Vp
-Vp
-fo
-zr
-eE
-eE
-Ki
-fo
-fs
 Ax
-fs
-fo
-EK
-EK
-EK
-ac
-Co
-FX
-Vp
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -45135,27 +43274,27 @@ Ax
 Ax
 Ax
 Ax
-fo
-fo
-FT
-UT
-Ki
-Vp
-Vp
-fo
-fo
-Aw
 Ax
-Aw
-fo
-fo
-nI
-Pu
-gX
-fo
-vv
-fo
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -45393,25 +43532,25 @@ Ax
 Ax
 Ax
 Ax
-fo
-vS
-fo
-fo
-Od
-Od
-fo
 Ax
 Ax
 Ax
 Ax
 Ax
-fo
-Od
-Od
-fo
-fo
-fu
-fo
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax
@@ -45650,12 +43789,6 @@ Ax
 Ax
 Ax
 Ax
-Aw
-AF
-YY
-eE
-UN
-Vp
 Ax
 Ax
 Ax
@@ -45663,12 +43796,18 @@ Ax
 Ax
 Ax
 Ax
-Vp
-bu
-eE
-YY
-Ht
-Aw
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
+Ax
 Ax
 Ax
 Ax

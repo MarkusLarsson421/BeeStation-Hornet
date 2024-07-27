@@ -1,0 +1,374 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/obj/effect/turf_decal/bot,
+/obj/item/gun/ballistic/automatic/pistol/suppressed,
+/obj/item/gun/ballistic/automatic/pistol/suppressed,
+/obj/item/gun/ballistic/automatic/c20r,
+/obj/item/grenade/smokebomb,
+/obj/structure/closet/crate/secure/weapon{
+	req_access_txt = "150"
+	},
+/obj/item/restraints/handcuffs,
+/obj/item/clothing/mask/muzzle,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/smgm45,
+/obj/item/ammo_box/magazine/smgm45,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"c" = (
+/obj/structure/table/reinforced,
+/obj/item/toy/cards/deck/syndicate,
+/obj/item/melee/transforming/energy/sword{
+	pixel_y = 14
+	},
+/obj/item/melee/transforming/energy/sword{
+	pixel_y = 14;
+	pixel_x = 16
+	},
+/obj/item/melee/transforming/energy/sword{
+	pixel_y = 14;
+	pixel_x = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"e" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"f" = (
+/obj/effect/spawner/structure/window/plastitanium,
+/turf/open/floor/plating,
+/area/space)
+"g" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"h" = (
+/obj/machinery/atmospherics/components/unary/plasma_refiner{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"j" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate/secure/gear{
+	req_access_txt = "150"
+	},
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/stack/sheet/sandbags/five,
+/obj/item/clothing/glasses/sunglasses/advanced,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"k" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/machinery/atmospherics/pipe/manifold/purple/visible,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/space)
+"l" = (
+/obj/machinery/launchpad,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"n" = (
+/obj/machinery/computer/camera_advanced/syndie{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"o" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"q" = (
+/obj/machinery/atmospherics/components/unary/shuttle/heater,
+/obj/effect/spawner/structure/window/plastitanium,
+/turf/open/floor/plating,
+/area/space)
+"r" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"s" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"t" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"v" = (
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/machinery/door/airlock/centcom{
+	name = "shuttle airlock";
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"w" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"y" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/modular_fabricator/autolathe/hacked,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"z" = (
+/obj/machinery/shuttle/engine/plasma,
+/turf/open/floor/plating,
+/area/space)
+"B" = (
+/obj/machinery/computer/crew/syndie{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"C" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"D" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"E" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"F" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/power/apc/auto_name/directional/west{
+	pixel_x = -24;
+	locked = 0
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"G" = (
+/obj/machinery/atmospherics/pipe/manifold/purple/visible,
+/obj/structure/closet/crate/hydroponics,
+/obj/item/soap/syndie,
+/obj/item/pizzabox/pineapple,
+/obj/item/reagent_containers/food/drinks/syndicatebeer{
+	pixel_x = -8
+	},
+/obj/item/reagent_containers/food/drinks/syndicatebeer,
+/obj/item/reagent_containers/food/drinks/syndicatebeer{
+	pixel_x = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"I" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"J" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"K" = (
+/obj/machinery/computer/launchpad{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"M" = (
+/obj/machinery/atmospherics/pipe/manifold/purple/visible,
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/iron{
+	amount = 25
+	},
+/obj/item/stack/sheet/glass{
+	amount = 10
+	},
+/obj/item/stack/sheet/mineral/copper{
+	amount = 5
+	},
+/obj/effect/spawner/lootdrop/maintenance/two,
+/obj/item/pickaxe/emergency,
+/obj/item/stack/sheet/mineral/plasma/five,
+/turf/open/floor/plating,
+/area/space)
+"N" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/syndicate,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"P" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Q" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"T" = (
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"U" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate/medical,
+/obj/item/food/syndicake,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"W" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Y" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Z" = (
+/obj/machinery/computer/shuttle_flight/custom_shuttle/bluespace_pod/traitor{
+	dir = 1;
+	req_access = list(151)
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+
+(1,1,1) = {"
+a
+I
+I
+I
+v
+f
+I
+I
+f
+I
+a
+"}
+(2,1,1) = {"
+I
+I
+h
+F
+o
+t
+l
+K
+N
+f
+f
+"}
+(3,1,1) = {"
+z
+q
+G
+Y
+T
+w
+g
+g
+E
+B
+f
+"}
+(4,1,1) = {"
+z
+q
+k
+s
+j
+U
+b
+T
+W
+Z
+f
+"}
+(5,1,1) = {"
+z
+q
+M
+e
+T
+J
+P
+P
+r
+n
+f
+"}
+(6,1,1) = {"
+I
+I
+C
+D
+o
+y
+Q
+Q
+c
+f
+f
+"}
+(7,1,1) = {"
+a
+I
+I
+I
+v
+f
+I
+I
+f
+I
+a
+"}

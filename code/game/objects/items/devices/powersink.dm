@@ -24,6 +24,7 @@
 	var/max_power = 6e8		// maximum power that can be drained before exploding
 	var/mode = 0		// 0 = off, 1=clamped (off), 2=operating
 	var/admins_warned = FALSE // stop spam, only warn the admins once that we are about to boom
+	var/drain_cells = TRUE // whether or not it should drain power cells in APCs or not
 
 	var/obj/structure/cable/attached
 
@@ -144,7 +145,7 @@
 
 		// if tried to drain more than available on powernet
 		// now look for APCs and drain their cells
-		if(drained < drain_rate)
+		if(drained < drain_rate && drain_cells)
 			for(var/obj/machinery/power/terminal/T in PN.nodes)
 				if(istype(T.master, /obj/machinery/power/apc))
 					var/obj/machinery/power/apc/A = T.master

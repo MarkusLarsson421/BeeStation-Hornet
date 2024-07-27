@@ -70,6 +70,11 @@
 	nightshift_allowed = FALSE
 	brightness = 4
 
+/obj/machinery/light/small/dim
+	nightshift_allowed = FALSE
+	bulb_colour = "#FFDDCC"
+	bulb_power = 0.6
+
 // -------- Directional presets
 // The directions are backwards on the lights we have now
 MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light, 0)
