@@ -5,6 +5,7 @@
 /obj/item/reagent_containers/blood/OMinus,
 /obj/effect/mob_spawn/human/miner,
 /obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "af" = (
@@ -39,6 +40,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/gateway)
 "aE" = (
@@ -46,6 +48,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/shuttle/nv_73/cafeteria)
 "aG" = (
@@ -61,12 +64,14 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/crew_quarters)
 "aI" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/gateway)
 "aL" = (
@@ -114,6 +119,10 @@
 /obj/machinery/light/infinite{
 	dir = 1
 	},
+/obj/machinery/camera/autoname/nv73{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "by" = (
@@ -128,6 +137,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/construction)
 "bU" = (
@@ -141,6 +151,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "cB" = (
@@ -187,12 +198,14 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/shuttle/nv_73/cafeteria)
 "cY" = (
 /obj/structure/toilet{
 	pixel_y = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/shuttle/nv_73/cafeteria)
 "cZ" = (
@@ -203,6 +216,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/crew_quarters)
 "dj" = (
@@ -229,6 +243,19 @@
 	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering)
+"ds" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/nv_73/engineering/aft)
 "dt" = (
 /obj/structure/artilleryplaceholder/decorative{
 	icon_state = "31"
@@ -267,9 +294,8 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/nv_73/security)
 "dV" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 1
-	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/nv_73/engineering/telecom)
 "dX" = (
@@ -280,6 +306,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold4w/purple/visible,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "dZ" = (
@@ -289,6 +316,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/construction)
 "eb" = (
@@ -314,6 +342,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/security)
 "eq" = (
@@ -338,8 +367,13 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
+"eB" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/nv_73/hallway/starboard)
 "eC" = (
 /obj/machinery/door/airlock/external{
 	req_one_access_txt = "200"
@@ -363,6 +397,13 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/port)
+"eL" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/shuttle/nv_73/engineering/bsa)
 "eM" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/nv_73/engineering/aft)
@@ -373,6 +414,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "eY" = (
@@ -412,6 +454,7 @@
 /obj/machinery/atmospherics/components/binary/volume_pump/on{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "fB" = (
@@ -451,6 +494,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "fT" = (
@@ -459,6 +503,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering)
 "gc" = (
@@ -470,6 +515,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/shuttle/nv_73/cafeteria)
 "gf" = (
@@ -498,6 +544,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "gE" = (
@@ -514,8 +561,13 @@
 /turf/open/floor/plating,
 /area/shuttle/nv_73/crew_quarters)
 "gR" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/construction)
+"gX" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/nv_73/crew_quarters)
 "hd" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	req_one_access_txt = "201"
@@ -538,8 +590,14 @@
 	dir = 4
 	},
 /obj/item/trash/boritos,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/telecom)
+"ho" = (
+/obj/machinery/camera/autoname/nv73,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/nv_73/hallway/port)
 "hq" = (
 /obj/structure/table,
 /turf/open/floor/mineral/titanium/white,
@@ -551,6 +609,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
+/obj/machinery/camera/autoname/nv73{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/port)
 "hx" = (
@@ -595,6 +656,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "hO" = (
@@ -616,6 +678,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "ia" = (
@@ -628,6 +691,8 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/gateway)
 "ik" = (
@@ -646,6 +711,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/port)
 "iv" = (
@@ -698,6 +764,7 @@
 /area/shuttle/nv_73/hallway/starboard)
 "jb" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/gateway)
 "jg" = (
@@ -709,6 +776,9 @@
 "jm" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
+	},
+/obj/machinery/camera/autoname/nv73{
+	dir = 9
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
@@ -732,6 +802,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "jK" = (
@@ -747,6 +818,7 @@
 /obj/structure/chair{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/grimy,
 /area/shuttle/nv_73/cafeteria)
 "jL" = (
@@ -778,6 +850,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/crew_quarters)
 "ka" = (
@@ -797,6 +870,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/telecom)
 "kd" = (
@@ -810,6 +884,7 @@
 /obj/structure/closet/crate/secure/hydroponics,
 /obj/item/stack/sheet/wood/fifty,
 /obj/item/stack/sheet/wood/fifty,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/crew_quarters)
 "kq" = (
@@ -823,6 +898,9 @@
 /obj/structure/chair/fancy/bench{
 	pixel_x = 6;
 	dir = 8
+	},
+/obj/machinery/camera/autoname/nv73{
+	dir = 4
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/gateway)
@@ -881,6 +959,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering)
 "kW" = (
@@ -889,18 +968,22 @@
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
 "kY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "ld" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
+/obj/machinery/camera/autoname/nv73,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering)
 "lk" = (
@@ -908,6 +991,7 @@
 	id = "spacebattle_bsa_blastdoors";
 	pixel_y = 25
 	},
+/obj/machinery/computer/crew,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "lp" = (
@@ -944,6 +1028,8 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering)
 "mg" = (
@@ -956,12 +1042,14 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "mh" = (
 /obj/machinery/gateway{
 	dir = 5
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/nv_73/gateway)
 "mi" = (
@@ -974,6 +1062,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "mk" = (
@@ -989,6 +1078,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "mn" = (
@@ -1001,6 +1091,13 @@
 "my" = (
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/nv_73/engineering/telecom)
+"mF" = (
+/obj/machinery/atmospherics/pipe/manifold/purple/visible{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/nv_73/engineering/port)
 "mG" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -1010,6 +1107,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/shuttle/nv_73/cafeteria)
 "mM" = (
@@ -1049,6 +1147,7 @@
 	},
 /obj/structure/bed/roller,
 /obj/item/bedsheet/medical,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/nv_73/gateway)
 "np" = (
@@ -1062,6 +1161,10 @@
 /obj/effect/turf_decal/stripes/full,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
+"nB" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/nv_73/hallway/port)
 "nI" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/nv_73/engineering)
@@ -1075,6 +1178,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/crew_quarters)
 "nO" = (
@@ -1103,6 +1207,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 5
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "nV" = (
@@ -1110,6 +1215,7 @@
 /area/shuttle/nv_73/engineering/aft)
 "of" = (
 /obj/structure/grille/broken,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "og" = (
@@ -1122,6 +1228,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "oh" = (
@@ -1154,8 +1261,16 @@
 	dir = 5
 	},
 /obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/shuttle/nv_73/cafeteria)
+"or" = (
+/obj/machinery/camera/autoname/nv73{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/nv_73/hallway/starboard)
 "ou" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
@@ -1167,6 +1282,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "oK" = (
@@ -1182,12 +1298,14 @@
 /obj/machinery/light/small/infinite{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "oW" = (
 /obj/machinery/gateway{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/nv_73/gateway)
 "pc" = (
@@ -1223,6 +1341,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/port)
 "pi" = (
@@ -1232,6 +1351,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+/obj/machinery/camera/autoname/nv73,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "pj" = (
@@ -1261,8 +1383,22 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering)
+"pL" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/camera/autoname/nv73,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/nv_73/hallway/starboard)
 "pO" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
@@ -1272,6 +1408,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
 /obj/item/trash/popcorn,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "pU" = (
@@ -1289,6 +1426,7 @@
 /obj/item/stack/cable_coil/yellow{
 	amount = 2
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/bsa)
 "qr" = (
@@ -1310,8 +1448,16 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
+"qI" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/nv_73/hallway/port)
 "qQ" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
@@ -1336,12 +1482,14 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "rc" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/construction)
 "rd" = (
@@ -1356,6 +1504,8 @@
 	dir = 1
 	},
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "rC" = (
@@ -1385,6 +1535,7 @@
 	dir = 4
 	},
 /obj/machinery/light/infinite,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "rZ" = (
@@ -1406,6 +1557,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/nv_73/engineering/telecom)
 "sj" = (
@@ -1447,6 +1599,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "sM" = (
@@ -1497,6 +1650,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/gateway)
 "tB" = (
@@ -1532,8 +1686,22 @@
 /area/shuttle/nv_73/hallway/port)
 "uj" = (
 /obj/machinery/light/infinite,
+/obj/machinery/camera/autoname/nv73,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
+"ul" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/nv_73/crew_quarters)
 "ux" = (
 /obj/structure/artilleryplaceholder{
 	icon_state = "35"
@@ -1541,10 +1709,15 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "uG" = (
 /turf/closed/wall/mineral/titanium,
+/area/shuttle/nv_73/security)
+"uH" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
 /area/shuttle/nv_73/security)
 "uM" = (
 /obj/structure/cable/yellow{
@@ -1560,6 +1733,7 @@
 	dir = 4
 	},
 /obj/item/trash/syndi_cakes,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "uS" = (
@@ -1578,6 +1752,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
 "vj" = (
@@ -1625,6 +1800,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/construction)
 "vX" = (
@@ -1635,6 +1811,7 @@
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/construction)
 "wf" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/nv_73/gateway)
 "wg" = (
@@ -1644,6 +1821,7 @@
 /obj/machinery/light/small/infinite{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "wq" = (
@@ -1664,6 +1842,8 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "wF" = (
@@ -1677,11 +1857,28 @@
 	},
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/security)
+"wW" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/nv_73/hallway/starboard)
 "wX" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+	},
+/obj/machinery/camera/autoname/nv73{
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/shuttle/nv_73/security)
@@ -1689,8 +1886,16 @@
 /obj/structure/artilleryplaceholder/decorative{
 	icon_state = "29"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
+"xo" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/nv_73/hallway/starboard)
 "xu" = (
 /obj/structure/artilleryplaceholder{
 	icon_state = "24"
@@ -1708,6 +1913,7 @@
 "xG" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "xJ" = (
@@ -1717,6 +1923,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "xQ" = (
@@ -1726,12 +1933,14 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "xS" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "yc" = (
@@ -1744,13 +1953,14 @@
 "yi" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "yk" = (
 /obj/structure/shuttle/engine/huge{
 	dir = 8
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/shuttle/nv_73/engineering/port)
 "yn" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -1759,6 +1969,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/construction)
 "yr" = (
@@ -1783,8 +1994,22 @@
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1
 	},
+/obj/machinery/camera/autoname/nv73{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
+"yB" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/nv_73/engineering)
 "yF" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
@@ -1795,6 +2020,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering)
 "yG" = (
@@ -1831,6 +2057,7 @@
 /obj/machinery/atmospherics/components/unary/shuttle/heater{
 	dir = 4
 	},
+/obj/effect/spawner/structure/window/plastitanium,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "ze" = (
@@ -1841,6 +2068,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "zj" = (
@@ -1885,6 +2113,10 @@
 /obj/machinery/light/infinite{
 	dir = 1
 	},
+/obj/machinery/camera/autoname/nv73{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/construction)
 "zu" = (
@@ -1898,6 +2130,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "zx" = (
@@ -1936,6 +2169,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "zP" = (
@@ -1953,12 +2187,21 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "Ae" = (
 /obj/structure/grille,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
+"Aj" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/nv_73/cafeteria)
 "Al" = (
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
@@ -1977,6 +2220,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "Ap" = (
@@ -1990,6 +2234,13 @@
 	dir = 5
 	},
 /turf/open/floor/plating,
+/area/shuttle/nv_73/crew_quarters)
+"Ar" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/crew_quarters)
 "As" = (
 /obj/structure/cable/yellow{
@@ -2018,6 +2269,19 @@
 /obj/machinery/light/infinite,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
+"AD" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/nv_73/security)
 "AF" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
@@ -2025,6 +2289,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "AK" = (
@@ -2038,6 +2303,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "AU" = (
@@ -2050,6 +2316,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "Bc" = (
@@ -2083,6 +2350,7 @@
 	pixel_x = 3;
 	pixel_y = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/shuttle/nv_73/cafeteria)
 "Bv" = (
@@ -2113,14 +2381,22 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/machinery/camera/autoname/nv73{
+	dir = 10
+	},
 /turf/open/floor/plating,
 /area/shuttle/nv_73/crew_quarters)
 "BY" = (
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/crew_quarters)
+"Ci" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/nv_73/hallway/starboard)
 "Cu" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -2129,6 +2405,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "CD" = (
@@ -2147,6 +2424,7 @@
 /obj/machinery/light/infinite{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/nv_73/gateway)
 "CG" = (
@@ -2178,11 +2456,13 @@
 /obj/machinery/light/infinite{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "CW" = (
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /obj/machinery/light/small/infinite,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/security)
 "Db" = (
@@ -2227,6 +2507,10 @@
 /obj/machinery/recharger,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/nv_73/security)
+"Dr" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/textured,
+/area/shuttle/nv_73/engineering/telecom)
 "Dw" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -2237,12 +2521,26 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
+/area/shuttle/nv_73/security)
+"Dy" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/camera/autoname/nv73{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/nv_73/security)
 "DE" = (
 /obj/machinery/atmospherics/components/binary/pump/on{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "DM" = (
@@ -2255,6 +2553,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/telecom)
 "Ed" = (
@@ -2287,9 +2586,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/shuttle/nv_73/hallway/port)
-"Eo" = (
-/turf/open/space/basic,
-/area/template_noop)
 "Ep" = (
 /obj/machinery/door/airlock/titanium{
 	name = "airlock";
@@ -2309,6 +2605,10 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
+"EJ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/nv_73/engineering/port)
 "EK" = (
 /obj/machinery/suit_storage_unit/open,
 /turf/open/floor/mineral/titanium/yellow,
@@ -2317,6 +2617,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "EX" = (
@@ -2334,6 +2635,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "Ft" = (
@@ -2356,12 +2658,14 @@
 /obj/machinery/gateway{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/nv_73/gateway)
 "FQ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "FR" = (
@@ -2382,6 +2686,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/nv_73/gateway)
 "Gg" = (
@@ -2413,6 +2718,26 @@
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/nv_73/crew_quarters)
+"Gt" = (
+/obj/machinery/camera/autoname/nv73{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/shuttle/nv_73/engineering/bsa)
+"GD" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/blood/innards,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/nv_73/bridge)
 "GJ" = (
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 10
@@ -2554,10 +2879,12 @@
 /area/shuttle/nv_73/hallway/starboard)
 "Ig" = (
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "Ih" = (
 /obj/item/gun/ballistic/automatic/pistol/no_mag,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/crew_quarters)
 "Ik" = (
@@ -2586,6 +2913,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering)
 "Is" = (
@@ -2718,6 +3046,7 @@
 	flavour_text = "An attack has occured on the ship and you must assist whoever you can to protect the ship and keep it operational!";
 	important_info = "Listen to the admiral!"
 	},
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "Jq" = (
@@ -2750,6 +3079,9 @@
 /obj/machinery/light/infinite{
 	dir = 1
 	},
+/obj/machinery/computer/security{
+	network = list("nv73")
+	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "JD" = (
@@ -2758,6 +3090,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/crew_quarters)
 "JN" = (
@@ -2767,6 +3100,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "JP" = (
@@ -2871,6 +3205,7 @@
 /obj/machinery/light/small/infinite{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/construction)
 "KM" = (
@@ -2891,10 +3226,18 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
+"KO" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/nv_73/engineering/port)
 "KP" = (
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "KS" = (
@@ -2930,16 +3273,19 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "Le" = (
 /obj/machinery/light/infinite,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
 "Lf" = (
 /obj/machinery/light/small/infinite{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/shuttle/nv_73/cafeteria)
 "Lg" = (
@@ -2981,6 +3327,13 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/shuttle/nv_73/engineering/telecom)
+"Lu" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/nv_73/hallway/port)
 "Lv" = (
 /obj/machinery/door/airlock/external{
 	req_one_access_txt = "204"
@@ -3036,6 +3389,7 @@
 /obj/machinery/light/small/infinite{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/port)
 "LT" = (
@@ -3044,6 +3398,11 @@
 	},
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
+"LV" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/nv_73/cafeteria)
 "LZ" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
@@ -3077,6 +3436,10 @@
 /obj/effect/turf_decal/tile/brown/fourcorners/contrasted,
 /obj/machinery/suit_storage_unit/mining,
 /obj/effect/turf_decal/bot,
+/obj/machinery/camera/autoname/nv73{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/shuttle/nv_73/engineering/aft)
 "My" = (
@@ -3094,6 +3457,7 @@
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/closet/crate/bin,
 /obj/item/trash/sosjerky,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/shuttle/nv_73/cafeteria)
 "MN" = (
@@ -3107,6 +3471,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "Na" = (
@@ -3116,6 +3481,7 @@
 /obj/machinery/atmospherics/pipe/manifold/purple/hidden{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "Nc" = (
@@ -3131,6 +3497,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "Nj" = (
@@ -3143,6 +3510,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "Nn" = (
@@ -3182,6 +3550,11 @@
 /obj/item/food/deadmouse,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/crew_quarters)
+"NN" = (
+/obj/item/kirbyplants/random,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/nv_73/crew_quarters)
 "NO" = (
 /obj/structure/bed,
 /obj/item/bedsheet/dorms,
@@ -3199,6 +3572,7 @@
 	pixel_y = 16
 	},
 /obj/machinery/light/infinite,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
 "NU" = (
@@ -3212,6 +3586,7 @@
 	dir = 4
 	},
 /obj/machinery/light/small/dim,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/crew_quarters)
 "Oe" = (
@@ -3236,12 +3611,14 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "Ow" = (
 /obj/structure/artilleryplaceholder/decorative{
 	icon_state = "25"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "OB" = (
@@ -3261,12 +3638,14 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/security)
 "OS" = (
 /obj/machinery/sleeper{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/nv_73/gateway)
 "Ph" = (
@@ -3279,6 +3658,7 @@
 /obj/machinery/power/terminal{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering)
 "Pj" = (
@@ -3314,12 +3694,14 @@
 /area/shuttle/nv_73/security)
 "Pq" = (
 /obj/machinery/atmospherics/pipe/manifold/purple/visible,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "PH" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/starboard)
 "PI" = (
@@ -3335,10 +3717,18 @@
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/port)
+"Qh" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/nv_73/engineering/aft)
 "Qm" = (
 /obj/structure/rack,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/construction)
+"Qn" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/nv_73/crew_quarters)
 "Qp" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/item/weldingtool/largetank,
@@ -3363,12 +3753,14 @@
 	dir = 8
 	},
 /obj/machinery/light/small/dim,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/crew_quarters)
 "QF" = (
 /obj/structure/artilleryplaceholder/decorative{
 	icon_state = "30"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "QI" = (
@@ -3416,12 +3808,22 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/camera/autoname/nv73{
+	dir = 9
+	},
 /turf/open/floor/iron,
 /area/shuttle/nv_73/cafeteria)
+"QT" = (
+/obj/machinery/camera/autoname/nv73{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/nv_73/security)
 "QV" = (
 /obj/machinery/gateway{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/nv_73/gateway)
 "QY" = (
@@ -3431,6 +3833,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "Ra" = (
@@ -3449,6 +3852,7 @@
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/port)
 "Rr" = (
@@ -3461,7 +3865,7 @@
 /obj/structure/shuttle/engine/huge{
 	dir = 8
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/shuttle/nv_73/hallway/starboard)
 "Ry" = (
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
@@ -3487,6 +3891,13 @@
 /obj/structure/table,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/nv_73/gateway)
+"RK" = (
+/obj/machinery/atmospherics/pipe/manifold/purple/visible{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/nv_73/hallway/starboard)
 "RR" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
@@ -3506,6 +3917,19 @@
 /obj/machinery/light/small/infinite,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
+"Sb" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/nv_73/engineering)
 "Sf" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -3528,6 +3952,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/construction)
 "SQ" = (
@@ -3544,6 +3969,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "SV" = (
@@ -3553,7 +3979,7 @@
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/port)
 "SW" = (
-/turf/open/space/basic,
+/turf/template_noop,
 /area/shuttle/nv_73/hallway/starboard)
 "SZ" = (
 /obj/effect/mapping_helpers/apc/discharged{
@@ -3561,6 +3987,7 @@
 	},
 /obj/structure/cable/yellow,
 /obj/machinery/power/apc/auto_name/directional/east,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/gateway)
 "Tb" = (
@@ -3571,6 +3998,7 @@
 /obj/machinery/atmospherics/components/binary/pump/on/layer2{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/construction)
 "Tg" = (
@@ -3593,6 +4021,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "Tk" = (
@@ -3635,6 +4064,7 @@
 /obj/machinery/atmospherics/components/unary/tank/plasma{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/shuttle/nv_73/engineering/aft)
 "TL" = (
@@ -3668,7 +4098,7 @@
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
 "Ud" = (
-/turf/open/space/basic,
+/turf/template_noop,
 /area/shuttle/nv_73/engineering/port)
 "Ue" = (
 /obj/structure/cable/yellow{
@@ -3688,6 +4118,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/port)
 "Uh" = (
@@ -3740,6 +4171,7 @@
 /obj/machinery/atmospherics/pipe/manifold/purple/hidden{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/port)
 "UD" = (
@@ -3758,6 +4190,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/security)
 "UY" = (
@@ -3773,10 +4206,14 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/shuttle/nv_73/engineering/aft)
 "Vk" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/obj/machinery/camera/autoname/nv73{
+	dir = 6
+	},
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "Vm" = (
@@ -3792,6 +4229,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/crew_quarters)
 "Vn" = (
@@ -3807,6 +4245,7 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	req_one_access_txt = "201"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/hallway/starboard)
 "Vr" = (
@@ -3820,6 +4259,7 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/manifold/purple/visible,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/port)
 "VB" = (
@@ -3829,6 +4269,15 @@
 /obj/effect/turf_decal/stripes/full,
 /turf/open/floor/engine,
 /area/shuttle/nv_73/engineering/bsa)
+"VJ" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/nv_73/hallway/starboard)
 "VK" = (
 /obj/structure/chair,
 /turf/open/floor/mineral/plastitanium/red,
@@ -3882,6 +4331,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/security)
 "WF" = (
@@ -3892,12 +4342,14 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/construction)
 "WO" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/port)
 "WP" = (
@@ -3907,6 +4359,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/port)
 "WX" = (
@@ -3935,6 +4388,7 @@
 	pixel_x = 8;
 	pixel_y = 10
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/grimy,
 /area/shuttle/nv_73/cafeteria)
 "Xc" = (
@@ -3981,6 +4435,7 @@
 /obj/machinery/power/terminal{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering)
 "Xy" = (
@@ -3997,6 +4452,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering)
 "XG" = (
@@ -4004,6 +4460,8 @@
 /obj/effect/mob_spawn/human/doctor{
 	ghost_usable = 0
 	},
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "XJ" = (
@@ -4048,6 +4506,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/nv_73/hallway/port)
 "Yp" = (
@@ -4063,12 +4522,14 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/aft)
 "Yx" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/engineering/port)
 "YG" = (
@@ -4123,6 +4584,10 @@
 /area/shuttle/nv_73/engineering/bsa)
 "Zf" = (
 /obj/machinery/light/small/infinite,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/nv_73/engineering/telecom)
 "Zi" = (
@@ -4140,11 +4605,13 @@
 	new_charge = 499
 	},
 /obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/shuttle/nv_73/engineering/aft)
 "Zn" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/effect/decal/cleanable/blood/gibs/core,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/nv_73/bridge)
 "Zo" = (
@@ -4155,11 +4622,16 @@
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/nv_73/engineering/port)
 "Zs" = (
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/nv_73/hallway/starboard)
+"Zt" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/shuttle/nv_73/engineering/bsa)
 "Zw" = (
 /obj/machinery/door/airlock/titanium{
 	name = "airlock";
@@ -4266,9 +4738,9 @@ jo
 jo
 jo
 jo
-Ud
-Ud
-Ud
+mu
+mu
+mu
 jo
 Ud
 Ud
@@ -4280,9 +4752,9 @@ SW
 SW
 Ru
 jo
-SW
-SW
-SW
+Wd
+Wd
+Wd
 jo
 jo
 jo
@@ -4299,15 +4771,15 @@ kz
 ik
 Um
 oK
-Ud
-Ud
-Ud
+mu
+mu
+mu
 jo
 jo
 jo
-SW
-SW
-SW
+Wd
+Wd
+Wd
 pl
 Ra
 II
@@ -4349,9 +4821,9 @@ jo
 "}
 (5,1,1) = {"
 jo
-Ud
-Ud
-Ud
+mu
+mu
+mu
 oK
 GJ
 SV
@@ -4367,13 +4839,13 @@ za
 za
 za
 pl
-eg
-Ry
+xo
+RK
 Pq
 pl
-SW
-SW
-SW
+Wd
+Wd
+Wd
 jo
 "}
 (6,1,1) = {"
@@ -4382,19 +4854,19 @@ kz
 ik
 Um
 oK
-mu
-mu
-GJ
+EJ
+EJ
+KO
 UC
 SV
-SV
+mF
 eJ
 nV
 oU
 nV
 eg
-Ry
-Ry
+RK
+RK
 Ig
 Ig
 Ig
@@ -4415,8 +4887,8 @@ il
 hs
 WP
 Vr
-mu
-mu
+EJ
+EJ
 Fb
 nV
 Oe
@@ -4424,8 +4896,8 @@ nV
 Il
 Wd
 Wd
-Wd
-Wd
+eB
+eB
 Vk
 AF
 pl
@@ -4471,7 +4943,7 @@ Fb
 My
 ZF
 nV
-FY
+Qh
 uM
 FY
 nV
@@ -4482,7 +4954,7 @@ iT
 Ed
 nV
 FY
-FY
+Qh
 Tl
 nV
 NU
@@ -4529,7 +5001,7 @@ Fb
 WO
 ow
 nV
-fe
+ds
 FY
 FY
 nV
@@ -4558,7 +5030,7 @@ Fb
 WO
 ow
 nV
-fe
+ds
 nV
 nV
 nV
@@ -4575,7 +5047,7 @@ nV
 Zs
 HX
 Il
-Eo
+jo
 jo
 jo
 "}
@@ -4587,7 +5059,7 @@ Fb
 IY
 Fb
 nV
-fe
+ds
 nV
 QV
 oW
@@ -4632,7 +5104,7 @@ Yp
 Ly
 xQ
 jE
-fK
+Ci
 Il
 jo
 jo
@@ -4642,10 +5114,10 @@ jr
 jr
 Nv
 pU
-zj
+qI
 tJ
 nV
-fe
+ds
 nV
 mh
 ZM
@@ -4657,7 +5129,7 @@ nd
 OS
 RH
 nV
-FY
+Qh
 nV
 tG
 eQ
@@ -4671,7 +5143,7 @@ fi
 Nv
 Nv
 Nv
-Dl
+nB
 Nv
 nV
 oh
@@ -4714,10 +5186,10 @@ xG
 ti
 yi
 AU
-Uk
+VJ
 Uk
 Ep
-Uk
+VJ
 qX
 eC
 CD
@@ -4747,7 +5219,7 @@ Kl
 Kl
 Kl
 tG
-cO
+pL
 Il
 ou
 Il
@@ -4758,13 +5230,13 @@ jo
 jo
 jo
 hF
-Dl
+ho
 Nv
 hm
 sU
 Al
-my
-my
+Dr
+Dr
 lF
 Jl
 zu
@@ -4821,11 +5293,11 @@ Nv
 kc
 sU
 my
-my
+Dr
 my
 lF
 ae
-Nj
+GD
 lp
 lF
 zQ
@@ -4834,7 +5306,7 @@ gR
 QM
 Kl
 iZ
-cO
+wW
 ou
 jo
 jo
@@ -4905,7 +5377,7 @@ jo
 Nv
 We
 nI
-mf
+yB
 Tg
 nI
 KS
@@ -4921,7 +5393,7 @@ Tc
 Mb
 Kl
 br
-cO
+wW
 Il
 jo
 jo
@@ -4950,7 +5422,7 @@ Kl
 Kl
 Kl
 Il
-cO
+wW
 ou
 jo
 jo
@@ -5021,7 +5493,7 @@ jo
 Nv
 hO
 nI
-KM
+Sb
 nI
 tI
 ld
@@ -5061,7 +5533,7 @@ QY
 wA
 wg
 ER
-Zb
+eL
 Il
 Oj
 Il
@@ -5085,7 +5557,7 @@ Yi
 Xs
 Bc
 cx
-af
+Zt
 iJ
 Db
 Ow
@@ -5106,7 +5578,7 @@ jo
 jo
 jo
 hF
-tB
+Lu
 nI
 KM
 nI
@@ -5153,7 +5625,7 @@ Il
 SQ
 Il
 Il
-fK
+or
 Il
 jo
 jo
@@ -5182,7 +5654,7 @@ Wd
 Oj
 ZT
 Il
-fK
+Ci
 ou
 jo
 jo
@@ -5222,11 +5694,11 @@ jo
 jo
 jo
 hF
-Dl
+ho
 wy
 Jx
 Tp
-Tp
+LV
 Hq
 Hq
 LZ
@@ -5254,12 +5726,12 @@ Nv
 va
 wy
 QI
-Tp
-Tp
+LV
+LV
 iv
 tH
 LZ
-af
+Zt
 Tk
 nv
 QF
@@ -5284,11 +5756,11 @@ tD
 wy
 QQ
 aE
-Tp
+LV
 Ut
 Ut
 zW
-af
+Zt
 VS
 VN
 dt
@@ -5325,7 +5797,7 @@ zW
 Il
 jm
 ZS
-Uk
+VJ
 CJ
 mg
 kM
@@ -5341,7 +5813,7 @@ wy
 wy
 wy
 Ja
-Tp
+LV
 cQ
 jK
 Hq
@@ -5353,7 +5825,7 @@ fH
 zW
 tG
 sJ
-fK
+Ci
 Il
 Il
 Il
@@ -5371,11 +5843,11 @@ Dg
 wy
 TL
 Tp
-Tp
+LV
 WX
 bk
 LZ
-af
+Zt
 fB
 Ub
 cB
@@ -5398,24 +5870,24 @@ wy
 vA
 Lf
 jL
-aj
-Tp
-Tp
+Aj
+LV
+LV
 KK
 Ut
 LZ
-af
+Zt
 aL
 xu
 ux
 zW
 CI
-fK
+Ci
 by
 uG
 Sg
-Sg
-yG
+uH
+AD
 uG
 jo
 jo
@@ -5428,17 +5900,17 @@ wy
 wy
 wy
 aj
-Tp
+LV
 Yf
 Wc
 wF
 zW
-af
+Gt
 jo
 FQ
 kY
 zW
-fK
+Ci
 fK
 Ev
 uG
@@ -5472,8 +5944,8 @@ Xk
 uG
 uG
 Sg
-yG
-Sg
+AD
+uH
 RC
 jo
 jo
@@ -5518,7 +5990,7 @@ yr
 GV
 GV
 GV
-HM
+ul
 GV
 Uh
 jo
@@ -5526,7 +5998,7 @@ Sf
 RC
 VK
 np
-Hk
+Dy
 uG
 uG
 uG
@@ -5544,10 +6016,10 @@ Tb
 fQ
 fQ
 eb
-fQ
+gX
 Ul
 GV
-HM
+ul
 Tb
 Uh
 jo
@@ -5572,11 +6044,11 @@ jo
 GV
 NO
 Ul
-eb
-fQ
+Ar
+gX
 NO
 GV
-HM
+ul
 GV
 Uh
 jo
@@ -5588,7 +6060,7 @@ Hk
 Qq
 Ll
 uG
-yG
+AD
 uG
 jo
 jo
@@ -5617,7 +6089,7 @@ Hk
 uG
 uG
 uG
-yG
+AD
 uG
 jo
 jo
@@ -5633,7 +6105,7 @@ Ul
 fQ
 Ul
 GV
-Sz
+Qn
 HM
 GV
 Uh
@@ -5646,7 +6118,7 @@ JP
 ZA
 HL
 uG
-yG
+AD
 uG
 jo
 jo
@@ -5657,13 +6129,13 @@ jo
 jo
 jo
 Tb
-eY
+NN
 Ih
-fQ
+gX
 Ul
 GV
-Sz
-HM
+Qn
+ul
 Tb
 Uh
 jo
@@ -5688,11 +6160,11 @@ jo
 GV
 Ul
 NO
-fQ
+gX
 NO
 GV
 Sz
-HM
+ul
 GV
 Uh
 jo
@@ -5704,7 +6176,7 @@ zH
 uG
 uG
 uG
-yG
+AD
 uG
 jo
 jo
@@ -5721,7 +6193,7 @@ NV
 GV
 GV
 GV
-HM
+ul
 GV
 Jq
 jo
@@ -5747,7 +6219,7 @@ GV
 NO
 Ul
 zn
-fQ
+gX
 NO
 GV
 HM
@@ -5759,7 +6231,7 @@ RC
 Xg
 Ll
 Ll
-Ll
+QT
 BC
 uG
 yG
@@ -5774,12 +6246,12 @@ jo
 jo
 Tb
 eY
-fQ
+gX
 cZ
 Kr
 kd
 GV
-HM
+ul
 Tb
 Uh
 jo
@@ -5808,7 +6280,7 @@ GV
 iD
 GV
 GV
-HM
+ul
 GV
 Uh
 jo
@@ -5864,7 +6336,7 @@ GV
 aG
 Ix
 jV
-Sz
+Qn
 Sz
 GV
 GV

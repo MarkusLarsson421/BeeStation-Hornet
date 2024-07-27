@@ -232,6 +232,14 @@
 	port_id = "hunter"
 	can_be_bought = FALSE
 
+/datum/map_template/shuttle/syndicate
+	port_id = "syndicate"
+	can_be_bought = FALSE
+
+/datum/map_template/shuttle/nt
+	port_id = "nt"
+	can_be_bought = FALSE
+
 /datum/map_template/shuttle/ruin //For random shuttles in ruins
 	port_id = "ruin"
 	can_be_bought = FALSE
@@ -803,6 +811,14 @@
 /datum/map_template/shuttle/ruin/syndicate_fighter_shiv
 	suffix = "syndicate_fighter_shiv"
 	name = "Syndicate Fighter"
+
+/datum/map_template/shuttle/syndicate/space_battle
+	suffix = "space_battle"
+	name = "Give me a name damn it"
+
+/datum/map_template/shuttle/nt/nova_vanguard_73
+	suffix = "73"
+	name = "Nova Vanguard 73"
 
 /datum/map_template/shuttle/snowdin/mining
 	suffix = "mining"

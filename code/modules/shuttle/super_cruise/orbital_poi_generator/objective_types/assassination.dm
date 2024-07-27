@@ -93,7 +93,7 @@
 	belt = /obj/item/storage/belt/military
 	l_pocket = /obj/item/ammo_box/magazine/m10mm
 	r_pocket = /obj/item/grenade/smokebomb
-	id = /obj/item/card/id/chameleon_command
+	id = /obj/item/card/id/syndicate/command
 
 //=====================
 // Martyr Dictator
