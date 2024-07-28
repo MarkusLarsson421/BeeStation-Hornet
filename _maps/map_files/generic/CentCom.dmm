@@ -3624,18 +3624,6 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/wood,
 /area/centcom/ferry)
-"pM" = (
-/obj/machinery/camera/directional/north{
-	c_tag = "Green Team";
-	network = list("thunder");
-	pixel_x = 12;
-	pixel_y = -10;
-	resistance_flags = 64
-	},
-/obj/effect/landmark/thunderdome/one,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/iron,
-/area/tdome/arena)
 "pP" = (
 /obj/structure/table/reinforced,
 /obj/item/computer_hardware/hard_drive/role/quartermaster,
@@ -10599,18 +10587,6 @@
 "Si" = (
 /turf/open/floor/iron,
 /area/centcom/supplypod/loading/two)
-"Sj" = (
-/obj/machinery/camera/directional/north{
-	c_tag = "Red Team";
-	network = list("thunder");
-	pixel_x = 11;
-	pixel_y = -9;
-	resistance_flags = 64
-	},
-/obj/effect/landmark/thunderdome/two,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/iron,
-/area/tdome/arena)
 "Sl" = (
 /obj/item/cardboard_cutout{
 	desc = "They seem to be ignoring you... Typical.";
@@ -53131,7 +53107,7 @@ ml
 Ep
 IB
 ev
-Sj
+ev
 Fg
 ev
 Jv
@@ -58785,7 +58761,7 @@ eQ
 Ep
 IM
 BX
-pM
+BX
 RW
 BX
 Jy

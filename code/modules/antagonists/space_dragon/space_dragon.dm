@@ -36,8 +36,8 @@
 /datum/antagonist/space_dragon/proc/forge_objectives()
 	// Areas that will prove challenging for the dragon and provocative to the crew.
 	var/list/area/allowed_areas = typecacheof(list(
-		/area/crew_quarters/heads/captain,
-		/area/crew_quarters/heads/hop,
+		/area/bridge/heads/captain,
+		/area/bridge/heads/hop,
 		/area/bridge,
 		/area/engine,
 		/area/security,

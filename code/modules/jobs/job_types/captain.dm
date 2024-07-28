@@ -36,8 +36,8 @@
 	)
 
 	minimal_lightup_areas = list(
-		/area/crew_quarters/heads/captain,
-		/area/crew_quarters/heads/hop,
+		/area/bridge/heads/captain,
+		/area/bridge/heads/hop,
 		/area/security
 	)
 

@@ -95,8 +95,6 @@
 	return INITIALIZE_HINT_LATELOAD
 
 /obj/machinery/camera/LateInitialize()
-	. = ..()
-
 	var/static/list/autonames_in_areas = list()
 
 	var/area/camera_area = get_area(src)
@@ -104,55 +102,18 @@
 	if(length(network) == 0)
 		add_network(camera_area)
 
-
-		//holodeck, dorms, chapel, court
-		else if(istype(camera_area, /area/civilian))
-			network += list("civilian")
-			if(istype(camera_area, /area/lawoffice))
-		else if(istype(camera_area, /area/service))
-			network += list("")
-		else if(istype(camera_area, /area/quartermaster))
-			network += list("")
-		else if(istype(camera_area, /area/))
-			network += list("")
-		else if(istype(camera_area, /area/))
-			network += list("")
-		else if(istype(camera_area, /area/))
-			network += list("")
-
 	number = autonames_in_areas[camera_area] + 1
 	autonames_in_areas[camera_area] = number
 
 	if (name == "security camera")
 		c_tag = "[format_text(camera_area.name)] #[number]"
 
-/obj/machinery/camera/proc/add_network(A)
-	if(istype(A, /area/science))
-		network += list("science")
-	else if(istype(A, /area/bridge))
-		network += list("command")
-	else if(istype(A, /area/medical))
-		network += list("medical")
-	else if(istype(A, /area/security))
-		network += list("security")
-	else if(istype(A, /area/civilian))
-		network += list("civilian")
-	else if(istype(A, /area/supply))
-		network += list("supply")
-	else if(istype(A, /area/service))
-		network += list("service")
-	else if(istype(A, /area/construction))
-		network += list("construction")
-	else if(istype(A, /area/))
-		network += list("")
-	else if(istype(A, /area/))
-		network += list("")
-	else if(istype(A, /area/))
-		network += list("")
-	else if(istype(A, /area/))
-		network += list("")
-	else if(istype(A, /area/))
-		network += list("")
+	. = ..()
+
+/obj/machinery/camera/proc/add_network(var/area/camera_area)
+	for(var/area/A in typesof(camera_area))
+		if(A.camera_net)
+			network |= list(A.camera_net)
 
 /obj/machinery/camera/ComponentInitialize()
 	. = ..()

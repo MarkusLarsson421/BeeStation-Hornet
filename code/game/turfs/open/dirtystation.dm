@@ -39,7 +39,7 @@
 
 		//Construction zones. Blood, sweat, and oil.  Oh, and dirt.
 	var/static/list/engine_dirt_areas = typecacheof(list(/area/engine,
-														/area/crew_quarters/heads/chief,
+														/area/bridge/heads/ce,
 														/area/science/robotics,
 														/area/maintenance,
 														/area/construction,
@@ -83,7 +83,7 @@
 		//Areas where gibs will be present. Robusting probably happened some time ago.
 	var/static/list/gib_covered_areas = typecacheof(list(/area/ai_monitored/turret_protected,
 														/area/security,
-														/area/crew_quarters/heads/hos))
+														/area/bridge/heads/hos))
 	if(is_type_in_typecache(A, gib_covered_areas))
 		if(prob(20))
 			if(prob(5))
@@ -105,7 +105,7 @@
 
 		//Medical areas. Mostly clean by space-OSHA standards, but has some blood and oil spread about.
 	var/static/list/medical_dirt_areas = typecacheof(list(/area/medical,
-														/area/crew_quarters/heads/cmo))
+														/area/bridge/heads/cmo))
 	if(is_type_in_typecache(A, medical_dirt_areas))
 		if(prob(66))
 			if(prob(5))
@@ -121,7 +121,7 @@
 
 		//Science messes. Mostly green glowy stuff -WHICH YOU SHOULD NOT INJEST-.
 	var/static/list/science_dirt_areas = typecacheof(list(/area/science,
-														/area/crew_quarters/heads/hor))
+														/area/bridge/heads/rd))
 	if(is_type_in_typecache(A, science_dirt_areas))
 		if(prob(20))
 			new /obj/effect/decal/cleanable/greenglow/filled(src)	//this cleans itself up but it might startle you when you see it.

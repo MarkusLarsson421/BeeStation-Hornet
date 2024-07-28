@@ -14,8 +14,8 @@
 		"the research division server room" = list(/area/science/server),
 		// Anywhere monitored by the AI will do
 		"the AI's facilities" = list(/area/aisat, /area/ai_monitored),
-		"the Captain's office" = list(/area/crew_quarters/heads/captain),
-		"the Head of Personnel's office" = list(/area/crew_quarters/heads/hop)
+		"the Captain's office" = list(/area/bridge/heads/captain),
+		"the Head of Personnel's office" = list(/area/bridge/heads/hop)
 	)
 	var/success = FALSE
 	var/devistation = 0

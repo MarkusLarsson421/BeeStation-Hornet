@@ -550,27 +550,27 @@
 /turf/open/floor/iron{
 	dir = 8
 	},
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "bH" = (
 /obj/structure/table,
 /obj/item/ammo_box/c10mm,
 /obj/item/gun/ballistic,
 /turf/open/floor/iron,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "bI" = (
 /obj/structure/table,
 /turf/open/floor/iron,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "bJ" = (
 /obj/structure/table,
 /obj/item/card/id/captains_spare,
 /turf/open/floor/iron,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "bK" = (
 /obj/structure/table,
 /obj/item/storage/backpack/holding,
 /turf/open/floor/iron,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "bL" = (
 /obj/structure/table,
 /obj/item/rcd_ammo/large,
@@ -578,13 +578,13 @@
 /obj/item/rcd_ammo/large,
 /obj/item/construction/rcd,
 /turf/open/floor/iron,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "bM" = (
 /obj/structure/closet/secure_closet/hop,
 /turf/open/floor/iron{
 	dir = 4
 	},
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "bN" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/iron,
@@ -690,7 +690,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "ce" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -701,13 +701,13 @@
 /turf/open/floor/iron{
 	dir = 8
 	},
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "cf" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/iron,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "cg" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -715,7 +715,7 @@
 /turf/open/floor/iron{
 	dir = 4
 	},
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "ch" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable{
@@ -725,7 +725,7 @@
 	icon_state = "2-4"
 	},
 /turf/open/floor/plating,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "ci" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable{
@@ -775,19 +775,19 @@
 /turf/open/floor/iron{
 	dir = 10
 	},
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "cr" = (
 /obj/machinery/light,
 /turf/open/floor/iron{
 	dir = 6
 	},
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "cs" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/closed/wall/r_wall,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "ct" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/light{
@@ -798,11 +798,11 @@
 "cv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/closed/wall/r_wall,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "cw" = (
 /obj/machinery/door/airlock,
 /turf/open/floor/iron,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "cx" = (
 /obj/machinery/door/airlock/glass,
 /turf/open/floor/iron,
@@ -1614,7 +1614,7 @@
 /area/security)
 "pR" = (
 /turf/closed/wall/r_wall,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "rr" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1740,7 +1740,7 @@
 "Ej" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "Eq" = (
 /obj/effect/turf_decal/stripes/closeup,
 /obj/machinery/door/airlock/public/glass,
@@ -1970,7 +1970,7 @@
 /area/construction)
 "Xm" = (
 /turf/open/floor/iron,
-/area/crew_quarters/heads/captain)
+/area/bridge/heads/captain)
 "Ye" = (
 /obj/structure/cable{
 	icon_state = "8-32"

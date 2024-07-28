@@ -537,6 +537,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_ELITE
 
 	color_correction = /datum/client_colour/area_color/cold_ish
+	camera_net = "command"
 
 /area/bridge/meeting_room
 	name = "Heads of Staff Meeting Room"
@@ -553,53 +554,50 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "showroom"
 	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 
-/area/crew_quarters
-	area_flags = VALID_TERRITORY | BLOBS_ALLOWED | UNIQUE_AREA
+/area/bridge/heads/
 
-/area/crew_quarters/heads/captain
+/area/bridge/heads/captain
 	name = "Captain's Office"
 	icon_state = "captain"
 	sound_environment = SOUND_AREA_WOODFLOOR
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_MAXIMUM
 	lights_always_start_on = FALSE
 
-/area/crew_quarters/heads/captain/private
+/area/bridge/heads/captain/private
 	name = "Captain's Quarters"
 	icon_state = "captain_private"
-	sound_environment = SOUND_AREA_WOODFLOOR
-	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_MAXIMUM
-	lights_always_start_on = FALSE
 
-/area/crew_quarters/heads/chief
+/area/bridge/heads/ce
 	name = "Chief Engineer's Office"
 	icon_state = "ce_office"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_ELITE
 	lights_always_start_on = FALSE
 
-/area/crew_quarters/heads/cmo
+/area/bridge/heads/cmo
 	name = "Chief Medical Officer's Office"
 	icon_state = "cmo_office"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_ELITE
 	lights_always_start_on = FALSE
 
-/area/crew_quarters/heads/hop
+/area/bridge/heads/hop
 	name = "Head of Personnel's Office"
 	icon_state = "hop_office"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_ELITE
 	lights_always_start_on = FALSE
 	color_correction = /datum/client_colour/area_color/cold_ish
 
-/area/crew_quarters/heads/hos
+/area/bridge/heads/hos
 	name = "Head of Security's Office"
 	icon_state = "hos_office"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_ELITE
 	lights_always_start_on = FALSE
 
-/area/crew_quarters/heads/hor
+/area/bridge/heads/rd
 	name = "Research Director's Office"
 	icon_state = "rd_office"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_ELITE
 	lights_always_start_on = FALSE
+	camera_net = "science"
 
 /area/comms
 	name = "Communications Relay"
@@ -618,6 +616,8 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	lights_always_start_on = TRUE
 
 //Crew
+/area/crew_quarters
+	area_flags = VALID_TERRITORY | BLOBS_ALLOWED | UNIQUE_AREA
 
 /area/crew_quarters
 	area_flags = HIDDEN_STASH_LOCATION | VALID_TERRITORY | BLOBS_ALLOWED | UNIQUE_AREA
@@ -627,7 +627,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	sound_environment = SOUND_AREA_STANDARD_STATION
 	lights_always_start_on = TRUE
 	color_correction = /datum/client_colour/area_color/warm_ish
-
 /area/crew_quarters/get_turf_textures()
 	return GLOB.turf_texture_hallway
 
@@ -854,9 +853,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_PROTECTED
 	area_flags = HIDDEN_STASH_LOCATION | VALID_TERRITORY | BLOBS_ALLOWED | UNIQUE_AREA
 
-
 //Engineering
-
 /area/engine
 	ambience_index = AMBIENCE_ENGI
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
@@ -935,9 +932,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Transit Tube"
 	icon_state = "transit_tube"
 
-
 //Solars
-
 /area/solar
 	requires_power = FALSE
 	dynamic_lighting = DYNAMIC_LIGHTING_IFSTARLIGHT
@@ -987,10 +982,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Port Bow Solar Array"
 	icon_state = "panelsFP"
 
-
-
 //Solar Maint
-
 /area/maintenance/solars
 	name = "Solar Maintenance"
 	icon_state = "yellow"
@@ -1036,7 +1028,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_ADVANCED
 
 //MedBay
-
 /area/medical
 	name = "Medical"
 	icon_state = "medbay"
@@ -1071,8 +1062,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/medical/medbay/lobby
 	name = "Medbay Lobby"
 	icon_state = "med_lobby"
-
-	//Medbay is a large area, these additional areas help level out APC load.
 
 /area/medical/medbay/aft
 	name = "Medbay Aft"
@@ -1174,9 +1163,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "exam_room"
 	area_flags = VALID_TERRITORY | BLOBS_ALLOWED | UNIQUE_AREA
 
-
 //Security
-
 /area/security
 	name = "Security"
 	icon_state = "security"
@@ -1208,7 +1195,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/security/brig/medbay
 	name = "Brig Bay"
-
 
 /area/security/courtroom
 	name = "Courtroom"

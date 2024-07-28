@@ -1,0 +1,11 @@
+/area/crew_quarters/heads/hor : /area/bridge/heads/rd
+/area/crew_quarters/heads/ : /area/bridge/heads/
+/area/crew_quarters/heads/hop : /area/bridge/heads/hop
+/area/crew_quarters/heads/captain : /area/bridge/heads/captain
+/area/crew_quarters/heads/captain/private : /area/bridge/heads/captain/private
+/area/crew_quarters/heads/ce : /area/bridge/heads/ce
+/area/crew_quarters/heads/cmo : /area/bridge/heads/cmo
+/area/crew_quarters/heads/rd : /area/bridge/heads/rd
+/obj/machinery/camera/@SUBTYPES{@OLD} : /obj/machinery/camera{@OLD}
+/obj/machinery/camera/directional/north{@OLD} : /obj/machinery/camera{@OLD}
+
