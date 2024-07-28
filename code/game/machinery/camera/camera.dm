@@ -36,6 +36,7 @@
 	)
 
 	//OTHER
+	var/number = 0 //camera number in area
 
 	var/view_range = 7
 	var/short_range = 2
@@ -55,16 +56,6 @@
 
 	///Represents a signal source of camera alarms about movement or camera tampering
 	var/datum/alarm_handler/alarm_manager
-
-/obj/machinery/camera/preset/toxins //Bomb test site in space
-	name = "Hardened Bomb-Test Camera"
-	desc = "A specially-reinforced camera with a long lasting battery, used to monitor the bomb testing site. An external light is attached to the top."
-	c_tag = "Bomb Testing Site"
-	network = list("rd","toxins")
-	use_power = NO_POWER_USE //Test site is an unpowered area
-	invuln = TRUE
-	light_range = 10
-	start_active = TRUE
 
 /obj/machinery/camera/Initialize(mapload, obj/structure/camera_assembly/CA)
 	. = ..()
@@ -100,6 +91,68 @@
 		update_appearance()
 
 	alarm_manager = new(src)
+
+	return INITIALIZE_HINT_LATELOAD
+
+/obj/machinery/camera/LateInitialize()
+	. = ..()
+
+	var/static/list/autonames_in_areas = list()
+
+	var/area/camera_area = get_area(src)
+
+	if(length(network) == 0)
+		add_network(camera_area)
+
+
+		//holodeck, dorms, chapel, court
+		else if(istype(camera_area, /area/civilian))
+			network += list("civilian")
+			if(istype(camera_area, /area/lawoffice))
+		else if(istype(camera_area, /area/service))
+			network += list("")
+		else if(istype(camera_area, /area/quartermaster))
+			network += list("")
+		else if(istype(camera_area, /area/))
+			network += list("")
+		else if(istype(camera_area, /area/))
+			network += list("")
+		else if(istype(camera_area, /area/))
+			network += list("")
+
+	number = autonames_in_areas[camera_area] + 1
+	autonames_in_areas[camera_area] = number
+
+	if (name == "security camera")
+		c_tag = "[format_text(camera_area.name)] #[number]"
+
+/obj/machinery/camera/proc/add_network(A)
+	if(istype(A, /area/science))
+		network += list("science")
+	else if(istype(A, /area/bridge))
+		network += list("command")
+	else if(istype(A, /area/medical))
+		network += list("medical")
+	else if(istype(A, /area/security))
+		network += list("security")
+	else if(istype(A, /area/civilian))
+		network += list("civilian")
+	else if(istype(A, /area/supply))
+		network += list("supply")
+	else if(istype(A, /area/service))
+		network += list("service")
+	else if(istype(A, /area/construction))
+		network += list("construction")
+	else if(istype(A, /area/))
+		network += list("")
+	else if(istype(A, /area/))
+		network += list("")
+	else if(istype(A, /area/))
+		network += list("")
+	else if(istype(A, /area/))
+		network += list("")
+	else if(istype(A, /area/))
+		network += list("")
 
 /obj/machinery/camera/ComponentInitialize()
 	. = ..()
