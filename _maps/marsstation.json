@@ -1,0 +1,12 @@
+{
+	"map_name": "Mars Station",
+	"map_link": "marsstation",
+	"map_path": "map_files/MarsStation",
+	"map_file": "MarsStation.dmm",
+	"shuttles": {
+		"emergency": "emergency_delta",
+		"ferry": "ferry_fancy",
+		"cargo": "cargo_delta",
+		"whiteship": "whiteship_delta"
+	}
+}

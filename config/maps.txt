@@ -36,6 +36,11 @@ map deltastation
 	votable
 endmap
 
+map marsstation
+	maxplayers 20
+	votable
+endmap
+
 map kilostation
 	maxplayers 20
 	votable

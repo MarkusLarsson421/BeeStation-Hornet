@@ -165,12 +165,21 @@
 
 // mapping
 
+/obj/machinery/atmospherics/components/trinary/filter/layer1
+	piping_layer = 1
+	icon_state = "filter_off_map-1"
+
 /obj/machinery/atmospherics/components/trinary/filter/layer2
 	piping_layer = 2
 	icon_state = "filter_off_map-2"
+
 /obj/machinery/atmospherics/components/trinary/filter/layer4
 	piping_layer = 4
 	icon_state = "filter_off_map-4"
+
+/obj/machinery/atmospherics/components/trinary/filter/layer5
+	piping_layer = 5
+	icon_state = "filter_off_map-5"
 
 /obj/machinery/atmospherics/components/trinary/filter/on
 	on = TRUE
@@ -187,12 +196,21 @@
 	icon_state = "filter_off-0_f"
 	flipped = TRUE
 
+/obj/machinery/atmospherics/components/trinary/filter/flipped/layer1
+	piping_layer = 1
+	icon_state = "filter_off_f_map-1"
+
 /obj/machinery/atmospherics/components/trinary/filter/flipped/layer2
 	piping_layer = 2
 	icon_state = "filter_off_f_map-2"
+
 /obj/machinery/atmospherics/components/trinary/filter/flipped/layer4
 	piping_layer = 4
 	icon_state = "filter_off_f_map-4"
+
+/obj/machinery/atmospherics/components/trinary/filter/flipped/layer5
+	piping_layer = 5
+	icon_state = "filter_off_f_map-5"
 
 /obj/machinery/atmospherics/components/trinary/filter/flipped/on
 	on = TRUE

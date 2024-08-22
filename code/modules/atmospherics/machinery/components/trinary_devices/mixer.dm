@@ -189,12 +189,21 @@
 
 // mapping
 
+/obj/machinery/atmospherics/components/trinary/mixer/layer1
+	piping_layer = 1
+	icon_state = "mixer_off_map-1"
+
 /obj/machinery/atmospherics/components/trinary/mixer/layer2
 	piping_layer = 2
 	icon_state = "mixer_off_map-2"
+
 /obj/machinery/atmospherics/components/trinary/mixer/layer4
 	piping_layer = 4
 	icon_state = "mixer_off_map-4"
+
+/obj/machinery/atmospherics/components/trinary/mixer/layer5
+	piping_layer = 5
+	icon_state = "mixer_off_map-5"
 
 /obj/machinery/atmospherics/components/trinary/mixer/on
 	on = TRUE
@@ -211,12 +220,21 @@
 	icon_state = "mixer_off-0_f"
 	flipped = TRUE
 
+/obj/machinery/atmospherics/components/trinary/mixer/flipped/layer1
+	piping_layer = 1
+	icon_state = "mixer_off_f_map-1"
+
 /obj/machinery/atmospherics/components/trinary/mixer/flipped/layer2
 	piping_layer = 2
 	icon_state = "mixer_off_f_map-2"
+
 /obj/machinery/atmospherics/components/trinary/mixer/flipped/layer4
 	piping_layer = 4
 	icon_state = "mixer_off_f_map-4"
+
+/obj/machinery/atmospherics/components/trinary/mixer/flipped/layer5
+	piping_layer = 5
+	icon_state = "mixer_off_f_map-5"
 
 /obj/machinery/atmospherics/components/trinary/mixer/flipped/on
 	on = TRUE
@@ -225,6 +243,7 @@
 /obj/machinery/atmospherics/components/trinary/mixer/flipped/on/layer2
 	piping_layer = 2
 	icon_state = "mixer_on_f_map-2"
+
 /obj/machinery/atmospherics/components/trinary/mixer/flipped/on/layer4
 	piping_layer = 4
 	icon_state = "mixer_on_f_map-4"
