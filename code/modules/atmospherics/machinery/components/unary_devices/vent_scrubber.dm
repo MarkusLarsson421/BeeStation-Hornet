@@ -281,6 +281,10 @@
 	on = TRUE
 	icon_state = "scrub_map_on-3"
 
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1
+	piping_layer = 1
+	icon_state = "scrub_map_on-1"
+
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2
 	piping_layer = 2
 	icon_state = "scrub_map_on-2"
@@ -288,6 +292,10 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4
 	piping_layer = 4
 	icon_state = "scrub_map_on-4"
+
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer5
+	piping_layer = 5
+	icon_state = "scrub_map_on-5"
 
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/lavaland
 	filter_types = list(GAS_CO2, GAS_PLASMA, GAS_H2O, GAS_BZ)
