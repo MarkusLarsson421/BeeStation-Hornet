@@ -44,6 +44,10 @@
 /obj/machinery/atmospherics/components/unary/passive_vent/can_crawl_through()
 	return TRUE // we don't care about power or being broken
 
+/obj/machinery/atmospherics/components/unary/passive_vent/layer1
+	piping_layer = 1
+	icon_state = "passive_vent_map-1"
+
 /obj/machinery/atmospherics/components/unary/passive_vent/layer2
 	piping_layer = 2
 	icon_state = "passive_vent_map-2"
@@ -51,3 +55,7 @@
 /obj/machinery/atmospherics/components/unary/passive_vent/layer4
 	piping_layer = 4
 	icon_state = "passive_vent_map-4"
+
+/obj/machinery/atmospherics/components/unary/passive_vent/layer5
+	piping_layer = 5
+	icon_state = "passive_vent_map-5"

@@ -190,7 +190,9 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/button/door, 24)
 	desc = "A door bolt control switch."
 	specialfunctions = 4
 	normaldoorcontrol = 1
-	..()
+
+/obj/machinery/button/door/bolt/setup_device()
+	. = ..()
 
 /obj/machinery/button/door/indestructible
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
