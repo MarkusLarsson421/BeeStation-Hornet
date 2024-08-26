@@ -65,8 +65,8 @@
 	dir = 1;
 	name = "S-Air to D-Air"
 	},
-/obj/structure/disposalpipe/junction/flip{
-	dir = 1
+/obj/structure/disposalpipe/sorting/mail{
+	sortType = 1
 	},
 /turf/open/floor/iron,
 /area/maintenance/department/medical)
@@ -163,10 +163,6 @@
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
-	},
-/obj/item/stamp/cmo{
-	pixel_x = 10;
-	pixel_y = 12
 	},
 /obj/item/stamp/cmo{
 	pixel_x = 10;
@@ -1783,6 +1779,7 @@
 	pixel_x = -27;
 	pixel_y = 26
 	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/catwalk_floor,
 /area/maintenance/department/medical)
 "yW" = (
@@ -2269,8 +2266,8 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1{
 	dir = 10
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 9
+/obj/structure/disposalpipe/sorting/mail{
+	sortType = 2
 	},
 /turf/open/floor/iron,
 /area/maintenance/department/medical)
@@ -2652,6 +2649,10 @@
 	},
 /turf/open/floor/plating,
 /area/medical/medbay/central)
+"Kl" = (
+/obj/structure/disposalpipe/junction/yjunction,
+/turf/closed/wall/r_wall,
+/area/crew_quarters/heads/cmo)
 "Kn" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/structure/closet/emcloset,
@@ -3316,6 +3317,7 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/orange/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/orange/hidden/layer5,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/maintenance/department/medical)
 "RE" = (
@@ -42856,7 +42858,7 @@ pZ
 Zt
 Zt
 Zt
-Zt
+Kl
 Zt
 hH
 lA
