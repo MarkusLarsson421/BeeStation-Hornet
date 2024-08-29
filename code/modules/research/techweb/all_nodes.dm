@@ -19,10 +19,11 @@
 		"beaker",
 		"bucket",
 		"circuit_imprinter",
+		"conveyor_belt",
+		"conveyor_switch",
 		"design_disk",
 		"dest_tagger",
 		"destructive_analyzer",
-		"experimentor",
 		"fax",
 		"glasses_prescription",
 		"handlabel",
@@ -97,7 +98,6 @@
 	display_name = "Mechanical Exosuits"
 	description = "Mechanized exosuits that are several magnitudes stronger and more powerful than the average human."
 	design_ids = list(
-		"firefighter_chassis",
 		"mech_hydraulic_clamp",
 		"mech_recharger",
 		"mecha_tracking",
@@ -155,6 +155,7 @@
 		"screwdriver",
 		"shovel",
 		"spade",
+		"stethoscope",
 		"surgical_drapes",
 		"surgicaldrill",
 		"syringe",
@@ -250,7 +251,6 @@
 		"operating",
 		"pandemic",
 		"sleeper",
-		"bioscanner",
 		"soda_dispenser",
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
@@ -287,7 +287,7 @@
 		"dish_drive",
 		"fat_sucker",
 		"gibber",
-		"gibber",
+		"griddle",
 		"microwave",
 		"monkey_recycler",
 		"processor",
@@ -451,6 +451,7 @@
 		"rcd_loaded",
 		"rpd_loaded",
 		"weldingmask",
+		"sheetifier"
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
@@ -1305,17 +1306,26 @@
 
 /datum/techweb_node/med_scanning
 	id = "med_scanner"
-	tech_tier = 5
-	display_name = "Portable Medical Scanning"
-	description = "By outfitting an analyzer with overclocked scanners and inbuilt diagnostic AI, the zenith of man-portable medical scanning becomes possible."
-	prereq_ids = list(
-		"adv_biotech",
-		"posibrain",
-	)
-	design_ids = list("extrapolator")
+	tech_tier = 3
+	display_name = "Medical Scanning"
+	description = "By taking apart the ones we already had, we figured out how to make them ourselves."
+	prereq_ids = list("adv_biotech")
+	design_ids = list("healthanalyzer")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
-	hidden = TRUE
+
+/datum/techweb_node/adv_med_scanning
+	id = "adv_med_scanner"
+	tech_tier = 4
+	display_name = "Advanced Medical Scanning"
+	description = "By integrating advanced AI into our scanners, we can diagnose even the most minute of abnormalities. Well, the AI is doing it, but we get the credit."
+	prereq_ids = list(
+		"med_scanner",
+		"posibrain",
+	)
+	design_ids = list("healthanalyzer_advanced", "extrapolator")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
 
 /datum/techweb_node/cyber_organs_upgraded
 	id = "cyber_organs_upgraded"
@@ -1463,6 +1473,7 @@
 		"rangemod",
 		"superresonator",
 		"triggermod",
+		"mecha_kineticgun",
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
@@ -1839,6 +1850,24 @@
 		"odysseus_right_arm",
 		"odysseus_right_leg",
 		"odysseus_torso",
+	)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
+	export_price = 5000
+
+/datum/techweb_node/clarke
+	id = "mecha_clarke"
+	tech_tier = 2
+	display_name = "EXOSUIT: Clarke"
+	description = "Clarke exosuit designs"
+	prereq_ids = list("engineering")
+	design_ids = list(
+		"clarke_chassis",
+		"clarke_torso",
+		"clarke_head",
+		"clarke_left_arm",
+		"clarke_right_arm",
+		"clarke_main",
+		"clarke_peri"
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
@@ -2229,7 +2258,6 @@
 	design_ids = list(
 		"blinding_nanites",
 		"hallucination_nanites",
-		"mindshield_nanites",
 		"mute_nanites",
 		"pacifying_nanites",
 		"sleep_nanites",
@@ -2237,6 +2265,22 @@
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 1000, TECHWEB_POINT_TYPE_NANITES = 1000)
 	export_price = 5000
+	
+/datum/techweb_node/nanite_cc
+	id = "nanite_cc"
+	tech_tier = 5
+	display_name = "Classified Nanites"
+	description = "Highly confidential nanite programs from CC. Report usage to your nearest administraitor."
+	prereq_ids = list(
+		"nanite_neural",
+		"neural_programming",
+	)
+	design_ids = list(
+		"mindshield_nanites",
+	)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 1000, TECHWEB_POINT_TYPE_NANITES = 1000)
+	export_price = 5000
+	hidden = TRUE
 
 /datum/techweb_node/nanite_harmonic
 	id = "nanite_harmonic"
