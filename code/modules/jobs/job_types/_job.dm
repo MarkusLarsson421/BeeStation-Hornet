@@ -413,6 +413,11 @@
 		shuffle_inplace(C.access) // Shuffle access list to make NTNet passkeys less predictable
 		C.registered_name = H.real_name
 		C.assignment = J.title
+		if(GLOB.exp_jobsmap[J.title] < 5)
+			var/list/xplist = H.client.prefs.exp.Copy()
+			var/list/typelist = GLOB.exp_jobsmap[J.title]
+			if()
+			C.assignment += " (Intern)"
 		C.set_hud_icon_on_spawn(J.title)
 		C.update_label()
 		for(var/datum/bank_account/B in SSeconomy.bank_accounts)
