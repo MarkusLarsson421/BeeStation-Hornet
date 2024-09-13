@@ -1575,7 +1575,6 @@
 "aFp" = (
 /obj/machinery/door/window/eastright{
 	name = "Research and Development Desk";
-	req_access_txt = "47";
 	req_access_txt = 0
 	},
 /obj/structure/table/reinforced,
@@ -9435,7 +9434,6 @@
 "eCq" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Security Office";
-	req_access_txt = 0;
 	req_access_txt = "1;4"
 	},
 /obj/effect/turf_decal/stripes/closeup,
@@ -18674,7 +18672,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/bot,
-/obj/machinery/smartfridge/extract/preloaded,
+/obj/machinery/processor/slime,
 /turf/open/floor/iron/grid/steel,
 /area/science/xenobiology)
 "jqc" = (
@@ -26266,10 +26264,10 @@
 /area/engine/atmos)
 "mXB" = (
 /obj/effect/turf_decal/bot,
+/obj/machinery/computer/camera_advanced/xenobio,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/processor/slime,
 /turf/open/floor/iron/grid/steel,
 /area/science/xenobiology)
 "mYb" = (
@@ -26398,7 +26396,6 @@
 	dir = 1;
 	icon_state = "right";
 	id_tag = "Bountydoors";
-	req_access_txt = null;
 	req_access_txt = "31;48;26"
 	},
 /obj/effect/mapping_helpers/airlock/unres{
@@ -28899,7 +28896,6 @@
 "orB" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Security Office";
-	req_access_txt = 0;
 	req_access_txt = "1;4"
 	},
 /obj/effect/turf_decal/stripes/closeup,
@@ -35862,7 +35858,6 @@
 	},
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Teleporter & E.V.A";
-	req_access_txt = "12";
 	req_access_txt = "17;19"
 	},
 /obj/effect/turf_decal/stripes/closeup{
@@ -40122,7 +40117,6 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/security/glass{
 	name = "Security Office";
-	req_access_txt = 0;
 	req_access_txt = "1;4"
 	},
 /obj/machinery/door/firedoor,
@@ -40901,14 +40895,9 @@
 /obj/machinery/power/apc/auto_name/directional/east{
 	pixel_x = 24
 	},
-/obj/structure/chair/office/light{
-	dir = 1;
-	pixel_y = 3
-	},
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
-/obj/effect/landmark/start/scientist,
 /turf/open/floor/iron/grid/steel,
 /area/science/xenobiology)
 "umB" = (
@@ -41757,12 +41746,12 @@
 /area/medical/apothecary)
 "uIW" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/computer/camera_advanced/xenobio,
 /obj/item/radio/intercom{
 	dir = 1;
 	pixel_x = 32;
 	pixel_y = -3
 	},
+/obj/machinery/smartfridge/extract/preloaded,
 /turf/open/floor/iron/grid/steel,
 /area/science/xenobiology)
 "uJN" = (
@@ -48122,6 +48111,11 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/structure/chair/office/light{
+	dir = 1;
+	pixel_y = 3
+	},
+/obj/effect/landmark/start/scientist,
 /turf/open/floor/iron/grid/steel,
 /area/science/xenobiology)
 "xNb" = (

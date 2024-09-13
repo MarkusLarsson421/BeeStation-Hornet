@@ -3005,8 +3005,7 @@
 /area/security/brig)
 "aUi" = (
 /obj/machinery/door/airlock/research{
-	name = "Exploration Preparation Room";
-	req_access_txt = "49;47"
+	name = "Exploration Preparation Room"
 	},
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 8
@@ -5280,8 +5279,7 @@
 /area/science/research)
 "bHz" = (
 /obj/machinery/door/airlock/research{
-	name = "Experimentation Lab";
-	req_access_txt = "8"
+	name = "Experimentation Lab"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -10124,8 +10122,7 @@
 	dir = 8
 	},
 /obj/machinery/door/airlock/maintenance/external{
-	name = "construction Zone";
-	req_access_txt = "32;47;48;37;29"
+	name = "construction Zone"
 	},
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 8
@@ -14583,8 +14580,7 @@
 	},
 /obj/structure/lattice/catwalk/over,
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "7;29"
+	name = "Maintenance Hatch"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -14592,6 +14588,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/station/science/research,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "eDz" = (
@@ -14929,8 +14926,7 @@
 /area/maintenance/department/medical)
 "eIH" = (
 /obj/machinery/door/airlock/science{
-	name = "Toxins Lab";
-	req_access_txt = "49"
+	name = "Toxins Lab"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/yellow{
@@ -16242,8 +16238,7 @@
 /area/medical/exam_room)
 "fbP" = (
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "7;29;12"
+	name = "Maintenance Hatch"
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/science)
@@ -17403,14 +17398,12 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/effect/turf_decal/guideline/guideline_tri/purple{
-	dir = 1
-	},
 /obj/effect/turf_decal/tile/purple/fourcorners/contrasted,
 /obj/machinery/door/airlock/research/glass{
-	name = "Xenobiology Lab";
-	req_access_txt = "47"
+	name = "Nanites Lab";
+	req_access_txt = "7"
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark,
 /area/science/nanite)
 "fsF" = (
@@ -22307,8 +22300,7 @@
 	},
 /obj/machinery/door/airlock/research{
 	id_tag = "ResearchExt";
-	name = "Research Division";
-	req_access_txt = "7;29"
+	name = "Research Division"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
@@ -23183,9 +23175,10 @@
 /area/science/research)
 "hiU" = (
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "12;7;29"
+	name = "Maintenance Hatch"
 	},
+/obj/effect/mapping_helpers/airlock/access/station/science/research,
+/obj/effect/mapping_helpers/airlock/access/station/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/department/science)
 "hiX" = (
@@ -23535,11 +23528,11 @@
 /area/medical/sleeper)
 "hpy" = (
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "48;32;29"
+	name = "Maintenance Hatch"
 	},
+/obj/effect/mapping_helpers/airlock/access/station/supply/aux_base,
 /turf/open/floor/plating,
-/area/construction/mining/aux_base)
+/area/maintenance/department/science)
 "hqd" = (
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted{
 	alpha = 200;
@@ -23588,8 +23581,7 @@
 /area/maintenance/port/central)
 "hrb" = (
 /obj/machinery/door/airlock/mining{
-	name = "Auxiliary Base";
-	req_access_txt = "48"
+	name = "Auxiliary Base"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -23598,7 +23590,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/iron,
-/area/construction/mining/aux_base)
+/area/quartermaster/miningdock)
 "hre" = (
 /obj/machinery/atmospherics/components/trinary/filter/atmos/o2,
 /obj/effect/turf_decal/delivery,
@@ -23759,8 +23751,7 @@
 /area/medical/storage)
 "hvd" = (
 /obj/machinery/door/airlock/security/glass{
-	name = "Security Office";
-	req_access_txt = "63"
+	name = "Security Office"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -25733,8 +25724,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/mining{
-	name = "Cargo Warehouse";
-	req_access_txt = "31"
+	name = "Cargo Warehouse"
 	},
 /obj/machinery/button/door{
 	id = "qm_warehouse";
@@ -30569,6 +30559,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/science/robotics/mechbay)
+"jIu" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch"
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/security)
 "jIv" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
@@ -32555,9 +32551,7 @@
 /turf/open/floor/iron,
 /area/science/research)
 "kpy" = (
-/obj/machinery/door/airlock/mining{
-	req_access_txt = "48"
-	},
+/obj/machinery/door/airlock/mining,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -34284,8 +34278,7 @@
 /area/science/storage)
 "kTs" = (
 /obj/machinery/door/airlock/mining{
-	name = "Quartermaster's Office";
-	req_access_txt = "41"
+	name = "Quartermaster's Office"
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -34330,8 +34323,7 @@
 	},
 /obj/machinery/door/airlock/research{
 	id_tag = "ResearchExt";
-	name = "Research Division";
-	req_access_txt = "7;29"
+	name = "Research Division"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
@@ -35560,8 +35552,7 @@
 /area/medical/virology)
 "loP" = (
 /obj/machinery/door/airlock/mining{
-	name = "Auxiliary Base";
-	req_access_txt = "32;48;29"
+	name = "Auxiliary Base"
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -37082,8 +37073,7 @@
 /area/hallway/primary/port)
 "lPA" = (
 /obj/machinery/door/airlock/engineering{
-	name = "Port Quarter Solar Access";
-	req_access_txt = "10"
+	name = "Port Quarter Solar Access"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -37192,7 +37182,7 @@
 	req_access_txt = "31"
 	},
 /turf/open/floor/plating,
-/area/quartermaster/warehouse)
+/area/maintenance/department/security)
 "lSp" = (
 /obj/effect/turf_decal/tile/dark_green/half/contrasted{
 	dir = 4
@@ -38706,8 +38696,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/mining{
-	name = "Quartermaster's Quarters";
-	req_access_txt = "41"
+	name = "Quartermaster's Quarters"
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -43200,8 +43189,7 @@
 /area/hallway/primary/aft)
 "nFK" = (
 /obj/machinery/door/airlock/mining/glass{
-	name = "Cargo Bay";
-	req_access_txt = "31;48;26"
+	name = "Cargo Bay"
 	},
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 8
@@ -43219,6 +43207,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/station/supply,
+/obj/effect/mapping_helpers/airlock/access/station/service/janitor,
 /turf/open/floor/iron/sepia,
 /area/quartermaster/office)
 "nFQ" = (
@@ -44555,8 +44545,7 @@
 "oee" = (
 /obj/machinery/door/airlock/research/glass{
 	id_tag = "RoboFoyer";
-	name = "Robotics Lab";
-	req_access_txt = "29"
+	name = "Robotics Lab"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/yellow{
@@ -44695,8 +44684,7 @@
 /area/engine/engine_room)
 "ogm" = (
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "47"
+	name = "Maintenance Hatch"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -44717,6 +44705,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
+/obj/effect/mapping_helpers/airlock/access/station/science/xenobiology,
 /turf/open/floor/catwalk_floor,
 /area/maintenance/department/engine)
 "ogn" = (
@@ -45638,8 +45627,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
-	name = "Gateway";
-	req_access_txt = "62"
+	name = "Gateway"
 	},
 /obj/machinery/button/door{
 	id = "gatewayshutters";
@@ -46994,8 +46982,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "12;7"
+	name = "Maintenance Hatch"
 	},
 /obj/structure/lattice/catwalk/over,
 /turf/open/floor/plating,
@@ -47592,8 +47579,7 @@
 /area/security/main)
 "oZn" = (
 /obj/machinery/door/airlock/research/glass{
-	name = "Robotics Lab";
-	req_access_txt = "29"
+	name = "Robotics Lab"
 	},
 /obj/effect/turf_decal/tile/purple/fourcorners/contrasted,
 /obj/machinery/door/firedoor,
@@ -50469,8 +50455,7 @@
 /area/crew_quarters/heads/cmo)
 "pTJ" = (
 /obj/machinery/door/airlock/vault{
-	name = "Vault Door";
-	req_access_txt = "53"
+	name = "Vault Door"
 	},
 /obj/structure/sign/warning/electricshock{
 	pixel_x = -32
@@ -50990,8 +50975,7 @@
 "qbh" = (
 /obj/machinery/door/airlock/research{
 	id_tag = "ResearchExt";
-	name = "Research Division";
-	req_access_txt = "7;29"
+	name = "Research Division"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/effect/turf_decal/tile/purple/fourcorners/contrasted,
@@ -53069,8 +53053,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/research{
-	name = "Exploration Preparation Room";
-	req_access_txt = "49;47"
+	name = "Exploration Preparation Room"
 	},
 /turf/open/floor/iron,
 /area/science/shuttledock)
@@ -53324,8 +53307,7 @@
 /area/solar/port/fore)
 "qQY" = (
 /obj/machinery/door/airlock/research{
-	name = "Mech Bay";
-	req_access_txt = "29"
+	name = "Mech Bay"
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/unres{
@@ -54178,8 +54160,7 @@
 	},
 /obj/machinery/door/airlock/research{
 	id_tag = "ResearchExt";
-	name = "Research Division";
-	req_access_txt = "7;29"
+	name = "Research Division"
 	},
 /turf/open/floor/iron/white,
 /area/science/research)
@@ -58666,6 +58647,13 @@
 "sBR" = (
 /turf/open/floor/iron,
 /area/maintenance/department/science)
+"sCj" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch"
+	},
+/obj/effect/mapping_helpers/airlock/abandoned,
+/turf/open/floor/plating,
+/area/maintenance/port/aft)
 "sCJ" = (
 /mob/living/simple_animal/slime{
 	name = "sycamore"
@@ -58740,8 +58728,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "12"
+	name = "Maintenance Hatch"
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
@@ -61303,10 +61290,6 @@
 /area/maintenance/central)
 "trS" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/research/glass{
-	name = "Nanites Lab";
-	req_access_txt = "7"
-	},
 /obj/effect/turf_decal/tile/purple/fourcorners/contrasted,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -61321,6 +61304,9 @@
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/research/glass{
+	name = "Xenobiology Lab"
 	},
 /turf/open/floor/iron/white,
 /area/science/xenobiology)
@@ -61701,15 +61687,14 @@
 "txg" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	id_tag = "commissarydoor";
-	name = "Maintenance Hatch";
-	req_access_txt = "41"
+	name = "Maintenance Hatch"
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/structure/lattice/catwalk/over,
 /turf/open/floor/plating,
-/area/quartermaster/qm)
+/area/maintenance/department/security)
 "txq" = (
 /obj/structure/sign/departments/medbay/alt2,
 /turf/closed/wall,
@@ -62566,7 +62551,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/iron/dark,
-/area/quartermaster/storage)
+/area/quartermaster/miningdock)
 "tJM" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
@@ -63189,9 +63174,9 @@
 /area/engine/engine_room)
 "tVd" = (
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "7;29"
+	name = "Maintenance Hatch"
 	},
+/obj/effect/mapping_helpers/airlock/access/station/science/research,
 /turf/open/floor/plating,
 /area/maintenance/department/science)
 "tVh" = (
@@ -63211,8 +63196,7 @@
 "tVj" = (
 /obj/machinery/door/airlock/research/glass{
 	id_tag = "RoboFoyer";
-	name = "Robotics Lab";
-	req_access_txt = "29"
+	name = "Robotics Lab"
 	},
 /obj/effect/turf_decal/tile/purple/fourcorners/contrasted,
 /obj/machinery/door/firedoor,
@@ -65036,8 +65020,7 @@
 /area/science/nanite)
 "uBv" = (
 /obj/machinery/door/airlock/research{
-	name = "Toxins Launch Room";
-	req_access_txt = "8"
+	name = "Toxins Launch Room"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -65255,8 +65238,7 @@
 	},
 /obj/structure/lattice/catwalk/over,
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "12;7;29"
+	name = "Maintenance Hatch"
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
@@ -66416,6 +66398,9 @@
 /obj/machinery/door/firedoor,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/research/glass{
+	name = "Xenobiology Lab"
 	},
 /turf/open/floor/iron/white,
 /area/science/xenobiology)
@@ -68212,8 +68197,7 @@
 /area/hallway/primary/port)
 "vEN" = (
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "12;7;48;29"
+	name = "Maintenance Hatch"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -68427,8 +68411,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/research{
-	name = "Xenobiology Kill Room";
-	req_access_txt = "47"
+	name = "Xenobiology Kill Room"
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/circuit/telecomms/server,
@@ -70441,8 +70424,7 @@
 /area/hallway/secondary/entry)
 "wvm" = (
 /obj/machinery/door/airlock/research{
-	name = "Toxins Storage";
-	req_access_txt = "8;63"
+	name = "Toxins Storage"
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/button/door{
@@ -70450,7 +70432,7 @@
 	name = "Toxins Storage";
 	pixel_x = -1;
 	pixel_y = -29;
-	req_access_txt = "49"
+	req_access_txt = "8"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -72498,9 +72480,9 @@
 "xds" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Experimentation Chamber";
-	req_access_txt = "8";
 	security_level = 6
 	},
+/obj/effect/mapping_helpers/airlock/access/station/science,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "xdv" = (
@@ -73707,15 +73689,13 @@
 /turf/open/floor/carpet/royalblack,
 /area/library)
 "xwd" = (
-/obj/machinery/door/airlock/mining{
-	req_access_txt = "48"
-	},
+/obj/machinery/door/airlock/mining,
 /obj/machinery/door/firedoor,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /turf/open/floor/iron/dark,
-/area/quartermaster/storage)
+/area/quartermaster/miningdock)
 "xwf" = (
 /obj/effect/decal/cleanable/crayon,
 /obj/machinery/light/small{
@@ -75305,7 +75285,7 @@
 "xXk" = (
 /obj/structure/sign/departments/minsky/research/research,
 /turf/closed/wall,
-/area/construction/mining/aux_base)
+/area/quartermaster/miningdock)
 "xXo" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2
@@ -96813,7 +96793,7 @@ jbH
 wqi
 wqi
 bIf
-krB
+mfp
 mfp
 pkB
 uYh
@@ -96821,7 +96801,7 @@ vbV
 jnz
 lrM
 mfp
-vJE
+mfp
 sVu
 cxk
 cxk
@@ -97070,7 +97050,7 @@ uHY
 jah
 jah
 nuw
-krB
+mfp
 qrZ
 pLh
 rTK
@@ -97078,7 +97058,7 @@ kIo
 kDV
 aPX
 oem
-vJE
+mfp
 cxk
 cxk
 cxk
@@ -97327,7 +97307,7 @@ blr
 blr
 blr
 kJT
-krB
+mfp
 wZj
 kSY
 fYn
@@ -97335,7 +97315,7 @@ kIo
 llp
 aPX
 wDD
-vJE
+mfp
 cxk
 cxk
 cxk
@@ -97584,7 +97564,7 @@ uql
 cfA
 jCx
 gLl
-krB
+mfp
 fMi
 kSY
 olk
@@ -97592,7 +97572,7 @@ kIo
 kDV
 rYk
 wJl
-vJE
+mfp
 cxk
 cxk
 cxk
@@ -97841,7 +97821,7 @@ haM
 haM
 kZM
 vZk
-krB
+mfp
 mfp
 fsi
 pFo
@@ -97849,7 +97829,7 @@ kIo
 utS
 kIo
 mfp
-vJE
+mfp
 cxk
 cxk
 cxk
@@ -98098,7 +98078,7 @@ fdu
 fdu
 kZM
 ehp
-krB
+mfp
 vxB
 cbf
 cbf
@@ -98106,7 +98086,7 @@ vzD
 kDV
 xNU
 aHc
-vJE
+mfp
 cxk
 cxk
 cxk
@@ -98363,7 +98343,7 @@ rur
 bSZ
 xNU
 bYz
-vJE
+mfp
 vJE
 vYg
 snk
@@ -98620,7 +98600,7 @@ gni
 xuZ
 kXS
 kPo
-vJE
+mfp
 gPy
 qAN
 oAF
@@ -98869,7 +98849,7 @@ cfA
 cfA
 cfA
 uql
-blr
+kIo
 jZL
 pSY
 fRP
@@ -99126,7 +99106,7 @@ hJf
 xrX
 pjX
 jLh
-krB
+mfp
 eLr
 cep
 gAU
@@ -99134,7 +99114,7 @@ uVW
 ixk
 uVW
 oZI
-vJE
+mfp
 oBS
 uCQ
 vwR
@@ -99383,7 +99363,7 @@ blr
 blr
 krB
 krB
-krB
+mfp
 mfp
 kpy
 mfp
@@ -101232,7 +101212,7 @@ mrL
 blP
 mrL
 pEi
-sfR
+sCj
 wfM
 wfM
 qZZ
@@ -101494,7 +101474,7 @@ qZZ
 eTx
 wfM
 wfM
-sfR
+sCj
 clJ
 clJ
 clJ
@@ -102006,7 +101986,7 @@ qfk
 gln
 qZZ
 fAl
-sfR
+sCj
 qZZ
 buf
 mpA
@@ -102522,7 +102502,7 @@ qZZ
 wzb
 lDN
 uSD
-sfR
+sCj
 lfS
 cPk
 wfM
@@ -104242,7 +104222,7 @@ obe
 yme
 oHu
 oZd
-lLv
+jIu
 goe
 dxA
 wGA

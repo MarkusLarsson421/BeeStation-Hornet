@@ -19396,8 +19396,7 @@
 /area/hydroponics/garden)
 "cNt" = (
 /obj/machinery/door/airlock/maintenance{
-	name = "Chemistry Lab Maintenance";
-	req_access_txt = "33"
+	name = "Chemistry Lab Maintenance"
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 2
@@ -19405,6 +19404,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/effect/mapping_helpers/airlock/access/station/medical/chemistry,
 /turf/open/floor/plating,
 /area/maintenance/department/medical/central)
 "cNu" = (
@@ -30573,6 +30573,16 @@
 /area/medical/medbay/central)
 "gyR" = (
 /obj/effect/turf_decal/tile/purple/fourcorners/contrasted,
+/obj/machinery/door/poddoor/preopen{
+	id = "Biohazard";
+	name = "biohazard Containment Door"
+	},
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/caution/stand_clear{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/hallway/primary/aft)
 "gyT" = (
@@ -36394,8 +36404,7 @@
 /area/engine/break_room)
 "iEo" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Medbay Storage";
-	req_access_txt = "5"
+	name = "Medbay Storage"
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/delivery,
@@ -36573,8 +36582,7 @@
 /area/maintenance/port)
 "iHK" = (
 /obj/machinery/door/airlock/medical{
-	name = "Medbay Storage";
-	req_access_txt = "5"
+	name = "Medbay Storage"
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/delivery,
@@ -44057,6 +44065,16 @@
 "lDu" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/purple/fourcorners/contrasted,
+/obj/machinery/door/poddoor/preopen{
+	id = "Biohazard";
+	name = "biohazard Containment Door"
+	},
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/hallway/primary/aft)
 "lDD" = (
@@ -50228,8 +50246,7 @@
 "nOZ" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
-	name = "Medbay";
-	req_access_txt = "5"
+	name = "Medbay"
 	},
 /obj/effect/mapping_helpers/airlock/unres,
 /obj/effect/turf_decal/stripes/line,
@@ -63257,8 +63274,7 @@
 /area/engine/engineering)
 "syr" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Medbay Storage";
-	req_access_txt = "5"
+	name = "Medbay Storage"
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/delivery,
@@ -63403,6 +63419,26 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"sBD" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/effect/turf_decal/tile/purple/fourcorners/contrasted,
+/obj/item/pen{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "Biohazard";
+	name = "biohazard Containment Door"
+	},
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/hallway/primary/aft)
 "sBJ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1
@@ -65649,8 +65685,7 @@
 "trD" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
-	name = "Medbay";
-	req_access_txt = "5"
+	name = "Medbay"
 	},
 /obj/effect/mapping_helpers/airlock/unres,
 /obj/effect/turf_decal/stripes/line,
@@ -75588,8 +75623,7 @@
 /area/crew_quarters/dorms)
 "wXa" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Medbay Desk";
-	req_access_txt = "5"
+	name = "Medbay Desk"
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
 /obj/effect/turf_decal/stripes/line{
@@ -107587,7 +107621,7 @@ cgd
 cgd
 lDu
 gyR
-dOr
+sBD
 cgd
 rcv
 gnd
