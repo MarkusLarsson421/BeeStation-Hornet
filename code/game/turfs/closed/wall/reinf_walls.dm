@@ -21,6 +21,11 @@
 		pipe_astar_cost = 50 \
 	)
 
+/turf/closed/wall/r_wall/cheap/Initialize(mapload)
+	. = ..()
+	if(rand(1, 100) == 1)
+		src = new /turf/closed/wall(src)
+
 /turf/closed/wall/r_wall/get_armour_list()
 	return list(MELEE = 30,  BULLET = 30, LASER = 20, ENERGY = 20, BOMB = 10, BIO = 100, RAD = 100, FIRE = 80, ACID = 70, STAMINA = 0, BLEED = 0)
 
