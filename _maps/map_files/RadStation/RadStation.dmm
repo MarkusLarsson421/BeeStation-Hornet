@@ -10522,6 +10522,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/crew_quarters/heads/cmo)
+"dqk" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/grid/steel,
+/area/science/xenobiology)
 "dqm" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -12576,15 +12582,7 @@
 /obj/machinery/light_switch{
 	pixel_y = -20
 	},
-/obj/structure/table/reinforced,
-/obj/item/storage/box/syringes{
-	pixel_x = -3;
-	pixel_y = 5
-	},
-/obj/item/storage/box/beakers{
-	pixel_x = 4;
-	pixel_y = 15
-	},
+/obj/machinery/smartfridge/extract/preloaded,
 /turf/open/floor/iron/grid/steel,
 /area/science/xenobiology)
 "dVY" = (
@@ -16076,6 +16074,21 @@
 	},
 /turf/open/floor/iron/dark,
 /area/security/brig)
+"eYr" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/table/reinforced,
+/obj/item/storage/box/syringes{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/storage/box/beakers{
+	pixel_x = 4;
+	pixel_y = 15
+	},
+/turf/open/floor/iron/grid/steel,
+/area/science/xenobiology)
 "eYz" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
@@ -17932,9 +17945,6 @@
 /turf/open/floor/iron/sepia,
 /area/quartermaster/office)
 "fBl" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
@@ -22333,7 +22343,6 @@
 	dir = 1;
 	icon_state = "right";
 	id_tag = "Bountydoors";
-	req_access_txt = null;
 	req_access_txt = "31;48;26"
 	},
 /obj/effect/mapping_helpers/airlock/unres{
@@ -34372,10 +34381,6 @@
 	},
 /turf/open/floor/iron/tech,
 /area/engine/engine_room)
-"kUl" = (
-/obj/machinery/smartfridge/extract/preloaded,
-/turf/open/floor/iron/white,
-/area/science/xenobiology)
 "kUm" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 1
@@ -39599,15 +39604,14 @@
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
 "mDH" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
-	dir = 8
-	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/science/xenobiology)
 "mDL" = (
@@ -43700,11 +43704,6 @@
 /area/hallway/primary/central)
 "nOR" = (
 /obj/structure/table/reinforced,
-/obj/item/stack/sheet/mineral/plasma{
-	amount = 5;
-	pixel_x = -5;
-	pixel_y = 16
-	},
 /obj/item/reagent_containers/dropper{
 	pixel_x = -3;
 	pixel_y = -2
@@ -46045,6 +46044,12 @@
 /obj/machinery/suit_storage_unit/exploration,
 /turf/open/floor/iron/dark,
 /area/quartermaster/exploration_prep)
+"oED" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/grid/steel,
+/area/science/xenobiology)
 "oEG" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
@@ -47187,7 +47192,6 @@
 /obj/machinery/door/window/eastright{
 	dir = 8;
 	name = "Research and Development Desk";
-	req_access_txt = "47";
 	req_access_txt = 0
 	},
 /obj/structure/table/reinforced,
@@ -47972,6 +47976,9 @@
 	},
 /obj/effect/landmark/start/scientist,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
 /turf/open/floor/iron/grid/steel,
 /area/science/xenobiology)
 "peX" = (
@@ -50081,12 +50088,14 @@
 /turf/closed/wall/r_wall,
 /area/science/mixing/chamber)
 "pOX" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /obj/effect/landmark/start/scientist,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
+	},
 /turf/open/floor/iron/white,
 /area/science/xenobiology)
 "pOZ" = (
@@ -53367,12 +53376,10 @@
 /turf/open/floor/iron,
 /area/maintenance/department/security)
 "qRu" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 8
-	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/item/kirbyplants/random,
 /turf/open/floor/iron/grid/steel,
 /area/science/xenobiology)
 "qRH" = (
@@ -60491,6 +60498,11 @@
 /obj/item/toy/plush/slimeplushie/pink{
 	pixel_x = -12;
 	pixel_y = 7
+	},
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 5;
+	pixel_x = -5;
+	pixel_y = 1
 	},
 /turf/open/floor/iron/grid/steel,
 /area/science/xenobiology)
@@ -106593,7 +106605,7 @@ seK
 iNV
 hPm
 lTc
-vfR
+dqk
 fBl
 ixy
 iZW
@@ -106850,9 +106862,9 @@ kPZ
 iEd
 nOR
 lTc
-vfR
-fBl
-kUl
+oED
+eYr
+iEd
 uOK
 oIB
 pau
@@ -107106,7 +107118,7 @@ nvJ
 kPZ
 iEd
 tgx
-aZq
+lTc
 vfR
 qRu
 iEd
@@ -107620,7 +107632,7 @@ nvJ
 lxt
 iEd
 gtw
-vfR
+aZq
 ghm
 aaJ
 iEd

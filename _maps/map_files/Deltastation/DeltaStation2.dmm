@@ -704,10 +704,6 @@
 	dir = 1
 	},
 /area/hallway/secondary/entry)
-"aeX" = (
-/obj/machinery/power/apc/auto_name/directional/north,
-/turf/closed/wall/r_wall,
-/area/security/brig)
 "afb" = (
 /obj/effect/spawner/randomvend/snack,
 /obj/effect/turf_decal/delivery,
@@ -27230,6 +27226,9 @@
 	pixel_x = -26
 	},
 /obj/effect/turf_decal/bot,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
 /turf/open/floor/iron,
 /area/science/robotics/lab)
 "dzG" = (
@@ -35950,7 +35949,6 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /obj/machinery/door/airlock/maintenance{
 	name = "Medbay Maintenance";
-	req_access_txt = "5";
 	req_access_txt = null
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -54192,7 +54190,6 @@
 "lqF" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Medbay Maintenance";
-	req_access_txt = "5";
 	req_access_txt = null
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -54329,12 +54326,15 @@
 /turf/open/floor/prison,
 /area/security/prison)
 "lsJ" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
 /obj/effect/turf_decal/tile/brown,
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
 	},
 /turf/open/floor/iron,
 /area/quartermaster/miningoffice)
@@ -86002,7 +86002,6 @@
 "vtR" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Medbay Maintenance";
-	req_access_txt = "5";
 	req_access_txt = null
 	},
 /obj/effect/turf_decal/stripes/line,
@@ -94631,6 +94630,12 @@
 	},
 /turf/open/floor/iron,
 /area/medical/surgery)
+"xZV" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/iron,
+/area/quartermaster/miningoffice)
 "yab" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
@@ -139956,7 +139961,7 @@ sgR
 rUu
 xKs
 lsJ
-bgO
+xZV
 blV
 bnB
 boZ
@@ -145124,7 +145129,7 @@ tnr
 bgZ
 bgZ
 bgZ
-aeX
+bgZ
 bgZ
 jFJ
 pMO

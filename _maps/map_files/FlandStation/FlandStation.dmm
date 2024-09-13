@@ -7417,8 +7417,7 @@
 "bTk" = (
 /obj/effect/turf_decal/stripes/closeup,
 /obj/machinery/door/airlock/research{
-	name = "Xenobiology Lab";
-	req_access_txt = "47"
+	name = "Xenobiology Lab"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -7431,6 +7430,7 @@
 	icon_state = "2-8"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/effect/mapping_helpers/airlock/access/station/science/xenobiology,
 /turf/open/floor/iron/techmaint,
 /area/science/xenobiology)
 "bTl" = (
@@ -13331,7 +13331,6 @@
 	},
 /obj/machinery/door/airlock{
 	name = "Service Hall";
-	req_access_txt = "null";
 	req_access_txt = "25;26;35;28;22;37;46;38"
 	},
 /obj/effect/turf_decal/stripes/closeup{
@@ -54899,8 +54898,7 @@
 	dir = 1
 	},
 /obj/machinery/door/airlock/research{
-	name = "Xenobiology";
-	req_access_txt = "47"
+	name = "Xenobiology"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -54908,6 +54906,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/mapping_helpers/airlock/access/station/science/xenobiology,
 /turf/open/floor/iron/techmaint,
 /area/science/xenobiology)
 "obK" = (
@@ -57558,7 +57557,7 @@
 /area/hallway/primary/port)
 "oMd" = (
 /obj/structure/sign/directions/medical{
-	dir = 1;
+	dir = 4;
 	pixel_y = 10
 	},
 /obj/structure/sign/directions/evac{
@@ -62879,15 +62878,6 @@
 	},
 /turf/open/floor/iron/techmaint,
 /area/crew_quarters/kitchen)
-"qkg" = (
-/obj/effect/turf_decal/guideline/guideline_in/red,
-/obj/machinery/newscaster{
-	pixel_y = 31
-	},
-/turf/open/floor/iron/dark/side{
-	dir = 1
-	},
-/area/hallway/primary/fore)
 "qkt" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -70471,14 +70461,14 @@
 "scV" = (
 /obj/effect/turf_decal/stripes/closeup,
 /obj/machinery/door/airlock/research{
-	name = "Xenobiology Lab";
-	req_access_txt = "47"
+	name = "Xenobiology Lab"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/station/science/xenobiology,
 /turf/open/floor/iron/techmaint,
 /area/science/xenobiology)
 "sda" = (
@@ -94483,7 +94473,6 @@
 /turf/open/floor/carpet/red,
 /area/library)
 "xIK" = (
-/obj/effect/landmark/start/roboticist,
 /obj/machinery/holopad{
 	pixel_y = -16
 	},
@@ -129174,7 +129163,7 @@ xLB
 fHr
 hvm
 hVK
-qkg
+eYP
 sDy
 daV
 xYu

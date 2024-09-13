@@ -2394,6 +2394,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Central Access"
 	},
+/obj/effect/mapping_helpers/airlock/access/station,
 /turf/open/floor/iron/dark,
 /area/crew_quarters/bar/atrium)
 "aHy" = (
@@ -15217,6 +15218,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Central Access"
 	},
+/obj/effect/mapping_helpers/airlock/access/station,
 /turf/open/floor/iron/cafeteria,
 /area/crew_quarters/kitchen)
 "cVb" = (
@@ -24211,6 +24213,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Central Access"
 	},
+/obj/effect/mapping_helpers/airlock/access/station,
 /turf/open/floor/iron/dark,
 /area/crew_quarters/bar/atrium)
 "gLd" = (
@@ -42425,15 +42428,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
-"ozh" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/simple/yellow/visible,
-/obj/machinery/door/airlock/command{
-	name = "Teleport Access";
-	req_access_txt = "17"
-	},
-/turf/open/floor/plating,
-/area/engine/atmos)
 "ozl" = (
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/research/glass/incinerator/toxmix_interior,
@@ -64575,6 +64569,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Central Access"
 	},
+/obj/effect/mapping_helpers/airlock/access/station,
 /turf/open/floor/iron/dark,
 /area/crew_quarters/bar/atrium)
 "xSw" = (
@@ -98475,7 +98470,7 @@ wMp
 bTO
 cfQ
 owx
-ozh
+mfn
 mFR
 qPz
 bLK
