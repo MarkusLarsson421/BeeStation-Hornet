@@ -50,7 +50,7 @@
 	var/allow_repaint = TRUE //Set to FALSE if the airlock should not be allowed to be repainted.
 
 	FASTDMM_PROP(\
-		pinned_vars = list("req_access_txt", "name")\
+		pinned_vars = list("req_access_txt", "one_access", "name")\
 	)
 
 	interaction_flags_machine = INTERACT_MACHINE_WIRES_IF_OPEN | INTERACT_MACHINE_ALLOW_SILICON | INTERACT_MACHINE_OPEN_SILICON | INTERACT_MACHINE_REQUIRES_SILICON | INTERACT_MACHINE_OPEN
@@ -122,7 +122,7 @@
 		var/has_mapping_helpers = FALSE
 		for(var/obj/effect/mapping_helpers/airlock/access/AH in loc.contents)
 			has_mapping_helpers = TRUE
-			req_access += list(AH.access)
+			req_access += AH.access
 		if(!has_mapping_helpers)
 			req_access = A.access
 
@@ -1470,6 +1470,7 @@
 			if(!electronics)
 				ae = new/obj/item/electronics/airlock(loc)
 				gen_access()
+				ae.one_access = one_access
 				ae.accesses = req_access
 			else
 				ae = electronics

@@ -241,6 +241,7 @@
 				if(the_rcd.airlock_electronics)
 					new_window.name = the_rcd.airlock_electronics.passed_name || initial(new_window.name)
 					new_window.req_access = the_rcd.airlock_electronics.accesses.Copy()
+					new_window.one_access = the_rcd.airlock_electronics.one_access
 				new_window.autoclose = TRUE
 				new_window.update_icon()
 				return TRUE
@@ -250,6 +251,7 @@
 			new_airlock.electronics = new /obj/item/electronics/airlock(new_airlock)
 			if(the_rcd.airlock_electronics)
 				new_airlock.electronics.accesses = the_rcd.airlock_electronics.accesses.Copy()
+				new_airlock.one_access = the_rcd.airlock_electronics.one_access
 				new_airlock.electronics.unres_sides = the_rcd.airlock_electronics.unres_sides
 				new_airlock.electronics.passed_name = the_rcd.airlock_electronics.passed_name
 				new_airlock.electronics.passed_cycle_id = the_rcd.airlock_electronics.passed_cycle_id

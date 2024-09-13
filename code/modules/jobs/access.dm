@@ -89,10 +89,16 @@
 	if(!length(accesses_to_check) || !islist(accesses_to_check))
 		return FALSE
 
-	for(var/access_code in req_access)
-		if(access_code in accesses_to_check)
-			return TRUE
-	return FALSE
+	if(one_access)
+		for(var/access_code in req_access)
+			if(access_code in accesses_to_check)
+				return TRUE
+		return FALSE
+	else
+		for(var/access_code in req_access)
+			if(!(access_code in accesses_to_check))
+				return FALSE
+	return TRUE
 
 /*
  * Checks if this packet can access this device
