@@ -20,6 +20,10 @@
 	icon = 'icons/obj/doors/airlocks/station/medical.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_med
 
+/obj/machinery/door/airlock/chemistry
+	icon = 'icons/obj/doors/airlocks/station/chemistry.dmi'
+	assemblytype = /obj/structure/door_assembly/door_assembly_chemistry
+
 /obj/machinery/door/airlock/maintenance
 	name = "maintenance access"
 	icon = 'icons/obj/doors/airlocks/station/maintenance.dmi'
@@ -99,6 +103,10 @@
 	normal_integrity = 400
 
 /obj/machinery/door/airlock/medical/glass
+	opacity = FALSE
+	glass = TRUE
+
+/obj/machinery/door/airlock/chemistry/glass
 	opacity = FALSE
 	glass = TRUE
 

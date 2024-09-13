@@ -14874,7 +14874,6 @@
 "bVA" = (
 /obj/machinery/door/airlock{
 	name = "Service Hall";
-	req_access_txt = "null";
 	req_access_txt = "25;26;35;28;22;37;46;38"
 	},
 /obj/structure/cable/yellow{
@@ -29543,10 +29542,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/newscaster{
-	pixel_x = 1;
-	pixel_y = 34
-	},
 /obj/item/storage/backpack/duffelbag/med/surgery{
 	pixel_y = 4
 	},
@@ -34096,6 +34091,7 @@
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
 	dir = 8
 	},
+/obj/machinery/newscaster/directional/west,
 /turf/open/floor/iron/white,
 /area/medical/surgery)
 "hNf" = (
@@ -49153,7 +49149,6 @@
 "nuR" = (
 /obj/machinery/door/airlock{
 	name = "Service Hall";
-	req_access_txt = "null";
 	req_access_txt = "25;26;35;28;22;37;46;38"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
