@@ -183,11 +183,11 @@
 
 /datum/reagent/consumable/sugar/overdose_start(mob/living/M)
 	to_chat(M, "<span class='userdanger'>You go into hyperglycaemic shock! Lay off the twinkies!</span>")
-	M.AdjustSleeping(600, FALSE)
+	M.AdjustSleeping(600)
 	. = 1
 
 /datum/reagent/consumable/sugar/overdose_process(mob/living/M)
-	M.AdjustSleeping(40, FALSE)
+	M.AdjustSleeping(40)
 	..()
 	. = 1
 
@@ -796,6 +796,14 @@
 		M.electrocute_act(rand(3,5), "Liquid Electricity in their body", 1) //lmao at the newbs who eat energy bars
 		playsound(M, "sparks", 50, 1)
 	return ..()
+
+/datum/reagent/consumable/chlorophyll
+	name = "Liquid Chlorophyll"
+	description = "A plant-specific elixir of life."
+	nutriment_factor = 5 * REAGENTS_METABOLISM
+	color = "#00df30"
+	chem_flags = CHEMICAL_RNG_GENERAL | CHEMICAL_RNG_FUN | CHEMICAL_RNG_BOTANY
+	taste_description = "bitter, dry, broccoli soup"
 
 /datum/reagent/consumable/astrotame
 	name = "Astrotame"
