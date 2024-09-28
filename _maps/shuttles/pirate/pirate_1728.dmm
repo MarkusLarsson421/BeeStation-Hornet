@@ -133,9 +133,8 @@
 /turf/open/floor/wood,
 /area/shuttle/pirate)
 "fv" = (
-/turf/open/floor/plasteel/stairs{
-	dir = 1
-	},
+/obj/structure/stairs,
+/turf/open/space/basic,
 /area/shuttle/pirate)
 "fG" = (
 /obj/effect/turf_decal/stripes/line,
@@ -377,9 +376,8 @@
 /area/shuttle/pirate)
 "tt" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/stairs{
-	dir = 1
-	},
+/obj/structure/stairs,
+/turf/open/space/basic,
 /area/shuttle/pirate)
 "tD" = (
 /obj/item/chair/wood,
@@ -663,6 +661,7 @@
 	},
 /obj/effect/turf_decal/box,
 /obj/item/melee/transforming/energy/sword/pirate,
+/obj/item/clothing/suit/space/hardsuit/ancient,
 /turf/open/floor/wood,
 /area/shuttle/pirate)
 "Od" = (
@@ -775,6 +774,10 @@
 /obj/item/candle/infinite{
 	pixel_x = 7;
 	pixel_y = 12
+	},
+/obj/item/storage/firstaid{
+	pixel_x = -5;
+	pixel_y = 7
 	},
 /turf/open/floor/wood,
 /area/shuttle/pirate)
