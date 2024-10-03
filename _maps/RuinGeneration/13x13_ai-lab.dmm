@@ -8,6 +8,37 @@
 /obj/item/pen,
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)
+"bT" = (
+/obj/effect/decal/cleanable/robot_debris/old,
+/obj/machinery/camera{
+	c_tag = "Telecomms - Server Room - Aft-Port";
+	dir = 9;
+	network = list("ss13","tcomms")
+	},
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/item/ammo_casing/c9mm{
+	dir = 8;
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/decal/cleanable/robot_debris/old,
+/obj/machinery/camera{
+	c_tag = "Telecomms - Server Room - Aft-Port";
+	dir = 6
+	},
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/item/ammo_casing/c9mm{
+	dir = 8;
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/unpowered)
 "cw" = (
 /obj/effect/turf_decal/caution/stand_clear{
 	dir = 4
@@ -74,6 +105,15 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)
+"kZ" = (
+/obj/machinery/door/airlock/highsecurity,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "AI Core shutters";
+	name = "AI Core Shutters"
+	},
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
 "lX" = (
 /obj/effect/decal/cleanable/robot_debris/old,
 /obj/effect/turf_decal/stripes/red/line{
@@ -90,6 +130,12 @@
 "py" = (
 /obj/structure/sign/warning/electricshock,
 /turf/closed/wall/r_wall,
+/area/ruin/unpowered)
+"pC" = (
+/obj/machinery/door/airlock/grunge{
+	name = "AI Research Room"
+	},
+/turf/open/floor/iron/tech/grid,
 /area/ruin/unpowered)
 "qg" = (
 /obj/effect/decal/cleanable/oil/slippery,
@@ -193,15 +239,6 @@
 /obj/effect/spawner/lootdrop/ruinloot/important,
 /turf/open/floor/circuit/red,
 /area/ruin/unpowered)
-"BT" = (
-/obj/machinery/door/airlock/highsecurity,
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "AI Core shutters";
-	name = "AI core shutters"
-	},
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
 "CO" = (
 /obj/structure/table/reinforced,
 /obj/item/lighter,
@@ -269,21 +306,6 @@
 /obj/structure/sign/warning/securearea,
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered)
-"Lx" = (
-/obj/effect/decal/cleanable/robot_debris/old,
-/obj/machinery/camera{
-	c_tag = "Telecomms - Server Room - Aft-Port";
-	dir = 9;
-	network = list("ss13","tcomms")
-	},
-/obj/effect/decal/cleanable/blood/tracks,
-/obj/item/ammo_casing/c9mm{
-	dir = 8;
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/turf/open/floor/carpet/black,
-/area/ruin/unpowered)
 "MV" = (
 /obj/structure/rack,
 /obj/machinery/light,
@@ -350,12 +372,6 @@
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
 /turf/open/floor/carpet/black,
-/area/ruin/unpowered)
-"WX" = (
-/obj/machinery/door/airlock/grunge{
-	name = "AI research room"
-	},
-/turf/open/floor/iron/tech/grid,
 /area/ruin/unpowered)
 "Xd" = (
 /obj/effect/turf_decal/caution/stand_clear,
@@ -430,7 +446,7 @@ SV
 SV
 SV
 SV
-WX
+pC
 RT
 SV
 tV
@@ -505,7 +521,7 @@ NP
 Ib
 Xd
 tO
-BT
+kZ
 qg
 SV
 iT
@@ -539,7 +555,7 @@ KU
 za
 SV
 WV
-Lx
+bT
 nN
 JS
 "}

@@ -8,16 +8,6 @@
 /obj/machinery/door/airlock/shuttle,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/exploration)
-"aO" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral/opposingcorners,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/exploration)
 "aS" = (
 /obj/structure/bed,
 /obj/effect/decal/cleanable/blood/old{
@@ -31,26 +21,6 @@
 	pixel_x = 32
 	},
 /turf/open/floor/wood,
-/area/shuttle/exploration)
-"ck" = (
-/obj/structure/table/reinforced,
-/obj/structure/sign/poster/contraband/power{
-	pixel_x = 32
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/trash/can/food/beans{
-	pixel_x = 6;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/food/drinks/syndicatebeer{
-	pixel_x = -8;
-	pixel_y = 2
-	},
-/obj/machinery/light/small{
-	dir = 4;
-	light_color = "#d8b1b1"
-	},
-/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "ds" = (
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
@@ -274,12 +244,6 @@
 	},
 /turf/open/floor/iron/grid/steel,
 /area/shuttle/exploration)
-"pl" = (
-/obj/machinery/camera{
-	dir = 10
-	},
-/turf/template_noop,
-/area/template_noop)
 "py" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/fancy/cigarettes/cigpack_shadyjims{
@@ -755,6 +719,18 @@
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
 /area/shuttle/exploration)
+"Oo" = (
+/obj/machinery/camera{
+	dir = 10
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/machinery/camera,
+/turf/template_noop,
+/area/shuttle/exploration)
 "OJ" = (
 /obj/structure/table,
 /obj/machinery/microwave{
@@ -777,24 +753,21 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
-"Qv" = (
-/obj/machinery/shuttle/engine/plasma{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/shuttle/exploration)
-"QL" = (
+"Ph" = (
 /obj/structure/janitorialcart{
 	dir = 8
 	},
 /obj/item/mop,
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/reagent_containers/spray/cleaner,
-/obj/machinery/light/small{
-	dir = 8
-	},
 /obj/effect/turf_decal/box,
 /turf/open/floor/iron/grid/steel,
+/area/shuttle/exploration)
+"Qv" = (
+/obj/machinery/shuttle/engine/plasma{
+	dir = 1
+	},
+/turf/open/floor/plating,
 /area/shuttle/exploration)
 "QV" = (
 /obj/machinery/computer/arcade/orion_trail{
@@ -918,6 +891,13 @@
 	},
 /turf/open/floor/carpet,
 /area/shuttle/exploration)
+"Xj" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/exploration)
 "Xk" = (
 /obj/structure/table,
 /obj/machinery/chem_dispenser/drinks{
@@ -999,6 +979,26 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/iron/tech/grid,
 /area/shuttle/exploration)
+"Zh" = (
+/obj/structure/table/reinforced,
+/obj/structure/sign/poster/contraband/power{
+	pixel_x = 32
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/trash/canned/beans{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/food/drinks/syndicatebeer{
+	pixel_x = -8;
+	pixel_y = 2
+	},
+/obj/machinery/light/small{
+	dir = 4;
+	light_color = "#d8b1b1"
+	},
+/turf/open/floor/iron/techmaint,
+/area/shuttle/exploration)
 "Zq" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -1044,7 +1044,7 @@
 pJ
 pJ
 pJ
-pl
+Oo
 us
 nG
 xe
@@ -1098,7 +1098,7 @@ vA
 zC
 GJ
 LM
-QL
+Ph
 RG
 nG
 hQ
@@ -1245,7 +1245,7 @@ nG
 RB
 SO
 nG
-aO
+Xj
 Tf
 Tf
 Ec
@@ -1275,7 +1275,7 @@ XD
 iy
 nG
 Cx
-ck
+Zh
 gM
 WU
 pJ

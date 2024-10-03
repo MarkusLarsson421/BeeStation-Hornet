@@ -211,7 +211,7 @@
 	icon_state = "battlemage"
 	item_state = "battlemage"
 	recharge_delay = 0 // no auto-recharge
-	max_charges = 15
+	shield_integrity = 300
 	shield_icon = "shield-red"
 	min_cold_protection_temperature = ARMOR_MIN_TEMP_PROTECT
 	max_heat_protection_temperature = ARMOR_MAX_TEMP_PROTECT
@@ -219,6 +219,9 @@
 	armor = list(MELEE = 30,  BULLET = 20, LASER = 20, ENERGY = 20, BOMB = 20, BIO = 20, RAD = 20, FIRE = 100, ACID = 100, STAMINA = 70, BLEED = 70)
 	slowdown = 0
 	resistance_flags = FIRE_PROOF | ACID_PROOF
+
+/obj/item/clothing/suit/space/hardsuit/shielded/wizard/setup_shielding()
+	AddComponent(/datum/component/shielded, max_integrity = 600, charge_recovery = 0 SECONDS, charge_increment_delay = 1 SECONDS, shield_icon = "shield-red")
 
 /obj/item/clothing/head/helmet/space/hardsuit/shielded/wizard
 	name = "battlemage helmet"
@@ -241,4 +244,4 @@
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "electricity2"
 	/// How many charges get restored
-	var/restored_charges = 8
+	var/added_shield = 400

@@ -8,7 +8,7 @@ GLOBAL_LIST_EMPTY(TabletMessengers) // a list of all active messengers, similar 
 	desc = "A small portable microcomputer."
 	icon = 'icons/obj/computer.dmi'
 	icon_state = "laptop"
-	light_system = MOVABLE_LIGHT
+	light_system = MOVABLE_LIGHT_DIRECTIONAL
 	light_range = 3
 	light_power = 0.6
 	light_color = "#FFFFFF"
@@ -235,7 +235,7 @@ GLOBAL_LIST_EMPTY(TabletMessengers) // a list of all active messengers, similar 
 		return attack_self(M)
 	return ..()
 
-/obj/item/modular_computer/attack_ai(mob/user)
+/obj/item/modular_computer/attack_silicon(mob/user)
 	return attack_self(user)
 
 /obj/item/modular_computer/attack_ghost(mob/dead/observer/user)
