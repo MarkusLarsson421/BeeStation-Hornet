@@ -966,7 +966,7 @@
 	req_access_txt = "12"
 	},
 /turf/open/floor/plating,
-/area/hallway/secondary/exit)
+/area/maintenance/starboard)
 "amY" = (
 /obj/structure/chair{
 	dir = 1
@@ -2048,7 +2048,7 @@
 	dir = 10
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/space)
+/area/quartermaster/exploration_dock)
 "aDb" = (
 /obj/structure/table,
 /obj/item/wirecutters,
@@ -7409,7 +7409,7 @@
 	},
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
-/area/hallway/secondary/exit)
+/area/maintenance/starboard)
 "bRl" = (
 /obj/machinery/gateway{
 	dir = 8
@@ -10843,7 +10843,7 @@
 	dir = 6
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/space)
+/area/quartermaster/exploration_dock)
 "cyv" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -10885,7 +10885,7 @@
 	dir = 4
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/space)
+/area/quartermaster/exploration_dock)
 "czE" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
@@ -14551,9 +14551,6 @@
 	},
 /turf/open/floor/iron/techmaint,
 /area/security/prison/shielded)
-"dIO" = (
-/turf/open/floor/plating,
-/area/space)
 "dIX" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/hazardvest,
@@ -27104,22 +27101,6 @@
 /obj/effect/mapping_helpers/simple_pipes/supply_scrubber/hidden,
 /turf/open/floor/plating,
 /area/maintenance/aft)
-"iWR" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 8
-	},
-/obj/structure/lattice/catwalk,
-/turf/open/floor/plating,
-/area/space)
 "iXb" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/cable/yellow{
@@ -27276,10 +27257,6 @@
 /obj/effect/mapping_helpers/simple_pipes/supply_scrubber/hidden,
 /turf/open/floor/iron,
 /area/maintenance/starboard/fore)
-"jam" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/space/nearstation)
 "jat" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable/yellow,
@@ -30533,22 +30510,6 @@
 /obj/machinery/vending/wardrobe/chap_wardrobe,
 /turf/open/floor/carpet/grimy,
 /area/chapel/office)
-"kqV" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 8
-	},
-/obj/structure/lattice/catwalk,
-/turf/open/floor/plating,
-/area/space/nearstation)
 "krh" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -33821,7 +33782,7 @@
 "lGK" = (
 /obj/effect/spawner/room/threexthree,
 /turf/open/floor/plating,
-/area/science/lab)
+/area/maintenance/starboard)
 "lGP" = (
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/iron/dark,
@@ -42484,9 +42445,6 @@
 /obj/structure/cable/yellow,
 /turf/open/floor/iron,
 /area/security/checkpoint/science)
-"pwp" = (
-/turf/open/floor/plating,
-/area/science/lab)
 "pwt" = (
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai)
@@ -46606,7 +46564,7 @@
 	dir = 4
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/space)
+/area/quartermaster/exploration_dock)
 "rju" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -47658,7 +47616,7 @@
 	},
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/hallway/secondary/exit)
+/area/maintenance/starboard)
 "rEB" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -50643,7 +50601,7 @@
 	},
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
-/area/space/nearstation)
+/area/maintenance/starboard)
 "sNm" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/green,
@@ -51249,9 +51207,6 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/starboard)
-"sZS" = (
-/turf/open/floor/plating,
-/area/space/nearstation)
 "tas" = (
 /obj/machinery/door/airlock/atmos{
 	name = "Atmospherics"
@@ -52241,7 +52196,7 @@
 	},
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/space/nearstation)
+/area/maintenance/starboard)
 "tsY" = (
 /turf/closed/wall,
 /area/medical/virology)
@@ -54405,7 +54360,7 @@
 	},
 /obj/effect/mapping_helpers/simple_pipes/supply_scrubber/hidden,
 /turf/open/floor/iron,
-/area/maintenance/starboard)
+/area/quartermaster/exploration_prep)
 "umB" = (
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
@@ -59256,7 +59211,7 @@
 	},
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/starboard)
 "wpc" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
@@ -63553,7 +63508,7 @@
 /area/vacant_room/office)
 "ylr" = (
 /turf/open/space/basic,
-/area/hallway/secondary/exit)
+/area/maintenance/starboard)
 "ylR" = (
 /obj/item/clothing/gloves/color/rainbow,
 /obj/item/clothing/head/soft/rainbow,
@@ -112529,7 +112484,7 @@ uyY
 nah
 bky
 btp
-pwp
+btp
 lGK
 rWR
 rME
@@ -112781,13 +112736,13 @@ sxY
 iRk
 cxB
 aPq
-aMZ
+bky
 aCJ
 btp
 bYn
 btp
-pwp
-pwp
+btp
+btp
 rWR
 kth
 nuO
@@ -113038,9 +112993,9 @@ ecE
 scX
 aPq
 aPq
-aMZ
+bky
 rEw
-fXY
+bky
 bky
 btp
 btp
@@ -113297,7 +113252,7 @@ aPq
 aNa
 ylr
 bRk
-atS
+bky
 btp
 btp
 btp
@@ -113554,7 +113509,7 @@ aPq
 aNa
 ylr
 bRk
-fXY
+bky
 btp
 btp
 btp
@@ -113809,9 +113764,9 @@ gXk
 hwO
 kDF
 aNa
-pve
-kqV
-atS
+aaa
+bRk
+bky
 btp
 btp
 btp
@@ -114067,8 +114022,8 @@ aMZ
 uWk
 aNa
 aaa
-kqV
-fXY
+bRk
+bky
 btp
 btp
 btp
@@ -114324,10 +114279,10 @@ aMZ
 qyd
 aNa
 aaa
-iWR
-fXY
-sZS
-dIO
+bRk
+bky
+btp
+btp
 btp
 btp
 rWR
@@ -114581,14 +114536,14 @@ aMZ
 iHV
 aNa
 aaa
-iWR
-fXY
-atS
-atS
+bRk
+bky
+bky
+bky
 bYn
 bky
 rWR
-bky
+rWR
 rWR
 umy
 rWR
@@ -115098,7 +115053,7 @@ aaa
 aaa
 aaa
 aaa
-fXY
+bky
 btp
 btp
 btp
@@ -115355,14 +115310,14 @@ aaa
 aaa
 aaa
 aaa
-fXY
-bky
-bky
+gQd
+gQd
+gQd
 gQd
 gQd
 gQd
 gxY
-bky
+gQd
 gQd
 ezu
 jLP
@@ -115612,7 +115567,7 @@ aaa
 aaa
 aaa
 aaa
-xmt
+xkR
 cym
 ygA
 wxL
@@ -115869,7 +115824,7 @@ aaa
 aaa
 aaa
 aaa
-xmt
+xkR
 czd
 gaj
 xUC
@@ -116126,7 +116081,7 @@ aaa
 aaa
 aaa
 aaa
-xmt
+xkR
 rjm
 rpz
 cKl
@@ -116383,7 +116338,7 @@ aaa
 aaa
 aaa
 aaa
-xmt
+xkR
 aCU
 ljs
 qjA
@@ -116640,8 +116595,8 @@ aaa
 aaa
 aaa
 aaa
-xmt
-jam
+xkR
+xkR
 xkR
 gQd
 gQd
