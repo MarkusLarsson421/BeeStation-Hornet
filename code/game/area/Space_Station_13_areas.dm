@@ -537,7 +537,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_ELITE
-	access = list(ACCESS_HEADS)
 
 	color_correction = /datum/client_colour/area_color/cold_ish
 	camera_networks = list(CAMERA_NETWORK_PRIVATE)
@@ -735,7 +734,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Cafeteria"
 	icon_state = "cafeteria"
 	color_correction = /datum/client_colour/area_color/warm_ish
-	access = list(ACCESS_BAR)
 
 /area/crew_quarters/kitchen
 	name = "Kitchen"
@@ -744,7 +742,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	lighting_colour_bulb = "#d5ffff"
 	lights_always_start_on = FALSE
 	color_correction = /datum/client_colour/area_color/cold_ish
-	access = list(ACCESS_KITCHEN)
 
 /area/crew_quarters/kitchen/coldroom
 	name = "Kitchen Cold Room"
@@ -763,7 +760,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	sound_environment = SOUND_AREA_WOODFLOOR
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_NONE
 	color_correction = /datum/client_colour/area_color/warm_ish
-	access = list(ACCESS_BAR)
 
 /area/crew_quarters/bar/mood_check(mob/living/carbon/subject)
 	if(istype(subject) && HAS_TRAIT(subject, TRAIT_LIGHT_DRINKER))
@@ -800,7 +796,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "theatre"
 	sound_environment = SOUND_AREA_WOODFLOOR
 	color_correction = /datum/client_colour/area_color/clown
-	access = list(ACCESS_THEATRE)
 
 /area/crew_quarters/theatre/backstage
 	name = "Backstage"
@@ -849,11 +844,9 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/chapel/main
 	name = "Chapel"
-	access = null
 
 /area/chapel/main/monastery
 	name = "Monastery"
-	access = null
 
 /area/chapel/office
 	name = "Chapel Office"
@@ -863,7 +856,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Chapel Asteroid"
 	icon_state = "explored"
 	sound_environment = SOUND_AREA_ASTEROID
-	access = null
 
 /area/chapel/asteroid/monastery
 	name = "Monastery Asteroid"
@@ -912,7 +904,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Atmospherics"
 	icon_state = "atmos"
 	flags_1 = NONE
-	access = list(ACCESS_ATMOSPHERICS)
 
 /area/engine/atmospherics_engine
 	name = "Atmospherics Engine"
@@ -978,7 +969,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	flags_1 = NONE
 	ambience_index = AMBIENCE_ENGI
 	sound_environment = SOUND_AREA_SPACE
-	access = list(ACCESS_EXTERNAL_AIRLOCKS, ACCESS_ENGINE)
 
 /area/solar/fore
 	name = "Fore Solar Array"
@@ -1154,7 +1144,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	flags_1 = NONE
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_PROTECTED
 	area_flags = VALID_TERRITORY | BLOBS_ALLOWED | UNIQUE_AREA
-	access = list(ACCESS_VIROLOGY)
 
 /area/medical/morgue
 	name = "Morgue"
@@ -1164,14 +1153,12 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	mood_bonus = -2
 	mood_message = "<span class='warning'>It smells like death in here!\n</span>"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_PROTECTED
-	access = list(ACCESS_MORGUE)
 
 /area/medical/chemistry
 	name = "Chemistry"
 	icon_state = "chem"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_PROTECTED
 	area_flags = VALID_TERRITORY | BLOBS_ALLOWED | UNIQUE_AREA
-	access = list(ACCESS_CHEMISTRY)
 
 /area/medical/chemistry/upper
 	name = "Upper Chemistry"
@@ -1180,14 +1167,12 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/medical/apothecary
 	name = "Apothecary"
 	icon_state = "apothecary"
-	access = list(ACCESS_CHEMISTRY)
 
 /area/medical/surgery
 	name = "Surgery"
 	icon_state = "surgery"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_ADVANCED
 	area_flags = VALID_TERRITORY | BLOBS_ALLOWED | UNIQUE_AREA
-	access = list(ACCESS_SURGERY)
 
 /area/medical/surgery/aux
 	name = "Auxillery Surgery"
@@ -1207,7 +1192,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "genetics"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_PROTECTED
 	area_flags = VALID_TERRITORY | BLOBS_ALLOWED | UNIQUE_AREA
-	access = list(ACCESS_GENETICS)
 
 /area/medical/genetics/cloning
 	name = "Cloning Lab"
@@ -1245,17 +1229,14 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	mood_bonus = -3
 	mood_job_allowed = list(JOB_NAME_HEADOFSECURITY,JOB_NAME_WARDEN,JOB_NAME_SECURITYOFFICER,JOB_NAME_BRIGPHYSICIAN,JOB_NAME_DETECTIVE)
 	mood_job_reverse = TRUE
-	access = list(ACCESS_SEC_DOORS)
 
 	mood_message = "<span class='warning'>I hate cramped brig cells.\n</span>"
 
 /area/security/brig/dock
 	name = "Brig Dock"
-	access = list(ACCESS_SECURITY)
 
 /area/security/brig/medbay
 	name = "Brig Bay"
-	access = list(ACCESS_BRIGPHYS)
 
 /area/security/brig/aft
 	name = "Brig Aft"
@@ -1300,7 +1281,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Detective's Office"
 	icon_state = "detective"
 	ambientsounds = list('sound/ambience/ambidet1.ogg','sound/ambience/ambidet2.ogg','sound/ambience/ambidet3.ogg','sound/ambience/ambidet4.ogg')
-	access = list(ACCESS_FORENSICS_LOCKERS)
 
 /area/security/detectives_office/private_investigators_office
 	name = "Private Investigator's Office"
@@ -1315,7 +1295,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "execution_room"
 	mood_bonus = -5
 	mood_message = "<span class='warning'>I feel a sense of impending doom.\n</span>"
-	access = list(ACCESS_ARMORY)
 
 /area/security/execution/transfer
 	name = "Transfer Centre"
@@ -1348,22 +1327,18 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/security/checkpoint/supply
 	name = "Security Post - Cargo Bay"
 	icon_state = "checkpoint_supp"
-	access = list(ACCESS_SECURITY, ACCESS_HOP)
 
 /area/security/checkpoint/engineering
 	name = "Security Post - Engineering"
 	icon_state = "checkpoint_engi"
-	access = list(ACCESS_SECURITY, ACCESS_CE)
 
 /area/security/checkpoint/medical
 	name = "Security Post - Medbay"
 	icon_state = "checkpoint_med"
-	access = list(ACCESS_SECURITY, ACCESS_CMO)
 
 /area/security/checkpoint/science
 	name = "Security Post - Science"
 	icon_state = "checkpoint_sci"
-	access = list(ACCESS_SECURITY, ACCESS_RD)
 
 /area/security/checkpoint/science/research
 	name = "Security Post - Research Division"
@@ -1421,7 +1396,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Delivery Office"
 	icon_state = "cargo_delivery"
 	sound_environment = SOUND_AREA_STANDARD_STATION
-	access = list(ACCESS_MAILSORTING)
 
 /area/quartermaster/warehouse
 	name = "Warehouse"
@@ -1448,23 +1422,19 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Quartermaster's Office"
 	icon_state = "quart_office"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_PROTECTED
-	access = list(ACCESS_QM)
 
 /area/quartermaster/qm_bedroom
 	name = "Quartermaster's Bedroom"
 	icon_state = "quart_private"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_PROTECTED
-	access = list(ACCESS_QM)
 
 /area/quartermaster/miningdock
 	name = "Mining Dock"
 	icon_state = "mining_dock"
-	access = list(ACCESS_MINING)
 
 /area/quartermaster/miningoffice
 	name = "Mining Office"
 	icon_state = "mining"
-	access = list(ACCESS_MINING)
 
 /area/quartermaster/meeting_room
 	name = "Supply Meeting Room"
@@ -1473,12 +1443,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/quartermaster/exploration_prep
 	name = "Exploration Preparation Room"
 	icon_state = "mining"
-	access = list(ACCESS_EXPLORATION)
 
 /area/quartermaster/exploration_dock
 	name = "Exploration Dock"
 	icon_state = "mining"
-	access = list(ACCESS_EXPLORATION)
 
 //Service
 
@@ -1513,7 +1481,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "garden"
 	mood_bonus = 2
 	mood_message = "<span class='nicegreen'>It's so peaceful in here!\n</span>"
-	access = null
 
 /area/hydroponics/garden/abandoned
 	name = "Abandoned Garden"
@@ -1555,7 +1522,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/science/xenobiology
 	name = "Xenobiology Lab"
 	icon_state = "xenobio"
-	access = list(ACCESS_TOX)
 
 /area/science/shuttle
 	name = "Shuttle Construction"
@@ -1566,7 +1532,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Toxins Storage"
 	icon_state = "tox_storage"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_ELITE
-	access = list(ACCESS_TOX_STORAGE)
 
 /area/science/test_area
 	name = "Toxins Test Area"
@@ -1574,13 +1539,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "tox_test"
 	lights_always_start_on = TRUE
 	always_unpowered = TRUE
-	access = list(ACCESS_TOX)
 
 /area/science/mixing
 	name = "Toxins Mixing Lab"
 	icon_state = "tox_mix"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_ELITE
-	access = list(ACCESS_TOX)
 
 /area/science/mixing/chamber
 	name = "Toxins Mixing Chamber"
@@ -1599,7 +1562,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Research Division Server Room"
 	icon_state = "server"
 	airlock_hack_difficulty = AIRLOCK_WIRE_SECURITY_ELITE
-	access = list(ACCESS_RD_SERVER)
 
 /area/science/explab
 	name = "Experimentation Lab"
@@ -1608,7 +1570,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/science/robotics
 	name = "Robotics"
 	icon_state = "robotics"
-	access = list(ACCESS_ROBOTICS)
 
 /area/science/robotics/get_turf_textures()
 	return GLOB.turf_texture_hallway
@@ -1649,12 +1610,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/storage/tools
 	name = "Auxiliary Tool Storage"
 	icon_state = "tool_storage"
-	access = list(ACCESS_MAINT_TUNNELS)
 
 /area/storage/primary
 	name = "Primary Tool Storage"
 	icon_state = "primarystorage"
-	access = null
 
 /area/storage/primary/get_turf_textures()
 	return GLOB.turf_texture_hallway
@@ -1674,7 +1633,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "eva"
 	clockwork_warp_allowed = FALSE
 	color_correction = /datum/client_colour/area_color/cold_ish
-	access = list(ACCESS_EVA)
 
 /area/storage/emergency/starboard
 	name = "Starboard Emergency Storage"
@@ -1687,7 +1645,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/storage/tech
 	name = "Technical Storage"
 	icon_state = "tech_storage"
-	access = list(ACCESS_TECH_STORAGE)
 
 //Construction
 
@@ -1764,7 +1721,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "eva"
 	ambience_index = AMBIENCE_DANGER
 	color_correction = /datum/client_colour/area_color/cold_ish
-	access = list(ACCESS_EVA)
 
 /area/ai_monitored/storage/satellite
 	name = "AI Satellite Maint"
@@ -1862,9 +1818,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/tcommsat/server
 	name = "Telecomms Server Room"
 	icon_state = "tcom_sat_cham"
-	access = list(ACCESS_TCOMSAT)
 
 /area/tcommsat/relay
 	name = "Telecommunications Relay"
 	icon_state = "tcom_sat_cham"
-	access = list(ACCESS_TCOMSAT)
