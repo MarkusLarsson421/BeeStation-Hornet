@@ -5746,6 +5746,7 @@
 /area/science/robotics/lab)
 "bsZ" = (
 /obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/tile/purple/fourcorners/contrasted,
 /turf/open/floor/iron/dark,
 /area/science/nanite)
 "bth" = (
