@@ -20001,10 +20001,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/medical/virology)
-"fYH" = (
-/obj/machinery/door/airlock/maintenance,
-/turf/open/floor/plating,
-/area/maintenance/aft)
 "fYX" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -26837,8 +26833,10 @@
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/simple_pipes/supply_scrubber/hidden,
+/obj/machinery/door/airlock/maintenance{
+	req_access_txt = "12"
+	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "iRT" = (
@@ -32511,17 +32509,6 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/central)
-"lik" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/simple_pipes/supply_scrubber/hidden,
-/turf/open/floor/plating,
-/area/maintenance/aft)
 "lim" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -61313,13 +61300,15 @@
 /turf/open/floor/iron/dark,
 /area/medical/virology)
 "xrn" = (
-/obj/machinery/door/airlock/maintenance,
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/effect/mapping_helpers/simple_pipes/supply_scrubber/hidden,
+/obj/machinery/door/airlock/maintenance{
+	req_access_txt = "12"
+	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "xrC" = (
@@ -88548,7 +88537,7 @@ kFm
 npw
 qib
 tbc
-bHE
+bJf
 ygH
 apm
 bWC
@@ -104478,7 +104467,7 @@ iGH
 iGH
 iGH
 iGH
-lik
+cBw
 bzs
 kbJ
 kbJ
@@ -104693,7 +104682,7 @@ mGN
 aIp
 aIp
 aIp
-alP
+aIp
 aIp
 aIp
 pRp
@@ -105230,7 +105219,7 @@ bAw
 bAw
 bzs
 bzs
-fYH
+uoj
 bzs
 bzs
 vmv
