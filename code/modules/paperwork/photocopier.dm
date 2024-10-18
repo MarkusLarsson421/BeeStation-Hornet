@@ -81,7 +81,7 @@
 /obj/machinery/photocopier/should_emag(mob/user)
 	return !emagged
 
-/obj/machinery/photocopier/closet/on_emag(mob/user)
+/obj/machinery/photocopier/on_emag(mob/user)
 	..()
 	user?.visible_message("<span class='warning'>Sparks fly from [src]!</span>",
 					"<span class='warning'>You scramble [src]'s interface, revealing additional documents!</span>",
@@ -95,12 +95,15 @@
 	data["num_copies"] = num_copies
 
 	try
-		var/list/document_templates = list("command", "security", "medbay", "science", "engineering", "supply", "service", "other")
+		var/list/nt_templates = list("command", "security", "medbay", "science", "engineering", "supply", "service", "other")
+		var/list/sy_templates = list("cybersun_industries", "gorlex_marauders", "mi13", "tiger_cooperative", "sentient_engine_liberation_front", "animal_rights_consortium", "donk_corporation", "waffle_corporation", "interdyne_pharmaceutics")
 		var/list/blanks = list()
-		for(var/file in document_templates)
-			blanks += json_decode(file2text("config/print-ready-documents/[file].json"))
 		if(emagged)
-			blanks += json_decode(file2text("config/print-ready-documents/syndicate.json"))
+			for(var/file in sy_templates)
+				blanks += json_decode(file2text("config/print-ready-documents/syndicate/[file].json"))
+		else
+			for(var/file in nt_templates)
+				blanks += json_decode(file2text("config/print-ready-documents/nanotrasen/[file].json"))
 		if(blanks != null)
 			data["blanks"] = blanks
 			data["category"] = category
