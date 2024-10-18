@@ -82,7 +82,10 @@
 	data["num_copies"] = num_copies
 
 	try
-		var/list/blanks = json_decode(file2text("config/blanks.json"))
+		var/list/document_template = list("command", "security", "medbay", "science", "engineering", "supply", "other")
+		var/list/blanks = list()
+		for(var/file in document_templates)
+			blanks += json_decode(file2text("config/print-ready-documents/[file].json"))
 		if(blanks != null)
 			data["blanks"] = blanks
 			data["category"] = category
