@@ -30,76 +30,25 @@
 		"category": "Security Department",
 		"name": "Search warrant",
 		"info": [
-			"<head><table bgcolor=\"990000\" width=\"100%\" height=\"15%\">",
-				"<th>",
-					"<div align=\"center\"><font size=\"4\" color=\"white\">",
-					"-NANOTRASEN- ",
-					"<br>SECURITY DEPARTMENT</code>",
-					"<br></font><font color=\"white\">",
-					"</div>",
-				"</th>",
-				"<th>",
-					"<center><font color=\"white\" size=3>",
-			"</font><font color=\"white\" size=6>",
-			"\\NT\\",
-				"</th>",
-			"</table></head>",
-			"<hr color=\"990000\" size=\"4\">",
-
-			"<center>",
-
-
-			"<u><b>FORM 402 - SEARCH WARRANT<br></u></b>",
-
-			"Fill out all details below with a pen. This may be authorized by the Head of Security, Command Staff, the Warden, or - in exceptional circumstances - individual Corporate Security Officers.",
-
-			"**THIS DOCUMENT IS NOT A LEGAL REQUIREMENT.**",
-
-			"*By signing this form, you hereby state that you are a lawful member of Nanotrasen's Corporate Law Enforcement Organisation or the Office for Internal Security Affairs and that you are acting within the best interests of Nanotrasen, its law enforcement personnel, and the station's crew.*",
-			"___",
-			"**WARRANT INFORMATION**",
-
-			"*In accordance with NanoTrasen regulations, the individual or individuals in the location or department are to be verbally informed of the search and provided with a chance to comply. It will be expected of the searched subjects or department to comply with the directions of NanoTrasen Corporate Security Officers.*",
-
-			"---",
-
-			"_**Should search efforts be impeded, the impeding individuals are to be immediately taken into custody.**_",
-
-			"_**Security Officers are obligated to take confiscated items into evidence storage.**_",
-
-			"___",
-			"**DETAILS**",
-
-			"---",
-
-			"<table style=\"width: 90%;\" border=\"2\">",
-			"<tbody>",
-			"<tr>",
-			"<td><center><b><code>Name Of Individual</td>",
-			"<td><center>[___________________________]</td>",
-			"</tr>",
-			"<tr>",
-			"<td><center><b><code>Name Of Department</td>",
-			"<td><center>[___________________________]</td>",
-			"</tr>",
-			"<tr>",
-			"<td><center><b><code>Reason</td>",
-			"<td><center>[___________________________]</td>",
-			"</tr>",
-			"</tbody>",
-			"</table>",
-			"<br>",
-
-			"---",
-
-			"**◜         ◝**",
-
-			" ",
-
-			"**◟         ◞**",
-			"<code><b>STAMP HERE</b>",
-			"**AUTHORIZED BY (SIGNATURE):** ",
-			"[_______________]"
+			"<h1><font color=\"red\"><div align=\"center\">Search Warrant</div></font></h1>",
+			"<hr />",
+			"<p><strong>Name of the person being searched:</strong></p>",
+			"<p>[___________________________________]</p>",
+			"<p><strong>Reason:</strong></p>",
+			"<p>[___________________________________]</p>",
+			"<p>[___________________________________]</p>",
+			"<p>[___________________________________]</p>",
+			"<hr />",
+			"<font color=\"grey\"><div align=\"justify\">The arrest form is legally and corporately valid if stamped and signed by the Head of Security or his/her deputy. Arrest forms should only be used during Green and BLUE threat code of the Nanotrasen facility. In the case of a higher threat code, Nanotrasen Corporation allows security personnel to make arrests with the verbal approval of the Head of Security.</div></font></p>",
+			"<hr />",
+			"<p><strong>Name of the head of security or his deputy (with signature):</strong></p>",
+			"<p>[___________________________________]</p>",
+			"<p><strong>Date:</strong></p>",
+			"<p>[___].[___].[___]</p>",
+			"<p>[___]:[___]</p>",
+			"<p><font color=\"grey\">Place for a stamp</font></p>",
+			"<hr />",
+			"<font color=\"grey\"><div align=\"justify\">This document is the property of Nanotrasen Corporation. Without the signatures and seals of the managers or their deputies, this document has no corporate force.</div></font></p>"
 		]
 	},
 	{
