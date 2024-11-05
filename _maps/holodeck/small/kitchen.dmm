@@ -3,6 +3,14 @@
 /obj/structure/chair,
 /turf/open/floor/holofloor/wood,
 /area/template_noop)
+"d" = (
+/obj/structure/table/wood,
+/obj/item/plate,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/holofloor/wood,
+/area/template_noop)
 "e" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -22,19 +30,24 @@
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/holofloor,
 /area/template_noop)
-"k" = (
-/obj/structure/table/wood,
-/obj/item/plate,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/holofloor/wood,
-/area/template_noop)
 "l" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
 /turf/open/floor/holofloor/wood,
+/area/template_noop)
+"m" = (
+/obj/structure/table/reinforced,
+/obj/machinery/reagentgrinder{
+	pixel_x = 5;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/cup/beaker{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/turf/open/floor/holofloor,
 /area/template_noop)
 "n" = (
 /obj/machinery/chem_master/condimaster,
@@ -57,24 +70,6 @@
 /obj/machinery/chem_dispenser/drinks/beer,
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/red/opposingcorners,
-/turf/open/floor/holofloor,
-/area/template_noop)
-"u" = (
-/obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -8;
-	pixel_y = 1
-	},
-/obj/item/food/mint{
-	pixel_x = 6;
-	pixel_y = 5
-	},
-/obj/structure/desk_bell{
-	pixel_x = -10;
-	pixel_y = 11
-	},
-/obj/effect/turf_decal/tile/red/opposingcorners,
-/obj/item/food/dough,
 /turf/open/floor/holofloor,
 /area/template_noop)
 "v" = (
@@ -111,6 +106,14 @@
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/holofloor,
 /area/template_noop)
+"G" = (
+/obj/structure/table/wood,
+/obj/item/plate,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/holofloor/wood,
+/area/template_noop)
 "H" = (
 /obj/structure/chair{
 	dir = 1
@@ -139,19 +142,6 @@
 	},
 /turf/open/floor/holofloor/wood,
 /area/template_noop)
-"N" = (
-/obj/structure/table/reinforced,
-/obj/machinery/reagentgrinder{
-	pixel_x = 5;
-	pixel_y = 8
-	},
-/obj/item/reagent_containers/glass/beaker{
-	pixel_x = -6;
-	pixel_y = 4
-	},
-/obj/effect/turf_decal/tile/red/opposingcorners,
-/turf/open/floor/holofloor,
-/area/template_noop)
 "O" = (
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/holofloor,
@@ -159,9 +149,9 @@
 "P" = (
 /turf/open/floor/holofloor,
 /area/template_noop)
-"Q" = (
+"R" = (
 /obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/condiment/enzyme{
+/obj/item/reagent_containers/condiment/enzyme{
 	pixel_x = -6;
 	pixel_y = 19
 	},
@@ -173,12 +163,42 @@
 /turf/open/floor/holofloor,
 /area/template_noop)
 "U" = (
-/obj/structure/table/wood,
-/obj/item/plate,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_x = -8;
+	pixel_y = 1
 	},
-/turf/open/floor/holofloor/wood,
+/obj/item/food/mint{
+	pixel_x = 6;
+	pixel_y = 5
+	},
+/obj/structure/desk_bell{
+	pixel_x = -10;
+	pixel_y = 11
+	},
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/item/food/dough,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/condiment/saltshaker{
+	pixel_x = -8;
+	pixel_y = 1
+	},
+/obj/item/food/mint{
+	pixel_x = 6;
+	pixel_y = 5
+	},
+/obj/structure/desk_bell{
+	pixel_x = -10;
+	pixel_y = 11
+	},
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/item/food/dough,
+/turf/open/floor/holofloor,
 /area/template_noop)
 "Z" = (
 /obj/structure/closet/crate/freezer,
@@ -189,11 +209,11 @@
 
 (1,1,1) = {"
 I
-k
+G
 H
 P
 I
-k
+G
 H
 "}
 (2,1,1) = {"
@@ -211,7 +231,7 @@ O
 O
 O
 w
-u
+U
 j
 "}
 (4,1,1) = {"
@@ -221,11 +241,11 @@ O
 O
 O
 O
-Q
+R
 "}
 (5,1,1) = {"
 t
-N
+m
 F
 O
 O
@@ -243,10 +263,10 @@ v
 "}
 (7,1,1) = {"
 c
-U
+d
 E
 P
 c
-U
+d
 E
 "}

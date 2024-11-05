@@ -1,4 +1,12 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"e" = (
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/effect/turf_decal/tile/yellow/opposingcorners{
+	dir = 1
+	},
+/obj/structure/chair/stool/bar/directional/west,
+/turf/open/floor/iron,
+/area/template_noop)
 "g" = (
 /turf/closed/wall,
 /area/template_noop)
@@ -24,18 +32,6 @@
 /obj/item/storage/bag/tray,
 /obj/structure/table,
 /turf/open/floor/iron/white,
-/area/template_noop)
-"s" = (
-/obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -8;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_x = -8
-	},
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/iron,
 /area/template_noop)
 "t" = (
 /obj/structure/table/reinforced,
@@ -118,14 +114,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/iron/dark,
 /area/template_noop)
-"I" = (
-/obj/effect/turf_decal/tile/red/opposingcorners,
-/obj/effect/turf_decal/tile/yellow/opposingcorners{
-	dir = 1
-	},
-/obj/structure/chair/stool/bar/directional/west,
-/turf/open/floor/iron,
-/area/template_noop)
 "J" = (
 /obj/effect/spawner/randomvend/snack,
 /obj/effect/decal/cleanable/cobweb,
@@ -201,6 +189,18 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/iron/dark,
 /area/template_noop)
+"U" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/condiment/saltshaker{
+	pixel_x = -8;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/condiment/peppermill{
+	pixel_x = -8
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron,
+/area/template_noop)
 "V" = (
 /obj/effect/turf_decal/tile/red/fourcorners/contrasted,
 /turf/open/floor/iron,
@@ -262,15 +262,15 @@ N
 "}
 (6,1,1) = {"
 K
-I
+e
 D
-I
+e
 N
 "}
 (7,1,1) = {"
 g
 n
-s
+U
 t
 g
 "}

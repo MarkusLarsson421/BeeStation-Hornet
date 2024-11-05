@@ -50,13 +50,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/template_noop)
-"i" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/solar/fake,
-/turf/open/floor/iron/dark/airless,
-/area/template_noop)
 "j" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
@@ -98,11 +91,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/template_noop)
-"o" = (
-/obj/machinery/space_heater,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/template_noop)
 "q" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
@@ -110,6 +98,13 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
+/area/template_noop)
+"r" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/solar/fake,
+/turf/open/floor/iron/dark/airless,
 /area/template_noop)
 "s" = (
 /obj/machinery/power/smes,
@@ -146,6 +141,11 @@
 	icon_state = "1-2"
 	},
 /obj/effect/spawner/lootdrop/maintenance,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/template_noop)
+"E" = (
+/obj/machinery/portable_thermomachine,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/template_noop)
@@ -210,6 +210,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/template_noop)
+"X" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar/fake,
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
 "Y" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
@@ -223,26 +230,19 @@
 	},
 /turf/open/floor/plating,
 /area/template_noop)
-"Z" = (
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/machinery/power/solar/fake,
-/turf/open/floor/iron/dark/airless,
-/area/template_noop)
 
 (1,1,1) = {"
-o
+E
 W
 N
 v
 v
 "}
 (2,1,1) = {"
-Z
-Z
-Z
-Z
+X
+X
+X
+X
 N
 "}
 (3,1,1) = {"
@@ -253,10 +253,10 @@ k
 P
 "}
 (4,1,1) = {"
-i
-i
-i
-i
+r
+r
+r
+r
 y
 "}
 (5,1,1) = {"
@@ -274,10 +274,10 @@ n
 g
 "}
 (7,1,1) = {"
-Z
-Z
-Z
-Z
+X
+X
+X
+X
 l
 "}
 (8,1,1) = {"
@@ -288,10 +288,10 @@ Y
 a
 "}
 (9,1,1) = {"
-i
-i
-i
-i
+r
+r
+r
+r
 R
 "}
 (10,1,1) = {"
