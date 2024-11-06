@@ -79,6 +79,17 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/unpowered/syndicate_lava_base/bar)
+"bf" = (
+/obj/docking_port/stationary{
+	dir = 4;
+	dwidth = 11;
+	height = 22;
+	id = "syndielavaland_cargo";
+	name = "Syndicate: Cargo Dock, Outpost-Starboard";
+	width = 35
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/lavaland/surface/outdoors)
 "bg" = (
 /obj/structure/table/reinforced,
 /obj/item/radio/intercom{
@@ -7578,7 +7589,7 @@ ab
 ab
 ab
 ab
-ab
+bf
 ab
 ab
 ab

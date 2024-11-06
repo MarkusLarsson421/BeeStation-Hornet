@@ -212,6 +212,10 @@
 	port_id = "infiltrator"
 	can_be_bought = FALSE
 
+/datum/map_template/shuttle/syndicate
+	port_id = "syndicate"
+	can_be_bought = FALSE
+
 /datum/map_template/shuttle/aux_base
 	port_id = "aux_base"
 	can_be_bought = FALSE
@@ -660,6 +664,10 @@
 /datum/map_template/shuttle/infiltrator/advanced
 	suffix = "advanced"
 	name = "advanced syndicate infiltrator"
+
+/datum/map_template/shuttle/syndicate/cargo
+	suffix = "cargo"
+	name = "Syndicate Cargo Transport"
 
 /datum/map_template/shuttle/cargo/delta
 	suffix = "delta"

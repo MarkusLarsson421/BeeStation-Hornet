@@ -61,6 +61,7 @@
 	suffix = "lavaland_surface_syndicate_base1.dmm"
 	cost = 5
 	allow_duplicates = FALSE
+	always_place = TRUE
 
 /datum/map_template/ruin/lavaland/free_golem
 	name = "Free Golem Ship"
