@@ -14512,14 +14512,15 @@
 /area/engine/atmos)
 "bUE" = (
 /obj/item/cigbutt,
-/obj/machinery/atmospherics/pipe/manifold/general/visible{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/manifold4w/general/visible,
 /turf/open/floor/iron,
 /area/engine/atmos)
 "bUF" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/heater/on{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 10
 	},
 /turf/open/floor/iron,
 /area/engine/atmos)
@@ -16626,6 +16627,13 @@
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
 	dir = 6
+	},
+/turf/open/space,
+/area/space/nearstation)
+"cmE" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 5
 	},
 /turf/open/space,
 /area/space/nearstation)
@@ -19923,6 +19931,13 @@
 	},
 /turf/open/floor/iron/techmaint,
 /area/science/xenobiology)
+"cSz" = (
+/obj/structure/grille/broken,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
 "cSI" = (
 /obj/structure/sign/warning/electricshock,
 /turf/closed/wall,
@@ -25093,6 +25108,9 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/engine/atmos)
 "exG" = (
@@ -37722,6 +37740,14 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/security/brig)
+"jms" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/purple/visible,
+/turf/open/space,
+/area/space/nearstation)
 "jmN" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/dirt,
@@ -42872,6 +42898,17 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/iron,
 /area/quartermaster/storage)
+"ljQ" = (
+/obj/docking_port/stationary{
+	dir = 4;
+	dwidth = 11;
+	height = 22;
+	id = "whiteship_home";
+	name = "SS13: Refuel Dock, Station-Starboard";
+	width = 35
+	},
+/turf/open/space/basic,
+/area/space)
 "ljU" = (
 /obj/structure/bed{
 	dir = 4
@@ -43206,6 +43243,14 @@
 	},
 /turf/open/floor/carpet/grimy,
 /area/security/detectives_office)
+"lsj" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/visible,
+/obj/machinery/atmospherics/components/binary/pump{
+	name = "Port to Shuttle Dock";
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/engine/atmos)
 "lsk" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -45270,6 +45315,13 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/central)
+"mdy" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 10
+	},
+/turf/open/space,
+/area/space/nearstation)
 "mdP" = (
 /obj/structure/chair/fancy/comfy{
 	dir = 4
@@ -49074,6 +49126,11 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/command)
+"nxP" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/simple/purple/visible,
+/turf/open/space,
+/area/space/nearstation)
 "nyc" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /obj/effect/decal/cleanable/dirt,
@@ -50870,6 +50927,12 @@
 	},
 /turf/open/floor/catwalk_floor/iron,
 /area/engine/atmos)
+"odL" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 5
+	},
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
 "odT" = (
 /obj/item/clothing/glasses/meson,
 /obj/structure/closet/crate,
@@ -52602,6 +52665,12 @@
 /obj/effect/landmark/start/chaplain,
 /turf/open/floor/iron/dark,
 /area/chapel/office)
+"oGf" = (
+/obj/machinery/atmospherics/components/binary/volume_pump{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
 "oGp" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance/eight,
@@ -56923,6 +56992,12 @@
 /obj/effect/turf_decal/tile/green/half/contrasted,
 /turf/open/floor/iron,
 /area/hallway/primary/central)
+"qnb" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
 "qnn" = (
 /obj/machinery/light{
 	dir = 1
@@ -63111,6 +63186,13 @@
 /obj/machinery/food_cart,
 /turf/open/floor/iron,
 /area/crew_quarters/kitchen)
+"sAT" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/obj/machinery/atmospherics/components/binary/valve{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/engine/atmos)
 "sBh" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
@@ -70441,6 +70523,13 @@
 	},
 /turf/open/floor/wood,
 /area/lawoffice)
+"vhF" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 4
+	},
+/turf/open/space,
+/area/space/nearstation)
 "vhT" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -75420,6 +75509,11 @@
 	},
 /turf/open/floor/wood,
 /area/library)
+"wXY" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible,
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space/nearstation)
 "wYn" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4
@@ -123074,7 +123168,7 @@ bPu
 bPu
 bTl
 bUF
-bCi
+dhg
 bXo
 jTx
 bZI
@@ -123331,7 +123425,7 @@ bKE
 bKE
 bKE
 bUG
-bKE
+lsj
 bXp
 bKE
 bZL
@@ -123845,7 +123939,7 @@ bKG
 bMl
 bKG
 bIZ
-bKG
+sAT
 bMl
 bKG
 bYB
@@ -124102,7 +124196,7 @@ bza
 bFX
 bza
 bJa
-bza
+bCy
 bFX
 bAR
 bAR
@@ -124359,10 +124453,10 @@ aaf
 bFY
 aaf
 bJb
-aaf
-bFY
-aaf
-aaf
+mdy
+jms
+nxP
+cmE
 bAR
 iwT
 bAR
@@ -124619,7 +124713,7 @@ bCA
 gJs
 bFZ
 bAR
-aaf
+vhF
 bAR
 ncc
 bAR
@@ -124876,7 +124970,7 @@ bUI
 bVN
 bXr
 bAR
-aaf
+vhF
 bAR
 bux
 bAR
@@ -125133,7 +125227,7 @@ bUJ
 ajl
 bUJ
 bAR
-aaf
+vhF
 aMr
 bIO
 bIP
@@ -125390,7 +125484,7 @@ bUJ
 bVP
 tln
 bAR
-aaf
+vhF
 aMr
 apc
 apc
@@ -125647,7 +125741,7 @@ bAR
 bAR
 bAR
 bAR
-aaf
+vhF
 aMq
 apc
 aVk
@@ -125904,8 +125998,8 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aMr
+vhF
+aMq
 ccZ
 bBb
 aaf
@@ -126161,9 +126255,9 @@ aaa
 aaa
 aaa
 aaa
-aaf
-aaa
-aaf
+mdy
+wXY
+odL
 aaa
 aaf
 aaa
@@ -126420,7 +126514,7 @@ bKK
 bKK
 bKK
 bKK
-aai
+cSz
 bKK
 aaf
 aaf
@@ -126677,7 +126771,7 @@ aaa
 aaa
 aaf
 aaa
-aaa
+qnb
 aaa
 aaf
 aaa
@@ -126934,7 +127028,7 @@ bKK
 bKK
 bKK
 aaf
-aaf
+qnb
 aaf
 aaf
 aaa
@@ -127191,7 +127285,7 @@ aaa
 aaa
 aaf
 aaa
-aaa
+qnb
 aaf
 aaa
 aaa
@@ -127448,7 +127542,7 @@ bKK
 bKK
 bKK
 bKK
-bKK
+oGf
 anS
 aaa
 aaa
@@ -127705,7 +127799,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+ljQ
 aaa
 aaa
 aaa

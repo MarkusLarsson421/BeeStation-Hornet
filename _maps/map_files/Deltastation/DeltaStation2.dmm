@@ -25188,6 +25188,13 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/science/research)
+"djT" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/components/binary/pump{
+	name = "Plasma to Shuttle Dock"
+	},
+/turf/open/space,
+/area/space/nearstation)
 "djW" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/purple,
@@ -79276,6 +79283,13 @@
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron,
 /area/vacant_room/commissary)
+"tnI" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/pipe/manifold/yellow/visible{
+	dir = 1
+	},
+/turf/open/space,
+/area/engine/atmos)
 "toc" = (
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
 /obj/structure/cable/yellow{
@@ -112697,7 +112711,7 @@ aaa
 aaa
 aaa
 wiQ
-wiQ
+aad
 wiQ
 aad
 nyB
@@ -115524,7 +115538,7 @@ wiQ
 wiQ
 wiQ
 wiQ
-wiQ
+aad
 abj
 nyB
 bzd
@@ -117312,8 +117326,8 @@ aWx
 aad
 aZR
 aad
-aWx
-aad
+tnI
+djT
 aZR
 aad
 aWx
