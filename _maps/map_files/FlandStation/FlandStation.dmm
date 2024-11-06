@@ -6904,11 +6904,8 @@
 "bMd" = (
 /obj/docking_port/stationary{
 	dir = 4;
-	dwidth = 11;
-	height = 22;
 	id = "whiteship_home";
-	name = "SS13: Refuel Dock, Station-Starboard";
-	width = 35
+	name = "SS13: Refuel Dock, Station-Starboard"
 	},
 /turf/open/space/basic,
 /area/space)
@@ -51325,12 +51322,6 @@
 	burnt = 1
 	},
 /area/maintenance/port/central)
-"mZE" = (
-/obj/machinery/atmospherics/components/binary/volume_pump{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "mZO" = (
 /obj/item/toy/beach_ball,
 /mob/living/carbon/monkey,
@@ -150516,7 +150507,7 @@ csJ
 xJu
 xJu
 wMM
-mZE
+klW
 wMM
 csJ
 csJ

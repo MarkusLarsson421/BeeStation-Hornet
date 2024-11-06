@@ -33014,6 +33014,14 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/tcommsat/computer)
+"kAF" = (
+/obj/docking_port/stationary{
+	id = "whiteship_home";
+	name = "SS13: Refuel Dock, Station-Aft";
+	dir = 2
+	},
+/turf/open/space/basic,
+/area/space)
 "kAI" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /obj/structure/disposalpipe/segment{
@@ -115374,7 +115382,7 @@ dvt
 pnb
 pnb
 qLZ
-yeA
+kAF
 yeA
 yeA
 yeA

@@ -42901,11 +42901,8 @@
 "ljQ" = (
 /obj/docking_port/stationary{
 	dir = 4;
-	dwidth = 11;
-	height = 22;
 	id = "whiteship_home";
-	name = "SS13: Refuel Dock, Station-Starboard";
-	width = 35
+	name = "SS13: Refuel Dock, Station-Starboard"
 	},
 /turf/open/space/basic,
 /area/space)
@@ -52665,12 +52662,6 @@
 /obj/effect/landmark/start/chaplain,
 /turf/open/floor/iron/dark,
 /area/chapel/office)
-"oGf" = (
-/obj/machinery/atmospherics/components/binary/volume_pump{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "oGp" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance/eight,
@@ -127542,7 +127533,7 @@ bKK
 bKK
 bKK
 bKK
-oGf
+qnb
 anS
 aaa
 aaa

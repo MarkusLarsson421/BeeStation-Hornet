@@ -12508,11 +12508,8 @@
 /area/security/checkpoint/engineering)
 "dSO" = (
 /obj/docking_port/stationary{
-	dwidth = 11;
-	height = 22;
 	id = "whiteship_home";
-	name = "SS13: Refuel Dock, Station-Fore";
-	width = 35
+	name = "SS13: Refuel Dock, Station-Fore"
 	},
 /turf/open/space/basic,
 /area/space)
@@ -12616,12 +12613,6 @@
 	dir = 5
 	},
 /area/science/breakroom)
-"dUB" = (
-/obj/machinery/atmospherics/components/binary/volume_pump{
-	dir = 1
-	},
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "dUC" = (
 /obj/effect/turf_decal/tile/brown/opposingcorners{
 	dir = 1
@@ -91548,7 +91539,7 @@ aMT
 aMT
 aMT
 dSO
-dUB
+imG
 imG
 imG
 imG
