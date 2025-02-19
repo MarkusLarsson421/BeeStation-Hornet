@@ -188,6 +188,13 @@
 /obj/machinery/porta_turret_construct/attack_silicon()
 	return TRUE
 
+/obj/machinery/porta_turret_construct/partly_constructed
+	anchored = TRUE
+	build_step = PTURRET_GUN_EQUIPPED
+	finish_name = "turret"
+	icon_state = "turret_frame2"
+	installed_gun = new /obj/item/gun/energy/e_gun(loc)
+
 #undef PTURRET_UNSECURED
 #undef PTURRET_BOLTED
 #undef PTURRET_START_INTERNAL_ARMOUR

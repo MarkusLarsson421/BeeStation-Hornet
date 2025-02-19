@@ -484,6 +484,9 @@
 	base_icon_state = "techfloor_grey"
 	floor_tile = /obj/item/stack/tile/
 
+/turf/open/floor/iron/tech/airless
+	initial_gas_mix = AIRLESS_ATMOS
+
 /turf/open/floor/iron/tech/grid
 	icon_state = "techfloor_grid"
 	base_icon_state = "techfloor_grid"

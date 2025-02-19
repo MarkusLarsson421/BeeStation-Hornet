@@ -103,6 +103,8 @@
 	icon_state = "podfloor_dark"
 	floor_tile = /obj/item/stack/tile/pod/dark
 
+/turf/open/floor/pod/dark/airless
+	initial_gas_mix = AIRLESS_ATMOS
 
 /turf/open/floor/noslip
 	name = "high-traction floor"

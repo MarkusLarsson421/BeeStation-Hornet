@@ -389,6 +389,9 @@
 	distribute_pressure = 0
 	gas_type = /datum/gas/carbon_dioxide
 
+/obj/item/tank/jetpack/carbondioxide/empty
+	gas_type = null
+
 // Integrated suit jetpacks
 // These use the tanks of a suit's suit storage instead of an internal tank, and their parent hardsuit assigns their known user.
 /obj/item/tank/jetpack/suit

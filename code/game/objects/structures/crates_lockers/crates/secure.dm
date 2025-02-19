@@ -80,11 +80,25 @@
 	icon_state = "engi_secure_crate"
 	icon_door = "engi_secure_crate"
 
+/obj/structure/closet/crate/secure/engineering/rcd
+	desc = "A secure crate for the storage of an RCD."
+	name = "\improper RCD crate"
+
+/obj/structure/closet/crate/secure/engineering/rcd/PopulateContents()
+	..()
+	for(var/i in 1 to 4)
+		new /obj/item/rcd_ammo(src)
+	new /obj/item/construction/rcd(src)
+
 /obj/structure/closet/crate/secure/science
 	name = "secure science crate"
 	desc = "A crate with a lock on it, painted in the scheme of the station's scientists."
 	icon_state = "sci_secure_crate"
 	icon_door = "sci_secure_crate"
+
+/obj/structure/closet/crate/secure/science/artifact
+	name = "secure artifact crate"
+	desc = "A crate with a lock on it, contains a highly dangerous artifact."
 
 /obj/structure/closet/crate/secure/owned
 	name = "private crate"
