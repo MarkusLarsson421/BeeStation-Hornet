@@ -291,12 +291,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
-"kD" = (
-/obj/structure/table/glass,
-/obj/item/reagent_containers/glass/bottle/epinephrine,
-/obj/item/reagent_containers/syringe/epinephrine,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
 "kF" = (
 /turf/open/floor/wood,
 /area/shuttle/escape)
@@ -480,12 +474,12 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/escape)
-"rX" = (
+"sk" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
-/obj/item/reagent_containers/food/condiment/sugar,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/condiment/sugar,
+/obj/item/reagent_containers/condiment/flour,
+/obj/item/reagent_containers/condiment/flour,
+/obj/item/reagent_containers/condiment/flour,
 /obj/item/food/meat/rawbacon,
 /obj/item/food/meat/rawbacon,
 /obj/item/food/meat/rawbacon,
@@ -627,20 +621,6 @@
 	dir = 9
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"wg" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/machinery/door/airlock/engineering/glass{
-	name = "Emergency Shuttle Engineering";
-	req_access_txt = "32;19"
-	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "wj" = (
 /obj/machinery/light/small{
@@ -888,18 +868,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape)
-"DP" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/machinery/door/airlock/engineering/glass{
-	name = "Emergency Shuttle Engineering";
-	req_access_txt = "32;19"
-	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
 "DT" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
@@ -969,6 +937,20 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/carpet/red,
 /area/shuttle/escape)
+"Gb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Emergency Shuttle Engineering";
+	req_access_txt = "32;19"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
 "Gu" = (
 /obj/structure/chair/fancy/shuttle{
 	dir = 1
@@ -1021,20 +1003,6 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/shuttle/escape)
-"Iy" = (
-/obj/effect/turf_decal/box/corners,
-/obj/effect/turf_decal/box/corners{
-	dir = 4
-	},
-/obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/condiment/enzyme{
-	pixel_y = 5
-	},
-/obj/item/food/chocolatebar,
-/obj/item/food/chocolatebar,
-/obj/item/food/chocolatebar,
-/turf/open/floor/iron,
 /area/shuttle/escape)
 "Iz" = (
 /obj/effect/turf_decal/stripes/line{
@@ -1178,6 +1146,12 @@
 	icon_state = "0-2"
 	},
 /turf/open/floor/plating,
+/area/shuttle/escape)
+"LV" = (
+/obj/structure/table/glass,
+/obj/item/reagent_containers/cup/bottle/epinephrine,
+/obj/item/reagent_containers/syringe/epinephrine,
+/turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
 "LW" = (
 /obj/effect/turf_decal/stripes/corner,
@@ -1435,6 +1409,20 @@
 	},
 /turf/open/floor/iron,
 /area/shuttle/escape)
+"Tq" = (
+/obj/effect/turf_decal/box/corners,
+/obj/effect/turf_decal/box/corners{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/condiment/enzyme{
+	pixel_y = 5
+	},
+/obj/item/food/chocolatebar,
+/obj/item/food/chocolatebar,
+/obj/item/food/chocolatebar,
+/turf/open/floor/iron,
+/area/shuttle/escape)
 "Tt" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/handcuffs,
@@ -1518,6 +1506,18 @@
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/mineral/titanium/blue,
+/area/shuttle/escape)
+"VN" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Emergency Shuttle Engineering";
+	req_access_txt = "32;19"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "WF" = (
 /obj/structure/chair/fancy/shuttle,
@@ -1776,11 +1776,11 @@ Tw
 KA
 qE
 qE
-DP
+VN
 qE
 qE
 qE
-DP
+VN
 qE
 vf
 BI
@@ -1935,7 +1935,7 @@ Bt
 Bt
 Bt
 Bt
-wg
+Gb
 Bt
 pB
 pB
@@ -2120,7 +2120,7 @@ nR
 ia
 ZZ
 iX
-rX
+sk
 pB
 Yw
 qE
@@ -2158,7 +2158,7 @@ Bt
 Bt
 qE
 ia
-Iy
+Tq
 uR
 aJ
 pB
@@ -2415,7 +2415,7 @@ MH
 Tw
 Bt
 pj
-kD
+LV
 Pa
 cB
 lw

@@ -197,6 +197,15 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
 /area/shuttle/escape)
+"bI" = (
+/obj/structure/table,
+/obj/item/reagent_containers/cup/beaker/cryoxadone,
+/obj/item/wrench,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
 "bL" = (
 /obj/structure/sign/nanotrasen{
 	pixel_x = -32;
@@ -279,22 +288,6 @@
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "cp" = (
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
-"cq" = (
-/obj/machinery/atmospherics/pipe/simple/general/visible{
-	dir = 5
-	},
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
-"cr" = (
-/obj/machinery/atmospherics/pipe/manifold/general/visible,
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
-"cs" = (
-/obj/machinery/atmospherics/pipe/simple/general/visible{
-	dir = 9
-	},
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
 "ct" = (
@@ -456,15 +449,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
-"gd" = (
-/obj/structure/table,
-/obj/item/reagent_containers/glass/beaker/cryoxadone,
-/obj/item/wrench,
-/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
 "gz" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/reagent_containers/blood,
@@ -489,13 +473,6 @@
 /obj/item/reagent_containers/blood/random,
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
 /turf/open/floor/iron/white,
-/area/shuttle/escape)
-"gP" = (
-/obj/machinery/computer/med_data{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
-/turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "gS" = (
 /obj/structure/table,
@@ -544,6 +521,13 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/escape)
+"jM" = (
+/obj/machinery/computer/records/medical{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
 "kh" = (
 /obj/machinery/stasis,
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted,
@@ -560,6 +544,13 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
+/area/shuttle/escape)
+"kL" = (
+/obj/machinery/computer/records/security{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red/fourcorners/contrasted,
+/turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "kW" = (
 /obj/effect/turf_decal/delivery,
@@ -607,6 +598,12 @@
 	use_power = 0
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/escape)
+"pD" = (
+/obj/machinery/atmospherics/pipe/smart/simple/general/visible{
+	dir = 9
+	},
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "pJ" = (
 /obj/effect/turf_decal/tile/brown/half/contrasted{
@@ -660,6 +657,10 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
+"to" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/general/visible,
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
 "ua" = (
@@ -767,13 +768,6 @@
 	},
 /turf/open/floor/iron,
 /area/shuttle/escape)
-"xv" = (
-/obj/machinery/atmospherics/components/unary/cryo_cell,
-/obj/effect/turf_decal/tile/blue/half/contrasted{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
 "yC" = (
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
 /turf/open/floor/iron/dark,
@@ -783,6 +777,15 @@
 /obj/item/storage/box/donkpockets,
 /obj/item/storage/box/donkpockets,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron,
+/area/shuttle/escape)
+"AM" = (
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engine Room";
+	req_access_txt = "10;24"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "Bv" = (
@@ -853,15 +856,6 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/freezer,
 /area/shuttle/escape)
-"Eg" = (
-/obj/machinery/door/airlock/engineering/glass{
-	name = "Engine Room";
-	req_access_txt = "10;24"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
-/turf/open/floor/iron,
-/area/shuttle/escape)
 "Ev" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
@@ -872,6 +866,12 @@
 	},
 /obj/effect/turf_decal/tile/red/fourcorners/contrasted,
 /turf/open/floor/iron/dark,
+/area/shuttle/escape)
+"FJ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/general/visible{
+	dir = 5
+	},
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "FZ" = (
 /obj/structure/closet/crate/bin,
@@ -1108,13 +1108,6 @@
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
-"SH" = (
-/obj/machinery/computer/secure_data{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red/fourcorners/contrasted,
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
 "SU" = (
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
@@ -1176,6 +1169,13 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
+/area/shuttle/escape)
+"VI" = (
+/obj/machinery/cryo_cell,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "VV" = (
 /obj/effect/turf_decal/tile/brown/half/contrasted{
@@ -1389,7 +1389,7 @@ ab
 ab
 ad
 PF
-gP
+jM
 VD
 PF
 ab
@@ -1506,7 +1506,7 @@ Mv
 Mv
 Mv
 kI
-Eg
+AM
 dD
 bc
 bc
@@ -1852,7 +1852,7 @@ Kw
 kI
 Ev
 Ui
-cq
+FJ
 Uq
 wl
 Sy
@@ -1874,7 +1874,7 @@ ab
 ad
 Sp
 VE
-SH
+kL
 BJ
 ab
 bc
@@ -1895,8 +1895,8 @@ qF
 qF
 kI
 ab
-xv
-cr
+VI
+to
 cx
 NR
 NR
@@ -1940,7 +1940,7 @@ Dl
 bc
 Ev
 Gk
-cs
+pD
 cp
 cp
 cp
@@ -1983,7 +1983,7 @@ bc
 bc
 cd
 ab
-gd
+bI
 ct
 cp
 cp

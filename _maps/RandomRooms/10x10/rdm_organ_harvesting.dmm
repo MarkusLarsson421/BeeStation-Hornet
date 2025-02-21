@@ -5,6 +5,44 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/template_noop)
+"aQ" = (
+/obj/structure/table/glass,
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/gun/syringe{
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/cup/rag{
+	pixel_x = -7;
+	pixel_y = 13
+	},
+/obj/item/reagent_containers/cup/bottle/morphine,
+/obj/item/reagent_containers/cup/bottle/morphine{
+	list_reagents = list(/datum/reagent/medicine/morphine = 20);
+	pixel_x = 7;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/syringe{
+	list_reagents = list(/datum/reagent/medicine/morphine = 15);
+	name = "syringe (morphine)";
+	desc = "Contains morphine."
+	},
+/obj/item/reagent_containers/syringe{
+	list_reagents = list(/datum/reagent/medicine/morphine = 15);
+	name = "syringe (morphine)";
+	desc = "Contains morphine.";
+	pixel_x = 2;
+	pixel_y = -2
+	},
+/obj/item/reagent_containers/syringe{
+	list_reagents = list(/datum/reagent/medicine/morphine = 15);
+	name = "syringe (morphine)";
+	desc = "Contains morphine.";
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/turf/open/floor/iron/freezer,
+/area/template_noop)
 "bb" = (
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = 1;
@@ -17,29 +55,6 @@
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
-/area/template_noop)
-"bq" = (
-/obj/item/reagent_containers/food/drinks/bottle/whiskey{
-	pixel_x = 5
-	},
-/turf/open/floor/eighties,
-/area/template_noop)
-"dZ" = (
-/obj/item/reagent_containers/glass/bottle/morphine{
-	list_reagents = list(/datum/reagent/medicine/morphine = 5);
-	pixel_x = 4
-	},
-/obj/item/reagent_containers/syringe{
-	desc = "Contains morphine.";
-	name = "syringe (morphine)"
-	},
-/obj/item/reagent_containers/syringe{
-	pixel_x = -7;
-	pixel_y = -4;
-	name = "syringe (morphine)";
-	desc = "Contains morphine."
-	},
-/turf/open/floor/iron/freezer,
 /area/template_noop)
 "fM" = (
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -77,17 +92,15 @@
 	},
 /turf/open/floor/carpet/royalblue,
 /area/template_noop)
-"nR" = (
-/obj/machinery/computer/med_data/laptop{
-	pixel_y = 8;
-	req_access_txt = "5"
+"mz" = (
+/obj/item/reagent_containers/cup/glass/bottle/molotov{
+	pixel_x = 10;
+	pixel_y = -6
 	},
-/obj/structure/table/wood,
-/obj/item/healthanalyzer{
-	pixel_x = -5;
-	pixel_y = -2
+/obj/item/reagent_containers/cup/glass/bottle/trappist{
+	pixel_y = 2
 	},
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/eighties,
 /area/template_noop)
 "nU" = (
 /obj/structure/closet/firecloset/full,
@@ -193,19 +206,6 @@
 /obj/effect/spawner/lootdrop/crate_spawner,
 /turf/open/floor/plating,
 /area/template_noop)
-"Aa" = (
-/obj/structure/bed/maint,
-/obj/item/reagent_containers/food/drinks/bottle/hcider{
-	pixel_x = 12;
-	pixel_y = -5
-	},
-/obj/effect/mapping_helpers/dead_body_placer/maint_fridge,
-/obj/structure/sign/poster/contraband/red_rum{
-	pixel_y = 32
-	},
-/obj/machinery/light/very_dim/directional/north,
-/turf/open/floor/eighties,
-/area/template_noop)
 "AQ" = (
 /obj/structure/closet/crate/freezer,
 /obj/effect/spawner/lootdrop/organ_spawner,
@@ -234,6 +234,14 @@
 /obj/machinery/light,
 /turf/open/floor/carpet/royalblack,
 /area/template_noop)
+"Gv" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/item/reagent_containers/cup/glass/bottle/moonshine,
+/obj/item/reagent_containers/cup/glass/bottle/hooch,
+/obj/item/reagent_containers/cup/glass/bottle/ale,
+/obj/item/paper/monitorkey,
+/turf/open/floor/eighties,
+/area/template_noop)
 "Hp" = (
 /obj/machinery/door/airlock/maintenance{
 	id_tag = "organ_harvesting_backroom"
@@ -241,13 +249,9 @@
 /obj/effect/mapping_helpers/airlock/locked,
 /turf/open/floor/iron,
 /area/template_noop)
-"Ik" = (
-/obj/item/reagent_containers/food/drinks/bottle/molotov{
-	pixel_x = 10;
-	pixel_y = -6
-	},
-/obj/item/reagent_containers/food/drinks/bottle/trappist{
-	pixel_y = 2
+"KU" = (
+/obj/item/reagent_containers/cup/glass/bottle/whiskey{
+	pixel_x = 5
 	},
 /turf/open/floor/eighties,
 /area/template_noop)
@@ -257,14 +261,6 @@
 /area/template_noop)
 "Lp" = (
 /turf/open/floor/carpet/royalblack,
-/area/template_noop)
-"Mx" = (
-/obj/structure/closet/secure_closet/personal,
-/obj/item/reagent_containers/food/drinks/bottle/moonshine,
-/obj/item/reagent_containers/food/drinks/bottle/hooch,
-/obj/item/reagent_containers/food/drinks/bottle/ale,
-/obj/item/paper/monitorkey,
-/turf/open/floor/eighties,
 /area/template_noop)
 "Nh" = (
 /obj/effect/turf_decal/edges/techfloor{
@@ -280,43 +276,32 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/template_noop)
-"Pd" = (
-/obj/structure/table/glass,
-/obj/effect/decal/cleanable/cobweb,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/gun/syringe{
-	pixel_y = 7
+"PD" = (
+/obj/machinery/computer/med_data/laptop{
+	pixel_y = 8;
+	req_access_txt = "5"
 	},
-/obj/item/reagent_containers/glass/rag{
-	pixel_x = -7;
-	pixel_y = 13
-	},
-/obj/item/reagent_containers/glass/bottle/morphine,
-/obj/item/reagent_containers/glass/bottle/morphine{
-	list_reagents = list(/datum/reagent/medicine/morphine = 20);
-	pixel_x = 7;
-	pixel_y = 2
-	},
-/obj/item/reagent_containers/syringe{
-	list_reagents = list(/datum/reagent/medicine/morphine = 15);
-	name = "syringe (morphine)";
-	desc = "Contains morphine."
-	},
-/obj/item/reagent_containers/syringe{
-	list_reagents = list(/datum/reagent/medicine/morphine = 15);
-	name = "syringe (morphine)";
-	desc = "Contains morphine.";
-	pixel_x = 2;
+/obj/structure/table/wood,
+/obj/item/healthanalyzer{
+	pixel_x = -5;
 	pixel_y = -2
 	},
-/obj/item/reagent_containers/syringe{
-	list_reagents = list(/datum/reagent/medicine/morphine = 15);
-	name = "syringe (morphine)";
-	desc = "Contains morphine.";
-	pixel_x = 4;
-	pixel_y = -4
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
-/turf/open/floor/iron/freezer,
+/obj/machinery/computer/records/medical/laptop{
+	pixel_y = 8;
+	req_one_access = null;
+	req_one_access_txt = "5"
+	},
+/obj/structure/table/wood,
+/obj/item/healthanalyzer{
+	pixel_x = -5;
+	pixel_y = -2
+	},
+/turf/open/floor/carpet/royalblack,
 /area/template_noop)
 "Qm" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -336,10 +321,40 @@
 /obj/machinery/light,
 /turf/open/floor/carpet/royalblack,
 /area/template_noop)
+"RQ" = (
+/obj/structure/bed/maint,
+/obj/item/reagent_containers/cup/glass/bottle/hcider{
+	pixel_x = 12;
+	pixel_y = -5
+	},
+/obj/effect/mapping_helpers/dead_body_placer/maint_fridge,
+/obj/structure/sign/poster/contraband/red_rum{
+	pixel_y = 32
+	},
+/obj/machinery/light/very_dim/directional/north,
+/turf/open/floor/eighties,
+/area/template_noop)
 "RR" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/maintenance/three,
 /turf/open/floor/eighties,
+/area/template_noop)
+"SV" = (
+/obj/item/reagent_containers/cup/bottle/morphine{
+	list_reagents = list(/datum/reagent/medicine/morphine = 5);
+	pixel_x = 4
+	},
+/obj/item/reagent_containers/syringe{
+	desc = "Contains morphine.";
+	name = "syringe (morphine)"
+	},
+/obj/item/reagent_containers/syringe{
+	pixel_x = -7;
+	pixel_y = -4;
+	name = "syringe (morphine)";
+	desc = "Contains morphine."
+	},
+/turf/open/floor/iron/freezer,
 /area/template_noop)
 "SW" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
@@ -396,7 +411,7 @@
 /area/template_noop)
 
 (1,1,1) = {"
-Pd
+aQ
 pq
 pD
 Fh
@@ -421,10 +436,10 @@ qK
 "}
 (3,1,1) = {"
 VO
-dZ
+SV
 AQ
 Fh
-nR
+PD
 jF
 Lp
 uU
@@ -480,7 +495,7 @@ fM
 Fh
 "}
 (8,1,1) = {"
-bq
+KU
 By
 Bx
 Fh
@@ -492,9 +507,9 @@ qK
 NT
 "}
 (9,1,1) = {"
-Aa
+RQ
 By
-Mx
+Gv
 Fh
 ma
 Le
@@ -504,7 +519,7 @@ qK
 nU
 "}
 (10,1,1) = {"
-Ik
+mz
 lB
 RR
 Fh

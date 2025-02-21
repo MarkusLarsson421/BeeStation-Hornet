@@ -7,6 +7,29 @@
 /obj/item/seeds/cannabis,
 /turf/open/floor/grass,
 /area/template_noop)
+"e" = (
+/obj/structure/flora/ausbushes/grassybush,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/turf/open/floor/grass,
+/area/template_noop)
+"g" = (
+/obj/structure/flora/grass/jungle/b,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/grass,
+/area/template_noop)
+"i" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2,
+/turf/open/floor/grass,
+/area/template_noop)
 "k" = (
 /obj/structure/flora/grass/jungle/b,
 /obj/structure/extinguisher_cabinet{
@@ -16,28 +39,6 @@
 	dir = 4
 	},
 /turf/open/floor/grass,
-/area/template_noop)
-"l" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/turf/open/floor/grass,
-/area/template_noop)
-"m" = (
-/obj/structure/table/glass,
-/obj/item/shovel/spade,
-/obj/item/plant_analyzer,
-/obj/item/cultivator{
-	pixel_x = 6
-	},
-/obj/item/reagent_containers/spray/plantbgone{
-	pixel_x = 6;
-	pixel_y = 6
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/item/reagent_containers/glass/bucket,
-/obj/effect/turf_decal/tile/neutral/half/contrasted,
-/turf/open/floor/iron/dark,
 /area/template_noop)
 "n" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
@@ -56,6 +57,29 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/turf/open/floor/grass,
+/area/template_noop)
+"s" = (
+/obj/structure/table/glass,
+/obj/item/shovel/spade,
+/obj/item/plant_analyzer,
+/obj/item/cultivator{
+	pixel_x = 6
+	},
+/obj/item/reagent_containers/spray/plantbgone{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/reagent_containers/cup/bucket,
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"u" = (
+/obj/structure/flora/grass/jungle/b,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2,
 /turf/open/floor/grass,
 /area/template_noop)
 "v" = (
@@ -89,12 +113,25 @@
 	},
 /turf/open/floor/iron/dark,
 /area/template_noop)
-"D" = (
-/obj/structure/flora/ausbushes/grassybush,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 6
+"E" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Apiary Maintenance";
+	req_access_txt = "22;35"
 	},
-/turf/open/floor/grass,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/machinery/door/airlock/maintenance{
+	name = "Apiary Maintenance";
+	req_one_access_txt = "22;35"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4,
+/turf/template_noop,
 /area/template_noop)
 "F" = (
 /turf/open/floor/grass,
@@ -103,26 +140,10 @@
 /obj/structure/beebox,
 /turf/open/floor/grass,
 /area/template_noop)
-"H" = (
-/obj/structure/flora/grass/jungle/b,
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/leafybush,
-/obj/structure/flora/ausbushes/ywflowers,
-/obj/structure/flora/ausbushes/leafybush,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 6
-	},
+"I" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4,
 /turf/open/floor/grass,
-/area/template_noop)
-"J" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Apiary Maintenance";
-	req_access_txt = "22;35"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/template_noop,
 /area/template_noop)
 "L" = (
 /obj/machinery/hydroponics/soil,
@@ -148,11 +169,6 @@
 "O" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/carrot,
-/turf/open/floor/grass,
-/area/template_noop)
-"P" = (
-/obj/structure/flora/grass/jungle/b,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/grass,
 /area/template_noop)
 "Q" = (
@@ -188,7 +204,7 @@
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/floor/grass,
 /area/template_noop)
-"W" = (
+"X" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Apiary";
 	req_access_txt = "22;35"
@@ -196,11 +212,6 @@
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/stripes/closeup,
 /turf/open/floor/iron/grid/steel,
-/area/template_noop)
-"Y" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/grass,
 /area/template_noop)
 "Z" = (
 /obj/structure/closet{
@@ -230,24 +241,24 @@ G
 A
 y
 C
-m
+s
 Q
 w
 "}
 (2,1,1) = {"
-W
+X
 v
-D
-P
-l
-l
-H
-Y
-Y
-J
+e
+u
+i
+i
+g
+I
+I
+E
 "}
 (3,1,1) = {"
-W
+X
 F
 p
 v

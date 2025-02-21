@@ -165,245 +165,168 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/mapping_helpers)
 	else
 		airlock.abandoned = TRUE
 
-/obj/effect/mapping_helpers/airlock/all_codes
-	name = "Require All Codes"
-	icon_state = "all_codes"
+//air alarm helpers
+/obj/effect/mapping_helpers/airalarm
+	desc = "You shouldn't see this. Report it please."
+	layer = ABOVE_OBJ_LAYER
+	late = TRUE
 
-/obj/effect/mapping_helpers/airlock/all_codes/payload(obj/machinery/door/airlock/airlock)
-	airlock.one_access = FALSE
+/obj/effect/mapping_helpers/airalarm/Initialize(mapload)
+	. = ..()
+	if(!mapload)
+		log_mapping("[src] spawned outside of mapload!")
+		return INITIALIZE_HINT_QDEL
 
-/obj/effect/mapping_helpers/airlock/all_codes/one_code
-	name = "Require One Code"
-	icon_state = "one_code"
+	var/obj/machinery/airalarm/target = locate(/obj/machinery/airalarm) in loc
+	if(isnull(target))
+		var/area/target_area = get_area(target)
+		log_mapping("[src] failed to find an air alarm at [AREACOORD(src)] ([target_area.type]).")
+	else
+		payload(target)
 
-/obj/effect/mapping_helpers/airlock/all_codes/one_code/payload(obj/machinery/door/airlock/airlock)
-	airlock.one_access = TRUE
-	icon_state = "one_code"
+	return INITIALIZE_HINT_LATELOAD
 
-/obj/effect/mapping_helpers/airlock/access
-	icon_state = "access_helper"
-	var/list/access = list()
+/obj/effect/mapping_helpers/airalarm/LateInitialize()
+	. = ..()
+	var/obj/machinery/airalarm/target = locate(/obj/machinery/airalarm) in loc
 
-/obj/effect/mapping_helpers/airlock/access/payload(obj/machinery/door/airlock/airlock)
-	//check so it has no req_access_txt
-	if(airlock.req_access_txt == null)
-		airlock.req_access += access
+	if(isnull(target))
+		qdel(src)
+		return
+	if(target.unlocked)
+		target.unlock()
 
-/obj/effect/mapping_helpers/airlock/access/station/maintenance
-	access = list(ACCESS_MAINT_TUNNELS)
+	if(target.tlv_cold_room)
+		target.set_tlv_cold_room()
+	if(target.tlv_no_checks)
+		target.set_tlv_no_checks()
+	if(target.tlv_no_checks && target.tlv_cold_room)
+		CRASH("Tried to apply incompatible air alarm threshold helpers!")
 
-//SECURITY
-/obj/effect/mapping_helpers/airlock/access/station/security
-	access = list(ACCESS_SECURITY)
-	icon_state = "security"
-	color = "#DE3A3A"
-/obj/effect/mapping_helpers/airlock/access/station/security/brig
-	access = list(ACCESS_BRIG)
-/obj/effect/mapping_helpers/airlock/access/station/security/forensics
-	access = list(ACCESS_FORENSICS_LOCKERS)
-/obj/effect/mapping_helpers/airlock/access/station/security/armoury
-	access = list(ACCESS_ARMORY)
-/obj/effect/mapping_helpers/airlock/access/station/security/prison
-	access = list(ACCESS_PRISONER)
-/obj/effect/mapping_helpers/airlock/access/station/security/brig_phys
-	access = list(ACCESS_BRIGPHYS)
-/obj/effect/mapping_helpers/airlock/access/station/security/court
-	access = list(ACCESS_COURT)
-/obj/effect/mapping_helpers/airlock/access/station/security/outpost
-	access = list(ACCESS_SEC_DOORS)
-/obj/effect/mapping_helpers/airlock/access/station/security/mech
-	access = list(ACCESS_MECH_SECURITY)
+	if(target.syndicate_access)
+		target.give_syndicate_access()
+	if(target.away_general_access)
+		target.give_away_general_access()
+	if(target.engine_access)
+		target.give_engine_access()
+	if(target.mixingchamber_access)
+		target.give_mixingchamber_access()
+	if(target.all_access)
+		target.give_all_access()
+	if(target.syndicate_access + target.away_general_access + target.engine_access + target.mixingchamber_access + target.all_access > 1)
+		CRASH("Tried to combine incompatible air alarm access helpers!")
 
-//MEDICAL
-/obj/effect/mapping_helpers/airlock/access/station/medical
-	access = list(ACCESS_MEDICAL)
-	icon_state = "medbay"
-	color = "#52B4E9"
-/obj/effect/mapping_helpers/airlock/access/station/medical/morgue
-	access = list(ACCESS_MORGUE)
-/obj/effect/mapping_helpers/airlock/access/station/medical/genetics
-	access = list(ACCESS_GENETICS)
-/obj/effect/mapping_helpers/airlock/access/station/medical/chemistry
-	access = list(ACCESS_CHEMISTRY)
-/obj/effect/mapping_helpers/airlock/access/station/medical/virology
-	access = list(ACCESS_VIROLOGY)
-/obj/effect/mapping_helpers/airlock/access/station/medical/surgery
-	access = list(ACCESS_SURGERY)
-/obj/effect/mapping_helpers/airlock/access/station/medical/cloning
-	access = list(ACCESS_CLONING)
-/obj/effect/mapping_helpers/airlock/access/station/medical/mech
-	access = list(ACCESS_MECH_MEDICAL)
+	if(target.air_sensor_chamber_id)
+		target.setup_chamber_link()
 
-//SCIENCE
-/obj/effect/mapping_helpers/airlock/access/station/science
-	access = list(ACCESS_TOX)
-	icon_state = "science"
-	color = "#D381C9"
-/obj/effect/mapping_helpers/airlock/access/station/science/storage
-	access = list(ACCESS_TOX_STORAGE)
-/obj/effect/mapping_helpers/airlock/access/station/science/robotics
-	access = list(ACCESS_ROBOTICS)
-/obj/effect/mapping_helpers/airlock/access/station/science/research
-	access = list(ACCESS_RESEARCH)
-/obj/effect/mapping_helpers/airlock/access/station/science/exploration
-	access = list(ACCESS_EXPLORATION)
-/obj/effect/mapping_helpers/airlock/access/station/science/xenobiology
-	access = list(ACCESS_XENOBIOLOGY)
-/obj/effect/mapping_helpers/airlock/access/station/science/servers
-	access = list(ACCESS_RD_SERVER)
-/obj/effect/mapping_helpers/airlock/access/station/science/mech
-	access = list(ACCESS_MECH_SCIENCE)
+	target.update_icon()
+	qdel(src)
 
-//ENGINEERING
-/obj/effect/mapping_helpers/airlock/access/station/engineering
-	access = list(ACCESS_CONSTRUCTION)
-	icon_state = "engineering"
-	color = "#EFB341"
-/obj/effect/mapping_helpers/airlock/access/station/engineering/engineering
-	access = list(ACCESS_ENGINE)
-/obj/effect/mapping_helpers/airlock/access/station/engineering/tech_storage
-	access = list(ACCESS_TECH_STORAGE)
-/obj/effect/mapping_helpers/airlock/access/station/engineering/atmospherics
-	access = list(ACCESS_ATMOSPHERICS)
-/obj/effect/mapping_helpers/airlock/access/station/engineering/telecomms
-	access = list(ACCESS_TCOMSAT)
-/obj/effect/mapping_helpers/airlock/access/station/engineering/mech
-	access = list(ACCESS_MECH_ENGINE)
-/obj/effect/mapping_helpers/airlock/access/station/engineering/external_airlocks
-	access = list(ACCESS_EXTERNAL_AIRLOCKS)
+/obj/effect/mapping_helpers/airalarm/proc/payload(obj/machinery/airalarm/target)
+	return
 
-//COMMAND
-/obj/effect/mapping_helpers/airlock/access/station/command
-	access = list(ACCESS_HEADS)
-	icon_state = "central_command"
-	color = "#486091"
-/obj/effect/mapping_helpers/airlock/access/station/command/ai_upload
-	access = list(ACCESS_AI_UPLOAD)
-/obj/effect/mapping_helpers/airlock/access/station/command/teleporter
-	access = list(ACCESS_TELEPORTER)
-/obj/effect/mapping_helpers/airlock/access/station/command/eva
-	access = list(ACCESS_EVA)
-/obj/effect/mapping_helpers/airlock/access/station/command/heads/cap
-	access = list(ACCESS_CAPTAIN)
-/obj/effect/mapping_helpers/airlock/access/station/command/heads/cmo
-	access = list(ACCESS_CMO)
-/obj/effect/mapping_helpers/airlock/access/station/command/heads/rd
-	access = list(ACCESS_RD)
-/obj/effect/mapping_helpers/airlock/access/station/command/heads/ce
-	access = list(ACCESS_CE)
-/obj/effect/mapping_helpers/airlock/access/station/command/heads/hop
-	access = list(ACCESS_HOP)
-/obj/effect/mapping_helpers/airlock/access/station/command/heads/hos
-	access = list(ACCESS_HOS)
-/obj/effect/mapping_helpers/airlock/access/station/command/gateway
-	access = list(ACCESS_GATEWAY)
-/obj/effect/mapping_helpers/airlock/access/station/command/mini_sat
-	icon_state = "silicon"
-	access = list(ACCESS_MINISAT)
+/obj/effect/mapping_helpers/airalarm/unlocked
+	name = "airalarm unlocked interface helper"
+	icon_state = "airalarm_unlocked_interface_helper"
 
-//SERVICE
-/obj/effect/mapping_helpers/airlock/access/station/service
-	color = "#9FED58"
-	icon_state = "service"
-/obj/effect/mapping_helpers/airlock/access/station/service/chapel
-	access = list(ACCESS_CHAPEL_OFFICE)
-/obj/effect/mapping_helpers/airlock/access/station/service/bar
-	access = list(ACCESS_BAR)
-/obj/effect/mapping_helpers/airlock/access/station/service/janitor
-	access = list(ACCESS_JANITOR)
-/obj/effect/mapping_helpers/airlock/access/station/service/crematorium
-	access = list(ACCESS_CREMATORIUM)
-/obj/effect/mapping_helpers/airlock/access/station/service/kitchen
-	access = list(ACCESS_KITCHEN)
-/obj/effect/mapping_helpers/airlock/access/station/service/hydroponics
-	access = list(ACCESS_HYDROPONICS)
-/obj/effect/mapping_helpers/airlock/access/station/service/library
-	access = list(ACCESS_LIBRARY)
-/obj/effect/mapping_helpers/airlock/access/station/service/lawyer
-	access = list(ACCESS_LAWYER)
-/obj/effect/mapping_helpers/airlock/access/station/service/theater
-	access = list(ACCESS_THEATRE)
+/obj/effect/mapping_helpers/airalarm/unlocked/payload(obj/machinery/airalarm/target)
+	if(target.unlocked)
+		var/area/area = get_area(target)
+		log_mapping("[src] at [AREACOORD(src)] [(area.type)] tried to unlock the [target] but it's already unlocked!")
+	target.unlocked = TRUE
 
-//SUPPLY
-/obj/effect/mapping_helpers/airlock/access/station/supply
-	access = list(ACCESS_CARGO)
-	icon_state = "supply"
-	color = "#A46106"
-/obj/effect/mapping_helpers/airlock/access/station/supply/qm
-	access = list(ACCESS_QM)
-/obj/effect/mapping_helpers/airlock/access/station/supply/mining
-	access = list(ACCESS_MINING)
-/obj/effect/mapping_helpers/airlock/access/station/supply/mail
-	access = list(ACCESS_MAILSORTING)
-/obj/effect/mapping_helpers/airlock/access/station/supply/vault
-	access = list(ACCESS_VAULT)
-/obj/effect/mapping_helpers/airlock/access/station/supply/mining_outpost
-	access = list(ACCESS_MINING_STATION)
-/obj/effect/mapping_helpers/airlock/access/station/supply/aux_base
-	access = list(ACCESS_AUX_BASE)
-/obj/effect/mapping_helpers/airlock/access/station/supply/mech
-	access = list(ACCESS_MECH_MINING)
+/obj/effect/mapping_helpers/airalarm/syndicate_access
+	name = "airalarm syndicate access helper"
+	icon_state = "airalarm_syndicate_access_helper"
 
-//BEGIN CENTCOM ACCESS
-/obj/effect/mapping_helpers/airlock/access/admin
-	access = list(ACCESS_CENT_GENERAL)
-	icon_state = "central_command"
-	color = "#9FED58"
-/obj/effect/mapping_helpers/airlock/access/admin/thunder
-	access = list(ACCESS_CENT_THUNDER)
-/obj/effect/mapping_helpers/airlock/access/admin/specops
-	access = list(ACCESS_CENT_SPECOPS)
-/obj/effect/mapping_helpers/airlock/access/admin/medical
-	access = list(ACCESS_CENT_MEDICAL)
-/obj/effect/mapping_helpers/airlock/access/admin/dorms
-	access = list(ACCESS_CENT_LIVING)
-/obj/effect/mapping_helpers/airlock/access/admin/storage
-	access = list(ACCESS_CENT_STORAGE)
-/obj/effect/mapping_helpers/airlock/access/admin/teleporter
-	access = list(ACCESS_CENT_TELEPORTER)
-/obj/effect/mapping_helpers/airlock/access/admin/captain
-	access = list(ACCESS_CENT_CAPTAIN)
-/obj/effect/mapping_helpers/airlock/access/admin/bar
-	access = list(ACCESS_CENT_BAR)
+/obj/effect/mapping_helpers/airalarm/syndicate_access/payload(obj/machinery/airalarm/target)
+	if(target.syndicate_access)
+		var/area/area = get_area(target)
+		log_mapping("[src] at [AREACOORD(src)] [(area.type)] tried to adjust [target]'s access to syndicate but it's already changed!")
+	target.syndicate_access = TRUE
 
-//Antagonists
-/obj/effect/mapping_helpers/airlock/access/antagonists
-	color = "#DE3A3A"
-	icon_state = "antagonist"
-/obj/effect/mapping_helpers/airlock/access/antagonists/syndicate
-	access = list(ACCESS_SYNDICATE)
-/obj/effect/mapping_helpers/airlock/access/antagonists/syndicate/leader
-	access = list(ACCESS_SYNDICATE_LEADER)
-/obj/effect/mapping_helpers/airlock/access/antagonists/pirates
-	access = list(ACCESS_PIRATES)
-/obj/effect/mapping_helpers/airlock/access/antagonists/bounty_hunters
-	access = list(ACCESS_HUNTERS)
-/obj/effect/mapping_helpers/airlock/access/antagonists/blood_cult/
-	access = list(ACCESS_BLOODCULT)
-/obj/effect/mapping_helpers/airlock/access/antagonists/clock_cult/
-	access = list(ACCESS_CLOCKCULT)
+/obj/effect/mapping_helpers/airalarm/away_general_access
+	name = "airalarm away access helper"
+	icon_state = "airalarm_away_general_access_helper"
 
-//Away Missions or Ruins
-/obj/effect/mapping_helpers/airlock/access/away
-	access = list(ACCESS_AWAY_GENERAL)
-	icon_state = "away"
-	color = "#D4D4D4"
-/obj/effect/mapping_helpers/airlock/access/away/maintenance
-	access = list(ACCESS_AWAY_MAINT)
-/obj/effect/mapping_helpers/airlock/access/away/medical
-	access = list(ACCESS_AWAY_MED)
-/obj/effect/mapping_helpers/airlock/access/away/security
-	access = list(ACCESS_AWAY_SEC)
-/obj/effect/mapping_helpers/airlock/access/away/engineering
-	access = list(ACCESS_AWAY_ENGINE)
-/obj/effect/mapping_helpers/airlock/access/away/generic1
-	access = list(ACCESS_AWAY_GENERIC1)
-/obj/effect/mapping_helpers/airlock/access/away/generic2
-	access = list(ACCESS_AWAY_GENERIC2)
-/obj/effect/mapping_helpers/airlock/access/away/generic3
-	access = list(ACCESS_AWAY_GENERIC3)
-/obj/effect/mapping_helpers/airlock/access/away/generic4
-	access = list(ACCESS_AWAY_GENERIC4)
+/obj/effect/mapping_helpers/airalarm/away_general_access/payload(obj/machinery/airalarm/target)
+	if(target.away_general_access)
+		var/area/area = get_area(target)
+		log_mapping("[src] at [AREACOORD(src)] [(area.type)] tried to adjust [target]'s access to away_general but it's already changed!")
+	target.away_general_access = TRUE
+
+/obj/effect/mapping_helpers/airalarm/engine_access
+	name = "airalarm engine access helper"
+	icon_state = "airalarm_engine_access_helper"
+
+/obj/effect/mapping_helpers/airalarm/engine_access/payload(obj/machinery/airalarm/target)
+	if(target.engine_access)
+		var/area/area = get_area(target)
+		log_mapping("[src] at [AREACOORD(src)] [(area.type)] tried to adjust [target]'s access to engine_access but it's already changed!")
+	target.engine_access = TRUE
+
+/obj/effect/mapping_helpers/airalarm/mixingchamber_access
+	name = "airalarm mixingchamber access helper"
+	icon_state = "airalarm_mixingchamber_access_helper"
+
+/obj/effect/mapping_helpers/airalarm/mixingchamber_access/payload(obj/machinery/airalarm/target)
+	if(target.mixingchamber_access)
+		var/area/area = get_area(target)
+		log_mapping("[src] at [AREACOORD(src)] [(area.type)] tried to adjust [target]'s access to mixingchamber_access but it's already changed!")
+	target.mixingchamber_access = TRUE
+
+/obj/effect/mapping_helpers/airalarm/all_access
+	name = "airalarm all access helper"
+	icon_state = "airalarm_all_access_helper"
+
+/obj/effect/mapping_helpers/airalarm/all_access/payload(obj/machinery/airalarm/target)
+	if(target.all_access)
+		var/area/area = get_area(target)
+		log_mapping("[src] at [AREACOORD(src)] [(area.type)] tried to adjust [target]'s access to all_access but it's already changed!")
+	target.all_access = TRUE
+
+/obj/effect/mapping_helpers/airalarm/tlv_cold_room
+	name = "airalarm cold room tlv helper"
+	icon_state = "airalarm_tlv_cold_room_helper"
+
+/obj/effect/mapping_helpers/airalarm/tlv_cold_room/payload(obj/machinery/airalarm/target)
+	if(target.tlv_cold_room)
+		var/area/area = get_area(target)
+		log_mapping("[src] at [AREACOORD(src)] [(area.type)] tried to adjust [target]'s tlv to cold_room but it's already changed!")
+	target.tlv_cold_room = TRUE
+
+/obj/effect/mapping_helpers/airalarm/tlv_no_checks
+	name = "airalarm no checks tlv helper"
+	icon_state = "airalarm_tlv_no_checks_helper"
+
+/obj/effect/mapping_helpers/airalarm/tlv_no_checks/payload(obj/machinery/airalarm/target)
+	if(target.tlv_no_checks)
+		var/area/area = get_area(target)
+		log_mapping("[src] at [AREACOORD(src)] [(area.type)] tried to adjust [target]'s tlv to no_checks but it's already changed!")
+	target.tlv_no_checks = TRUE
+
+/obj/effect/mapping_helpers/airalarm/link
+	name = "airalarm link helper"
+	icon_state = "airalarm_link_helper"
+	late = TRUE
+	var/chamber_id = ""
+	var/allow_link_change = FALSE
+
+/obj/effect/mapping_helpers/airalarm/link/Initialize(mapload)
+	. = ..()
+	if(!mapload)
+		log_mapping("[src] spawned outside of mapload!")
+		return INITIALIZE_HINT_QDEL
+
+/obj/effect/mapping_helpers/airalarm/link/LateInitialize(mapload)
+	var/obj/machinery/airalarm/alarm = locate(/obj/machinery/airalarm) in loc
+	if(!isnull(alarm))
+		alarm.air_sensor_chamber_id = chamber_id
+		alarm.allow_link_change = allow_link_change
+		alarm.setup_chamber_link()
+	else
+		log_mapping("[src] failed to find air alarm at [AREACOORD(src)].")
+	qdel(src)
 
 //APC helpers
 /obj/effect/mapping_helpers/apc
@@ -563,134 +486,6 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 			organ.organ_flags |= ORGAN_FROZEN
 	container.update_icon()
 
-/obj/effect/mapping_helpers/simple_pipes
-	name = "Simple Pipes"
-	late = TRUE
-	icon_state = "pipe-3"
-	alpha = 175
-	layer = GAS_PIPE_VISIBLE_LAYER
-	var/piping_layer = 3
-	var/pipe_color = ""
-	var/hide = FALSE
-
-	FASTDMM_PROP(\
-		pipe_type = PIPE_TYPE_AUTO,\
-		pipe_interference_group = "atmos-[piping_layer]"\
-	)
-
-	var/list/pipe_types = list(
-		/obj/machinery/atmospherics/pipe/simple/general/visible,
-		/obj/machinery/atmospherics/pipe/simple/general/visible,
-		/obj/machinery/atmospherics/pipe/manifold/general/visible,
-		/obj/machinery/atmospherics/pipe/manifold4w/general/visible
-	)
-
-/obj/effect/mapping_helpers/simple_pipes/Initialize(mapload)
-	preform_layer(piping_layer, pipe_color)
-	qdel(src)
-
-/obj/effect/mapping_helpers/simple_pipes/proc/preform_layer(override_layer, override_color, override_name = null)
-	var/list/connections = list( dir2text(NORTH)  = FALSE, dir2text(SOUTH) = FALSE , dir2text(EAST) = FALSE , dir2text(WEST) = FALSE)
-	var/list/valid_connectors = typecacheof(/obj/machinery/atmospherics)
-	var/connection_num = 0
-	for(var/direction in connections)
-		var/turf/T = get_step(src,  text2dir(direction))
-		for(var/thing in T.contents)
-			// If it is a mapping helper
-			if(istype(thing, /obj/effect/mapping_helpers/simple_pipes))
-				var/obj/effect/mapping_helpers/simple_pipes/found = thing
-
-				// If it is a supply_scrubber mapping helper
-				if(istype(found, /obj/effect/mapping_helpers/simple_pipes/supply_scrubber))
-					if(override_layer != 2 && override_layer != 4 && !istype(src, /obj/effect/mapping_helpers/simple_pipes/supply_scrubber))
-						continue // We allow it if we're also a supply_scrubber helper, otherwise we gotta be on layers 2 or 4.
-
-				// If it is a regular mapping helper
-				else
-					if(found.piping_layer != override_layer)
-						continue // We have to have the same layer to allow it.
-
-				connections[direction] = TRUE
-				connection_num++
-				break
-
-			if(!is_type_in_typecache(thing, valid_connectors))
-				continue
-
-			var/obj/machinery/atmospherics/AM = thing
-			if(AM.piping_layer != override_layer && !istype(AM, /obj/machinery/atmospherics/pipe/layer_manifold))
-				continue
-
-			if(angle2dir(dir2angle(text2dir(direction))+180) & AM.initialize_directions)
-				connections[direction] = TRUE
-				connection_num++
-				break
-
-	switch(connection_num)
-		if(1)
-			for(var/direction in connections)
-				if(connections[direction] != TRUE)
-					continue
-				spawn_pipe(direction, connection_num, override_layer, override_color, override_name)
-				return
-		if(2)
-			for(var/direction in connections)
-				if(connections[direction] != TRUE)
-					continue
-				//Detects straight pipes connected from east to west , north to south etc.
-				if(connections[dir2text(angle2dir(dir2angle(text2dir(direction))+180))] == TRUE)
-					spawn_pipe(direction, connection_num, override_layer, override_color, override_name)
-					return
-
-				for(var/direction2 in (connections - direction))
-					if(connections[direction2] != TRUE)
-						continue
-					spawn_pipe(dir2text(text2dir(direction)+text2dir(direction2)), connection_num, override_layer, override_color, override_name)
-					return
-		if(3)
-			for(var/direction in connections)
-				if(connections[direction] == FALSE)
-					spawn_pipe(direction, connection_num, override_layer, override_color, override_name)
-					return
-		if(4)
-			spawn_pipe(dir2text(NORTH), connection_num, override_layer, override_color, override_name)
-			return
-
-/// Spawn the pipe on the layer we specify
-/obj/effect/mapping_helpers/simple_pipes/proc/spawn_pipe(direction, connection_num, override_layer, override_color, override_name = null)
-	var/T = pipe_types[connection_num]
-	var/obj/machinery/atmospherics/pipe/pipe = new T(get_turf(src), TRUE, text2dir(direction))
-
-	if(!isnull(override_name))
-		pipe.name = override_name
-	pipe.piping_layer = override_layer
-	pipe.update_layer()
-	pipe.paint(override_color)
-	// prevents duplicates on the station blueprints mode since the effect is on
-	pipe.obj_flags &= ~ON_BLUEPRINTS
-
-/obj/effect/mapping_helpers/simple_pipes/supply_scrubber
-	name = "Simple Supply/Scrubber Pipes"
-	icon_state = "pipe-2-4"
-	color = rgb(128, 0, 128) // purple in-between pipe
-
-// Instead of using our current layer, we use
-/obj/effect/mapping_helpers/simple_pipes/supply_scrubber/Initialize(mapload)
-	preform_layer(2, rgb(0, 0, 255), override_name = "air supply pipe")
-	preform_layer(4, rgb(255, 0, 0), override_name = "scrubbers pipe")
-
-	qdel(src)
-
-/obj/effect/mapping_helpers/simple_pipes/supply_scrubber/hidden
-	name = "Hidden Simple Supply/Scrubber Pipes"
-	hide = TRUE
-	pipe_types = list(
-		/obj/machinery/atmospherics/pipe/simple/general/hidden,
-		/obj/machinery/atmospherics/pipe/simple/general/hidden,
-		/obj/machinery/atmospherics/pipe/manifold/general/hidden,
-		/obj/machinery/atmospherics/pipe/manifold4w/general/hidden
-	)
-
 //Color correction helper - only use of these per area, it will convert the entire area
 /obj/effect/mapping_helpers/color_correction
 	name = "color correction helper"
@@ -760,10 +555,10 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 
 /obj/effect/mapping_helpers/atmos_auto_connect/LateInitialize()
 	. = ..()
-	var/obj/machinery/portable_atmospherics/PortAtmos = locate(/obj/machinery/portable_atmospherics) in loc
-	var/obj/machinery/atmospherics/components/unary/portables_connector/Connector = locate(/obj/machinery/atmospherics/components/unary/portables_connector) in loc
-	if(PortAtmos && Connector)
-		Connector.connect_to = PortAtmos
+	var/obj/machinery/portable_atmospherics/port_atmos = locate(/obj/machinery/portable_atmospherics) in loc
+	var/obj/machinery/atmospherics/components/unary/portables_connector/connector = locate(/obj/machinery/atmospherics/components/unary/portables_connector) in loc
+	if(port_atmos && connector)
+		port_atmos.connect(connector)
 		qdel(src)
 		return
 	CRASH("Failed to find a portable atmospherics or a portables connector at [AREACOORD(src)]")
@@ -784,7 +579,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 	/** internal code variables - not for mappers **/
 	/// used to skip a direction on a turf
 	var/skip_direction
-	/// there are a few stuff that "CanAtmosPass()" is not reliable
+	/// there are a few stuff that "can_atmos_pass()" is not reliable
 	var/static/list/unliable_atmos_blockers
 
 
@@ -808,7 +603,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 		if(isspaceturf(each_turf) || isopenspace(each_turf))
 			continue
 
-		if(!each_turf.CanAtmosPass(my_turf))
+		if(!each_turf.can_atmos_pass(my_turf))
 			for(var/atom/movable/movable_content as anything in each_turf.contents)
 				if(is_type_in_typecache(movable_content, unliable_atmos_blockers))
 					unliable_atmos_blocking = TRUE
@@ -845,7 +640,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 
 	// puts a directional window for each direction.
 	for(var/turf/each_turf in nearby_turfs)
-		if(!each_turf.CanAtmosPass(my_turf) || isspaceturf(each_turf) || isopenspace(each_turf))
+		if(!each_turf.can_atmos_pass(my_turf) || isspaceturf(each_turf) || isopenspace(each_turf))
 			continue
 
 		var/obj/d_glass = new window_type(each_turf)
@@ -939,4 +734,33 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 		var/obj/effect/mapping_helpers/group_window_placer/each_placer = each_ref.resolve()
 		qdel(each_placer)
 	init_group.Cut()
+
+/obj/effect/mapping_helpers/Mapper_Comment //exists just to hold it's name and description to allow mappers to add comments to parts of their map in the editor.
+	name = "Mapper Comment (Read 'Desc' variable)"
+	desc = "Edit this text to your desired description."
+	icon_state = "Comment"
+	layer = TEXT_EFFECT_UI_LAYER
+
+/obj/effect/mapping_helpers/Mapper_Comment/Initialize(mapload)
+	return INITIALIZE_HINT_QDEL
+
+//loads crate shelves with crates on mapload. Done via a helper because of linters
+/obj/effect/mapping_helpers/crate_shelf_loader
+	icon_state = "crate_putter"
+	name = "crate shelf loader helper"
+	desc = "Place up to three of these on a crate shelf and set their crate_type (basic grey crate by default) to load it onto the shelf."
+	late = TRUE
+	var/crate_type = /obj/structure/closet/crate //for changing the crate type in the map editor
+	var/obj/structure/closet/crate/crate
+
+/obj/effect/mapping_helpers/crate_shelf_loader/LateInitialize()
+	. = ..()
+	var/obj/structure/crate_shelf/shelf = locate(/obj/structure/crate_shelf) in loc
+	if(crate_type && shelf)
+		crate = new crate_type(src)
+		shelf.load(crate)
+		qdel(src)
+		return
+	CRASH("Failed to find a crate shelf at [AREACOORD(src)] or the crate_type is undefined")
+
 
