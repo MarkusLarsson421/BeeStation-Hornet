@@ -10,7 +10,7 @@
 	role_preference = /datum/role_preference/antagonist/traitor
 	antag_datum = /datum/antagonist/traitor
 	protected_roles = list(JOB_NAME_SECURITYOFFICER, JOB_NAME_DETECTIVE, JOB_NAME_WARDEN, JOB_NAME_HEADOFSECURITY, JOB_NAME_CAPTAIN)
-	restricted_roles = list(JOB_NAME_CYBORG)
+	restricted_roles = list(JOB_NAME_CYBORG, JOB_NAME_AI)
 	required_candidates = 1
 	weight = 5
 	cost = 8	// Avoid raising traitor threat above this, as it is the default low cost ruleset.
@@ -21,8 +21,6 @@
 
 /datum/dynamic_ruleset/roundstart/traitor/pre_execute(population)
 	. = ..()
-	if (population < CONFIG_GET(number/malf_ai_minimum_pop))
-		restricted_roles |= JOB_NAME_AI
 	var/num_traitors = get_antag_cap(population) * (scaled_times + 1)
 	for (var/i = 1 to num_traitors)
 		if(candidates.len <= 0)
@@ -87,6 +85,32 @@
 
 //////////////////////////////////////////////
 //                                          //
+//         MALFUNCTIONING AI                //
+//                              		    //
+//////////////////////////////////////////////
+
+/datum/dynamic_ruleset/roundstart/malf
+	name = "Malfunctioning AI"
+	role_preference = /datum/role_preference/antagonist/malfunctioning_ai
+	antag_datum = /datum/antagonist/malf_ai
+	required_candidates = 1
+	minimum_players = 24
+	weight = 4
+	cost = 13
+	flags = LONE_RULESET
+
+/datum/dynamic_ruleset/roundstart/malf/execute(forced = FALSE)
+	var/list/living_players = mode.current_players[CURRENT_LIVING_PLAYERS]
+	for(var/mob/living/player in living_players)
+		if(isAI(player))
+			candidates -= player
+			player.mind.special_role = ROLE_MALF
+			player.mind.add_antag_datum(antag_datum)
+			return DYNAMIC_EXECUTE_SUCCESS
+	return DYNAMIC_EXECUTE_NOT_ENOUGH_PLAYERS
+
+//////////////////////////////////////////////
+//                                          //
 //               CHANGELINGS                //
 //                                          //
 //////////////////////////////////////////////
@@ -139,9 +163,9 @@
 
 /datum/dynamic_ruleset/roundstart/heretics/pre_execute(population)
 	. = ..()
-	var/num_ecult = get_antag_cap(population) * (scaled_times + 1)
+	var/num_heretics = get_antag_cap(population) * (scaled_times + 1)
 
-	for (var/i = 1 to num_ecult)
+	for (var/i = 1 to num_heretics)
 		if(candidates.len <= 0)
 			break
 		var/mob/picked_candidate = antag_pick_n_take(candidates)
@@ -472,61 +496,6 @@
 
 //////////////////////////////////////////////
 //                                          //
-//               DEVIL                      //
-//                                          //
-//////////////////////////////////////////////
-
-/datum/dynamic_ruleset/roundstart/devil
-	name = "Devil"
-	role_preference = /datum/role_preference/antagonist/devil
-	antag_datum = /datum/antagonist/devil
-	restricted_roles = list(JOB_NAME_LAWYER, JOB_NAME_CURATOR, JOB_NAME_CHAPLAIN, JOB_NAME_HEADOFSECURITY, JOB_NAME_CAPTAIN, JOB_NAME_AI, JOB_NAME_CYBORG, JOB_NAME_SECURITYOFFICER, JOB_NAME_WARDEN, JOB_NAME_DETECTIVE)
-	required_candidates = 1
-	weight = 3
-	cost = 0
-	flags = LONE_RULESET
-	requirements = list(101,101,101,101,101,101,101,101,101,101)
-	antag_cap = list("denominator" = 30)
-
-/datum/dynamic_ruleset/roundstart/devil/pre_execute(population)
-	. = ..()
-	var/num_devils = get_antag_cap(population) * (scaled_times + 1)
-
-	for(var/j = 0, j < num_devils, j++)
-		if (candidates.len <= 0)
-			break
-		var/mob/devil = antag_pick_n_take(candidates)
-		assigned += devil.mind
-		devil.mind.special_role = ROLE_DEVIL
-		devil.mind.restricted_roles = restricted_roles
-		GLOB.pre_setup_antags += devil.mind
-
-		log_game("[key_name(devil)] has been selected as a devil")
-	return TRUE
-
-/datum/dynamic_ruleset/roundstart/devil/execute(forced = FALSE)
-	for(var/datum/mind/devil in assigned)
-		add_devil(devil.current, ascendable = TRUE)
-		GLOB.pre_setup_antags -= devil
-		add_devil_objectives(devil,2)
-	return DYNAMIC_EXECUTE_SUCCESS
-
-/datum/dynamic_ruleset/roundstart/devil/proc/add_devil_objectives(datum/mind/devil_mind, quantity)
-	var/list/validtypes = list(/datum/objective/devil/soulquantity, /datum/objective/devil/soulquality, /datum/objective/devil/sintouch, /datum/objective/devil/buy_target)
-	var/datum/antagonist/devil/D = devil_mind.has_antag_datum(/datum/antagonist/devil)
-	for(var/i = 1 to quantity)
-		var/type = pick(validtypes)
-		var/datum/objective/devil/objective = new type(null)
-		objective.owner = devil_mind
-		D.objectives += objective
-		if(!istype(objective, /datum/objective/devil/buy_target))
-			validtypes -= type
-		else
-			objective.find_target()
-		log_objective(D, objective.explanation_text)
-
-//////////////////////////////////////////////
-//                                          //
 //               METEOR                     //
 //                                          //
 //////////////////////////////////////////////
@@ -684,32 +653,3 @@
 		SSticker.mode_result = "win - incursion win"
 	else
 		SSticker.mode_result = "loss - staff stopped the incursion"
-
-//////////////////////////////////////////////
-//                                          //
-//             ASSIMILATION                 //
-//                                          //
-//////////////////////////////////////////////
-
-/datum/dynamic_ruleset/roundstart/hivemind
-	name = "Assimilation"
-	role_preference = /datum/role_preference/antagonist/hivemind_host
-	antag_datum = /datum/antagonist/hivemind
-	protected_roles = list(JOB_NAME_SECURITYOFFICER, JOB_NAME_WARDEN, JOB_NAME_DETECTIVE,JOB_NAME_HEADOFSECURITY, JOB_NAME_CAPTAIN)
-	restricted_roles = list(JOB_NAME_AI, JOB_NAME_CYBORG)
-	required_candidates = 3
-	weight = 3
-	cost = 30
-	requirements = list(100,90,80,60,40,30,10,10,10,10)
-	flags = HIGH_IMPACT_RULESET | NO_OTHER_ROUNDSTARTS_RULESET | PERSISTENT_RULESET
-
-/datum/dynamic_ruleset/roundstart/hivemind/pre_execute(population)
-	. = ..()
-	var/num_hosts = max( 3 , rand(0,1) + min(8, round(population / 8) ) )
-	for (var/i = 1 to num_hosts)
-		var/mob/M = antag_pick_n_take(candidates)
-		assigned += M.mind
-		M.mind.restricted_roles = restricted_roles
-		M.mind.special_role = ROLE_HIVE
-		GLOB.pre_setup_antags += M.mind
-	return TRUE
