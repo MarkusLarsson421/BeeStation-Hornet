@@ -5,6 +5,7 @@ import { Gender } from './preferences/gender';
 export enum Food {
   Alcohol = 'ALCOHOL',
   Breakfast = 'BREAKFAST',
+  Bugs = 'BUGS',
   Cloth = 'CLOTH',
   Dairy = 'DAIRY',
   Fried = 'FRIED',
@@ -70,6 +71,7 @@ export type Department = {
 export type Job = {
   description: string;
   department: string;
+  lock_reason: string;
 };
 
 export type Quirk = {

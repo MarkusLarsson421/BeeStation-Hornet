@@ -2,9 +2,6 @@
 //refactor this and make it not so absolutely abysmal to read.
 //This comment has been here since 09/09/2022 and yet still nobody has done this.
 
-#define OPEN_CONNECTION 1
-#define ROOM_CONNECTION 16
-
 /*
  * Generates a random space ruin.
  * Dimensions of maps need to be 4n+1 by 4n+1
@@ -351,17 +348,7 @@
 				valid = FALSE
 		if(valid)
 			new /obj/machinery/door/airlock/hatch(T)
-			switch(placed_room_entrances[door_pos])
-				if(SOUTH, NORTH)
-					var/obj/machinery/door/firedoor/border_only/b1 = new(T)
-					var/obj/machinery/door/firedoor/border_only/b2 = new(T)
-					b1.setDir(NORTH)
-					b2.setDir(SOUTH)
-				if(EAST, WEST)
-					var/obj/machinery/door/firedoor/border_only/b1 = new(T)
-					var/obj/machinery/door/firedoor/border_only/b2 = new(T)
-					b1.setDir(EAST)
-					b2.setDir(WEST)
+			new /obj/machinery/door/firedoor(T)
 
 	//Repopulate areas
 	require_area_resort()
@@ -384,7 +371,7 @@
 			if(S)
 				S.take_damage(rand(0, S.max_integrity * 1.5))
 		return
-	if(prob(floor_break_prob) && istype(T, /turf/open/floor/plasteel))
+	if(prob(floor_break_prob) && istype(T, /turf/open/floor/iron))
 		T = T.ScrapeAway()
 	//Spawn floortrash.
 	var/new_floortrash = pick_weight(floortrash)

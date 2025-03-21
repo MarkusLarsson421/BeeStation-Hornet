@@ -72,7 +72,9 @@
  * * silent - deletes the component without sending a [COMSIG_COMPONENT_REMOVING] signal
  */
 /datum/component/Destroy(force=FALSE, silent=FALSE)
-	if(!force && parent)
+	if(!parent)
+		return ..()
+	if(!force)
 		_RemoveFromParent()
 	if(parent && !silent)
 		SEND_SIGNAL(parent, COMSIG_COMPONENT_REMOVING, src)
@@ -325,12 +327,17 @@
 	var/list/dc = datum_components
 	if(!dc)
 		return null
-	var/datum/component/C = dc[c_type]
-	if(C)
-		if(length(C))
-			C = C[1]
-		if(C.type == c_type)
-			return C
+	var/list/components = dc[c_type]
+	var/datum/component/component
+	if(components)
+		if(length(components))
+			component = components[1]
+		else if (istype(components, /datum/component))
+			component = components
+	if (component == null)
+		return null
+	if(component.type == c_type)
+		return component
 	return null
 
 /datum/proc/GetComponents(c_type)
@@ -360,12 +367,12 @@
 		nt = new_comp.type
 
 	raw_args[1] = src
-
 	if(dm != COMPONENT_DUPE_ALLOWED && dm != COMPONENT_DUPE_SELECTIVE)
 		if(!dt)
 			old_comp = GetExactComponent(nt)
 		else
 			old_comp = GetComponent(dt)
+
 		if(old_comp)
 			switch(dm)
 				if(COMPONENT_DUPE_UNIQUE)
@@ -374,12 +381,14 @@
 					if(!QDELETED(new_comp))
 						old_comp.InheritComponent(new_comp, TRUE)
 						QDEL_NULL(new_comp)
+
 				if(COMPONENT_DUPE_HIGHLANDER)
 					if(!new_comp)
 						new_comp = new nt(raw_args)
 					if(!QDELETED(new_comp))
 						new_comp.InheritComponent(old_comp, FALSE)
 						QDEL_NULL(old_comp)
+
 				if(COMPONENT_DUPE_UNIQUE_PASSARGS)
 					if(!new_comp)
 						var/list/arguments = raw_args.Copy(2)
@@ -387,6 +396,7 @@
 						old_comp.InheritComponent(arglist(arguments))
 					else
 						old_comp.InheritComponent(new_comp, TRUE)
+
 		else if(!new_comp)
 			new_comp = new nt(raw_args) // There's a valid dupe mode but there's no old component, act like normal
 	else if(dm == COMPONENT_DUPE_SELECTIVE)
@@ -408,12 +418,25 @@
 		return new_comp
 	return old_comp
 
+/**
+ * Get existing component of type, or create it and return a reference to it
+ *
+ * Use this if the item needs to exist at the time of this call, but may not have been created before now
+ *
+ * Arguments:
+ * * component_type The typepath of the component to create or return
+ * * ... additional arguments to be passed when creating the component if it does not exist
+ */
 /datum/proc/_LoadComponent(list/arguments)
 	. = GetComponent(arguments[1])
 	if(!.)
 		return _AddComponent(arguments)
 
-/datum/component/proc/RemoveComponent()
+/**
+ * Removes the component from parent, ends up with a null parent
+ * Used as a helper proc by the component transfer proc, does not clean up the component like Destroy does
+ */
+/datum/component/proc/ClearFromParent()
 	if(!parent)
 		return
 	var/datum/old_parent = parent
@@ -422,11 +445,19 @@
 	parent = null
 	SEND_SIGNAL(old_parent, COMSIG_COMPONENT_REMOVING, src)
 
+/**
+ * Transfer this component to another parent
+ *
+ * Component is taken from source datum
+ *
+ * Arguments:
+ * * datum/component/target Target datum to transfer to
+ */
 /datum/proc/TakeComponent(datum/component/target)
 	if(!target || target.parent == src)
 		return
 	if(target.parent)
-		target.RemoveComponent()
+		target.ClearFromParent()
 	target.parent = src
 	var/result = target.PostTransfer()
 	switch(result)

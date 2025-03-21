@@ -2,17 +2,21 @@
 
 If you create T5+ please take a pass at gene_modder.dm [L40]. Max_values MUST fit with the clamp to not confuse the user or cause possible exploits.*/
 /obj/item/storage/part_replacer
-	name = "rapid part exchange device"
+	name = "rapid part exchange device (RPED)"
 	desc = "Special mechanical module made to store, sort, and apply standard machine parts."
+	icon = 'icons/obj/storage/storage.dmi'
 	icon_state = "RPED"
 	item_state = "RPED"
 	lefthand_file = 'icons/mob/inhands/misc/devices_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/misc/devices_righthand.dmi'
 	w_class = WEIGHT_CLASS_HUGE
-	component_type = /datum/component/storage/concrete/rped
 	var/works_from_distance = FALSE
 	var/pshoom_or_beepboopblorpzingshadashwoosh = 'sound/items/rped.ogg'
 	var/alt_sound = null
+
+/obj/item/storage/part_replacer/Initialize(mapload)
+	. = ..()
+	create_storage(storage_type = /datum/storage/rped)
 
 /obj/item/storage/part_replacer/pre_attack(obj/attacked_object, mob/living/user, params)
 	if(!istype(attacked_object, /obj/machinery) && !istype(attacked_object, /obj/structure/frame/machine))
@@ -30,7 +34,7 @@ If you create T5+ please take a pass at gene_modder.dm [L40]. Max_values MUST fi
 		if(works_from_distance)
 			user.Beam(attacked_machinery, icon_state = "rped_upgrade", time = 5)
 		attacked_machinery.exchange_parts(user, src)
-		return FALSE
+		return TRUE
 
 	var/obj/structure/frame/machine/attacked_frame = attacked_object
 
@@ -79,7 +83,7 @@ If you create T5+ please take a pass at gene_modder.dm [L40]. Max_values MUST fi
 		playsound(src, pshoom_or_beepboopblorpzingshadashwoosh, 40, 1)
 
 /obj/item/storage/part_replacer/bluespace
-	name = "bluespace rapid part exchange device"
+	name = "bluespace rapid part exchange device (BSRPED)"
 	desc = "A version of the RPED that allows for replacement of parts and scanning from a distance, along with higher capacity for parts."
 	icon_state = "BS_RPED"
 	item_state = "BS_RPED"
@@ -87,10 +91,13 @@ If you create T5+ please take a pass at gene_modder.dm [L40]. Max_values MUST fi
 	works_from_distance = TRUE
 	pshoom_or_beepboopblorpzingshadashwoosh = 'sound/items/pshoom.ogg'
 	alt_sound = 'sound/items/pshoom_2.ogg'
-	component_type = /datum/component/storage/concrete/bluespace/rped
 
 /obj/item/storage/part_replacer/bluespace/Initialize(mapload)
 	. = ..()
+
+	atom_storage.max_slots = 400
+	atom_storage.max_total_storage = 800
+	atom_storage.max_specific_storage = WEIGHT_CLASS_GIGANTIC
 
 	RegisterSignal(src, COMSIG_ATOM_ENTERED, PROC_REF(on_part_entered))
 	RegisterSignal(src, COMSIG_ATOM_EXITED,PROC_REF(on_part_exited))
@@ -118,7 +125,7 @@ If you create T5+ please take a pass at gene_modder.dm [L40]. Max_values MUST fi
 	if(inserted_component.reagents)
 		if(length(inserted_component.reagents.reagent_list))
 			inserted_component.reagents.clear_reagents()
-			to_chat(usr, "<span class='warning'>[src] churns as [inserted_component] has its reagents emptied into bluespace.</span>")
+			to_chat(usr, span_warning("[src] churns as [inserted_component] has its reagents emptied into bluespace."))
 		RegisterSignal(inserted_component.reagents, COMSIG_REAGENTS_PRE_ADD_REAGENT, PROC_REF(on_insered_component_reagent_pre_add))
 
 /**

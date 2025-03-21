@@ -1,3 +1,4 @@
+
 /obj/structure/statue
 	name = "statue"
 	desc = "Placeholder. Yell at Qwerty if you SOMEHOW see this."
@@ -6,15 +7,25 @@
 	density = TRUE
 	anchored = FALSE
 	max_integrity = 100
+	can_atmos_pass = ATMOS_PASS_DENSITY
 	var/oreAmount = 5
 	var/material_drop_type = /obj/item/stack/sheet/iron
-	CanAtmosPass = ATMOS_PASS_DENSITY
+	can_atmos_pass = ATMOS_PASS_DENSITY
 	material_modifier = 0.5
 	material_flags = MATERIAL_EFFECTS | MATERIAL_AFFECT_STATISTICS
+	/// Beauty component mood modifier
+	var/impressiveness = 15
+	/// Art component subtype added to this statue
+	var/art_type = /datum/element/art
+
+/obj/structure/statue/Initialize(mapload)
+	. = ..()
+	AddElement(art_type, impressiveness)
+	//AddElement(/datum/element/beauty, impressiveness * 75)
+	AddComponent(/datum/component/simple_rotation)
 
 /obj/structure/statue/attackby(obj/item/W, mob/living/user, params)
 	add_fingerprint(user)
-	user.changeNext_move(CLICK_CD_MELEE)
 	if(!(flags_1 & NODECONSTRUCT_1))
 		if(default_unfasten_wrench(user, W))
 			return
@@ -23,22 +34,16 @@
 				return FALSE
 
 			user.visible_message("[user] is slicing apart the [name].", \
-								"<span class='notice'>You are slicing apart the [name]...</span>")
+								span_notice("You are slicing apart the [name]..."))
 			if(W.use_tool(src, user, 40, volume=50))
 				user.visible_message("[user] slices apart the [name].", \
-									"<span class='notice'>You slice apart the [name]!</span>")
+									span_notice("You slice apart the [name]!"))
 				deconstruct(TRUE)
 			return
 	return ..()
 
-/obj/structure/statue/attack_hand(mob/living/user)
-	. = ..()
-	if(.)
-		return
-	user.changeNext_move(CLICK_CD_MELEE)
-	add_fingerprint(user)
-	user.visible_message("[user] rubs some dust off from the [name]'s surface.", \
-						 "<span class='notice'>You rub some dust off from the [name]'s surface.</span>")
+/obj/structure/statue/AltClick(mob/user)
+	return ..() // This hotkey is BLACKLISTED since it's used by /datum/component/simple_rotation
 
 /obj/structure/statue/deconstruct(disassembled = TRUE)
 	if(!(flags_1 & NODECONSTRUCT_1))
@@ -59,6 +64,7 @@
 	material_drop_type = /obj/item/stack/sheet/mineral/uranium
 	var/last_event = 0
 	var/active = null
+	impressiveness = 25 // radiation makes an impression
 
 /obj/structure/statue/uranium/nuke
 	name = "statue of a nuclear fission explosive"
@@ -78,7 +84,7 @@
 	radiate()
 	..()
 
-/obj/structure/statue/uranium/attack_hand(mob/user)
+/obj/structure/statue/uranium/attack_hand(mob/user, list/modifiers)
 	radiate()
 	. = ..()
 
@@ -102,13 +108,20 @@
 	max_integrity = 200
 	material_drop_type = /obj/item/stack/sheet/mineral/plasma
 	desc = "This statue is suitably made from plasma."
+	impressiveness = 20
 
 /obj/structure/statue/plasma/scientist
 	name = "statue of a scientist"
 	icon_state = "sci"
 
-/obj/structure/statue/plasma/temperature_expose(datum/gas_mixture/air, exposed_temperature, exposed_volume)
-	if(exposed_temperature > 300)
+/obj/structure/statue/plasma/ComponentInitialize()
+	. = ..()
+	AddElement(/datum/element/atmos_sensitive)
+
+/obj/structure/statue/plasma/should_atmos_process(datum/gas_mixture/air, exposed_temperature)
+	return exposed_temperature > 300
+
+/obj/structure/statue/plasma/atmos_expose(datum/gas_mixture/air, exposed_temperature)
 		plasma_ignition(6)
 
 
@@ -129,6 +142,7 @@
 	max_integrity = 300
 	material_drop_type = /obj/item/stack/sheet/mineral/gold
 	desc = "This is a highly valuable statue made from gold."
+	impressiveness = 25
 
 /obj/structure/statue/gold/hos
 	name = "statue of the head of security"
@@ -156,6 +170,7 @@
 	max_integrity = 300
 	material_drop_type = /obj/item/stack/sheet/mineral/silver
 	desc = "This is a valuable statue made from silver."
+	impressiveness = 25
 
 /obj/structure/statue/silver/md
 	name = "statue of a medical officer"
@@ -183,6 +198,7 @@
 	max_integrity = 1000
 	material_drop_type = /obj/item/stack/sheet/mineral/diamond
 	desc = "This is a very expensive diamond statue."
+	impressiveness = 50
 
 /obj/structure/statue/diamond/captain
 	name = "statue of THE captain."
@@ -203,6 +219,7 @@
 	material_drop_type = /obj/item/stack/sheet/mineral/bananium
 	desc = "A bananium statue with a small engraving:'HOOOOOOONK'."
 	var/spam_flag = FALSE
+	impressiveness = 50
 
 /obj/structure/statue/bananium/clown
 	name = "statue of a clown"
@@ -216,7 +233,7 @@
 	honk()
 	return ..()
 
-/obj/structure/statue/bananium/attack_hand(mob/user)
+/obj/structure/statue/bananium/attack_hand(mob/user, list/modifiers)
 	honk()
 	. = ..()
 
@@ -235,6 +252,7 @@
 /obj/structure/statue/sandstone
 	max_integrity = 50
 	material_drop_type = /obj/item/stack/sheet/mineral/sandstone
+	impressiveness = 15
 
 /obj/structure/statue/sandstone/assistant
 	name = "statue of an assistant"
@@ -261,9 +279,9 @@
 	icon_state = "snowman"
 
 /obj/structure/statue/snow/snowlegion
-    name = "snowlegion"
-    desc = "Looks like that weird kid with the tiger plushie has been round here again."
-    icon_state = "snowlegion"
+	name = "snowlegion"
+	desc = "Looks like that weird kid with the tiger plushie has been round here again."
+	icon_state = "snowlegion"
 
 //////////////////////////copper///////////////////////////////////////
 
@@ -274,7 +292,8 @@
 
 /obj/structure/statue/copper/dimas
 	name = "statue of the quartermaster"
-	desc = "This is a statue of the legendary Quartermaster, Lord of Cargonia the land of stolen things. You feel the need to bow before it."
-	max_integrity = 400
+	desc = "This is a statue of the legendary Quartermaster, Lord of Cargonia the land of stolen things."
+	max_integrity = 300
 	icon_state = "dimas"
 	oreAmount = 10 //dimas b dense
+	impressiveness = -5 // A testament to one's pride isnt particularly impressive
