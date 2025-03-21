@@ -9,7 +9,7 @@
 
 /mob/living/silicon/robot/proc/handle_jamming()
 	if(deployed && is_jammed(JAMMER_PROTECTION_AI_SHELL))
-		to_chat(src, "<span class='warning robot'>Remote connection with target lost.</span>")
+		to_chat(src, span_warningrobot("Remote connection with target lost."))
 		undeploy()
 
 /mob/living/silicon/robot/proc/handle_robot_cell()
@@ -97,12 +97,4 @@
 		add_overlay(fire_overlay)
 	else
 		cut_overlay(fire_overlay)
-
-/mob/living/silicon/robot/update_mobility()
-	if(HAS_TRAIT(src, TRAIT_IMMOBILIZED))
-		mobility_flags &= ~MOBILITY_MOVE
-	else
-		mobility_flags = MOBILITY_FLAGS_DEFAULT
-	update_transform()
-	update_action_buttons_icon()
 

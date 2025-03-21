@@ -4,13 +4,13 @@
 	id = SPECIES_FLY
 	bodyflag = FLAG_FLY
 	species_traits = list(NOEYESPRITES, NO_UNDERWEAR, TRAIT_BEEFRIEND)
+	inherent_traits = list(TRAIT_TACKLING_FRAIL_ATTACKER)
 	inherent_biotypes = list(MOB_ORGANIC, MOB_HUMANOID, MOB_BUG)
 	mutanttongue = /obj/item/organ/tongue/fly
 	mutantliver = /obj/item/organ/liver/fly
 	mutantstomach = /obj/item/organ/stomach/fly
 	meat = /obj/item/food/meat/slab/human/mutant/fly
-	mutant_bodyparts = list("insect_type")
-	default_features = list("insect_type" = "fly", "body_size" = "Normal")
+	mutant_bodyparts = list("insect_type" = "fly", "body_size" = "Normal")
 	burnmod = 1.4
 	brutemod = 1.4
 	speedmod = 0.7
@@ -38,8 +38,8 @@
 			H.vomit(10, FALSE, FALSE, 2, TRUE)
 			H.reagents.remove_reagent(chem.type, chem.metabolization_rate)
 			playsound(pos, 'sound/effects/splat.ogg', 50, 1)
-			H.visible_message("<span class='danger'>[H] vomits on the floor!</span>", \
-						"<span class='userdanger'>You throw up on the floor!</span>")
+			H.visible_message(span_danger("[H] vomits on the floor!"), \
+						span_userdanger("You throw up on the floor!"))
 		return TRUE
 	return ..()
 
