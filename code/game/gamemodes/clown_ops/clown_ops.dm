@@ -3,9 +3,9 @@
 	config_tag = "clownops"
 
 	announce_span = "danger"
-	announce_text = "Clown empire forces are approaching the station in an attempt to HONK it!\n\
-	<span class='danger'>Operatives</span>: Secure the nuclear authentication disk and use your bananium fission explosive to HONK the station.\n\
-	<span class='notice'>Crew</span>: Defend the nuclear authentication disk and ensure that it leaves with you on the emergency shuttle."
+	announce_text = "Clown empire forces are approaching the station in an attempt to HONK it!\n \
+	" + span_danger("Operatives") + ": Secure the nuclear authentication disk and use your bananium fission explosive to HONK the station.\n \
+	" + span_notice("Crew") + ": Defend the nuclear authentication disk and ensure that it leaves with you on the emergency shuttle."
 
 	operative_antag_datum_type = /datum/antagonist/nukeop/clownop
 	leader_antag_datum_type = /datum/antagonist/nukeop/leader/clownop
@@ -36,8 +36,8 @@
 	ears = /obj/item/radio/headset/syndicate/alt
 	l_pocket = /obj/item/pinpointer/nuke/syndicate
 	r_pocket = /obj/item/bikehorn
-	id = /obj/item/card/id/chameleon
-	backpack_contents = list(/obj/item/storage/box/syndie=1,\
+	id = /obj/item/card/id/syndicate
+	backpack_contents = list(/obj/item/storage/box/survival/syndie=1,\
 		/obj/item/knife/combat/survival,
 		/obj/item/reagent_containers/spray/waterflower/lube)
 	implants = list(/obj/item/implant/sad_trombone)
@@ -51,11 +51,11 @@
 	..()
 	if(visualsOnly)
 		return
-	H.dna.add_mutation(CLOWNMUT)
+	H.dna.add_mutation(/datum/mutation/clumsy)
 
 /datum/outfit/syndicate/clownop/leader
 	name = "Clown Operative Leader - Basic"
-	id = /obj/item/card/id/chameleon/nuke_leader
+	id = /obj/item/card/id/syndicate/nuke_leader
 	gloves = /obj/item/clothing/gloves/krav_maga/combatglovesplus
 	r_hand = /obj/item/nuclear_challenge/clownops
 	command_radio = TRUE

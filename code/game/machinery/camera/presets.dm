@@ -43,60 +43,6 @@
 	upgradeEmpProof()
 	upgradeMotion()
 
-// AUTONAME
-
-/obj/machinery/camera/autoname
-	var/number = 0 //camera number in area
-
-//This camera type automatically sets it's name to whatever the area that it's in is called.
-/obj/machinery/camera/autoname/Initialize(mapload)
-	..()
-	return INITIALIZE_HINT_LATELOAD
-
-/obj/machinery/camera/autoname/LateInitialize()
-	. = ..()
-
-	var/static/list/autonames_in_areas = list()
-
-	var/area/camera_area = get_area(src)
-
-	number = autonames_in_areas[camera_area] + 1
-	autonames_in_areas[camera_area] = number
-
-	c_tag = "[format_text(camera_area.name)] #[number]"
-
-/obj/machinery/camera/autoname/nv73
-	network = list("nv73")
-
-/obj/machinery/camera/autoname/station
-
-/obj/machinery/camera/autoname/station/security
-	network = list("ss13", "security")
-
-/obj/machinery/camera/autoname/station/security/prison
-	network = list("ss13", "prison", "security")
-
-/obj/machinery/camera/autoname/station/science
-	network = list("ss13", "science")
-
-/obj/machinery/camera/autoname/station/medbay
-	network = list("ss13", "medbay")
-
-/obj/machinery/camera/autoname/station/service
-	network = list("ss13", "service")
-
-/obj/machinery/camera/autoname/station/command
-	network = list("ss13", "command")
-
-/obj/machinery/camera/autoname/station/cargo
-	network = list("ss13", "cargo")
-
-/obj/machinery/camera/autoname/station/engineering
-	network = list("ss13", "engineering")
-
-/obj/machinery/camera/autoname/station/ai
-	network = list("ss13", "ai")
-
 // UPGRADE PROCS
 
 /obj/machinery/camera/proc/isEmpProof(ignore_malf_upgrades)
