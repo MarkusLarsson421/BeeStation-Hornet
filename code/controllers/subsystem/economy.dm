@@ -22,7 +22,7 @@ SUBSYSTEM_DEF(economy)
 	/// Mail Holiday: AKA does mail arrive today? Always blocked on Sundays, but not on bee, the mail is 24/7.
 	var/mail_blocked = FALSE
 
-/datum/controller/subsystem/economy/Initialize(timeofday)
+/datum/controller/subsystem/economy/Initialize()
 	//Calculating before creating dept accounts
 	var/budget_size = 0
 	for(var/datum/bank_account/department/each as() in subtypesof(/datum/bank_account/department))
@@ -42,7 +42,7 @@ SUBSYSTEM_DEF(economy)
 		D.account_holder = ACCOUNT_ALL_NAME
 		// Note: if you want to remove united_budget feature, try /event verb and find united budget cancel event
 
-	return ..()
+	return SS_INIT_SUCCESS
 
 /datum/controller/subsystem/economy/Recover()
 	budget_accounts = SSeconomy.budget_accounts
@@ -53,7 +53,7 @@ SUBSYSTEM_DEF(economy)
 		var/datum/bank_account/B = A
 		B.payday(1)
 	var/effective_mailcount = living_player_count()
-	mail_waiting += clamp(effective_mailcount, 1, MAX_MAIL_PER_MINUTE)
+	mail_waiting = clamp(mail_waiting + clamp(effective_mailcount, 1, MAX_MAIL_PER_MINUTE), 0, MAX_MAIL_LIMIT)
 
 /datum/controller/subsystem/economy/proc/get_bank_account_by_id(target_id)
 	if(!length(bank_accounts))
