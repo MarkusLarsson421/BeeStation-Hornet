@@ -10,15 +10,14 @@
 /area/ruin/unpowered)
 "d" = (
 /obj/structure/window/shuttle,
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "e" = (
 /obj/structure/shuttle/engine/propulsion,
-/turf/open/space/basic,
+/turf/closed/wall/mineral/titanium,
 /area/ruin/unpowered)
 "f" = (
 /obj/machinery/door/airlock/shuttle,
-/obj/structure/fans/tiny,
 /turf/open/floor/mineral/titanium/white,
 /area/ruin/unpowered)
 "g" = (
@@ -75,6 +74,13 @@
 /obj/effect/mob_spawn/human/corpse/cargo_tech,
 /turf/open/floor/mineral/titanium/white,
 /area/ruin/unpowered)
+"o" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 4
+	},
+/obj/effect/mob_spawn/human/cook,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/unpowered)
 
 (1,1,1) = {"
 a
@@ -111,7 +117,7 @@ a
 a
 d
 i
-j
+o
 j
 k
 c

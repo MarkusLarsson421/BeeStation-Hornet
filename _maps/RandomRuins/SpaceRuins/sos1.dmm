@@ -6,8 +6,10 @@
 /turf/closed/wall/mineral/titanium,
 /area/ruin/unpowered)
 "c" = (
-/obj/structure/shuttle/engine/propulsion/burst/right,
-/turf/closed/wall/mineral/titanium/overspace,
+/obj/structure/shuttle/engine/propulsion/burst/right{
+	dir = 4
+	},
+/turf/closed/wall/mineral/titanium,
 /area/ruin/unpowered)
 "d" = (
 /obj/structure/chair/fancy/shuttle{
@@ -22,12 +24,11 @@
 /obj/machinery/door/airlock/titanium{
 	name = "Escape Pod Airlock"
 	},
-/obj/structure/fans/tiny,
 /turf/open/floor/mineral/titanium/blue,
 /area/ruin/unpowered)
 "f" = (
 /obj/structure/window/shuttle,
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "g" = (
 /obj/structure/chair/fancy/shuttle{

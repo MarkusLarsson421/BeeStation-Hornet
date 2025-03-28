@@ -72,6 +72,7 @@
 	var/obj/item/note //Any papers pinned to the airlock
 	var/detonated = FALSE
 	var/abandoned = FALSE
+	var/boarded = FALSE
 	///Controls if the door closes quickly or not. FALSE = the door autocloses in 1.5 seconds, TRUE = 8 seconds - see autoclose_in()
 	var/normalspeed = TRUE
 	var/doorOpen = 'sound/machines/airlock.ogg'
@@ -159,27 +160,18 @@
 		cyclelinkairlock()
 	if(closeOtherId)
 		update_other_id()
-	if(abandoned)
-		var/outcome = rand(1,100)
-		switch(outcome)
-			if(1 to 5)
-				var/turf/here = get_turf(src)
-				for(var/turf/closed/T in spiral_range_turfs(2, here))
-					here.PlaceOnTop(T.type)
-					qdel(src)
-					return
-				here.PlaceOnTop(/turf/closed/wall)
-				qdel(src)
-				return
-			if(5 to 6)
-				lights = FALSE
-				locked = TRUE
-			if(6 to 8)
-				locked = TRUE
-			if(8 to 10)
-				welded = TRUE
-			if(10 to 30)
-				panel_open = TRUE
+	if(boarded)
+		var/turf/here = get_turf(src)
+		here.PlaceOnTop(pick(/obj/structure/barricade/wooden, /obj/structure/barricade/wooden/crude))
+	if(walled)
+		var/turf/here = get_turf(src)
+		for(var/turf/closed/T in spiral_range_turfs(2, here))
+			here.PlaceOnTop(T.type)
+			qdel(src)
+			return
+		here.PlaceOnTop(/turf/closed/wall)
+		qdel(src)
+		return
 	update_icon()
 
 

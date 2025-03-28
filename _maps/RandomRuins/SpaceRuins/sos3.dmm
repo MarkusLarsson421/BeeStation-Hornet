@@ -6,12 +6,14 @@
 /turf/closed/wall/mineral/bananium,
 /area/ruin/unpowered)
 "c" = (
-/obj/structure/shuttle/engine/propulsion/right,
+/obj/structure/shuttle/engine/propulsion/right{
+	dir = 4
+	},
 /turf/open/floor/mineral/bananium/airless,
 /area/ruin/unpowered)
 "d" = (
 /obj/structure/window/plasma/fulltile,
-/turf/open/floor/mineral/bananium/airless,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "e" = (
 /obj/item/gps{
@@ -23,6 +25,7 @@
 /obj/item/storage/pod{
 	pixel_y = -30
 	},
+/obj/effect/mob_spawn/human/clown/corpse,
 /turf/open/floor/mineral/bananium/airless,
 /area/ruin/unpowered)
 "f" = (
@@ -33,7 +36,6 @@
 /obj/structure/chair/fancy/shuttle{
 	dir = 8
 	},
-/obj/effect/decal/remains/human,
 /turf/open/floor/mineral/bananium/airless,
 /area/ruin/unpowered)
 

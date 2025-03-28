@@ -201,10 +201,10 @@
 	cost = 1
 
 /datum/map_template/ruin/space/gas_the_lizards
-	id = "gas-the-lizards"
-	suffix = "gasthelizards.dmm"
-	name = "Disposal Facility 17"
-	description = "Gas efficiency at 95.6%, fluid elimination at 96.2%. Will require renewed supplies of 'carpet' before the end of the quarter."
+	id = "questionable-ethics"
+	suffix = "questionableethics.dmm"
+	name = "Carpet Facility 17"
+	description = "Will require renewed supplies of 'carpet' before the end of the quarter."
 	cost = 2
 
 /datum/map_template/ruin/space/intact_empty_ship

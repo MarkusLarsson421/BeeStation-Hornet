@@ -110,10 +110,30 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/mapping_helpers)
 	var/obj/machinery/door/airlock/airlock = locate(/obj/machinery/door/airlock) in loc
 	if(!airlock)
 		log_mapping("[src] failed to find an airlock at [AREACOORD(src)]")
-	else
-		payload(airlock)
+		return
+
+	payload(airlock)
 
 /obj/effect/mapping_helpers/airlock/proc/payload(obj/machinery/door/airlock/payload)
+	return
+
+/obj/effect/mapping_helpers/airlock/abandoned/Initialize(mapload)
+	. = ..()
+	if(!mapload)
+		log_mapping("[src] spawned outside of mapload!")
+		return
+	var/obj/machinery/door/airlock/airlock = locate(/obj/machinery/door/airlock) in loc
+	if(!airlock)
+		log_mapping("[src] failed to find an airlock at [AREACOORD(src)]")
+		return
+
+	var/list/defects = list()
+	for(var/obj/effect/mapping_helpers/airlock/defect/D in loc)
+		defects += typeof(D)
+
+	payload(airlock, defects)
+
+/obj/effect/mapping_helpers/airlock/abandoned/proc/payload(obj/machinery/door/airlock/payload)
 	return
 
 /obj/effect/mapping_helpers/airlock/cyclelink_helper
@@ -137,16 +157,76 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/mapping_helpers)
 	else
 		airlock.closeOtherId = cycle_id
 
-/obj/effect/mapping_helpers/airlock/locked
+/obj/effect/mapping_helpers/airlock/defects/
+	name = "airlock defects"
+	icon_state = "airlock_defects_helper"
+	var/weight = 1
+
+/obj/effect/mapping_helpers/airlock/defects/locked
 	name = "airlock lock helper"
 	icon_state = "airlock_locked_helper"
+	weight = 2
 
-/obj/effect/mapping_helpers/airlock/locked/payload(obj/machinery/door/airlock/airlock)
+/obj/effect/mapping_helpers/airlock/defects/locked/payload(obj/machinery/door/airlock/airlock)
 	if(airlock.locked)
 		log_mapping("[src] at [AREACOORD(src)] tried to bolt [airlock] but it's already locked!")
 	else
 		airlock.locked = TRUE
 
+/obj/effect/mapping_helpers/airlock/defects/walled
+	name = "airlock walled helper"
+	icon_state = "airlock_walled_helper"
+	weight = 4
+
+/obj/effect/mapping_helpers/airlock/defects/walled/payload(obj/machinery/door/airlock/airlock)
+	if(airlock.walled)
+		log_mapping("[src] at [AREACOORD(src)] tried to wall [airlock] but it's already walled!")
+	else
+		airlock.walled = TRUE
+
+/obj/effect/mapping_helpers/airlock/defects/lights_off
+	name = "airlock lights off helper"
+	icon_state = "airlock_lights_off_helper"
+	weight = 1
+
+/obj/effect/mapping_helpers/airlock/defects/lights_off/payload(obj/machinery/door/airlock/airlock)
+	if(airlock.lights)
+		log_mapping("[src] at [AREACOORD(src)] tried to light off [airlock] but it's already light off!")
+	else
+		airlock.lights = TRUE
+
+/obj/effect/mapping_helpers/airlock/defects/welded
+	name = "airlock welded helper"
+	icon_state = "airlock_welded_helper"
+	weight = 2
+
+/obj/effect/mapping_helpers/airlock/defects/welded/payload(obj/machinery/door/airlock/airlock)
+	if(airlock.welded)
+		log_mapping("[src] at [AREACOORD(src)] tried to weld [airlock] but it's already welded!")
+	else
+		airlock.welded = TRUE
+
+/obj/effect/mapping_helpers/airlock/defects/panel_opened
+	name = "airlock panel opened helper"
+	icon_state = "airlock_panel_opened_helper"
+	weight = 20
+
+/obj/effect/mapping_helpers/airlock/defects/panel_opened/payload(obj/machinery/door/airlock/airlock)
+	if(airlock.panel_opened)
+		log_mapping("[src] at [AREACOORD(src)] tried to open [airlock]'s maintenance panel but it's already opened!")
+	else
+		airlock.panel_opened = TRUE
+
+/obj/effect/mapping_helpers/airlock/defects/boarded
+	name = "airlock boarded helper"
+	icon_state = "airlock_boarded_helper"
+	weight = 5
+
+/obj/effect/mapping_helpers/airlock/defects/boarded/payload(obj/machinery/door/airlock/airlock)
+	if(airlock.boarded)
+		log_mapping("[src] at [AREACOORD(src)] tried to board up [airlock] but it's already boarded up!")
+	else
+		airlock.boarded = TRUE
 
 /obj/effect/mapping_helpers/airlock/unres
 	name = "airlock unresctricted side helper"
@@ -159,11 +239,41 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/mapping_helpers)
 	name = "airlock abandoned helper"
 	icon_state = "airlock_abandoned"
 
+/obj/effect/mapping_helpers/airlock/abandoned/payload(obj/machinery/door/airlock/airlock, list/effect/mapping_helpers/airlock/defects/defects)
+	if(airlock.abandoned)
+		log_mapping("[src] at [AREACOORD(src)] tried to make [airlock] abandoned but it's already abandoned!")
+	else
+
+
+
+/obj/effect/mapping_helpers/airlock/abandoned/walled
+	name = "airlock abandoned helper"
+	icon_state = "airlock_abandoned"
+
 /obj/effect/mapping_helpers/airlock/abandoned/payload(obj/machinery/door/airlock/airlock)
 	if(airlock.abandoned)
 		log_mapping("[src] at [AREACOORD(src)] tried to make [airlock] abandoned but it's already abandoned!")
 	else
-		airlock.abandoned = TRUE
+		var/outcome = rand(1,100)
+		switch(outcome)
+			if(1 to 5)
+				var/turf/here = get_turf(airlock)
+				for(var/turf/closed/T in spiral_range_turfs(2, here))
+					here.PlaceOnTop(T.type)
+					qdel(airlock)
+					return
+				here.PlaceOnTop(/turf/closed/wall)
+				qdel(airlock)
+				return
+			if(5 to 6)
+				lights = FALSE
+				locked = TRUE
+			if(6 to 8)
+				locked = TRUE
+			if(8 to 10)
+				welded = TRUE
+			if(10 to 30)
+				panel_open = TRUE
 
 //air alarm helpers
 /obj/effect/mapping_helpers/airalarm

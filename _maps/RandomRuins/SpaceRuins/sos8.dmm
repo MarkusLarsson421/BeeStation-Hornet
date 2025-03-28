@@ -16,7 +16,7 @@
 /area/ruin/unpowered)
 "e" = (
 /obj/structure/window/shuttle,
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/plating/airless,
 /area/ruin/unpowered)
 "f" = (
 /turf/closed/mineral/random/low_chance,
@@ -42,7 +42,7 @@
 /area/ruin/unpowered)
 "k" = (
 /obj/structure/girder,
-/turf/open/floor/iron/airless,
+/turf/open/floor/plating/airless,
 /area/ruin/unpowered)
 "l" = (
 /obj/item/gps{
@@ -83,7 +83,7 @@
 /area/ruin/unpowered)
 "r" = (
 /obj/structure/grille,
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/plating/airless,
 /area/ruin/unpowered)
 "s" = (
 /obj/machinery/door/airlock/shuttle,

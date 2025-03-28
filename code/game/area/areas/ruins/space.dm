@@ -1,5 +1,4 @@
 //Space Ruin Parents
-
 /area/ruin/space
 	default_gravity = ZERO_GRAVITY
 	area_flags = UNIQUE_AREA
@@ -18,7 +17,6 @@
 	always_unpowered = FALSE
 
 // Ruins of "onehalf" ship
-
 /area/ruin/space/has_grav/onehalf/hallway
 	name = "Hallway"
 	icon_state = "hallC"
@@ -52,7 +50,6 @@
 
 
 //Ruin of Hotel
-
 /area/ruin/space/has_grav/hotel
 	name = "Hotel"
 
@@ -119,7 +116,6 @@
 
 
 //Ruin of Derelict Oupost
-
 /area/ruin/space/has_grav/derelictoutpost
 	name = "Derelict Outpost"
 	icon_state = "green"
@@ -141,34 +137,27 @@
 	icon_state = "red"
 
 //Ruin of turretedoutpost
-
 /area/ruin/space/has_grav/turretedoutpost
 	name = "Turreted Outpost"
 	icon_state = "red"
 
 
 //Ruin of old teleporter
-
 /area/ruin/space/oldteleporter
 	name = "Old Teleporter"
 	icon_state = "teleporter"
 
 
 //Ruin of mech transport
-
 /area/ruin/space/has_grav/powered/mechtransport
 	name = "Mech Transport"
 	icon_state = "green"
-
-
-//Ruin of gas the lizard
 
 /area/ruin/space/has_grav/gasthelizard
 	name = "Gas the lizard"
 
 
 //Ruin of Deep Storage
-
 /area/ruin/space/has_grav/deepstorage
 	name = "Deep Storage"
 	icon_state = "storage"
@@ -368,20 +357,17 @@
 
 
 //ABANDONED TELEPORTER
-
 /area/ruin/space/abandoned_tele
 	name = "Abandoned Teleporter"
 	icon_state = "teleporter"
 	ambientsounds = list('sound/ambience/ambimalf.ogg', 'sound/ambience/signal.ogg')
 
 //OLD AI SAT
-
 /area/tcommsat/oldaisat
 	name = "Abandoned Satellite"
 	icon_state = "tcomsatcham"
 
 //ABANDONED BOX WHITESHIP
-
 /area/ruin/space/has_grav/whiteship/box
 
 	name = "Abandoned Ship"
@@ -389,7 +375,6 @@
 
 
 //SYNDICATE LISTENING POST STATION
-
 /area/ruin/space/has_grav/listeningstation
 	name = "Listening Post"
 	icon_state = "yellow"
@@ -403,7 +388,6 @@
 	icon_state = "yellow"
 
 //POWER PUZLE
-
 /area/ruin/space/has_grav/storage/central
 	name = "storage central"
 	icon_state = "hallC"

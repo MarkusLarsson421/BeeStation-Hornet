@@ -6,8 +6,10 @@
 /turf/closed/wall/mineral/titanium,
 /area/ruin/unpowered)
 "c" = (
-/obj/structure/shuttle/engine/propulsion/burst/right,
-/turf/closed/wall/mineral/titanium/overspace,
+/obj/structure/shuttle/engine/propulsion/burst/right{
+	dir = 4
+	},
+/turf/closed/wall/mineral/titanium,
 /area/ruin/unpowered)
 "d" = (
 /obj/structure/blob/normal,
@@ -44,7 +46,7 @@
 /area/template_noop)
 "i" = (
 /obj/structure/blob/normal,
-/turf/open/floor/mineral/titanium/blue/airless,
+/turf/open/floor/plating/airless,
 /area/ruin/unpowered)
 
 (1,1,1) = {"

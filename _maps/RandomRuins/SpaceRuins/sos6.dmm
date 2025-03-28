@@ -3,11 +3,11 @@
 /turf/template_noop,
 /area/template_noop)
 "b" = (
-/turf/closed/wall/r_wall/rust,
+/turf/closed/wall/r_wall/syndicate,
 /area/ruin/unpowered)
 "c" = (
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/effect/spawner/structure/window/plastitanium,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "d" = (
 /obj/structure/chair/fancy/shuttle{
@@ -19,7 +19,7 @@
 /area/ruin/unpowered)
 "e" = (
 /obj/structure/shuttle/engine/propulsion,
-/turf/open/space/basic,
+/turf/closed/wall/r_wall/syndicate,
 /area/ruin/unpowered)
 "f" = (
 /turf/open/floor/mineral/plastitanium/red,

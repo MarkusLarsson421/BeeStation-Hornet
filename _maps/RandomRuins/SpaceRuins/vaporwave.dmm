@@ -2,20 +2,8 @@
 "a" = (
 /turf/open/space,
 /area/space)
-"b" = (
-/obj/structure/lattice,
-/turf/open/space,
-/area/space/nearstation)
-"c" = (
-/obj/structure/lattice,
-/turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
 "d" = (
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
-"e" = (
-/obj/structure/lattice,
-/turf/open/floor/plating/airless,
 /area/ruin/unpowered/no_grav)
 "f" = (
 /turf/closed/wall,
@@ -228,7 +216,7 @@ a
 a
 a
 a
-b
+a
 a
 a
 a
@@ -245,10 +233,10 @@ a
 a
 a
 d
-c
+d
 d
 a
-b
+a
 a
 a
 a
@@ -262,10 +250,10 @@ a
 a
 d
 d
-c
 d
 d
-c
+d
+d
 d
 d
 a
@@ -279,10 +267,10 @@ a
 d
 d
 d
-e
-c
 d
-e
+d
+d
+d
 d
 d
 d
@@ -309,7 +297,7 @@ a
 (6,1,1) = {"
 a
 a
-c
+d
 d
 f
 h
@@ -325,9 +313,9 @@ a
 "}
 (7,1,1) = {"
 a
-b
-c
-e
+a
+d
+d
 g
 i
 r
@@ -378,7 +366,7 @@ d
 a
 a
 d
-c
+d
 f
 l
 l
@@ -395,7 +383,7 @@ I
 a
 a
 d
-c
+d
 g
 m
 s
@@ -412,7 +400,7 @@ I
 a
 a
 d
-c
+d
 g
 O
 n
@@ -426,10 +414,10 @@ A
 A
 "}
 (13,1,1) = {"
-b
-b
-c
-e
+a
+a
+d
+d
 f
 o
 o
@@ -483,10 +471,10 @@ a
 d
 d
 d
-e
-c
+d
+d
 x
-e
+d
 d
 d
 d
@@ -500,10 +488,10 @@ a
 a
 a
 d
-c
 d
 d
-c
+d
+d
 d
 d
 d
@@ -517,7 +505,7 @@ a
 a
 a
 a
-b
+a
 d
 d
 d
@@ -534,7 +522,7 @@ a
 a
 a
 a
-b
+a
 a
 a
 a

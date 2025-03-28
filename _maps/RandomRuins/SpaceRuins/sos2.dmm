@@ -7,15 +7,17 @@
 /area/ruin/unpowered)
 "c" = (
 /obj/structure/girder,
-/turf/open/floor/mineral/titanium/white/airless,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "d" = (
-/obj/structure/shuttle/engine/propulsion/right,
+/obj/structure/shuttle/engine/propulsion/right{
+	dir = 4
+	},
 /turf/open/space/basic,
 /area/ruin/unpowered)
 "e" = (
 /obj/structure/grille,
-/turf/open/floor/mineral/titanium/white/airless,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "f" = (
 /obj/structure/chair/fancy/shuttle{
@@ -24,7 +26,7 @@
 /obj/item/gps{
 	gpstag = "SOS"
 	},
-/turf/open/floor/mineral/titanium/white/airless,
+/turf/open/floor/mineral/titanium/blue,
 /area/ruin/unpowered)
 "g" = (
 /obj/machinery/door/airlock/titanium{
@@ -43,7 +45,7 @@
 	pixel_y = -30
 	},
 /obj/effect/mob_spawn/human/corpse/cargo_tech,
-/turf/open/floor/mineral/titanium/white/airless,
+/turf/open/floor/mineral/titanium/blue,
 /area/ruin/unpowered)
 
 (1,1,1) = {"
