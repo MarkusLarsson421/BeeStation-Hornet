@@ -1,0 +1,765 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/space/basic,
+/area/space)
+"b" = (
+/obj/machinery/atmospherics/components/binary/pump{
+	name = "Engine Waste"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/space)
+"c" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/engine,
+/area/space)
+"d" = (
+/obj/machinery/atmospherics/components/binary/pump{
+	name = "Gas to Moderator";
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/space)
+"f" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/engine,
+/area/space)
+"g" = (
+/turf/open/floor/plating,
+/area/space)
+"h" = (
+/obj/machinery/door/poddoor/shutters/radiation{
+	id = "lavaland_eng_reactor";
+	name = "Radiation Chamber Shutters"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/effect/spawner/structure/window/depleteduranium,
+/turf/open/floor/plating,
+/area/space)
+"i" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/item/fuel_rod,
+/obj/item/fuel_rod,
+/obj/structure/closet/crate/secure/engineering{
+	req_access_txt = "10";
+	name = "fuel rod crate"
+	},
+/turf/open/floor/engine,
+/area/space)
+"k" = (
+/obj/item/RBMK_box/body/moderator_input,
+/obj/effect/turf_decal/stripes/full,
+/turf/open/floor/engine,
+/area/space)
+"m" = (
+/obj/effect/turf_decal/arrows{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/space)
+"n" = (
+/obj/item/RBMK_box/body,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/full,
+/turf/open/floor/engine,
+/area/space)
+"o" = (
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/turf/open/floor/plating,
+/area/space)
+"s" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"t" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/machinery/light/floor,
+/turf/open/floor/engine,
+/area/space)
+"v" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/space)
+"w" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/space)
+"y" = (
+/obj/machinery/button/door{
+	id = "engsm";
+	name = "Reactor Lockdown";
+	req_access_txt = "24";
+	pixel_y = -25
+	},
+/obj/machinery/light,
+/turf/open/floor/plating,
+/area/space)
+"z" = (
+/obj/machinery/camera/directional/east,
+/obj/machinery/computer/reactor/control_rods{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/space)
+"A" = (
+/obj/machinery/door/poddoor/shutters/radiation{
+	id = "lavaland_eng_reactor";
+	name = "Radiation Chamber Shutters"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
+/obj/effect/spawner/structure/window/depleteduranium,
+/turf/open/floor/plating,
+/area/space)
+"B" = (
+/obj/machinery/door/airlock/engineering/glass/critical{
+	heat_proof = 1;
+	name = "Supermatter Chamber";
+	req_access_txt = "10"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/engine,
+/area/space)
+"D" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"E" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/space)
+"F" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/machinery/light/floor,
+/obj/machinery/camera/directional/south,
+/turf/open/floor/engine,
+/area/space)
+"H" = (
+/obj/machinery/door/poddoor/shutters/radiation{
+	id = "lavaland_eng_reactor";
+	name = "Radiation Chamber Shutters"
+	},
+/obj/effect/spawner/structure/window/depleteduranium,
+/turf/open/floor/plating,
+/area/space)
+"J" = (
+/obj/machinery/air_sensor/engine_chamber,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/box,
+/obj/item/RBMK_box/core/pre_assemble_reactor,
+/turf/open/floor/engine,
+/area/space)
+"L" = (
+/obj/item/RBMK_box/body/waste_output,
+/obj/effect/turf_decal/stripes/full,
+/turf/open/floor/engine,
+/area/space)
+"N" = (
+/obj/item/RBMK_box/body/coolant_input,
+/obj/effect/turf_decal/stripes/full,
+/turf/open/floor/engine,
+/area/space)
+"O" = (
+/obj/machinery/door/poddoor/shutters/radiation{
+	id = "lavaland_eng_reactor";
+	name = "Radiation Chamber Shutters"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
+/obj/effect/spawner/structure/window/depleteduranium,
+/turf/open/floor/plating,
+/area/space)
+"Q" = (
+/obj/machinery/atmospherics/components/binary/pump{
+	name = "Gas to Coolant";
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/space)
+"R" = (
+/obj/effect/spawner/structure/window/plasma/reinforced,
+/turf/open/floor/plating,
+/area/space)
+"S" = (
+/obj/machinery/door/poddoor/shutters/radiation{
+	id = "lavaland_eng_reactor";
+	name = "Radiation Chamber Shutters"
+	},
+/obj/machinery/door/airlock/engineering/glass/critical{
+	heat_proof = 1;
+	name = "Supermatter Chamber";
+	req_access_txt = "10"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/engine,
+/area/space)
+"T" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/engine,
+/area/space)
+"U" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/machinery/door/poddoor/shutters/radiation{
+	id = "lavaland_eng_reactor";
+	name = "Radiation Chamber Shutters"
+	},
+/turf/open/floor/plating,
+/area/space)
+"V" = (
+/obj/machinery/light,
+/turf/open/floor/plating,
+/area/space)
+"W" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 2
+	},
+/turf/open/floor/engine,
+/area/space)
+"X" = (
+/obj/item/RBMK_box/body,
+/obj/effect/turf_decal/stripes/full,
+/turf/open/floor/engine,
+/area/space)
+"Y" = (
+/turf/closed/wall/r_wall/syndicate,
+/area/space)
+"Z" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/engine,
+/area/space)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(3,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(4,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(5,1,1) = {"
+a
+a
+a
+a
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+a
+a
+a
+a
+"}
+(6,1,1) = {"
+a
+a
+a
+a
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+a
+a
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+a
+g
+g
+g
+g
+s
+g
+g
+g
+s
+g
+g
+g
+g
+a
+a
+a
+a
+"}
+(8,1,1) = {"
+a
+a
+a
+a
+g
+g
+g
+Y
+Y
+U
+h
+H
+Y
+Y
+g
+g
+g
+a
+a
+a
+a
+"}
+(9,1,1) = {"
+a
+a
+a
+a
+y
+Y
+Y
+Y
+t
+m
+Q
+E
+F
+Y
+D
+g
+g
+a
+a
+a
+a
+"}
+(10,1,1) = {"
+a
+a
+a
+a
+g
+R
+i
+H
+T
+X
+N
+X
+W
+H
+g
+g
+g
+a
+a
+a
+a
+"}
+(11,1,1) = {"
+a
+a
+a
+a
+g
+B
+w
+S
+Z
+n
+J
+L
+b
+A
+g
+g
+g
+a
+a
+a
+a
+"}
+(12,1,1) = {"
+a
+a
+a
+a
+g
+R
+z
+H
+T
+X
+k
+X
+W
+H
+g
+g
+g
+a
+a
+a
+a
+"}
+(13,1,1) = {"
+a
+a
+a
+a
+V
+Y
+Y
+Y
+f
+v
+d
+v
+c
+Y
+D
+g
+g
+a
+a
+a
+a
+"}
+(14,1,1) = {"
+a
+a
+a
+a
+g
+g
+g
+Y
+Y
+H
+O
+H
+Y
+Y
+g
+g
+g
+a
+a
+a
+a
+"}
+(15,1,1) = {"
+a
+a
+a
+a
+g
+g
+g
+g
+o
+g
+g
+g
+o
+g
+g
+g
+g
+a
+a
+a
+a
+"}
+(16,1,1) = {"
+a
+a
+a
+a
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+a
+a
+a
+a
+"}
+(17,1,1) = {"
+a
+a
+a
+a
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+a
+a
+a
+a
+"}
+(18,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(19,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(20,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(21,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
