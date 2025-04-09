@@ -211,7 +211,7 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/space)
 "eX" = (
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/cup/bucket,
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
 	},
@@ -1037,7 +1037,7 @@
 	dir = 8
 	},
 /obj/machinery/iv_drip,
-/obj/item/reagent_containers/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/waterbottle/large,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/space)
 "Jo" = (

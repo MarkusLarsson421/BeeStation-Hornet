@@ -37,7 +37,7 @@
 /turf/open/floor/plating,
 /area/ruin/powered/nanite_ruin)
 "kk" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer2{
 	dir = 1
 	},
 /turf/open/floor/plating,
@@ -50,8 +50,8 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "lc" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2,
 /obj/machinery/door/airlock/research{
 	name = "Nanite Laboratory";
 	req_one_access_txt = "47"
@@ -104,7 +104,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
@@ -124,7 +124,7 @@
 /turf/open/floor/iron/dark,
 /area/ruin/powered/nanite_ruin)
 "vh" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
 /turf/open/floor/plating/broken,
@@ -156,7 +156,7 @@
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
-/obj/machinery/camera/autoname/directional/east,
+/obj/machinery/camera/directional/east,
 /turf/open/floor/iron/dark,
 /area/ruin/powered/nanite_ruin)
 "Ee" = (
@@ -252,8 +252,8 @@
 /turf/open/floor/iron/dark,
 /area/ruin/powered/nanite_ruin)
 "OV" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2,
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
@@ -278,7 +278,7 @@
 /turf/open/floor/vault,
 /area/ruin/powered/nanite_ruin)
 "QJ" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
@@ -299,8 +299,8 @@
 /turf/open/floor/iron/dark,
 /area/ruin/powered/nanite_ruin)
 "Zq" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2,
 /obj/item/stock_parts/manipulator,
 /turf/open/floor/plating,
 /area/ruin/powered/nanite_ruin)

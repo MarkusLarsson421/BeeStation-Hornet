@@ -8,13 +8,13 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/space)
 "ct" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 4
 	},
 /obj/machinery/atmospherics/components/binary/pump,
@@ -37,13 +37,13 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/space)
 "gh" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 5
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 4
 	},
 /obj/effect/mapping_helpers/no_lava,
@@ -90,14 +90,14 @@
 	dir = 1
 	},
 /obj/item/pipe_meter,
-/obj/machinery/atmospherics/pipe/simple/green/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible,
 /turf/open/floor/iron/tech,
 /area/ruin/unpowered/gas_miner)
 "kv" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 9
 	},
 /obj/effect/mapping_helpers/no_lava,
@@ -109,7 +109,7 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/space)
 "lq" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered/gas_miner)
@@ -122,13 +122,13 @@
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/gas_miner)
 "oD" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 4
 	},
 /obj/structure/lattice/catwalk,
@@ -136,13 +136,13 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered/gas_miner)
 "pa" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 10
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 4
 	},
 /obj/effect/mapping_helpers/no_lava,
@@ -167,10 +167,10 @@
 /turf/open/floor/iron/tech,
 /area/ruin/unpowered/gas_miner)
 "rR" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 6
 	},
 /obj/effect/mapping_helpers/no_lava,
@@ -191,14 +191,14 @@
 /turf/open/floor/iron/tech,
 /area/ruin/unpowered/gas_miner)
 "xA" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 6
 	},
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered/gas_miner)
 "zf" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered/gas_miner)
@@ -224,14 +224,12 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/obj/machinery/computer/atmos_control/tank/lavaland,
-/obj/machinery/camera/autoname{
-	dir = 1
-	},
+/obj/machinery/computer/atmos_control/lavaland,
+/obj/machinery/camera/directional/south,
 /turf/open/floor/iron/tech,
 /area/ruin/unpowered/gas_miner)
 "De" = (
-/obj/machinery/air_sensor/atmos/lavaland,
+/obj/machinery/air_sensor/lavaland,
 /turf/open/floor/engine,
 /area/ruin/unpowered/gas_miner)
 "DD" = (
@@ -245,24 +243,24 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/space)
 "Ga" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/lavaland_input,
+/obj/machinery/atmospherics/components/unary/outlet_injector/monitored/lavaland_input,
 /turf/open/floor/engine,
 /area/ruin/unpowered/gas_miner)
 "Gu" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 10
 	},
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered/gas_miner)
 "IR" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 4
 	},
 /obj/structure/lattice/catwalk,
@@ -270,7 +268,7 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered/gas_miner)
 "KE" = (
-/obj/machinery/atmospherics/pipe/simple/green/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
 	dir = 5
 	},
 /obj/effect/mapping_helpers/no_lava,
@@ -284,7 +282,7 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered/gas_miner)
 "Lc" = (
-/obj/machinery/atmospherics/pipe/simple/green/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/space)
@@ -345,9 +343,9 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered/gas_miner)
 "So" = (
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible/layer2,
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible/layer4,
-/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/visible/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /obj/item/pipe_meter,
 /turf/open/floor/iron/tech,
 /area/ruin/unpowered/gas_miner)
@@ -372,40 +370,40 @@
 /turf/open/floor/iron/tech,
 /area/ruin/unpowered/gas_miner)
 "Uz" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 4
 	},
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered/gas_miner)
 "VA" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 4
 	},
 /obj/structure/holosign/barrier/atmos/robust,
 /turf/open/floor/plating,
 /area/ruin/unpowered/gas_miner)
 "Xt" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/lavaland_output,
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/lavaland_output,
 /turf/open/floor/engine,
 /area/ruin/unpowered/gas_miner)
 "XU" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 4
 	},
 /obj/structure/holosign/barrier/atmos/robust,
@@ -430,16 +428,16 @@
 	dir = 8
 	},
 /obj/structure/closet/secure_closet/atmospherics,
-/obj/machinery/atmospherics/pipe/simple/green/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible,
 /turf/open/floor/iron/tech,
 /area/ruin/unpowered/gas_miner)
 "Zr" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4,
 /obj/machinery/button/door{
 	pixel_y = 25;
 	pixel_x = 25;

@@ -3,7 +3,7 @@
 /turf/open/space/basic,
 /area/space)
 "b" = (
-/obj/machinery/atmospherics/pipe/simple/orange/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/orange/visible,
 /obj/effect/turf_decal/tile/dark_red/fourcorners/contrasted{
 	alpha = 180;
 	color = "#DE3A3A"
@@ -34,7 +34,7 @@
 /turf/open/floor/engine,
 /area/space)
 "f" = (
-/obj/machinery/atmospherics/pipe/simple/cyan/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
 	dir = 10
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
@@ -95,7 +95,7 @@
 /turf/open/space/basic,
 /area/space)
 "r" = (
-/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -107,7 +107,7 @@
 /turf/open/floor/iron,
 /area/space)
 "z" = (
-/obj/machinery/atmospherics/pipe/simple/cyan/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
 	dir = 6
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
@@ -120,14 +120,14 @@
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/meter,
-/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
 /turf/open/floor/engine,
 /area/space)
 "B" = (
 /turf/open/floor/iron,
 /area/space)
 "C" = (
-/obj/machinery/atmospherics/pipe/simple/orange/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
 	dir = 10
 	},
 /obj/effect/turf_decal/tile/dark_red/fourcorners/contrasted{
@@ -187,7 +187,7 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/meter,
-/obj/machinery/atmospherics/pipe/simple/orange/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/orange/visible,
 /turf/open/floor/engine,
 /area/space)
 "K" = (
@@ -246,7 +246,7 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/space)
 "X" = (
-/obj/machinery/atmospherics/pipe/simple/orange/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
 	dir = 6
 	},
 /obj/effect/turf_decal/tile/dark_red/fourcorners/contrasted{

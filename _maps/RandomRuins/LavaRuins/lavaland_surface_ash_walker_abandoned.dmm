@@ -464,7 +464,7 @@
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
 "sU" = (
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/cup/bucket,
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
 	},
