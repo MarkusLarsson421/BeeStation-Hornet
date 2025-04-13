@@ -295,3 +295,15 @@
 	suit = /obj/item/clothing/suit/armor/heavy
 	//back = /obj/item/minigunpack - you REALLY wish you could snag a minigun backpack off them don't you?
 	head = /obj/item/clothing/head/helmet/swat
+
+// JOBS
+
+/obj/effect/mob_spawn/human/corpse/job/ai_researcher
+	random = TRUE
+	id_job = "Artifical Intelligence Researcher"
+	outfit = /datum/outfit/job/scientist
+
+/obj/effect/mob_spawn/human/corpse/job/medical_doctor
+	random = TRUE
+	id_job = "Medical Doctor"
+	outfit = /datum/outfit/job/medical_doctor

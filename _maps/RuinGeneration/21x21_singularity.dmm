@@ -1,575 +1,2030 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"a" = (
-/obj/structure/lattice,
-/turf/template_noop/open,
-/area/template_noop)
-"c" = (
+"aw" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 5
+	},
 /turf/open/floor/iron,
 /area/ruin)
-"d" = (
-/obj/effect/abstract/open_area_marker{
+"az" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"aW" = (
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 1
 	},
 /turf/open/floor/iron,
 /area/ruin)
-"g" = (
-/turf/closed/wall,
-/area/ruin)
-"j" = (
-/obj/structure/sign/warning/radiation{
-	pixel_y = 32
+"aZ" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/ruin)
-"l" = (
-/obj/machinery/the_singularitygen,
+"bs" = (
+/obj/machinery/power/smes{
+	charge = 2e+006
+	},
+/obj/structure/cable/yellow,
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
 /turf/open/floor/plating,
-/area/template_noop)
-"o" = (
-/obj/machinery/field/generator,
-/turf/open/floor/plating,
-/area/template_noop)
-"p" = (
-/obj/machinery/power/rad_collector,
-/turf/open/floor/iron,
 /area/ruin)
-"q" = (
-/obj/structure/sign/warning/radiation{
-	pixel_y = -32
+"bY" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/tank_dispenser,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/ruin)
-"t" = (
-/turf/template_noop/open,
-/area/template_noop)
-"x" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/iron,
-/area/ruin)
-"z" = (
-/obj/structure/closet/radiation,
-/turf/open/floor/iron,
-/area/ruin)
-"A" = (
-/obj/effect/abstract/open_area_marker,
-/turf/open/floor/iron,
-/area/ruin)
-"C" = (
-/turf/closed/wall/r_wall,
-/area/ruin)
-"E" = (
-/obj/machinery/computer,
-/turf/open/floor/iron,
-/area/ruin)
-"F" = (
+"ca" = (
+/turf/open/space/basic,
+/area/space)
+"cA" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 4
 	},
 /turf/open/floor/iron,
 /area/ruin)
-"G" = (
+"da" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_e";
+	name = "East Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"db" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"dc" = (
+/obj/machinery/power/rad_collector,
+/obj/structure/cable,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"dq" = (
+/obj/effect/abstract/open_area_marker,
+/turf/open/floor/iron,
+/area/ruin)
+"dx" = (
+/obj/effect/spawner/random_suit_storage,
+/obj/effect/turf_decal/trimline/white/filled/line{
+	dir = 8
+	},
+/obj/item/radio/intercom/directional/east,
+/turf/open/floor/iron/dark,
+/area/ruin)
+"dR" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"eb" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/obj/machinery/light_switch/directional/east,
+/turf/open/floor/iron,
+/area/ruin)
+"ei" = (
+/obj/machinery/power/rad_collector,
+/obj/structure/cable,
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"eT" = (
+/obj/machinery/field/generator,
+/turf/open/floor/plating,
+/area/space/nearstation)
+"eU" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin)
+"eX" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_e";
+	name = "East Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"fy" = (
+/obj/structure/lattice,
+/obj/effect/spawner/lootdrop/ruinloot/engineering,
+/turf/open/space/basic,
+/area/space/nearstation)
+"fC" = (
+/obj/structure/closet/radiation/empty,
+/obj/effect/mapping_helpers/lockers/anchor,
+/obj/item/clothing/glasses/meson,
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/effect/spawner/random_light/tube,
+/turf/open/floor/iron,
+/area/ruin)
+"fV" = (
+/turf/open/floor/iron,
+/area/ruin)
+"ga" = (
+/obj/structure/closet/emcloset/empty,
+/obj/effect/mapping_helpers/lockers/anchor,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"gw" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 10
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"gR" = (
+/obj/machinery/power/rad_collector,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"hl" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"hr" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/machinery/door/poddoor/shutters{
+	name = "Lockdown Shutters";
+	id = "derelict_singulo_lockdown_ne"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"hv" = (
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"hC" = (
+/obj/machinery/vending/snack,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"im" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Engineering Access";
+	req_access_txt = "10"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/poddoor/shutters{
+	name = "Lockdown Shutters";
+	id = "derelict_singulo_lockdown_ne"
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"it" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/machinery/light_switch/directional/south,
+/turf/open/floor/iron,
+/area/ruin)
+"iw" = (
+/obj/structure/chair,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/obj/effect/spawner/random_light/tube{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"iz" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/obj/structure/chair/fancy/bench{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"iE" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/end{
+	dir = 1
+	},
+/obj/machinery/light_switch/directional/east,
+/turf/open/floor/iron,
+/area/ruin)
+"jd" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "derelict_singulo_access_ne"
+	},
+/obj/machinery/door/airlock/external{
+	name = "External Containment Access";
+	req_access_txt = "10"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"jj" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"jU" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/end,
+/obj/machinery/light_switch/directional/west,
+/turf/open/floor/iron,
+/area/ruin)
+"kz" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable,
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_s";
+	name = "South Blast Doors"
+	},
+/obj/effect/spawner/structure/window/depleteduranium,
+/turf/open/floor/plating,
+/area/ruin)
+"kU" = (
+/obj/effect/spawner/random_light/bulb{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"ld" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/shutters{
+	name = "Lockdown Shutters";
+	id = "derelict_singulo_lockdown_sw"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"le" = (
+/obj/effect/abstract/open_area_marker{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"lk" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/obj/item/radio/intercom/directional/east,
+/turf/open/floor/iron,
+/area/ruin)
+"ly" = (
 /obj/effect/abstract/open_area_marker{
 	dir = 8
 	},
 /turf/open/floor/iron,
 /area/ruin)
-"R" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
-/turf/open/floor/plating,
+"mi" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Engineering Access";
+	req_access_txt = "10"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/closeup,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/shutters{
+	name = "Lockdown Shutters";
+	id = "derelict_singulo_lockdown_ne"
+	},
+/turf/open/floor/iron,
 /area/ruin)
-"S" = (
-/turf/open/floor/plating,
-/area/template_noop)
-"W" = (
-/obj/structure/chair/office{
+"mu" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/effect/turf_decal/trimline/yellow/line{
 	dir = 1
 	},
 /turf/open/floor/iron,
 /area/ruin)
-"X" = (
+"mw" = (
+/obj/effect/turf_decal/trimline/yellow/filled/corner{
+	dir = 1
+	},
+/obj/structure/sign/warning/nosmoking{
+	pixel_x = -26;
+	pixel_y = 32
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"my" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"mS" = (
+/obj/machinery/power/rad_collector,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"nM" = (
+/obj/machinery/power/emitter/welded,
+/obj/structure/cable/yellow,
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"nY" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/tank_dispenser,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"oE" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/iron,
+/area/ruin)
+"pa" = (
+/obj/machinery/computer,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"pj" = (
+/obj/structure/frame,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"pV" = (
+/obj/effect/turf_decal/trimline/yellow/filled/warning,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"pW" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space/nearstation)
+"qp" = (
+/turf/closed/wall/r_wall,
+/area/ruin)
+"qy" = (
+/turf/open/floor/plating,
+/area/space/nearstation)
+"qG" = (
+/obj/effect/spawner/random_suit_storage,
+/obj/effect/turf_decal/trimline/white/filled/line{
+	dir = 4
+	},
+/obj/item/radio/intercom/directional/west,
+/turf/open/floor/iron/dark,
+/area/ruin)
+"qI" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet/directional/east,
+/turf/open/floor/iron,
+/area/ruin)
+"rc" = (
+/obj/structure/sign/warning/radiation{
+	pixel_x = 32
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 8
+	},
+/obj/effect/spawner/random_light/bulb{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"rA" = (
+/obj/effect/turf_decal/trimline/yellow/filled/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 10
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"rH" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 8
+	},
+/obj/item/radio/intercom/directional/west,
+/turf/open/floor/iron,
+/area/ruin)
+"rJ" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"rL" = (
+/obj/machinery/power/emitter/welded{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"rN" = (
+/obj/machinery/button/door/directional/south{
+	id = "derelict_singulo_pod_w";
+	name = "Blast Door Button"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"sj" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/power/terminal,
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin)
+"sA" = (
+/obj/structure/closet/radiation/empty,
+/obj/effect/mapping_helpers/lockers/anchor,
+/obj/item/clothing/glasses/meson,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/obj/effect/spawner/random_light/tube{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"sR" = (
+/obj/machinery/power/rad_collector,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"sW" = (
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 5
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"ul" = (
+/obj/machinery/power/rad_collector,
+/obj/structure/cable,
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"um" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable,
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_s";
+	name = "South Blast Doors"
+	},
+/obj/effect/spawner/structure/window/depleteduranium,
+/turf/open/floor/plating,
+/area/ruin)
+"up" = (
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin)
+"us" = (
 /turf/template_noop,
 /area/template_noop)
+"uM" = (
+/obj/structure/closet/crate/engineering,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 1
+	},
+/obj/effect/spawner/lootdrop/ruinloot/engineering,
+/obj/effect/spawner/lootdrop/ruinloot/engineering,
+/turf/open/floor/iron,
+/area/ruin)
+"uO" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_e";
+	name = "East Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"uY" = (
+/obj/structure/sign/warning/radiation{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 8
+	},
+/obj/effect/spawner/lootdrop/ruinloot/engineering,
+/turf/open/floor/iron,
+/area/ruin)
+"vy" = (
+/obj/structure/chair/stool/bar{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"vP" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"wh" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin)
+"wJ" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"xq" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_n";
+	name = "North Blast Doors"
+	},
+/obj/effect/spawner/structure/window/depleteduranium,
+/turf/open/floor/plating,
+/area/ruin)
+"xK" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 8
+	},
+/obj/structure/closet/radiation/empty,
+/obj/effect/mapping_helpers/lockers/anchor,
+/obj/item/clothing/glasses/meson,
+/obj/effect/spawner/random_light/tube{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"yi" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/turf/open/floor/iron,
+/area/ruin)
+"yl" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"yV" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"zf" = (
+/obj/structure/sign/warning/radiation{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 4
+	},
+/obj/effect/spawner/random_light/bulb{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"zl" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/closet/secure_closet/engineering_personal,
+/obj/effect/mapping_helpers/lockers/anchor,
+/obj/item/clothing/glasses/meson,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 8
+	},
+/obj/effect/spawner/lootdrop/ruinloot/engineering,
+/turf/open/floor/iron,
+/area/ruin)
+"zp" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_e";
+	name = "East Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"zs" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"zQ" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/iron/grid/steel,
+/area/ruin)
+"Ak" = (
+/obj/structure/closet/radiation,
+/obj/effect/mapping_helpers/lockers/anchor,
+/obj/item/clothing/glasses/meson,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/obj/effect/spawner/random_light/tube{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Bb" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/shutters{
+	name = "Lockdown Shutters";
+	id = "derelict_singulo_lockdown_ne"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"Bo" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"BD" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin)
+"Ce" = (
+/obj/effect/turf_decal/trimline/yellow/filled/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 5
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Cl" = (
+/obj/effect/spawner/random_light/bulb{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"Cp" = (
+/obj/structure/frame,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/yellow/line,
+/turf/open/floor/iron,
+/area/ruin)
+"Cw" = (
+/obj/effect/spawner/random_suit_storage,
+/obj/effect/turf_decal/trimline/white/filled/line{
+	dir = 8
+	},
+/obj/effect/spawner/random_light/bulb{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin)
+"CZ" = (
+/obj/machinery/vending/cigarette,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Ey" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin)
+"Fb" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Fp" = (
+/obj/machinery/holopad,
+/obj/effect/turf_decal/box,
+/turf/open/floor/iron,
+/area/ruin)
+"Fv" = (
+/obj/item/chair,
+/turf/open/floor/iron,
+/area/ruin)
+"Gh" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet/directional/north,
+/turf/open/floor/iron,
+/area/ruin)
+"Gy" = (
+/obj/effect/turf_decal/trimline/yellow/filled/corner,
+/turf/open/floor/iron,
+/area/ruin)
+"GG" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_n";
+	name = "North Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"GT" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/turf/open/floor/iron,
+/area/ruin)
+"Im" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"IC" = (
+/mob/living/silicon/robot/derelict/modules/engineering,
+/obj/machinery/button/door/directional/north{
+	name = "Lockdown";
+	id = "derelict_singulo_lockdown_sw"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/yellow/line,
+/turf/open/floor/iron,
+/area/ruin)
+"IE" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_n";
+	name = "North Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"IF" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 1
+	},
+/obj/effect/spawner/lootdrop/ruinloot/engineering,
+/obj/effect/spawner/lootdrop/ruinloot/engineering,
+/turf/open/floor/iron,
+/area/ruin)
+"JI" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"JV" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_w";
+	name = "West Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"Kv" = (
+/obj/machinery/power/smes{
+	charge = 2e+006
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/effect/spawner/random_light/bulb,
+/turf/open/floor/plating,
+/area/ruin)
+"KS" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Lr" = (
+/obj/machinery/power/smes{
+	charge = 2e+006
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/effect/spawner/random_light/bulb{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"LA" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"LG" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"LM" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/closet/toolcloset,
+/obj/effect/mapping_helpers/lockers/anchor,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/yellow/line,
+/turf/open/floor/iron,
+/area/ruin)
+"LY" = (
+/obj/machinery/button/door/directional/north{
+	name = "Blast Door Button";
+	id = "derelict_singulo_pod_e"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Mx" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 8
+	},
+/obj/effect/spawner/random_light/tube{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"MB" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/machinery/door/poddoor/shutters{
+	name = "Lockdown Shutters";
+	id = "derelict_singulo_lockdown_sw"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"Ne" = (
+/obj/machinery/power/rad_collector,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"Nf" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "derelict_singulo_access_sw"
+	},
+/obj/machinery/door/airlock/external{
+	name = "External Containment Access";
+	req_access_txt = "10"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"No" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_w";
+	name = "West Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"Nx" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/corner,
+/obj/structure/extinguisher_cabinet/directional/west,
+/turf/open/floor/iron,
+/area/ruin)
+"ND" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_w";
+	name = "West Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"NJ" = (
+/obj/effect/turf_decal/trimline/yellow/filled/warning,
+/turf/open/floor/iron,
+/area/ruin)
+"Ol" = (
+/obj/machinery/power/emitter/welded,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"Oo" = (
+/obj/structure/sign/warning/radiation{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"OM" = (
+/obj/effect/turf_decal/trimline/yellow/filled/corner{
+	dir = 1
+	},
+/obj/effect/spawner/lootdrop/ruinloot/engineering,
+/turf/open/floor/iron,
+/area/ruin)
+"OV" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/item/storage/toolbox/mechanical,
+/obj/item/flashlight,
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"OZ" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_w";
+	name = "West Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"Ph" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/spawner/lootdrop/ruinloot/engineering,
+/turf/open/floor/plating,
+/area/space/nearstation)
+"Pi" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/closet/secure_closet/engineering_personal,
+/obj/effect/mapping_helpers/lockers/anchor,
+/obj/item/clothing/glasses/meson,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 8
+	},
+/obj/effect/spawner/lootdrop/ruinloot/engineering,
+/turf/open/floor/iron,
+/area/ruin)
+"Pu" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"Py" = (
+/turf/closed/wall,
+/area/ruin)
+"PH" = (
+/obj/machinery/button/door/directional/west{
+	name = "Blast Door Button";
+	id = "derelict_singulo_pod_s"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Qa" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Qt" = (
+/obj/structure/closet/firecloset,
+/obj/effect/mapping_helpers/lockers/anchor,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"QB" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/structure/extinguisher_cabinet/directional/south,
+/turf/open/floor/iron,
+/area/ruin)
+"QN" = (
+/obj/machinery/button/door/directional/south{
+	name = "Lockdown";
+	id = "derelict_singulo_lockdown_ne"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/effect/turf_decal/trimline/yellow/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"RY" = (
+/obj/structure/closet/emcloset,
+/obj/effect/mapping_helpers/lockers/anchor,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Sj" = (
+/obj/structure/closet/firecloset,
+/obj/effect/mapping_helpers/lockers/anchor,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"SB" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable,
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_s";
+	name = "South Blast Doors"
+	},
+/obj/effect/spawner/structure/window/depleteduranium,
+/turf/open/floor/plating,
+/area/ruin)
+"SJ" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 8
+	},
+/obj/machinery/light_switch/directional/west,
+/turf/open/floor/iron,
+/area/ruin)
+"SR" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/power/terminal,
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin)
+"SX" = (
+/obj/machinery/cell_charger,
+/obj/structure/table/reinforced,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 4
+	},
+/obj/effect/spawner/lootdrop/ruinloot/engineering,
+/turf/open/floor/iron,
+/area/ruin)
+"TH" = (
+/obj/effect/turf_decal/trimline/yellow/filled/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"TM" = (
+/obj/effect/spawner/random_suit_storage,
+/obj/effect/turf_decal/trimline/white/filled/line{
+	dir = 4
+	},
+/obj/effect/spawner/random_light/bulb{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/ruin)
+"Up" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Engineering Access";
+	req_access_txt = "10"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/closeup,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/shutters{
+	name = "Lockdown Shutters";
+	id = "derelict_singulo_lockdown_sw"
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Ur" = (
+/obj/machinery/door/airlock/external{
+	name = "External Containment Access";
+	req_access_txt = "10"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "derelict_singulo_access_ne"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"UB" = (
+/obj/structure/sign/warning/radiation{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/turf/open/floor/iron,
+/area/ruin)
+"UG" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_n";
+	name = "North Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"VH" = (
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"VR" = (
+/obj/machinery/button/door/directional/east{
+	name = "Blast Door Button";
+	id = "derelict_singulo_pod_n"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Wr" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Engineering Access";
+	req_access_txt = "10"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/poddoor/shutters{
+	name = "Lockdown Shutters";
+	id = "derelict_singulo_lockdown_sw"
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Wu" = (
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 10
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"WF" = (
+/obj/machinery/power/smes{
+	charge = 2e+006
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"WJ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"Xg" = (
+/obj/machinery/power/emitter/welded{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"Xj" = (
+/obj/machinery/the_singularitygen,
+/turf/open/floor/plating,
+/area/space/nearstation)
+"XY" = (
+/obj/effect/spawner/structure/window/depleteduranium,
+/obj/machinery/door/poddoor{
+	id = "derelict_singulo_pod_s";
+	name = "South Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/ruin)
+"YU" = (
+/obj/machinery/power/rad_collector,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
+"Zq" = (
+/obj/structure/sign/warning/radiation{
+	pixel_x = 32
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"ZE" = (
+/obj/machinery/vending/cola,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/ruin)
+"ZT" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/item/pen,
+/obj/item/folder/yellow,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/yellow/line,
+/turf/open/floor/iron,
+/area/ruin)
 
 (1,1,1) = {"
-X
-X
-X
-X
-X
-g
-g
-g
-g
-c
-G
-c
-g
-g
-g
-g
-X
-X
-X
-X
-X
+us
+us
+us
+us
+us
+Py
+Py
+Py
+Py
+fV
+ly
+fV
+qp
+qp
+qp
+qp
+us
+us
+us
+us
+us
 "}
 (2,1,1) = {"
-X
-X
-g
-g
-g
-g
-z
-c
-c
-c
-c
-c
-c
-c
-z
-g
-g
-g
-g
-X
-X
+us
+us
+Py
+Py
+Py
+Py
+RY
+xK
+SJ
+VH
+VH
+Wu
+qp
+qG
+TM
+qp
+qp
+qp
+qp
+us
+us
 "}
 (3,1,1) = {"
-X
-g
-g
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-g
-g
-X
+us
+Py
+Py
+CZ
+rH
+KS
+OM
+up
+up
+Fp
+BD
+pV
+Up
+iE
+aZ
+Nx
+yl
+nY
+qp
+qp
+us
 "}
 (4,1,1) = {"
-X
-g
-j
-c
-c
-c
-c
-c
-p
-c
-c
-c
-c
-c
-c
-c
-c
-c
-q
-g
-X
+us
+Py
+pj
+mw
+up
+up
+up
+Gy
+Zq
+Qa
+LG
+rN
+qp
+Py
+Py
+IC
+Fp
+aw
+SX
+qp
+us
 "}
 (5,1,1) = {"
-X
-g
-c
-c
-c
-c
-c
-c
-c
-c
-c
-p
-c
-p
-c
-c
-c
-c
-c
-g
-X
+us
+Py
+Gh
+up
+Gy
+iw
+jj
+LA
+qp
+ND
+JV
+OZ
+qp
+Cl
+Nf
+rc
+rA
+fV
+uM
+qp
+us
 "}
 (6,1,1) = {"
-g
-g
-c
-c
-c
-C
-C
-R
-R
-R
-C
-R
-R
-R
-C
-C
-c
-c
-c
-g
-g
+Py
+Py
+zQ
+zQ
+zQ
+qp
+No
+No
+qp
+sR
+sR
+sR
+qp
+Nf
+qp
+qp
+ZT
+fV
+dR
+qp
+qp
 "}
 (7,1,1) = {"
-g
-c
-c
-c
-c
-C
-t
-a
-t
-a
-t
-a
-t
-a
-t
-C
-x
-c
-c
-c
-g
+Py
+Sj
+TH
+up
+yi
+UG
+ca
+qy
+ca
+pW
+ca
+fy
+ca
+qy
+ca
+MB
+Cp
+zs
+SR
+Kv
+qp
 "}
 (8,1,1) = {"
-g
-c
-c
-c
-c
-R
-a
-o
-t
-S
-S
-S
-t
-o
-a
-R
-E
-c
-c
-c
-g
+Py
+Ak
+up
+Gy
+vy
+UG
+Ol
+eT
+pW
+pW
+ca
+pW
+pW
+eT
+rL
+ld
+pa
+Bo
+sj
+bs
+qp
 "}
 (9,1,1) = {"
-g
-c
-c
-c
-c
-R
-t
-t
-t
-a
-t
-a
-t
-t
-t
-R
-E
-W
-c
-c
-g
+Py
+oE
+up
+UB
+qp
+qp
+hl
+pW
+ca
+pW
+ca
+pW
+ca
+pW
+hl
+qp
+qp
+qp
+Wr
+qp
+qp
 "}
 (10,1,1) = {"
-c
-c
-c
-c
-c
-R
-a
-S
-a
-S
-S
-S
-a
-S
-a
-R
-E
-c
-c
-c
-c
+fV
+aW
+Fp
+yi
+IE
+ul
+JI
+pW
+pW
+pW
+qy
+pW
+pW
+pW
+rJ
+Ne
+um
+PH
+yV
+Wu
+fV
 "}
 (11,1,1) = {"
-d
-c
-c
-c
-c
-C
-t
-S
-t
-S
-l
-S
-t
-S
-t
-C
-x
-c
-c
-c
-A
+le
+aW
+BD
+GT
+GG
+dc
+ca
+ca
+ca
+qy
+Xj
+qy
+ca
+ca
+ca
+mS
+kz
+wJ
+eU
+NJ
+dq
 "}
 (12,1,1) = {"
-c
-c
-c
-c
-c
-R
-a
-S
-a
-S
-S
-S
-a
-S
-a
-R
-E
-c
-c
-c
-c
+fV
+sW
+WJ
+VR
+xq
+ei
+Pu
+pW
+pW
+pW
+qy
+pW
+pW
+pW
+az
+YU
+SB
+Im
+Fp
+NJ
+fV
 "}
 (13,1,1) = {"
-g
-c
-c
-c
-c
-R
-t
-t
-t
-a
-t
-a
-t
-t
-t
-R
-E
-W
-c
-c
-g
+qp
+qp
+im
+qp
+qp
+qp
+Ph
+pW
+ca
+pW
+ca
+pW
+ca
+pW
+hl
+qp
+qp
+Oo
+up
+it
+Py
 "}
 (14,1,1) = {"
-g
-c
-c
-c
-c
-R
-a
-o
-t
-S
-S
-S
-t
-o
-a
-R
-E
-c
-c
-c
-g
+qp
+WF
+Ey
+db
+OV
+Bb
+nM
+eT
+pW
+pW
+ca
+pW
+pW
+eT
+Xg
+XY
+hC
+TH
+up
+fC
+Py
 "}
 (15,1,1) = {"
-g
-c
-c
-c
-c
-C
-t
-a
-t
-a
-t
-a
-t
-a
-t
-C
-x
-c
-c
-c
-g
+qp
+Lr
+wh
+fV
+IF
+hr
+ca
+qy
+ca
+pW
+ca
+pW
+ca
+qy
+ca
+XY
+iz
+up
+Gy
+Qt
+Py
 "}
 (16,1,1) = {"
-g
-g
-c
-c
-c
-C
-C
-R
-R
-R
-C
-R
-R
-R
-C
-C
-c
-c
-c
-g
-g
+qp
+qp
+LM
+fV
+mu
+qp
+qp
+jd
+qp
+gR
+gR
+gR
+qp
+uO
+uO
+qp
+zQ
+zQ
+zQ
+Py
+Py
 "}
 (17,1,1) = {"
-X
-g
-c
-c
-c
-c
-c
-c
-p
-p
-c
-c
-c
-c
-c
-c
-c
-c
-c
-g
-X
+us
+qp
+LM
+Fv
+Ce
+zf
+Ur
+kU
+qp
+zp
+eX
+da
+qp
+ZE
+KS
+Mx
+TH
+up
+QB
+Py
+us
 "}
 (18,1,1) = {"
-X
-g
-j
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-q
-g
-X
+us
+qp
+bY
+gw
+Fp
+QN
+Py
+Py
+qp
+LY
+my
+KS
+uY
+TH
+up
+up
+up
+Gy
+vP
+Py
+us
 "}
 (19,1,1) = {"
-X
-g
-g
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-g
-g
-X
+us
+qp
+qp
+Pi
+zl
+qI
+aZ
+jU
+mi
+Fb
+eU
+Fp
+up
+up
+Gy
+Qa
+lk
+vP
+Py
+Py
+us
 "}
 (20,1,1) = {"
-X
-X
-g
-g
-g
-g
-z
-c
-c
-c
-c
-c
-c
-c
-z
-g
-g
-g
-g
-X
-X
+us
+us
+qp
+qp
+qp
+qp
+Cw
+dx
+qp
+sW
+hv
+hv
+eb
+sA
+ga
+Py
+Py
+Py
+Py
+us
+us
 "}
 (21,1,1) = {"
-X
-X
-X
-X
-X
-g
-g
-g
-g
-c
-F
-c
-g
-g
-g
-g
-X
-X
-X
-X
-X
+us
+us
+us
+us
+us
+qp
+qp
+qp
+qp
+fV
+cA
+fV
+Py
+Py
+Py
+Py
+us
+us
+us
+us
+us
 "}

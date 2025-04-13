@@ -780,3 +780,13 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/foodpreserver)
 	for(var/obj/structure/closet/closet in T.contents)
 		for(var/obj/item/food/preservee in closet.contents)
 			preservee.preserved_food = TRUE
+
+/obj/effect/mapping_helpers/lockers/anchor
+	name = "locker anchor helper"
+	icon_state = "closet_anchor_helper"
+
+/obj/effect/mapping_helpers/lockers/anchor/payload(/obj/structure/closet/closet)
+	if(!closet.anchored)
+		log_mapping("[src] at [AREACOORD(src)] tried to anchor [closet] but it's already anchored!")
+	else
+		closet.set_anchored(closet) = TRUE

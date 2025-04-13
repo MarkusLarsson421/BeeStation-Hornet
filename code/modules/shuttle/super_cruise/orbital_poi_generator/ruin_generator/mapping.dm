@@ -71,6 +71,37 @@
 		/obj/item/pinpointer/crew = 1,
 	)
 
+//Engineering stuff
+/obj/effect/spawner/lootdrop/ruinloot/engineering
+	loot = list(
+		"" = 20,
+		/obj/item/clothing/glasses/meson = 1,
+		/obj/item/clothing/gloves/color/yellow = 1,
+		/obj/item/rcl/pre_loaded = 1,
+		/obj/item/storage/toolbox/mechanical = 1,
+		/obj/item/storage/toolbox/electrical = 1,
+		/obj/item/clothing/glasses/meson/engine = 1,
+		/obj/item/stock_parts/cell/high = 1,
+		/obj/item/tank/internals/plasma/empty = 1,
+		/obj/item/stack/cable_coil/red = 1,
+		/obj/item/pipe_dispenser = 1,
+		/obj/item/tank/internals/emergency_oxygen/engi = 1,
+		/obj/item/geiger_counter = 1,
+		/obj/item/grenade/chem_grenade/smart_metal_foam = 1,
+		/obj/item/storage/belt/utility = 1,
+		/obj/item/powertool/hand_drill = 1,
+		/obj/item/powertool/jaws_of_life = 1,
+		/obj/item/wrench = 1,
+		/obj/item/crowbar = 1,
+		/obj/item/wirecutters = 1,
+		/obj/item/multitool = 1,
+		/obj/item/screwdriver = 1,
+		/obj/item/lightreplacer = 1,
+		/obj/item/weldingtool = 1,
+		/obj/item/fireaxe = 1,
+		/obj/item/t_scanner = 1,
+	)
+
 //Science stuff
 /obj/effect/spawner/lootdrop/ruinloot/science
 	loot = list(

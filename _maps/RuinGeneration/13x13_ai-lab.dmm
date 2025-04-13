@@ -1,261 +1,66 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "al" = (
 /obj/structure/table/reinforced,
-/obj/item/paper_bin{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/item/pen,
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)
-"cw" = (
-/obj/effect/turf_decal/caution/stand_clear{
-	dir = 4
-	},
-/obj/effect/turf_decal{
-	dir = 8
-	},
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
-"ef" = (
-/obj/effect/decal/cleanable/oil/streak,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"er" = (
-/obj/machinery/power/smes{
-	charge = 5e+006
-	},
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"ew" = (
-/obj/structure/table/glass,
-/obj/item/stack/cable_coil/blue{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/effect/spawner/lootdrop/ruinloot/important,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"eH" = (
-/obj/machinery/computer/upload/ai,
-/turf/open/floor/monofloor,
-/area/ruin/unpowered)
-"fm" = (
-/obj/structure/filingcabinet/chestdrawer,
-/turf/open/floor/carpet/black,
-/area/ruin/unpowered)
-"gf" = (
-/obj/machinery/light,
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
-"hz" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/machinery/door/window{
-	base_state = "rightsecure";
-	dir = 1;
-	icon_state = "rightsecure";
-	name = "Primary AI Core Access";
-	atom_integrity = 300;
-	req_access_txt = "16"
-	},
-/obj/effect/decal/cleanable/blood/tracks,
-/obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
-/turf/open/floor/carpet/black,
-/area/ruin/unpowered)
-"hB" = (
-/obj/item/kirbyplants/photosynthetic{
-	pixel_y = 10
-	},
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"iT" = (
-/obj/structure/table/reinforced,
-/obj/item/paicard{
-	desc = "A real Nanotrasen success, these personal AIs provide all of the companionship of an AI without any law related red-tape.";
-	name = "Nanotrasen-brand personal AI device exhibit"
-	},
-/turf/open/floor/carpet/black,
-/area/ruin/unpowered)
-"jp" = (
-/obj/structure/chair/office{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/blood,
-/obj/item/ammo_casing/c9mm{
-	dir = 4;
-	pixel_x = 3;
-	pixel_y = 2
-	},
-/turf/open/floor/carpet/black,
-/area/ruin/unpowered)
-"lX" = (
-/obj/effect/decal/cleanable/robot_debris/old,
-/obj/effect/turf_decal/stripes/red/line{
+"be" = (
+/obj/item/radio/intercom/directional/south,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/effect/turf_decal/trimline/purple/line{
 	dir = 1
 	},
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"nN" = (
-/obj/item/kirbyplants/photosynthetic{
-	pixel_y = 10
+/obj/structure/chair/fancy/bench/right{
+	dir = 1
 	},
-/turf/open/floor/carpet/black,
+/turf/open/floor/noslip/dark,
 /area/ruin/unpowered)
-"py" = (
-/obj/structure/sign/warning/electricshock,
-/turf/closed/wall/r_wall,
+"ca" = (
+/obj/structure/sign/warning/nosmoking{
+	pixel_x = -32
+	},
+/obj/item/kirbyplants/photosynthetic,
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 4
+	},
+/turf/open/floor/noslip/dark,
 /area/ruin/unpowered)
-"qg" = (
+"ct" = (
 /obj/effect/decal/cleanable/oil/slippery,
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 1
-	},
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"sx" = (
-/obj/effect/decal/cleanable/glass,
-/obj/structure/windoor_assembly,
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
-"sG" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
-"tj" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/item/robot_suit/prebuilt,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"to" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"tA" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
-"tD" = (
-/obj/effect/abstract/doorway_marker,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"tJ" = (
-/obj/machinery/computer{
-	desc = "A computer long since rendered non-functional due to lack of maintenance. Spitting out error messages.";
-	name = "Broken Computer"
-	},
-/turf/open/floor/monofloor,
-/area/ruin/unpowered)
-"tL" = (
 /obj/structure/showcase/cyborg/old{
 	pixel_y = 20
 	},
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 1
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 9
 	},
-/turf/open/floor/iron/tech/grid,
+/obj/effect/turf_decal/trimline/purple/corner,
+/turf/open/floor/noslip/dark,
 /area/ruin/unpowered)
-"tO" = (
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
-"tV" = (
-/obj/effect/decal/cleanable/robot_debris/limb,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"uq" = (
-/mob/living/silicon/robot/derelict,
-/obj/machinery/recharge_station,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"uw" = (
-/turf/template_noop,
-/area/template_noop)
-"vj" = (
-/obj/machinery/holopad,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"vv" = (
-/obj/structure/AIcore{
-	name = "\broken AI core"
-	},
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
-"vX" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"za" = (
-/obj/item/kirbyplants/photosynthetic{
-	pixel_y = 10
-	},
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 1
-	},
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"AP" = (
-/obj/structure/window/reinforced/survival_pod{
+"cw" = (
+/obj/machinery/computer{
+	desc = "A computer long since rendered non-functional due to lack of maintenance. Spitting out error messages.";
+	name = "Broken Computer";
 	dir = 4
 	},
-/obj/machinery/flasher{
-	id = "AI";
-	pixel_y = 24
-	},
-/obj/effect/spawner/lootdrop/ruinloot/important,
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
-"BT" = (
-/obj/machinery/door/airlock/highsecurity,
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "AI Core shutters";
-	name = "AI Core Shutters"
-	},
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
-"CO" = (
-/obj/structure/table/reinforced,
-/obj/item/lighter,
-/turf/open/floor/carpet/black,
-/area/ruin/unpowered)
-"Dy" = (
-/obj/item/ammo_casing/c9mm,
-/turf/open/floor/carpet/black,
-/area/ruin/unpowered)
-"Fw" = (
-/turf/open/floor/circuit/red/anim,
-/area/ruin/unpowered)
-"Gh" = (
-/obj/effect/turf_decal/caution/stand_clear{
+/obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/effect/turf_decal{
-	dir = 4
-	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"cM" = (
+/obj/structure/table/glass,
+/obj/effect/spawner/lootdrop/ruinloot/science,
 /turf/open/floor/circuit/red,
 /area/ruin/unpowered)
-"GZ" = (
-/obj/effect/decal/cleanable/blood/tracks,
-/obj/structure/sign/warning/nosmoking,
-/turf/closed/wall/r_wall,
-/area/ruin/unpowered)
-"Ib" = (
-/obj/machinery/porta_turret/syndicate/energy{
-	name = "AI Chamber Turret"
+"ef" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
 	},
-/turf/open/floor/pod/dark,
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 4
+	},
+/turf/open/floor/noslip/dark,
 /area/ruin/unpowered)
-"JD" = (
+"eo" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/white{
 	pixel_x = -4;
@@ -264,122 +69,281 @@
 /obj/item/folder/red{
 	pixel_x = 3
 	},
-/turf/open/floor/carpet/black,
-/area/ruin/unpowered)
-"JG" = (
-/obj/machinery/light{
+/obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/effect/turf_decal/bot_red,
-/mob/living/simple_animal/bot/floorbot,
-/turf/open/floor/iron/tech/grid,
+/turf/open/floor/carpet/black,
 /area/ruin/unpowered)
-"JS" = (
-/turf/closed/wall/r_wall,
-/area/ruin/unpowered)
-"Kp" = (
-/obj/structure/table/glass,
-/obj/item/mmi/posibrain,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"KU" = (
-/obj/structure/sign/warning/securearea,
-/turf/closed/wall/r_wall,
-/area/ruin/unpowered)
-"Lx" = (
-/obj/effect/decal/cleanable/robot_debris/old,
-/obj/machinery/camera{
-	c_tag = "Telecomms - Server Room - Aft-Port";
-	dir = 6
+"er" = (
+/obj/structure/rack,
+/obj/item/aiModule/core/full/damaged{
+	pixel_x = 5;
+	pixel_y = 5
 	},
-/obj/effect/decal/cleanable/blood/tracks,
+/obj/item/borg/upgrade/transform/borgi,
+/obj/structure/sign/warning/electricshock{
+	pixel_x = -32
+	},
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"ew" = (
+/obj/effect/decal/cleanable/shreds,
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"eH" = (
+/obj/machinery/porta_turret/syndicate/energy{
+	name = "AI Chamber Turret";
+	dir = 4;
+	faction = list("silicon")
+	},
+/obj/effect/turf_decal/box/red,
+/obj/effect/spawner/random_light/tube{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"fm" = (
+/obj/structure/sign/poster/official/nanotrasen_logo{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 1
+	},
+/obj/effect/spawner/random_light/bulb,
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"gf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"gP" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/item/clipboard,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"gQ" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet/directional/south,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"hB" = (
+/obj/structure/closet/firecloset,
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 4
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"hG" = (
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
+/obj/effect/spawner/random_light/bulb{
+	dir = 1
+	},
+/obj/machinery/camera{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"iT" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/item/pen,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/unpowered)
+"jw" = (
+/obj/machinery/holopad,
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/machinery/flasher{
+	id = "AI";
+	pixel_y = 24;
+	pixel_x = 24
+	},
+/obj/effect/spawner/lootdrop/ruinloot/important,
+/obj/item/crowbar,
+/obj/effect/turf_decal/box,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"kT" = (
+/obj/effect/decal/cleanable/oil/streak,
+/obj/effect/decal/cleanable/blood,
+/obj/item/ammo_casing/c9mm,
 /obj/item/ammo_casing/c9mm{
 	dir = 8;
 	pixel_x = 3;
 	pixel_y = 3
 	},
+/obj/item/shard,
+/obj/item/shard{
+	pixel_x = 10;
+	pixel_y = -8
+	},
+/obj/item/stack/rods{
+	amount = 2
+	},
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)
-"MV" = (
+"lb" = (
+/obj/effect/decal/cleanable/oil/streak,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 8
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"ls" = (
 /obj/structure/rack,
-/obj/machinery/light,
-/obj/item/storage/toolbox/emergency/old{
+/obj/item/clothing/suit/toggle/labcoat/science{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/suit/toggle/labcoat/science,
+/obj/item/clothing/suit/toggle/labcoat/science{
 	pixel_x = 3;
 	pixel_y = 3
 	},
-/obj/item/storage/toolbox/mechanical/old,
-/obj/effect/spawner/lootdrop/ruinloot/important,
-/turf/open/floor/iron/tech/grid,
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 8
+	},
+/turf/open/floor/noslip/dark,
 /area/ruin/unpowered)
-"NP" = (
-/obj/effect/turf_decal/caution/stand_clear{
+"lX" = (
+/obj/item/paicard{
+	desc = "A real Nanotrasen success, these personal AIs provide all of the companionship of an AI without any law related red-tape.";
+	name = "Nanotrasen-brand personal AI device exhibit"
+	},
+/obj/structure/filingcabinet/chestdrawer,
+/obj/structure/sign/warning/securearea{
+	pixel_y = 32
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/spawner/random_light/bulb{
 	dir = 1
 	},
-/obj/effect/turf_decal,
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
-"Os" = (
-/obj/effect/turf_decal/bot_red,
-/obj/item/bot_assembly/medbot,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"Pw" = (
-/obj/structure/table/glass,
-/obj/item/aiModule/core/full/damaged{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/obj/item/aicard{
-	pixel_x = -10
-	},
-/obj/item/borg/upgrade/transform/borgi,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"Qa" = (
-/obj/effect/spawner/lootdrop/ruinloot/important,
-/turf/open/floor/circuit/red,
-/area/ruin/unpowered)
-"Qo" = (
-/obj/structure/table/reinforced,
-/obj/effect/spawner/lootdrop/ruinloot/important,
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)
-"RT" = (
-/obj/effect/decal/cleanable/oil,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"SV" = (
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"Tm" = (
-/obj/effect/turf_decal/bot_red,
-/mob/living/simple_animal/bot/secbot/derelict,
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"WX" = (
-/obj/machinery/door/airlock/grunge{
-	name = "AI Research Room"
-	},
-/turf/open/floor/iron/tech/grid,
-/area/ruin/unpowered)
-"Xd" = (
-/obj/effect/turf_decal/caution/stand_clear,
-/obj/effect/turf_decal{
+"nN" = (
+/obj/structure/extinguisher_cabinet/directional/south,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/effect/turf_decal/trimline/purple/line{
 	dir = 1
 	},
-/turf/open/floor/circuit/red,
+/turf/open/floor/noslip/dark,
 /area/ruin/unpowered)
-"Zy" = (
+"nO" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4;
 	pixel_x = 6;
 	pixel_y = 4
 	},
-/obj/item/ammo_casing/c9mm{
-	dir = 4;
-	pixel_x = 3;
-	pixel_y = 2
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
 	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"ow" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/radio/intercom/directional/north,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"pd" = (
+/obj/item/storage/toolbox/mechanical/old,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"qf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"qg" = (
+/obj/item/kirbyplants/photosynthetic{
+	pixel_y = 10
+	},
+/obj/structure/sign/warning/securearea{
+	pixel_y = 32
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/unpowered)
+"rx" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/purple/corner{
+	dir = 1
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"sx" = (
+/obj/item/paper{
+	default_raw_text = "The AI looks to be working fine."
+	},
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"tj" = (
+/obj/structure/table/glass,
+/obj/effect/spawner/lootdrop/ruinloot/important,
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"to" = (
+/obj/structure/showcase/cyborg/old{
+	pixel_y = 20
+	},
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/purple/corner{
+	dir = 8
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"tp" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered)
+"tA" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/obj/effect/mob_spawn/human/corpse/job/ai_researcher,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"tJ" = (
+/obj/effect/mob_spawn/human/corpse/job/ai_researcher,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"tL" = (
+/obj/effect/decal/cleanable/robot_debris/old,
+/obj/item/lighter,
 /obj/item/ammo_casing/c9mm,
 /obj/item/ammo_casing/c9mm{
 	dir = 8;
@@ -388,12 +352,494 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)
+"tO" = (
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"tV" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/robot_debris/limb,
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"uq" = (
+/obj/machinery/camera{
+	dir = 8
+	},
+/obj/structure/table/glass,
+/obj/item/aicard{
+	pixel_x = -3
+	},
+/obj/effect/spawner/lootdrop/ruinloot/science,
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"uw" = (
+/obj/structure/closet/emcloset,
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 8
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"vj" = (
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 10
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"vv" = (
+/obj/structure/sign/poster/official/state_laws{
+	pixel_y = 32
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"vX" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/robot_debris/up,
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"xB" = (
+/obj/item/robot_suit/prebuilt,
+/obj/effect/turf_decal/bot_red,
+/obj/structure/closet/crate/science{
+	req_one_access_txt = "47"
+	},
+/obj/effect/spawner/random_light/tube{
+	dir = 4
+	},
+/obj/item/mmi,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"xI" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 8
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"yF" = (
+/obj/machinery/button/door/directional/south{
+	pixel_x = 24;
+	name = "AI Chamber Shutter Button";
+	id = "derelict_ai_chamber";
+	req_one_access_txt = "47"
+	},
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"za" = (
+/obj/machinery/button/door/directional/north{
+	pixel_x = 24;
+	id = "derelict_ai_chamber";
+	name = "AI Chamber Shutter Button";
+	req_one_access_txt = "47"
+	},
+/obj/effect/turf_decal/trimline/purple/line,
+/obj/effect/turf_decal/trimline/purple/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"AZ" = (
+/obj/machinery/computer/upload/ai{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/sign/poster/official/ion_rifle{
+	pixel_x = 32
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"CO" = (
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/purple/filled/warning,
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"Dy" = (
+/obj/structure/sign/warning/securearea{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 1
+	},
+/obj/item/kirbyplants/dead,
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"EB" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"Fk" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"Fw" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters{
+	name = "AI Core Shutters";
+	id = "derelict_ai_core"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"Gb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/item/grenade/empgrenade,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"Gh" = (
+/obj/structure/AIcore{
+	name = "\broken AI core"
+	},
+/obj/item/stack/sheet/rglass{
+	amount = 2
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"GZ" = (
+/obj/machinery/door/airlock/highsecurity{
+	req_one_access_txt = "47"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/poddoor/shutters{
+	name = "AI Chamber Shutters";
+	id = "derelict_ai_chamber"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"Hk" = (
+/obj/structure/sign/warning/securearea{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 1
+	},
+/obj/structure/chair/fancy/bench{
+	dir = 1
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"HM" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters{
+	name = "AI Chamber Shutters";
+	id = "derelict_ai_chamber"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"Ic" = (
+/obj/machinery/light_switch/directional/south,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 1
+	},
+/obj/structure/chair/fancy/bench/left{
+	dir = 1
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"JD" = (
+/obj/machinery/holopad,
+/obj/effect/turf_decal/box,
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"JG" = (
+/obj/effect/turf_decal/bot_red,
+/mob/living/simple_animal/bot/floorbot,
+/obj/effect/spawner/random_light/tube{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"JS" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered)
+"Kp" = (
+/obj/machinery/button/door/directional/south{
+	pixel_x = -24;
+	name = "AI Chamber Shutter Button";
+	id = "derelict_ai_chamber";
+	req_one_access_txt = "47"
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"KZ" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"Ln" = (
+/obj/structure/table/reinforced,
+/obj/structure/sign/poster/official/do_not_question{
+	pixel_x = 32
+	},
+/obj/item/mmi/posibrain,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Ly" = (
+/obj/effect/abstract/doorway_marker,
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"LF" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"Mx" = (
+/obj/machinery/camera{
+	dir = 4
+	},
+/obj/structure/table/glass,
+/obj/effect/spawner/lootdrop/ruinloot/important,
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"MV" = (
+/obj/effect/turf_decal/box/red,
+/obj/machinery/porta_turret/syndicate/energy{
+	name = "AI Chamber Turret";
+	dir = 4;
+	faction = list("silicon")
+	},
+/obj/effect/spawner/random_light/tube{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"NP" = (
+/obj/machinery/door/window/brigdoor/eastright{
+	req_one_access_txt = "47"
+	},
+/obj/machinery/door/poddoor/shutters{
+	name = "AI Core Shutters";
+	id = "derelict_ai_core"
+	},
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"Os" = (
+/obj/effect/turf_decal/bot_red,
+/obj/item/bot_assembly/medbot,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Pw" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"PH" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/purple/corner{
+	dir = 8
+	},
+/obj/effect/spawner/lootdrop/glowstick,
+/obj/machinery/turretid{
+	pixel_x = 4;
+	pixel_y = 32;
+	icon_state = "control_stun"
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"PX" = (
+/mob/living/silicon/robot/derelict,
+/obj/machinery/recharge_station,
+/obj/structure/sign/warning/electricshock{
+	pixel_x = 32
+	},
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"Qo" = (
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 6
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"QL" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"RT" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/purple/corner,
+/obj/machinery/turretid{
+	pixel_x = -8;
+	pixel_y = 32;
+	icon_state = "control_stun"
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"SS" = (
+/obj/effect/decal/cleanable/oil/streak,
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"SV" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/purple/corner{
+	dir = 4
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"Tk" = (
+/obj/machinery/porta_turret/syndicate/energy{
+	name = "AI Chamber Turret";
+	dir = 8;
+	faction = list("silicon")
+	},
+/obj/effect/turf_decal/box/red,
+/obj/effect/spawner/random_light/tube{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Tm" = (
+/obj/effect/turf_decal/bot_red,
+/mob/living/simple_animal/bot/secbot/derelict{
+	faction = list("silicon")
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"TZ" = (
+/obj/effect/decal/cleanable/glass,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 4
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
+"UR" = (
+/obj/effect/turf_decal/box/red,
+/obj/machinery/porta_turret/syndicate/energy{
+	name = "AI Chamber Turret";
+	dir = 8;
+	faction = list("silicon")
+	},
+/obj/effect/spawner/random_light/tube{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"VC" = (
+/obj/structure/table/reinforced,
+/obj/machinery/camera{
+	dir = 4
+	},
+/obj/item/stack/cable_coil/red,
+/obj/item/assembly/flash,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"VH" = (
+/obj/machinery/button/door/directional/north{
+	req_one_access_txt = "47";
+	id = "derelict_ai_core";
+	name = "AI Core Shutters Button"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/ruin/unpowered)
+"VL" = (
+/obj/machinery/door/window/brigdoor/westright{
+	name = "Receptionist";
+	req_one_access_txt = "47"
+	},
+/obj/item/ammo_casing/c9mm{
+	dir = 4;
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/effect/spawner/lootdrop/ruinloot/science,
+/turf/open/floor/carpet/black,
+/area/ruin/unpowered)
+"Xb" = (
+/obj/machinery/door/window/brigdoor/westleft{
+	req_one_access_txt = "47"
+	},
+/obj/machinery/door/poddoor/shutters{
+	name = "AI Core Shutters";
+	id = "derelict_ai_core"
+	},
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"Zp" = (
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
+/obj/structure/chair/office{
+	dir = 8
+	},
+/obj/item/ammo_casing/c9mm{
+	dir = 4;
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/robot_debris/old,
+/turf/open/floor/carpet/black,
+/area/ruin/unpowered)
+"Zy" = (
+/obj/item/storage/toolbox/emergency/old{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/turf/open/floor/circuit/red,
+/area/ruin/unpowered)
+"Zz" = (
+/obj/effect/decal/cleanable/oil,
+/obj/machinery/button/door/directional/north{
+	pixel_x = -24;
+	id = "derelict_ai_chamber";
+	name = "AI Chamber Shutter Button";
+	req_one_access_txt = "47"
+	},
+/obj/effect/turf_decal/trimline/purple/line,
+/obj/effect/turf_decal/trimline/purple/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/noslip/dark,
+/area/ruin/unpowered)
 
 (1,1,1) = {"
 JS
 JS
 JS
-py
+JS
 JS
 JS
 JS
@@ -412,7 +858,7 @@ er
 uq
 MV
 JS
-hB
+ca
 Tm
 JG
 Os
@@ -421,104 +867,104 @@ JS
 "}
 (3,1,1) = {"
 JS
-tJ
-SV
-SV
-SV
-SV
-WX
+qf
+KZ
+qf
+qf
+qf
+JS
 RT
-SV
+ef
 tV
 ef
 SV
-tD
+JS
 "}
 (4,1,1) = {"
 JS
 tJ
-SV
+tO
 Pw
 ew
 Kp
 GZ
-SV
-ef
-SV
-SV
-SV
+Zz
+tO
+QL
+SS
+be
 JS
 "}
 (5,1,1) = {"
 JS
+Gb
+gP
+AZ
+pd
 vX
-vX
-vX
-vX
-vX
-JS
+tp
 to
-SV
+lb
 vj
-SV
-SV
+tO
+Hk
 JS
 "}
 (6,1,1) = {"
 JS
-Qa
-tO
-tO
-tO
-tO
-KU
+JS
+Xb
+JS
+JS
+VH
+JS
 lX
-SV
-SV
-SV
-SV
+VL
+eo
+tO
+Ic
 JS
 "}
 (7,1,1) = {"
 JS
-tO
-Fw
+hG
+jw
 Gh
 Fw
 gf
-JS
+HM
 tL
-ef
+Zp
 al
 JD
 CO
-JS
+Ly
 "}
 (8,1,1) = {"
 JS
-sG
+JS
 NP
-Ib
-Xd
-tO
-BT
+JS
+JS
+ow
+JS
 qg
-SV
+kT
 iT
-jp
+tO
 fm
 JS
 "}
 (9,1,1) = {"
 JS
-AP
-Fw
 cw
-Fw
-gf
+qf
+cw
+qf
+gQ
 JS
-tL
-SV
+ct
+TZ
 Qo
 Zy
 Dy
@@ -529,58 +975,58 @@ JS
 vv
 sx
 tA
-tO
-tO
-KU
+LF
+yF
+GZ
 za
-SV
-hz
-Lx
+tO
+QL
+tO
 nN
 JS
 "}
 (11,1,1) = {"
 JS
+Fk
+Fk
+nO
+EB
+Fk
 JS
-JS
-JS
-JS
-JS
-JS
-JS
-JS
-JS
-JS
-JS
+PH
+xI
+xI
+xI
+rx
 JS
 "}
 (12,1,1) = {"
+JS
+UR
+cM
+PX
+Mx
+Tk
+JS
+ls
+Ln
+xB
+VC
 uw
-uw
-uw
-uw
-uw
-uw
-uw
-uw
-uw
-uw
-uw
-uw
-uw
+JS
 "}
 (13,1,1) = {"
-uw
-uw
-uw
-uw
-uw
-uw
-uw
-uw
-uw
-uw
-uw
-uw
-uw
+JS
+JS
+JS
+JS
+JS
+JS
+JS
+JS
+JS
+JS
+JS
+JS
+JS
 "}
