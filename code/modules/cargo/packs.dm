@@ -314,9 +314,9 @@
 					/obj/item/clothing/mask/balaclava,
 					/obj/item/clothing/mask/balaclava,
 					/obj/item/clothing/mask/balaclava,
-					/obj/item/clothing/gloves/combat,
-					/obj/item/clothing/gloves/combat,
-					/obj/item/clothing/gloves/combat,
+					/obj/item/clothing/gloves/tackler/combat,
+					/obj/item/clothing/gloves/tackler/combat,
+					/obj/item/clothing/gloves/tackler/combat,
 					/obj/item/clothing/head/hats/hos/beret/syndicate,
 					/obj/item/clothing/head/hats/hos/beret/syndicate,
 					/obj/item/clothing/head/hats/hos/beret/syndicate,
@@ -440,7 +440,7 @@
 					/obj/item/clothing/head/beret/sec/navywarden,
 					/obj/item/clothing/under/rank/security/head_of_security/formal,
 					/obj/item/clothing/suit/jacket/hos/blue,
-					/obj/item/clothing/head/beret/sec/navyhos)
+					/obj/item/clothing/head/hats/hos/beret/navyhos)
 	crate_name = "security clothing crate"
 
 /datum/supply_pack/security/stingpack
@@ -795,7 +795,7 @@
 		/obj/item/clothing/suit/armor/vest/russian,
 		/obj/item/clothing/head/helmet/rus_helmet,
 		/obj/item/clothing/shoes/russian,
-		/obj/item/clothing/gloves/combat,
+		/obj/item/clothing/gloves/tackler/combat,
 		/obj/item/clothing/under/syndicate/rus_army,
 		/obj/item/clothing/under/costume/soviet,
 		/obj/item/clothing/mask/russian_balaclava,
@@ -905,8 +905,8 @@
 					/obj/item/clothing/mask/gas/sechailer/swat,
 					/obj/item/storage/belt/military/assault,
 					/obj/item/storage/belt/military/assault,
-					/obj/item/clothing/gloves/combat,
-					/obj/item/clothing/gloves/combat)
+					/obj/item/clothing/gloves/tackler/combat,
+					/obj/item/clothing/gloves/tackler/combat)
 	crate_name = "swat crate"
 
 /datum/supply_pack/security/armory/wt550_single
@@ -2823,7 +2823,7 @@
 	name = "Cow Crate"
 	desc = "The cow goes moo!"
 	cost = 3000
-	contains = list(/mob/living/simple_animal/cow)
+	contains = list(/mob/living/basic/cow)
 	crate_name = "cow crate"
 
 /datum/supply_pack/critter/crab

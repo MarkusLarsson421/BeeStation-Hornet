@@ -132,7 +132,7 @@
 /obj/item/mecha_parts/mecha_equipment/medical/sleeper/proc/get_patient_stats()
 	if(!patient)
 		return
-	return {"<html>
+	return {"<!DOCTYPE html><html>
 				<head>
 				<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 				<title>[patient] statistics</title>
@@ -325,7 +325,7 @@
 		return
 	var/obj/item/ammo_casing/syringegun/chambered = new /obj/item/ammo_casing/syringegun(src)
 	log_message("Fired [chambered] from [src] by [source], targeting [target].", LOG_MECHA)
-	chambered.fire_casing(target, source, null, 0, 0, null, 0, src)
+	chambered.fire_casing(target, source, fired_from = src)
 	return ..()
 
 /obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/Topic(href,href_list)
@@ -370,7 +370,7 @@
 	return
 
 /obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/proc/get_reagents_page()
-	var/output = {"<html>
+	var/output = {"<!DOCTYPE html><html>
 						<head>
 						<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 						<title>Reagent Synthesizer</title>
