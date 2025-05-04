@@ -284,6 +284,13 @@
 
 	CHECK_TICK
 
+	for(var/client/C as() in GLOB.clients)
+		var/minutes = round(C?.calc_exp_type(JOB_NAME_POSIBRAIN))
+		if(minutes > 60)
+			C?.give_award(/datum/award/achievement/misc/positronic_chad)
+
+	CHECK_TICK
+
 	//Now print them all into the log!
 	log_game("Antagonists at round end were...")
 	for(var/antag_name in total_antagonists)

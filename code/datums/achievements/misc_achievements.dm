@@ -148,3 +148,10 @@
 	database_id = MEDAL_CAYENNE_DISK
 	icon = "cayenne_disk"
 	reward = 2500
+
+/datum/award/achievement/misc/positronic_chad
+	name = "Positronic Brain"
+	desc = "Awaiting Cyborg Construction..."
+	database_id = MEDAL_POSITRONIC
+	icon = "cayenne_disk"
+	reward = 1000
