@@ -4,11 +4,11 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/box/white,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/iron/tech,
 /area/shuttle/mining)
 "d" = (
 /obj/machinery/computer/shuttle_flight/mining,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/shuttle/mining)
 "f" = (
 /obj/machinery/light{
@@ -18,18 +18,18 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/box/white,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/iron/tech,
 /area/shuttle/mining)
 "h" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/shuttle/mining)
 "i" = (
 /obj/machinery/holopad,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/iron/tech,
 /area/shuttle/mining)
 "o" = (
 /obj/effect/spawner/structure/window/hollow/survival_pod/directional{
@@ -51,14 +51,14 @@
 	pixel_x = 31;
 	pixel_y = -1
 	},
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/shuttle/mining)
 "u" = (
 /obj/structure/chair/fancy/shuttle{
 	dir = 4
 	},
 /obj/effect/turf_decal/box/white,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/iron/tech,
 /area/shuttle/mining)
 "w" = (
 /obj/structure/shuttle/engine/propulsion/left,
@@ -81,7 +81,7 @@
 	pixel_x = -25;
 	unlocked = 1
 	},
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/shuttle/mining)
 "B" = (
 /obj/structure/shuttle/engine/heater,
@@ -124,7 +124,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/box/white,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/iron/tech,
 /area/shuttle/mining)
 "L" = (
 /obj/structure/table/reinforced,
@@ -135,12 +135,12 @@
 /obj/machinery/newscaster{
 	pixel_y = 33
 	},
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/iron/tech,
 /area/shuttle/mining)
 "M" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/emergency,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/iron/tech,
 /area/shuttle/mining)
 "Q" = (
 /obj/structure/shuttle/engine/propulsion/right,
@@ -165,7 +165,7 @@
 /area/shuttle/mining)
 "Z" = (
 /obj/effect/turf_decal/box,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/iron/tech,
 /area/shuttle/mining)
 
 (1,1,1) = {"

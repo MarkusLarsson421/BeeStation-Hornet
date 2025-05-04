@@ -3,20 +3,20 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "be" = (
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/oil,
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "cz" = (
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
 	dir = 4
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "dY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -43,7 +43,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "gH" = (
 /obj/structure/table,
@@ -56,7 +56,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/exploration)
 "gR" = (
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "jF" = (
 /obj/item/circuitboard/computer/mech_bay_power_console,
@@ -89,7 +89,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "mP" = (
 /obj/structure/frame/machine{
@@ -212,7 +212,7 @@
 /obj/machinery/atmospherics/components/unary/plasma_refiner{
 	dir = 8
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "tz" = (
 /obj/machinery/button/door{
@@ -222,7 +222,7 @@
 	pixel_x = 25
 	},
 /obj/machinery/portable_atmospherics/canister/plasma,
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "ui" = (
 /obj/structure/lattice/catwalk,
@@ -285,7 +285,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "Bz" = (
 /obj/machinery/computer/objective{
@@ -377,7 +377,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 9
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "Jj" = (
 /obj/effect/spawner/structure/window/shuttle,
@@ -424,13 +424,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "Mw" = (
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 6
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "MT" = (
 /obj/machinery/door/poddoor/shutters{
@@ -486,11 +486,11 @@
 /area/shuttle/exploration)
 "QC" = (
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "Re" = (
 /obj/item/wrench,
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "Ry" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -503,7 +503,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "So" = (
 /obj/machinery/power/port_gen/pacman,
@@ -511,7 +511,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "TP" = (
 /obj/machinery/recharge_station,
@@ -531,7 +531,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "Uq" = (
 /turf/open/floor/mineral/plastitanium,
@@ -589,7 +589,7 @@
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 8
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/iron/techmaint,
 /area/shuttle/exploration)
 "ZQ" = (
 /obj/structure/lattice/catwalk,
