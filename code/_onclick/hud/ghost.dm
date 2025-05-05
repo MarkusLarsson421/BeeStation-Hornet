@@ -1,8 +1,16 @@
 /atom/movable/screen/ghost
-	icon = 'icons/mob/screen_ghost.dmi'
+	icon = 'icons/hud/screen_ghost.dmi'
 
 /atom/movable/screen/ghost/MouseEntered()
 	flick(icon_state + "_anim", src)
+
+/atom/movable/screen/ghost/observe
+	name = "Observe"
+	icon_state = "observe"
+
+/atom/movable/screen/ghost/observe/Click()
+	var/mob/dead/observer/G = usr
+	G.observe()
 
 /atom/movable/screen/ghost/jumptomob
 	name = "Jump to mob"
@@ -55,6 +63,11 @@
 /datum/hud/ghost/New(mob/owner)
 	..()
 	var/atom/movable/screen/using
+
+	using = new /atom/movable/screen/ghost/observe()
+	using.screen_loc = ui_ghost_observe
+	using.hud = src
+	static_inventory += using
 
 	using = new /atom/movable/screen/ghost/jumptomob()
 	using.screen_loc = ui_ghost_jumptomob

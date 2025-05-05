@@ -3,7 +3,7 @@
 	description = "Oversee paramedics, doctors, chemists, geneticists and the virologist. \
 	Ensure doctors and paramedicts are treating people in a timely manner, request medicine and other concoctions from chemists, \
 	and ensure geneticists and the virologist are following appropriate safety precautions while performing their research."
-	department_for_prefs = DEPT_BITFLAG_MED
+	department_for_prefs = DEPT_NAME_MEDICAL
 	department_head = list(JOB_NAME_CAPTAIN)
 	supervisors = "the captain"
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
@@ -16,7 +16,6 @@
 	minimal_player_age = 7
 	exp_requirements = 1200
 	exp_type = EXP_TYPE_MEDICAL
-	exp_type_department = EXP_TYPE_MEDICAL
 
 	outfit = /datum/outfit/job/chief_medical_officer
 
@@ -69,6 +68,7 @@
 	satchel = /obj/item/storage/backpack/satchel/med
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
 
+	box = /obj/item/storage/box/survival/medical
 	chameleon_extras = list(/obj/item/gun/syringe, /obj/item/stamp/cmo)
 
 /datum/outfit/job/chief_medical_officer/hardsuit

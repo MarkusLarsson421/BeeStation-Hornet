@@ -1,14 +1,13 @@
 /datum/job/gimmick //gimmick var must be set to true for all gimmick jobs BUT the parent
 	title = JOB_NAME_GIMMICK
 	description = "Use your unique position to provide a service or entertain the crew."
-	department_for_prefs = DEPT_BITFLAG_ASSISTANT
+	department_for_prefs = DEPT_NAME_ASSISTANT
 	show_in_prefs = TRUE
 	faction = "Station"
 	total_positions = 0
 	spawn_positions = 0
 	supervisors = "no one"
 	selection_color = "#dddddd"
-	exp_type_department = EXP_TYPE_GIMMICK
 
 	base_access = list(ACCESS_MAINT_TUNNELS)
 	extra_access = list()
