@@ -9,6 +9,7 @@
 #define span_alert(str) ("<span class='alert'>" + (str) + "</span>")
 #define span_alertalien(str) ("<span class='alertalien'>" + (str) + "</span>")
 #define span_alertsyndie(str) ("<span class='alertsyndie'>" + (str) + "</span>")
+#define span_alerttyrannt(str) ("<span class='alerttyrannt'>" + (str) + "</span>")
 #define span_alertwarning(str) ("<span class='alertwarning'>" + (str) + "</span>")
 #define span_alien(str) ("<span class='alien'>" + (str) + "</span>")
 #define span_alloy(str) ("<span class='alloy'>" + (str) + "</span>")

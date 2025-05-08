@@ -213,3 +213,11 @@
 	description = span_warning("That loud gong noise really hurt my ears!")
 	mood_change = -3
 	timeout = 2 MINUTES
+
+/datum/mood_event/tyrannical_abandoned
+	description = span_warning("NT has left us with nothing. If we don’t take control, everything will collapse and they’ll blame me for it.!")
+	mood_change = -3
+
+/datum/mood_event/defect_scared
+	description = span_warning("This truth could cost me everything. But if I don’t tell it, who will?")
+	mood_change = -1

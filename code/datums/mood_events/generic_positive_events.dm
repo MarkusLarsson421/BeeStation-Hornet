@@ -235,3 +235,6 @@
 	description = span_nicegreen("Holding that big plush was quite nice.")
 	mood_change = 1
 	timeout = 10 SECONDS
+
+/datum/mood_event/tyrant_iron_grip
+	description = span_nicegreen("We are in Command!")

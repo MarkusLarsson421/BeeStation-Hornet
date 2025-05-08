@@ -268,4 +268,4 @@
 
 
 /datum/antagonist/traitor/is_gamemode_hero()
-	return SSticker.mode.name == "tyrannical command"
+	return SSticker.mode.name == "traitor"
