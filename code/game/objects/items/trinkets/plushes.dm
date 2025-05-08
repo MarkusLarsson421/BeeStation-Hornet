@@ -926,7 +926,8 @@
 	name = "Cyborg"
 	desc = "Always stays by the AIs side."
 	icon_state = "borgplush_default"
-	attack_verb = list("beeped aggressively", "dwoop", "beep", "beep, beep", "buzzes", "ping")
+	attack_verb_simple = list("dwoop", "beep", "beep, beep", "buzzes", "ping")
+	attack_verb_continuous = list("beeped aggressively", "dwoops", "beeps", "buzzes", "pings")
 	squeak_override = list('sound/machines/buzz-sigh.ogg', 'sound/emotes/dwoop.ogg', 'sound/machines/boop.ogg', 'sound/machines/chime.ogg')
 	lefthand_file = 'icons/mob/inhands/plushes_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/plushes_righthand.dmi'

@@ -53585,7 +53585,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/machinery/airalarm/directional/south,
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
@@ -56480,37 +56479,6 @@
 /area/science/misc_lab)
 "sLY" = (
 /obj/structure/lattice/catwalk,
-/obj/machinery/button/flasher{
-	id = "aicore";
-	pixel_x = -56;
-	pixel_y = 65
-	},
-/obj/item/radio/intercom{
-	pixel_x = -69;
-	pixel_y = 63
-	},
-/obj/item/radio/intercom{
-	pixel_x = -69;
-	pixel_y = 52
-	},
-/obj/item/radio/intercom{
-	pixel_x = 70;
-	pixel_y = 63
-	},
-/obj/item/radio/intercom{
-	pixel_x = 70;
-	pixel_y = 52
-	},
-/obj/structure/fans/tiny,
-/obj/item/toy/plush/sillycons/peace{
-	pixel_x = -6;
-	pixel_y = -8
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /turf/closed/wall/r_wall,
 /area/ai_monitored/turret_protected/ai_upload)
 "sMe" = (
@@ -58982,8 +58950,8 @@
 	pixel_y = 52
 	},
 /obj/structure/fans/tiny,
-/obj/item/toy/plush/opa{
-	pixel_x = -6;
+/obj/effect/spawner/sillycons{
+	pixel_x = -11;
 	pixel_y = -8
 	},
 /turf/open/floor/engine/o2,
@@ -68894,16 +68862,6 @@
 /turf/open/floor/iron,
 /area/medical/apothecary)
 "wKi" = (
-/obj/structure/closet/secure_closet/RD,
-/obj/machinery/camera/autoname/directional/west{
-	network = list("ss13","rd")
-	},
-/obj/effect/spawner/sillycons,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/machinery/power/apc/auto_name/directional/west{
 	pixel_x = -24
 	},
@@ -69432,7 +69390,7 @@
 	},
 /obj/structure/extinguisher_cabinet/directional/west,
 /obj/machinery/recharge_station,
-/obj/effect/landmark/start/cyborg,
+/obj/effect/spawner/sillycons,
 /turf/open/floor/circuit,
 /area/science/robotics/mechbay)
 "wUT" = (
